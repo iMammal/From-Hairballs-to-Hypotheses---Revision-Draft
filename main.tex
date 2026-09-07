@@ -1,0 +1,56 @@
+\documentclass{egpubl}
+\usepackage{eurovis2026}
+\STAREurovis
+\CGFccbyncnd
+\usepackage[T1]{fontenc}
+\usepackage{dfadobe}
+\usepackage{cite}
+\BibtexOrBiblatex
+\electronicVersion
+\PrintedOrElectronic
+\usepackage[pdftex]{graphicx}
+\usepackage{egweblnk}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\newif\ifdraftnotes
+\draftnotestrue % Change to \draftnotesfalse to hide editorial notes.
+\newcommand{\draftnote}[1]{\ifdraftnotes\par\smallskip{\small\color{blue!55!black}\noindent\textbf{Revision note:} #1\par}\smallskip\fi}
+\newcommand{\plan}[1]{\par\noindent\textbf{Outline.} #1\par}
+\title[From Hairballs to Hypotheses / Revision Draft]{From Hairballs to Hypotheses: A Survey of AI-Assisted Visual Analytics in the Life Sciences}
+\author[Chukhman et al.]
+{\parbox{\textwidth}{\centering
+Morris Chukhman$^{1,2}$,
+Amira Kefi$^{1}$,
+Nicole M. Chukhman$^{3}$,
+Silvio Rizzi$^{1,4}$,
+Vinayakumar Chalil Karintha$^{5}$\,
+and Angus Forbes$^{6}$\\[1ex]
+{\small
+$^{1}$University of Illinois at Chicago, Chicago, IL, USA\\
+$^{2}$St. Luke's University Health Network, Stroudsburg, PA, USA \\
+$^{3}$University of Wisconsin - Madison, Madison, WI, USA \\
+$^{4}$Argonne National Laboratory, Lemont, IL, USA \\
+$^{5}$UST, Thiruvananthapuram, Kerala, India \\
+$^{6}$NVIDIA, Santa Clara, CA, USA \\
+}
+}
+}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+\textbf{Revision working document.} This document combines a complete draft Introduction with an annotated outline of the revised STAR. The report examines how computational assistance participates in relational and multiscale life-science analysis, using the locus of analytic agency to connect analytic tasks, overlapping assistance modes, visualization modalities, and evaluation. Sections 2--9 specify the intended argument and evidence requirements; they do not report completed review results. The submission abstract will be written after corpus closure and synthesis.
+\end{abstract}
+\draftnote{Prepared 7 September 2026 from the submitted Overleaf export and the agreed revision plan. Original title, author order, affiliations, and EuroVis style are retained for continuity; confirm submission metadata before reuse. Black text in Section 1 is draft manuscript prose. Outline paragraphs and blue notes elsewhere are writing instructions. Corpus counts, protocol details, and validation outcomes remain unfinalized.}
+\input{sections/01-introduction}
+\input{sections/02-methodology}
+\input{sections/03-foundations}
+\input{sections/04-tasks}
+\input{sections/05-assistance}
+\input{sections/06-modality}
+\input{sections/07-evaluation}
+\input{sections/08-challenges}
+\input{sections/09-conclusion}
+\bibliographystyle{eg-alpha-doi}
+\bibliography{BioMedVis_STAR_refs}
+\end{document}
