@@ -1,0 +1,11 @@
+# Figure 1: image credits and sources
+
+Retrieved 14 September 2026. All five source photographs are included intact; LaTeX scales them proportionally. Labels and arrangement are editable in `figures/01-modality-environments.tex`. Photo-specific licenses apply independently of the manuscript license. These are environment illustrations, not reviewed-system evidence or claims of endorsement.
+
+| Panel | File | Creator | License | Source and notes |
+|---|---|---|---|---|
+| (a) Desktop/Planar | `desktop.jpg` | Jennie Groom / IPAS | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) | [Scientist working with personal computer, 2013 (Dell Precision T3500 Workstation).jpeg](https://commons.wikimedia.org/wiki/File:Scientist_working_with_personal_computer,_2013_(Dell_Precision_T3500_Workstation).jpeg). 2013; Commons derivative by Pittigrilli and Beao: background partly removed and image cropped. |
+| (b) Large Display | `large-display.jpg` | U.S. Department of State | [Public domain (U.S.)](https://commons.wikimedia.org/wiki/Template:PD-USGov-DOS) | [NASA's Hyperwall Shows the Sea Surface Temperature (10946045463).jpg](https://commons.wikimedia.org/wiki/File:NASA%27s_Hyperwall_Shows_the_Sea_Surface_Temperature_(10946045463).jpg). 2013; NASA Hyperwall at COP19. |
+| (c) VR | `vr.jpg` | NASA / Chris Gunn | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) | [Exploring the Universe in Virtual Reality.jpg](https://commons.wikimedia.org/wiki/File:Exploring_the_Universe_in_Virtual_Reality.jpg). 2019; Exploring the Universe in Virtual Reality. |
+| (d) AR/MR | `ar-mr.jpg` | NASA | [Public domain (U.S.)](https://commons.wikimedia.org/wiki/Template:PD-USGov-NASA) | [ISS-46 Scott Kelly with HoloLens in the Destiny lab.jpg](https://commons.wikimedia.org/wiki/File:ISS-46_Scott_Kelly_with_HoloLens_in_the_Destiny_lab.jpg). 2016; Scott Kelly wearing HoloLens aboard ISS, image ISS046-E-043637. |
+| (e) CAVE | `cave.jpg` | Idaho National Laboratory | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) | [Cave automatic virtual environment.jpg](https://commons.wikimedia.org/wiki/File:Cave_automatic_virtual_environment.jpg). 2010; CAVE installation at the Center for Advanced Energy Studies, showing surrounding projection surfaces and a protein model. |
