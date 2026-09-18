@@ -11,8 +11,19 @@ The locus of analytic agency helps identify what needs to be evaluated within th
 This section organizes evaluation around dimensions that apply across assistance modes and visualization environments. For each dimension, we examine the claim being tested, the evidence reported, and the conditions that limit its interpretation. Controlled comparisons, computational benchmarks, expert assessments, and observations of sustained use answer different questions. We consider their relevance to the claims made, while distinguishing demonstrated outcomes from capabilities or benefits that remain unevaluated.
 
 \draftnote{Morris integrates Vinay's adaptive and Nicole's conversational/agentic evidence. Organize by evaluation dimensions, with assistance-specific examples inside them.}
+
 \subsection{Analytic Effectiveness and Scientific Utility}
-\plan{Separate speed and accuracy from interpretation, hypothesis development, and scientific use. Record tasks, participants, baselines, datasets, and duration. Distinguish feasibility, controlled performance, expert feedback, and sustained domain use.}
+
+\label{sec:evaluation-effectiveness}
+
+Analytic effectiveness depends on what the scientist is trying to accomplish. For selection, useful outcomes include identifying the intended observations accurately and with manageable correction effort. For comparison, success includes recognizing the relevant differences and understanding the basis on which they were calculated. For hypothesis development, evaluation must also consider whether an explanation follows from the evidence and whether alternatives have been examined. Speed and accuracy on a bounded task provide useful evidence, but their implications for scientific reasoning depend on the task and its place in the workflow.
+
+The choice of baseline determines which contribution can be assessed. Poco et al.'s work on multidimensional projections shows that desktop 3D views can support more reliable and confident responses for some tasks, while also introducing interaction difficulties.~\cite{EvalPoco2011} This motivates comparisons with capable desktop alternatives when evaluating immersive environments. If the display, representation, and interaction technique all change together, an observed advantage cannot be attributed to immersion alone. Likewise, success in identifying a cluster or comparing distances does not establish that the structure has a valid biological interpretation.
+
+Assistance can be examined more directly by comparing the same interface with and without the relevant computational intervention, or by comparing alternative assistance strategies under equivalent task conditions. Interpretation requires information about the participants and their expertise, the datasets, the baseline, and the duration of use. A method that helps an unfamiliar user complete a prescribed comparison may have different value for a domain expert pursuing an evolving question. Computational scale and response latency also affect which tasks remain practical, as discussed in Section~\ref{sec:evaluation-workload}.
+
+We therefore distinguish evidence of feasibility, controlled task performance, expert feedback, and sustained scientific use. A demonstration can establish that an operation is possible. A controlled study can test a defined performance claim. Expert assessment can reveal whether outputs and interactions address domain needs, while observations of sustained use can show how assistance fits into an extended workflow. These forms of evidence are complementary. A domain case may demonstrate a useful application without isolating the causal contribution of assistance, and favorable feedback does not substitute for checking the biological claim produced through the analysis.
+
 \subsection{Representational Fidelity and Uncertainty}
 \plan{Examine preservation of relevant topology, spatial relations, and multiscale context. Connect distortion to downstream judgments. Separate computational accuracy from the scientist's ability to recognize representation limits.}
 \subsection{Provenance, Auditability, and Recovery}
