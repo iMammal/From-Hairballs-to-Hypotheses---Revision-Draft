@@ -38,8 +38,21 @@ Uncertainty in the observations and inferences should also be distinguished from
 
 The allocation of analytic decisions matters when the system chooses which structures to retain or which transformations to apply. Evaluation should examine whether analysts can inspect those choices, compare alternatives, and return to the source observations. For Navigation and Multiscale Orientation, this includes maintaining the relationship between local detail and broader context. For Comparison and Differentiation and Sensemaking and Hypothesis Development, it includes recognizing when a visible pattern depends on a filtering rule, aggregation level, or parameter choice. The records needed to make those checks lead directly to provenance and recovery.
 
-\subsection{Provenance, Auditability, and Recovery}
-\plan{Compare records of inputs, transformations, recommendations, and delegated operations. Assess reproducibility, error detection, rollback, and recovery. Distinguish plausible explanations from verifiable execution traces.}
+
+\subsection{Provenance and Recovery}
+
+\label{sec:evaluation-provenance}
+
+Provenance records how an analytic result was produced. In assisted analysis, relevant records include the inputs, transformations, parameters, recommendations, and delegated operations that led to the current state. Their practical value depends on whether scientists can use them to answer questions about the result. A detailed log may establish that an operation occurred without making its consequences easy to inspect. Evaluation should therefore distinguish the availability of records from usable auditability: the ability to trace a result to the decisions and operations responsible for it.
+
+VisTrails provides an established basis for this distinction through its treatment of scientific workflows and their versions. Freire et al.~describe recording changes so that analysts can return to earlier workflows, modify them, and compare alternatives. This supports reconstruction of the analytic process as it evolves. The capability does not, by itself, establish that users will detect an error or select an appropriate correction, but it provides the history on which those actions can depend.~\cite{EvalFreire2006}
+
+Conversational assistance introduces another distinction between an explanation of an operation and evidence of its execution. DeepVIS exposes intermediate steps in translating a natural-language request into a visualization and allows targeted refinement. Its user study reports favorable participant assessments of understanding and refinement, alongside separate computational evaluations of visualization generation. These results do not establish recovery from errors in biological analysis.~\cite{EvalShuai2025} More generally, a plausible account of why a system selected particular data is insufficient unless the selected inputs and executed transformations can also be checked. Explanations can help analysts interpret a trace, but should not be treated as substitutes for one.
+
+Recovery extends beyond reversing the most recent action. Consider a filter that inadvertently excludes a relevant cell population before a comparison and summary are generated. Correcting the filter is only part of the repair: the dependent outputs must also be updated, and the scientist must recognize which earlier conclusions require reconsideration. Evaluation could examine whether analysts detect the problem, locate the responsible operation, restore or revise the relevant state, and identify affected results. Recovery success, correction time, and the persistence of errors in downstream outputs provide different views of this process.
+
+Through the lens of analytic agency, provenance makes computational contributions available for inspection and recovery makes them revisable. These capabilities support Comparison and Differentiation by allowing scientists to examine alternative analytic paths, and Sensemaking and Hypothesis Development by connecting interpretations to their supporting operations and evidence. In collaborative work, records must also distinguish individual and system contributions. Whether analysts can exercise these opportunities while assistance is unfolding is the related question of control.
+
 \subsection{Analyst Control, Calibration, and Exploration Bias}
 \plan{Examine awareness, appropriate reliance, override, correction, and diversity of alternatives. Integrate user-model and intent-inference evaluation. Relate efficiency to premature convergence or missed evidence.}
 \subsection{Workload, Interaction Cost, and Embodied Cost}
