@@ -102,4 +102,73 @@ Relevant outcomes include the time and clarification needed to establish a share
 Through the lens of analytic agency, collaboration distributes initiative and control among several scientists as well as the computational system. Evaluation should examine whether that distribution supports Coordination and Collaborative Reasoning and the scientific judgments that follow. Shared provenance, discussed in Section~\ref{sec:evaluation-provenance}, helps establish who requested an operation and what the system executed. The remaining question is whether collaborators can use that information to reconcile interpretations and assess the evidence together. Agreement is useful for coordinating work, but agreement alone does not establish that a biological explanation is supported.
 
 \subsection{Cross-Study Evidence and Limits of Comparability}
-\plan{Build a table of task, mechanism, modality, participants, baseline, outcomes, limitations, and supported claim. Separate reported benefits from aspirations. Explain when heterogeneous measures prevent pooled conclusions and derive research needs from these limits.}
+
+\label{sec:evaluation-comparison}
+
+The studies discussed in this section evaluate different parts of assisted analysis. Computational comparisons examine whether an operation produces the intended output at a practical scale. Controlled interaction studies test performance under specified conditions. Design studies and observations of collaborative work reveal how people use a system, where it fits their needs, and where its assumptions fail. Table~\ref{tab:evaluation-evidence} compares selected examples by task, intervention, study context, reported evidence, and the claim that evidence supports. It covers the examples developed here rather than providing a ranking of all reviewed systems.
+
+\begin{table*}[t]
+
+\centering
+
+\caption{Selected evaluation examples and the limits of their supported claims. Participant feedback, computational measurements, and observed behavior are identified separately. The comparison concerns the evidence used in this section, rather than every evaluation reported in each paper.}
+
+\label{tab:evaluation-evidence}
+
+\footnotesize
+
+\setlength{\tabcolsep}{4pt}
+
+\renewcommand{\arraystretch}{1.12}
+
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{.17\textwidth}>{\raggedright\arraybackslash}p{.21\textwidth}>{\raggedright\arraybackslash}p{.24\textwidth}>{\raggedright\arraybackslash}p{.32\textwidth}@{}}
+
+\toprule
+
+\textbf{Study and analytic context} & \textbf{Intervention and comparison} & \textbf{Evidence and study context} & \textbf{Supported claim and limit} \\
+
+\midrule
+
+Graphia~\cite{EvalFreeman2022}: desktop graph exploration & Graph loading, layout, and rendering compared with Gephi and Cytoscape & Computational comparison using three graphs, including a gene-expression graph; hardware and software versions reported & Demonstrates performance characteristics under the tested conditions. Different layout stopping conditions limit runtime comparison; rendering speed does not establish reduced cognitive workload. \\
+
+\addlinespace[3pt]
+
+Yang et al.~\cite{EvalYang2021}: navigation and comparison in VR scatterplots & Room-sized versus zoomable views, each with and without an overview & Controlled comparison of four navigation conditions; task time, accuracy, and navigation analysis & Supports task-dependent navigation choices. It does not isolate an AI intervention or establish biological utility. \\
+
+\addlinespace[3pt]
+
+Ha et al.~\cite{EvalHa2023}: modeling data exploration & Eight user-modeling algorithms compared across four interaction datasets & Computational evaluation of interaction prediction, bias detection, and complexity & Compares user-model performance. Successful prediction or detection does not establish that a subsequent intervention improves exploration. \\
+
+\addlinespace[3pt]
+
+DeepVIS~\cite{EvalShuai2025}: conversational visualization generation & Step-wise generation and editable intermediate decisions; computational baselines and interface evaluation & Generation benchmarks and a 32-participant study; participant assessments of understanding and refinement & Provides distinct evidence about output generation and perceived inspectability. These results do not establish reliable error recovery in biological workflows. \\
+
+\addlinespace[3pt]
+
+PhenoFlow~\cite{EvalKim2025}: clinical cohort exploration & LLM-assisted data wrangling with code, explanation, and data inspection & Design collaboration with two neurologists and clinical case studies; observations during iterative refinement & Grounds inspection requirements in domain practice. Explanation-related difficulties are design evidence, not a controlled estimate of calibration improvement. \\
+
+\addlinespace[3pt]
+
+ProactiveVA~\cite{EvalZhao2025}: proactive assistance during event analysis & Assistance informed by interaction history; comparison with a formative study & Ten-user evaluation with 15-minute exploration, interaction records, ratings, and interviews & Reports use of proactive assistance and identifies steering limitations. A formative-study comparison and short sessions do not establish sustained scientific benefit. \\
+
+\addlinespace[3pt]
+
+FIESTA~\cite{EvalLee2021}: collaborative analysis in a shared VR workspace & Configurations supporting individual and joint work & Exploratory study with ten groups of three using housing data; behavior observations and participant feedback & Identifies coordination practices and perceived awareness benefits. Timing differences were not strictly controlled; autonomous group oversight was not tested. \\
+
+\addlinespace[3pt]
+
+Talk to the Wall~\cite{EvalMolinaLeon2025}: collaborative analysis on a large display & Speech and touch used within a shared workspace & Ten-pair study; interaction records and participant reports & Shows how speech can make actions available to collaborators while raising distraction concerns. Positive reports do not establish a causal gain in team accuracy or autonomous oversight. \\
+
+\bottomrule
+
+\end{tabular}
+
+\end{table*}
+
+Several distinctions recur across these examples. System performance and human performance require separate evidence: predicting an interaction, generating a visualization, or rendering a graph quickly does not establish that the scientist reaches a better conclusion. Opportunities for inspection and intervention also need to be distinguished from successful use of those opportunities. Finally, results from a bounded task or short session leave open questions about changing goals, accumulated errors, and sustained scientific practice. These distinctions connect the evaluation dimensions without requiring a single measure of overall system quality.
+
+Quantitative comparison is useful when the task, outcome, and baseline are sufficiently aligned. Response time is comparable only when the timed work is clear; accuracy requires a comparable target and definition of correctness. Participant expertise, data complexity, hardware, and assistance scope can also change the meaning of an apparent advantage. Where studies address compatible questions, their effect estimates and uncertainty should be compared. Where they do not, a qualitative comparison can still identify which mechanisms were tested, what benefits and costs were observed, and where the evidence stops. Heterogeneity limits particular comparisons; it does not justify discarding the measurements that studies provide.
+
+The same discipline applies when relating general visualization evidence to life-science analysis. Navigation and collaboration studies can motivate interaction choices and evaluation measures, while domain studies can establish whether those choices address a scientific workflow. Their conclusions should retain those respective scopes. An unevaluated capability remains an open question, rather than evidence of either success or failure. The table therefore supports bounded comparisons of the cited examples; claims about the prevalence of evaluation practices across the literature require the complete study inventory.
+
+These limits point to a focused research agenda: comparisons that isolate the contribution of assistance, assessments of whether scientists detect and recover from consequential errors, and observations of how individual and collaborative use develops over time. Across the five tasks, the locus of analytic agency identifies the decisions and interventions to examine. Evaluation establishes what their allocation enables, what work and risks it introduces, and how far the resulting evidence supports a claim of scientific value.
