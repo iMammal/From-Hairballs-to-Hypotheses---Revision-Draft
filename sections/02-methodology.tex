@@ -105,6 +105,37 @@ Sources inspected: production-core audit 20260901-032214 (historical core invari
 
 \subsection{Screening, Full-Text Escalation, and Human Decisions}
 \plan{Describe title/abstract screening, evidence requirements, full-text escalation, and exclusion reasons. Identify what the LLM proposes and what humans decide. Report actual validation sampling, reviewers, and disagreement handling once performed. Do not imply independent double screening unless it occurred.}
+
+Screening applies the eligibility criteria in Section 2.1 to the evidence available for each paper. Title and abstract assessment provides an initial determination of whether the reported system falls within scope and which questions require fuller examination. Each criterion receives a Yes, No, or Uncertain value, supported by an evidence location and a concise rationale. A general claim that a system is intelligent, interactive, or immersive is insufficient to establish the computational mechanism or the human analytic relationship. Where a paper describes several systems, the evidence must identify which system satisfies the criteria.
+
+The protocol assigns LLMs a supporting role in this process. Their outputs are proposed criterion-level decisions whose basis must remain inspectable. The record preserves the reviewed input, rubric version, model and prompt provenance, proposed values, supporting evidence, rationale, and technical status. These proposals do not themselves establish authoritative corpus membership. Administrative criteria also require evidence about publication date, document type, and English-language full-text availability; they cannot be inferred solely from a model’s assessment of topical relevance. A malformed response or failed inference attempt is recorded as a technical failure and cannot become a scientific exclusion.
+
+Full-text escalation is required when any eligibility criterion remains uncertain, a proposed exclusion rests on a missing or incomplete abstract, or available sources conflict. It is also required when the available description cannot distinguish substantive assistance from ordinary rendering or interaction, immersive assistance from use of an immersive display, or an analytic workflow from presentation or procedural guidance. This step addresses a limitation of abstract screening: an omitted detail may be essential to eligibility without being central to the paper’s summary. The fuller assessment must resolve the relevant criterion through evidence rather than treat the omission itself as a negative result.
+
+Acquisition attempts and their outcomes form part of the screening record. Retrieval or parsing failure leaves the scientific decision unresolved while further acquisition or review remains possible. After reasonable documented attempts, unresolved records proceed to human review. Exclusion for insufficient evidence is permitted only after the required escalation has been completed and recorded. Confirmed administrative ineligibility, such as the absence of an English-language full text, is recorded under its corresponding criterion rather than conflated with a failed download.
+
+Exclusions retain one primary reason and any supported secondary reasons. The rubric gives administrative reasons precedence—publication after the retrieval end date, unavailable English-language full text, and ineligible document type—followed by absence of a life-science application, relational or multiscale relevance, a qualifying visual-analytics component, substantive assistance, or a human analytic relationship. Insufficient evidence after escalation is a separate reason. Any other protocol-based exclusion requires a versioned explanation. Duplicate records are handled through the reconciliation in Section 2.3, while missing abstracts, technical failures, and historical relevance labels are not exclusion reasons.
+
+Human reviewers use the same criterion structure and identify the evidence supporting their decisions. Under the protocol, a human decision supersedes the corresponding machine proposal for the criterion reviewed; the earlier proposal remains in the history. Where independent human judgments disagree, a recorded adjudication links those judgments and explains the resolution. This provision defines how disagreements are handled when they arise; it does not imply that every paper receives independent double screening. Eligibility decisions remain separate from the multilabel coding and synthesis priorities described in Section 2.5, and authors retain responsibility for the interpretive synthesis.
+
+The frozen protocol leaves the final human-validation design to be registered prospectively after a bounded pilot and before validation results are examined. That design must specify the sample frame, selection procedure, reviewer roles, access to machine proposals, adjudication, missing-review handling, and planned measures. The completed review must report the procedures actually used, the resulting agreement and error evidence, and any corrections. Those details remain pending here; implementation checks and pilot demonstrations do not establish the validity of screening across the regenerated corpus.
+
+Author notes — remove before submission:
+
+Grounded in the frozen protocol and coding rubric v1.0.0 (30 August 2026), already read in full. This is a protocol-grounded draft, not evidence that production screening or validation has occurred.
+
+Insert the executed title/abstract and full-text stages, actual model/provider/version, prompt/schema versions, input fields, inference settings, evidence-validation behavior and retry policy once verified against production artifacts. Do not substitute details from the historical provisional pilot.
+
+Report who made authoritative decisions, which criteria/records they reviewed, and whether they saw machine proposals. Do not claim all machine proposals received human review or independent double screening unless documented.
+
+Replace the final paragraph with the registered sample design and actual validation results, including selection probabilities or census rules, strata, random seed where used, coder independence, disagreement handling and missing reviews. A previously proposed sample size is not an executed design.
+
+Specify actual full-text acquisition routes and the operational stopping rule for reasonable attempts. Distinguish unresolved acquisition from established language ineligibility; do not automatically label inaccessible PDFs non-English.
+
+Ensure supporting passages resolve to the actual reviewed source text. The manuscript describes evidence requirements; final automated span checks require implementation verification.
+
+Final exclusion totals and reconciled flow belong in 2.6. No screening totals or corpus-wide accuracy estimates are supplied here.
+
 \subsection{Multilabel Coding and Synthesis}
 \plan{Define task, assistance, and modality coding with supporting evidence passages. Explain Core/Supporting/Contextual priorities without conflating them with inclusion. Specify the comparison unit for systems with multiple mechanisms. Interpret agency from documented interventions and human roles rather than adding another categorical score.}
 \subsection{Review Flow, Reproducibility, and Limitations}
