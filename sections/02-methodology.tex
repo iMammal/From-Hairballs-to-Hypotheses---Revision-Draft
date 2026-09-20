@@ -33,6 +33,45 @@ Eligibility is also distinct from the priority assigned during synthesis. Core p
 
 \subsection{Sources, Search Strategy, and Retrieval}
 \plan{Document databases, seed sets, citation searching, and the five query families using their executed definitions. Explain complementary coverage and source-specific limitations. Provide full queries and retrieval provenance in supplementary material. Final source counts, seed closure, and global cutoff await completed retrieval.}
+
+The search strategy combines bibliographic searches with candidates identified through prior surveys. These routes address differences in disciplinary coverage and terminology: a biological analysis system may be described through its scientific application, its computational methods, its interface, or its display environment. Retrieval therefore uses several complementary formulations, while eligibility is determined by the common criteria in Section 2.1.
+
+The frozen external-search plan covers PubMed, Europe PMC, Semantic Scholar, arXiv, IEEE Xplore, and the ACM Digital Library. PubMed and Europe PMC provide routes into biomedical and life-science literature; Semantic Scholar broadens identification across disciplines; arXiv provides a preprint source; and direct IEEE Xplore and ACM searches address computing, visualization, and interaction publications. These sources overlap, so a record retrieved through several routes is not evidence of several independent studies. Source occurrences remain distinguishable during the reconciliation described in Section 2.3.
+
+Five query families express different routes into the review’s scope. Each combines life-science terms with the concepts summarized below. They are retrieval strategies, not mutually exclusive categories of papers or substitutes for the eligibility criteria.
+
+\draftnote{Family - Conceptual structure and retrieval purpose}
+
+QF01: Relational visualization - Life-science terms combined with visualization and relational or multiscale terms. This route does not require explicit assistance terminology.
+
+QF02: Assisted visual analysis - Life-science terms combined with visualization or interactive-system terms and assistance terms. It targets computational participation within an analytic interface.
+
+QF03: Interactive systems - Life-science terms combined with interactive-system or specific visual-analytics terms and the revised relational expression. It accommodates descriptions centered on tools, platforms, explorers, or workbenches.
+
+QF04: Nondesktop environments - Life-science terms combined with environment terms and visualization, interactive-system, or exploration terms. Display terminology identifies candidates but does not establish qualifying assistance.
+
+QF05: Conversational analysis - Life-science terms combined with conversational terms and visualization, interactive-system, or analysis terms. Eligibility still requires the visual and human analytic relationships specified in Section 2.1.
+
+The families deliberately overlap. In particular, the assistance-neutral routes allow retrieval of systems whose computational contribution is described in the paper but not advertised through AI terminology. Conversely, matching assistance or environment vocabulary does not establish relevance: a retrieved paper may describe offline prediction, presentation, or procedural guidance without a qualifying visual-analytic workflow. The search broadens the candidate pool; evidence-based screening establishes the boundary.
+
+Provider-specific query syntax and retrieval behavior require separate documentation. A shared conceptual expression does not guarantee identical field coverage, phrase matching, or result sets across services. The retrieval implementation supports paginated API acquisition and import of ACM search exports, with source-specific checkpoints and provenance. Export partitions, interrupted requests, quota pauses, and changes in provider-reported totals must be reconciled before a source is treated as complete. Local metadata-snapshot searches also require their own field and matching definitions: the arXiv snapshot audit reproduced the declared local matching policy but did not establish equivalence to the API. Any snapshot route used in the final corpus must therefore be identified separately, with its temporal coverage and matching limitations.
+
+Prior-survey evidence comprises materials associated with Ehlers et al.’s biological-network visualization survey, Joos et al.’s immersive visual-network analysis survey, and Fonnet and Prié’s immersive-analytics survey. Their available evidence differs: an author companion can identify survey members explicitly, whereas a working ledger or bibliography may contain candidates, background references, and unresolved entries. The prepared seed records preserve these distinctions and their source locations. Inclusion in a prior survey does not confer eligibility for this STAR; candidates remain subject to the same reconciliation and screening rules as database results. Extracting references from these materials also does not establish that recursive backward or forward citation searching was performed.
+
+The supplementary search record will provide the full executed expressions, searched fields, retrieval dates, filters, source routes, export or snapshot identifiers, and completion evidence. It will also identify the seed artifacts and any additional citation-searching procedure actually used. Final source yields, unique contributions, seed reconciliation, and the global retrieval cutoff remain pending completion of the merged identification record.
+
+\draftnote{Author notes — remove before submission:
+
+This is a provisional methods draft grounded in the frozen protocol and available development/execution reports, not a claim that all six routes have completed. Full source-native production query strings were not available in the inspected artifacts; the table is a conceptual summary, not a copyable query specification.
+
+Verify the final production plan and executed manifests before changing “plan covers” to “searched.” In particular, confirm the final Semantic Scholar and arXiv routes and any subsequent matching-policy revisions.
+
+Resolve actual backward/forward citation-search scope, seed selection, iteration/stopping rules and yields; none is claimed here. Seed extraction is distinguished from recursive citation chasing.
+
+Insert live citations for the three surveys during LaTeX integration. FP19 is an internal seed ID, not a reliable publication year; its historical bibliographic conflict requires the corrected record.
+
+Move finalized route details into the supplement and replace the last paragraph with completed-report wording. No final counts, cutoff, seed closure, recall estimate, or screening/validation result is asserted.}
+
 \subsection{Occurrence Preservation and Deduplication}
 \plan{Explain how source occurrences remain traceable when records merge into unique works. Specify normalization, matching, version handling, and uncertain-match adjudication from the implementation. Preserve source-to-paper lineage for reconciled flow counts.}
 \subsection{Screening, Full-Text Escalation, and Human Decisions}
