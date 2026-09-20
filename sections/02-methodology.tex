@@ -74,6 +74,35 @@ Move finalized route details into the supplement and replace the last paragraph 
 
 \subsection{Occurrence Preservation and Deduplication}
 \plan{Explain how source occurrences remain traceable when records merge into unique works. Specify normalization, matching, version handling, and uncertain-match adjudication from the implementation. Preserve source-to-paper lineage for reconciled flow counts.}
+
+A paper may be retrieved from several databases, match several query families, and appear in a prior survey. These are separate source occurrences of potentially the same paper. The review pipeline preserves each occurrence and its provenance while grouping records that refer to the same bibliographic identity. This allows the synthesis to count a paper once without losing the evidence of how it was identified.
+
+Each occurrence remains linked to its source record and retrieval context. For database results, this includes the source, query, retrieval run, and available native identifiers. Imported survey and export records retain their artifact and entry locations, such as a workbook row, companion-resource identifier, or bibliography entry. A canonical record represents the resulting identity group and enumerates its constituent occurrences. The data model requires each occurrence to have one effective duplicate decision and to belong to one canonical group. Source-specific metadata remain available through those occurrences when records disagree.
+
+The generic matching rule uses a normalized DOI when one is available and an exact normalized-title key otherwise. This is a deterministic key-based procedure: title fallback does not imply a search for the most similar title. It also does not automatically join a DOI-bearing record to a DOI-missing record with the same title, because those records receive different keys. Such cases illustrate why the initial grouping and subsequent identity adjudication must remain distinguishable. The normalization functions and matching-rule versions belong in the reproducibility record so that the same source metadata can be processed under the same rules.
+
+Approved identity adjudications supplement the generic grouping. The snapshot-integration procedure distinguishes a direct decision about an arXiv occurrence from the propagation of that decision to compatible occurrences already grouped under a title key. For example, a title-only survey record and a snapshot record may share an initial group, while another database supplies the DOI-bearing record for the same paper. An approved identity decision can consolidate that group with the DOI-bearing target while preserving all constituent occurrences. The implementation checks for contradictory identifiers, competing targets, unresolved identity restrictions, and cyclic transfers before applying a propagated regrouping. Earlier decisions remain in the history, linked to the decision that supersedes them.
+
+Bibliographic identity is distinct from a relationship between versions. A preprint and a published article may be related without being interchangeable records. The implementation therefore retains related-version links separately from duplicate decisions; those links alone do not collapse the records into one identity. This distinction also matters during synthesis: multiple reports of the same system should not be interpreted as independent evidence merely because they remain separate bibliographic records. Any subsequent grouping of reports for comparison must be documented separately from record deduplication.
+
+Uncertain identities remain visible. In particular, provisional groups inherited from prior-survey materials retain their unresolved status and source-group references through the merge. A shared title or membership in a source ledger does not erase conflicting bibliographic evidence. Identity uncertainty is also separate from uncertainty about eligibility: a paper may be identifiable but insufficiently described for screening, or potentially relevant while its relationship to another record remains unresolved. Neither condition is resolved simply by placing the record in a canonical group.
+
+The merge procedure selects the designated source datasets and checks preservation of their occurrences and retrieval provenance. Historical checkpoints and superseded artifacts remain part of the acquisition history but are not added again as independent inputs. Review-flow reporting must distinguish the number of source occurrences, the number consolidated as duplicates, and the number of resulting canonical records, with unresolved identities reported alongside them. Deduplication is a reconciliation step rather than an eligibility exclusion. Final counts will be derived from the completed merge and its effective decisions, preserving a traceable path from each source occurrence to the paper considered during screening.
+
+\draftnote{Author notes — remove before submission:
+
+This describes documented implementation behavior, not a completed global merge. No final canonical counts, resolved-case totals or completed screening are claimed.
+
+Verify normalize.py at the final bound implementation commit and insert the exact DOI/title transformations (prefix stripping, case, Unicode, punctuation and whitespace behavior as actually implemented). The inspected reports establish DOI-first/exact-normalized-title fallback, but do not specify every transformation. Do not borrow tokenization rules from the arXiv query matcher: that is a different operation.
+
+Verify how records missing both DOI and title are keyed and retained, and how canonical display metadata are selected in the final implementation. Neither behavior is inferred here.
+
+Finalize and report the identity-review actor/procedure and handling of unresolved cases before claiming complete adjudication. The documented snapshot approvals do not establish a general independent double-review procedure.
+
+Related-version links currently preserve separate bibliographic records. Define any later report/system grouping and its effect on synthesis denominators; do not silently equate canonical papers with independent studies.
+
+Sources inspected: production-core audit 20260901-032214 (historical core invariants only); executed provisional canonicalization report 20260904-034804 (matching behavior, not production counts); global-merge implementation/preflight report 20260920-052012; canonical-group propagation fix report 20260920-171039 (commit 74ac671). Later reports supersede historical claims that adjudication orchestration was absent.}
+
 \subsection{Screening, Full-Text Escalation, and Human Decisions}
 \plan{Describe title/abstract screening, evidence requirements, full-text escalation, and exclusion reasons. Identify what the LLM proposes and what humans decide. Report actual validation sampling, reviewers, and disagreement handling once performed. Do not imply independent double screening unless it occurred.}
 \subsection{Multilabel Coding and Synthesis}
