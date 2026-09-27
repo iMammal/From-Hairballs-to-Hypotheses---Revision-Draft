@@ -1,15 +1,66 @@
 \section{Analytic Tasks and the Changing Locus of Agency}
 \label{sec:tasks}
-\draftnote{Morris, integrating coauthor examples. Repeat: analyst intent; conventional realization; computational participation; agency consequence; modality dependence; evaluation evidence. Final representative systems await coding.}
+
+The Assistance $\times$ Visualization Modality framework provides a map of the approaches examined in this review. Analytic tasks provide the lens through which we compare them: what does a scientist need to accomplish, and how does a particular combination of assistance and environment support that work? The locus of analytic agency supplies the light, revealing who chooses what to inspect, determines an operation's scope, interprets its output, and can revise its consequences. The map organizes the systems, the lens brings their analytical purposes into focus, and the light exposes differences in the distribution of work that category labels alone leave unclear.
+
+The five task categories introduced in Section~\ref{sec:foundations} describe related purposes rather than successive stages. Scientists revisit selections, comparisons, and explanations as questions develop. We therefore compare systems around consequential actions, reserving implementation detail for Section~\ref{sec:assistance} and environmental conditions for Section~\ref{sec:modality}. An interaction can support several tasks, but its presence does not establish that every task is supported equally well.
+
+The task symbols in Figure~\ref{fig:assistance-modality-map} allow these purposes to be followed across assistance modes and environments; sharing a symbol does not imply equivalent task support or performance.
+
 \subsection{Navigation and Multiscale Orientation}
-\plan{Compare analyst-controlled traversal with computed abstractions, recommended regions, and guided scale changes. Examine who chooses the next region and how context is preserved. Assess orientation, return to prior states, overlooked structures, and fidelity across scales.}
+\label{sec:tasks-navigation}
+
+Navigation concerns locating relevant information while retaining enough context to understand its relationships. In life-science analysis, the problem includes movement between a local structure and its wider network, or between an observed specimen and a computed feature space. Panning and zooming change the visible region; computational organization also changes the structure through which the scientist navigates. The distinction matters because an accessible overview is already a selection of what to emphasize.
+
+Compressed Adjacency Matrices organize regulatory networks so that motifs, paths, and neighborhoods can be inspected through highlighting, filtering, and selected views.~\cite{AnchorCompressedMatrices} Facetto connects tissue images with feature distributions, projections, and phenotype organization.~\cite{AnchorFacetto} The former makes network structure traversable through a computed representation; the latter supports inspection across spatial and derived descriptions of cells. These examples concern orientation among relationships and representations. They should not be recast as demonstrated autonomous navigation or guided scale changes without evidence of those mechanisms.
+
+Agency lies partly in who chooses the next object of attention and partly in how the available overview was constructed. A scientist may control every movement while relying on computational abstractions to determine what is readily visible. Evaluation should consequently distinguish reaching a target from maintaining context, recognizing omitted structure, and returning to an earlier observation. A display may make traversal easier without improving those other outcomes. The modality comparison must identify which of these costs a change of environment actually addresses.
+
 \subsection{Selection, Filtering, and Precision Interaction}
-\plan{Compare explicit selection with ranked candidates, adaptive filtering, language-specified sets, and spatial disambiguation. Examine how the system determines membership and how scientists correct it. Separate interaction precision from scientific relevance and assess recovery from unintended selection.}
+\label{sec:tasks-selection}
+
+Selection establishes which entities or relationships an analysis concerns. Direct pointing specifies an object; filtering specifies conditions; assisted selection may infer membership from examples or translate a request into a set. These actions can produce similar-looking highlights while assigning different responsibility for the selected population. Precision therefore has both an interaction meaning---selecting the intended object---and an analytical meaning---forming a set appropriate to the question.
+
+Facetto makes this distinction consequential when experts select image regions or feature groups and revise phenotype labels. Feedback can affect later classifier assignments beyond the cells directly inspected.~\cite{AnchorFacetto} In FathomGPT, a language request can instead determine the queried records through generated SQL.~\cite{AnchorFathomGPT} The scientist supplies examples in one case and a description in the other; computation contributes to the resulting membership. Checking a selected set requires access to the relevant basis for membership, not merely confirmation that a selection action succeeded.
+
+NUI-VR$^2$ illustrates a spatial counterpart: user-supplied seeds and parameters influence computed segmentation boundaries.~\cite{AnchorNUIVR} A precise gesture and an accurate segmentation are related but distinct accomplishments. Its technical segmentation measures assess the resulting boundary, not the full effort of choosing seeds, detecting errors, and correcting them. Across these mechanisms, the useful comparison is how scientists specify intent, inspect the selected result, and recover from unintended inclusion or omission. That comparison can then inform whether planar input, language, or spatial interaction suits the particular selection problem.
+
 \subsection{Comparison and Differentiation}
-\plan{Compare manual juxtaposition with computed correspondence, ranked differences, and delegated comparison. Ask who selects cases, reference conditions, similarity measures, and representations. Distinguish salience from biological meaning and assess sensitivity to analytic choices.}
+\label{sec:tasks-comparison}
+
+Comparison requires a reference: another observation, condition, model, source, or expected pattern. Computation can establish correspondence, derive differences, and organize cases for inspection, but those choices shape what a visible difference means. A salient contrast may reflect measurement, representation, or modeling choices rather than a biological distinction. The analyst's responsibility therefore includes deciding which comparisons are meaningful and which alternative explanations remain plausible.
+
+RetainVis and MediSyn locate this work at different evidential levels. RetainVis exposes risk predictions and feature contributions across patients and cohorts, with editing and retraining that can change inputs or model state.~\cite{AnchorRetainVis} MediSyn aligns biomedical assertions across datasets and makes provenance, coverage, and disagreement inspectable.~\cite{AnchorMediSyn} In the former, comparison can investigate how a computed inference responds to intervention; in the latter, it can investigate where sources support or contradict an interpretation. An input edit is not evidence of a real-world causal effect, just as agreement among displayed assertions is not by itself proof of their independence or correctness.
+
+The distinction also changes the evaluation target: RetainVis's model behavior and MediSyn's evidence-selection performance are not interchangeable outcomes. Section~\ref{sec:evaluation-effectiveness} separates computational behavior from analytical and scientific benefit.
+
+Comparison can also interrogate the representation itself. focusedMDS/distnet exposes discrepancies between projected and high-dimensional distances, while PathwayMatrix uses ordering, grouping, and lenses to inspect pathway relationships.~\cite{ExpandedE34,ExpandedE37} PAE Viewer links predicted alignment error with protein structure and cross-links, making model reliability an object of inspection rather than an implicit property of the display.~\cite{ExpandedE49} By contrast, CoCoNUT's sequence comparisons and Toxygates' clustering and enrichment organize evidence about genomic similarity and response patterns.~\cite{ExpandedE35,ExpandedE36} These mechanisms support different comparisons even when their interfaces share planar views.
+
 \subsection{Sensemaking and Hypothesis Development}
-\plan{Trace patterns, explanations, and candidate hypotheses. Compare recommendations with conversational explanations and orchestrated analysis. Distinguish a generated hypothesis from a validated finding. Examine provenance, uncertainty, alternative explanations, and contestability.}
+\label{sec:tasks-sensemaking}
+
+Sensemaking connects observations with possible explanations and questions for further investigation. Assistance may expose a pattern, suggest a candidate, or execute an analysis that tests part of an interpretation. The scientific work includes deciding what the result warrants and what further evidence is needed. A computationally generated possibility becomes useful through that relationship to an investigation, rather than through generation alone.
+
+RNA-SeqEZPZ provides interactive outputs from a configured transcriptomics pipeline, while FathomGPT lets scientists formulate and refine requests that become queries and visual results.~\cite{AnchorRNASeqEZPZ,AnchorFathomGPT} Both support inquiry, but the route from question to computation differs. In the first, scientists configure an established sequence and interpret its outputs; in the second, they also inspect the translation of language into analytic operations. Neither route transfers responsibility for biological interpretation merely because execution is delegated.
+
+Metis and ProteinSketch extend the task toward constructing candidates: feedback and spatial specifications shape which molecular possibilities are generated.~\cite{AnchorMetis,AnchorProteinSketch} Their mechanisms are compared in Sections~\ref{sec:assistance-adaptive} and~\ref{sec:assistance-immersive}. Here, the task consequence is that scientists must assess not only a candidate, but also the constraints and omissions that shaped the candidate space.
+
+The agency consequence is a change in the space of possibilities presented to the scientist. Exposing why a candidate was generated, what constraints shaped it, and what alternatives were not considered can support critical interpretation. These are design implications of the workflows, not evidence that either system has demonstrated unbiased exploration. Section~\ref{sec:evaluation} considers how to assess those claims.
+
 \subsection{Coordination and Collaborative Reasoning}
-\plan{Examine common ground, division of work, and reconciliation of interpretations. Compare individual recommendations with group-visible assistance. Ask whose intent an intervention serves, who may accept it, and how changes become visible.}
+\label{sec:tasks-coordination}
+
+Collaborative analysis requires more than making the same visualization available to several people. Participants must divide work, communicate interpretations, recognize changes, and determine which results or revisions can be accepted. Computational assistance can organize evidence for discussion or coordinate analytical actions. The distinction identifies whether a system primarily supports shared interpretation or the management of interdependent work.
+
+PeCaX brings computed variant annotations and pathway relationships into a workflow intended for molecular-tumor-board inspection.~\cite{AnchorPeCaX} Its relevance to collective interpretation does not, by itself, establish a synchronous multiuser interface or automated management of disagreement. NeuroBlocks more explicitly connects segmentation and proofreading with task assignment, approval, provenance, and restoration.~\cite{AnchorNeuroBlocks} Here, coordination includes who acts on a result, how its status changes, and how prior work can be audited or recovered.
+
+These functions distribute authority as well as effort. A proposed correction, an accepted segmentation, and a communicated interpretation need not carry the same status or belong to the same participant. Group-visible records of such distinctions can support common ground; a shared display alone cannot supply them. PeCaX's processing results and NeuroBlocks's qualitative collaborations establish different aspects of the implemented workflows. Claims about improved collective reasoning additionally require evidence about participants' understanding, reconciliation of interpretations, and use of the resulting decisions.
+
 \subsection{Synthesis Across Tasks}
-\plan{Compare shifts in initiative, interpretation, and validation across tasks. Show how assistance for one task can constrain a later task, such as filtering that narrows hypothesis generation. Planned evidence: task-by-mechanism table with human role, modality, and evaluation. Separate supported findings from unevaluated consequences.}
+\label{sec:tasks-synthesis}
+
+Tasks connect across a workflow, so an intervention's consequences may emerge after the action it directly supports. Consider an illustrative analysis: a scientist locates a tissue region, selects a cell population, compares its characteristics, proposes an explanation, and discusses it with collaborators. If assistance changes the selection, it also changes the basis of the comparison and the evidence supporting the explanation. This sequence is an analytical illustration, not a claim that one anchor implements every step.
+
+Table~\ref{tab:task-agency-synthesis} summarizes the resulting comparison questions. The task lens holds the purpose of an action in view while the assistance--modality map distinguishes its possible realizations. Agency illuminates where consequential choices occur and whether scientists can inspect or revise them. This connects the mechanisms examined next to their role in scientific work without treating automation, immersion, or any one interaction style as a general measure of analytical quality.
+
+\input{04-task-synthesis-table.tex}
