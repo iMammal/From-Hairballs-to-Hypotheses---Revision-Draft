@@ -1,0 +1,1028 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        8,
+        13
+      ]
+    ],
+    "date-time": "2026-08-13T06:44:26Z",
+    "timestamp": 1786603466412,
+    "version": "build-2736575974"
+  },
+  "reference-count": 115,
+  "publisher": "Wiley",
+  "issue": "1",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            9
+          ]
+        ],
+        "date-time": "2021-12-09T00:00:00Z",
+        "timestamp": 1639008000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100001659",
+      "name": "Deutsche Forschungsgemeinschaft",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "TRR161"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "TRR161"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001659",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001659",
+      "name": "Deutsche Forschungsgemeinschaft",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "A08"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "A08"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001659",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001659",
+      "name": "Deutsche Forschungsgemeinschaft",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "A03"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "A03"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001659",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001659",
+      "name": "Deutsche Forschungsgemeinschaft",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "D04/251654672"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "D04/251654672"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001659",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "onlinelibrary.wiley.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "Computer Graphics Forum"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2022,
+        2
+      ]
+    ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title><jats:p>After a long period of scepticism, more and more publications describe basic research but also practical approaches to how abstract data can be presented in immersive environments for effective and efficient data understanding. Central aspects of this important research question in immersive analytics research are concerned with the use of 3D for visualization, the embedding in the immersive space, the combination with spatial data, suitable interaction paradigms and the evaluation of use cases. We provide a characterization that facilitates the comparison and categorization of published works and present a survey of publications that gives an overview of the state of the art, current trends, and gaps and challenges in current research.</jats:p>",
+  "DOI": "10.1111/cgf.14430",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2021,
+        12,
+        9
+      ]
+    ],
+    "date-time": "2021-12-09T11:08:30Z",
+    "timestamp": 1639048110000
+  },
+  "page": "201-229",
+  "update-policy": "https://doi.org/10.1002/crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 78,
+  "title": [
+    "Immersive Analytics with Abstract 3D Visualizations: A Survey"
+  ],
+  "prefix": "10.1111",
+  "volume": "41",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0001-5398-3109",
+      "authenticated-orcid": false,
+      "given": "Matthias",
+      "family": "Kraus",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Department of Computer and Information Science University of Konstanz  Konstanz Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Johannes",
+      "family": "Fuchs",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Computer and Information Science University of Konstanz  Konstanz Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Björn",
+      "family": "Sommer",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of Design Royal College of Art  London UK"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Karsten",
+      "family": "Klein",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Computer and Information Science University of Konstanz  Konstanz Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Ulrich",
+      "family": "Engelke",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "CSIRO Data61  Perth Australia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Daniel",
+      "family": "Keim",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Computer and Information Science University of Konstanz  Konstanz Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Falk",
+      "family": "Schreiber",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Computer and Information Science University of Konstanz  Konstanz Germany"
+        },
+        {
+          "name": "Faculty of Information Technology Monash University  Melbourne Australia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "311",
+  "published-online": {
+    "date-parts": [
+      [
+        2021,
+        12,
+        9
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_2_9_2_1",
+      "volume-title": "Exploratory Analysis of Spatial and Temporal Data: A Systematic Approach",
+      "author": "Andrienko N.",
+      "year": "2006"
+    },
+    {
+      "key": "e_1_2_9_3_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[ACCN99] ArnsL. CookD. Cruz‐NeiraC.:Benefits of statistical visualization in an immersive environment. InProceedings of the Virtual Reality Annual International Symposium(1999) IEEE pp.88–95.https://doi.org/10.1109/VR.1999.756938.",
+      "DOI": "10.1109/VR.1999.756938"
+    },
+    {
+      "key": "e_1_2_9_4_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[AF03] AzumaR. FurmanskiC.:Evaluating label placement for augmented reality view management. InISMAR 2003: Proceedings of the 2nd IEEE and ACM International Symposium on Mixed and Augmented Reality(Washington DC USA 2003) IEEE Computer Society pp.66–75.https://doi.org/10.1109/ISMAR.2003.1240689.",
+      "DOI": "10.1109/ISMAR.2003.1240689"
+    },
+    {
+      "key": "e_1_2_9_5_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[APGV06]AzzagH. PicarougneF. GuinotC. VenturiniG.:VRMiner: A tool for multimedia database mining with virtual reality. InProcessing and Managing Complex Data for Decision Support.Hershey Pennsylvania USA:IGI Global (2006) pp. 318–339.https://doi.org/10.4018/978‐1‐59140‐655‐6.ch011.",
+      "DOI": "10.4018/978-1-59140-655-6.ch011"
+    },
+    {
+      "key": "e_1_2_9_6_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[BBHS03] BelcherD. BillinghurstM. HayesS. E. StilesR.:Using augmented reality for visualizing complex graphs in three dimensions. InISMAR'03: Proceedings of the 2nd IEEE and ACM International Symposium on Mixed and Augmented Reality(Washington DC USA 2003) IEEE Computer Society pp.84–93.https://doi.org/10.1109/ISMAR.2003.1240691.",
+      "DOI": "10.1109/ISMAR.2003.1240691"
+    },
+    {
+      "key": "e_1_2_9_7_1",
+      "unstructured": "[BC17] BillowT. V. CottamJ. A.:Exploring the use of heuristics for evaluation of an immersive analytic system.Proceedings of the Workshop on Immersive Analytics at IEEE VIS(2017) pp.1–5."
+    },
+    {
+      "key": "e_1_2_9_8_1",
+      "unstructured": "[BCC05] BarrieA. CassellB. CooperM.:Benefits of immersion for viewing 3D data.https://doi.org/10.1113/78516."
+    },
+    {
+      "key": "e_1_2_9_9_1",
+      "unstructured": "[Bel17] BellgardtM. GebhardtS. HentschelB. KuhlenT.: Gistualizer: An immersive glyph for multidimensional datapoints. New York U.S.: Bellgardt Martin and Gebhardt Sascha and Hentschel Bernd and Kuhlen Torsten W. Proceedings of the Workshop on Immersive Analytics IEEE VIS (2017) pp. 6–9."
+    },
+    {
+      "key": "e_1_2_9_10_1",
+      "unstructured": "[ben21] benchmarks.ul: VR HMD benchmarks website benchmarking vr hmds.https://benchmarks.ul.com/compare/best‐vr‐headsets(2021). Accessed: 1st October 2021."
+    },
+    {
+      "key": "e_1_2_9_11_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[BGB*18] BaltabayevA. GluschkowA. BlankJ. BirkhölzerG. BüscheJ. KernM. KlopferF. MayerL. M. ScheiblerG. KleinK. SchreiberF. SommerB.:Virtual reality for sensor data visualization and analysis.Proceedings of the IS and T International Symposium on Electronic Imaging Science and Technology 2018 3 (2018) pp. 451.https://doi.org/10.2352/ISSN.2470‐1173.2018.03.ERVR‐451.",
+      "DOI": "10.2352/ISSN.2470-1173.2018.03.ERVR-451"
+    },
+    {
+      "key": "e_1_2_9_12_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[BHM*18] ButscherS. HubenschmidS. MüllerJ. FuchsJ. ReitererH.:Clusters trends and outliers: How Immersive technologies can facilitate the collaborative analysis of multidimensional data. InProceedings of the Conference on Human Factors in Computing Systems 90 (Apr.2018) ACM.https://doi.org/10.1145/3173574.3173664.",
+      "DOI": "10.1145/3173574.3173664"
+    },
+    {
+      "key": "e_1_2_9_13_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/tvcg.2020.2965109"
+    },
+    {
+      "key": "e_1_2_9_14_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[BNL20] BrooksJ. NagelsS. LopesP.:Trigeminal‐based temperature illusions. InProceedings of the Conference on Human Factors in Computing Systems(2020) pp.1–12.https://doi.org/10.1145/3313831.3376806.",
+      "DOI": "10.1145/3313831.3376806"
+    },
+    {
+      "key": "e_1_2_9_15_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[Bra15] BrathR.:3D InfoVis is here to stay: Deal with it. In3DVis 2014: Proceedings of the IEEE VIS International Workshop on 3DVis 3DVis 2014(Nov.2015) pp.25–31.https://doi.org/10.1109/3DVis.2014.7160096.",
+      "DOI": "10.1109/3DVis.2014.7160096"
+    },
+    {
+      "key": "e_1_2_9_16_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/38.799723"
+    },
+    {
+      "key": "e_1_2_9_17_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/229459.229467"
+    },
+    {
+      "key": "e_1_2_9_18_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s11042-019-08348-9"
+    },
+    {
+      "key": "e_1_2_9_19_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[CBC*20] CordeilM. BachB. CunninghamA. MontoyaB. SmithR. T. ThomasB. H. DwyerT.:Embodied axes: Tangible actuated interaction for 3d augmented reality data spaces. InProceedings of the Conference on Human Factors in Computing Systems(2020) pp.1–12.https://doi.org/10.1145/3313831.3376613.",
+      "DOI": "10.1145/3313831.3376613"
+    },
+    {
+      "key": "e_1_2_9_20_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[CCB*19] CordeilM. CunninghamA. BachB. HurterC. ThomasB. H. MarriottK. DwyerT.:IATK: An immersive analytics toolkit. InVR 2019: Proceedings of the 26th IEEE Conference on Virtual Reality and 3D User Interfaces(2019) IEEE pp.200–209.https://doi.org/10.1109/VR.2019.8797978.",
+      "DOI": "10.1109/VR.2019.8797978"
+    },
+    {
+      "key": "e_1_2_9_21_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[CCC*15] ChandlerT. CordeilM. CzaudernaT. DwyerT. GlowackiJ. GoncuC. KlapperstueckM. KleinK. MarriottK. SchreiberF. WilsonE.:Immersive Analytics. InBDVA 2015: Proceedings of the Big Data Visual Analytics(2015) IEEE pp.1–8.https://doi.org/10.1109/BDVA.2015.7314296.",
+      "DOI": "10.1109/BDVA.2015.7314296"
+    },
+    {
+      "key": "e_1_2_9_22_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[CCD*17] CordeilM. CunninghamA. DwyerT. ThomasB. H. MarriottK.:ImAxes: Immersive axes as embodied affordances for interactive multivariate data visualisation. InUIST 2017: Proceedings of the 30th Annual ACM Symposium on User Interface Software and Technology(2017) ACM pp.71–83.https://doi.org/10.1145/3126594.3126613.",
+      "DOI": "10.1145/3126594.3126613"
+    },
+    {
+      "key": "e_1_2_9_23_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2016.2599107"
+    },
+    {
+      "key": "e_1_2_9_24_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[CHK*18] CzaudernaT. HagaJ. KimJ. KlapperstückM. KleinK. KuhlenT. Oeltze‐JafraS. SommerB. SchreiberF.: Immersive analytics applications in life and health sciences Immersive Analytics LNCS vol. 11190. Springer International Publishing (2018) pp. 289–330.https://doi.org/10.1007/978‐3‐030‐01388‐2_10.",
+      "DOI": "10.1007/978-3-030-01388-2_10"
+    },
+    {
+      "key": "e_1_2_9_25_1",
+      "volume-title": "Reviewing Readings in Information Visualization: Using Vision to Think",
+      "author": "Card S. K.",
+      "year": "1999"
+    },
+    {
+      "key": "e_1_2_9_26_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/129888.129892"
+    },
+    {
+      "key": "e_1_2_9_27_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[CNSD93] Cruz‐NeiraC. SandinD. J. DeFantiT. A.:Surround‐screen projection‐based virtual reality: The design and implementation of the CAVE. InSIGGRAPH 1993: Proceedings of the 20th Annual Conference on Computer Graphics and Interactive Techniques(1993) ACM pp.135–142.https://doi.org/10.1145/166117.166134.",
+      "DOI": "10.1145/166117.166134"
+    },
+    {
+      "key": "e_1_2_9_28_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[DCW*18] DrogemullerA. CunninghamA. WalshJ. CordeilM. RossW. ThomasB.:Evaluating navigation techniques for 3d graph visualizations in virtual reality. InBDVA 2018: Proceedings of the International Symposium on Big Data Visual and Immersive Analytics(2018) IEEE pp.1–10.https://doi.org/10.1109/BDVA.2018.8533895.",
+      "DOI": "10.1109/BDVA.2018.8533895"
+    },
+    {
+      "key": "e_1_2_9_29_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[DDC*15] DonalekC. DjorgovskiS. G. CiocA. WangA. ZhangJ. LawlerE. YehS. MahabalA. GrahamM. DrakeA. DavidoffS. NorrisJ. S. LongoG.:Immersive and collaborative data visualization using virtual reality platforms.Proceedings of the IEEE International Conference on Big Data IEEE Big Data 2014(2015) pp.609–614.http://arxiv.org/abs/1410.7670 https://doi.org/10.1109/BigData.2014.7004282.",
+      "DOI": "10.1109/BigData.2014.7004282"
+    },
+    {
+      "key": "e_1_2_9_30_1",
+      "unstructured": "[DMI*18] DwyerT. MarriottK. IsenbergT. KleinK. RicheN. SchreiberF. StuerzlingerW. ThomasB. H.:Immersive analytics: An introduction. InLecture Notes in Computer Science (Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics) vol. 11190. Springer Cham Switzerland (2018) pp.1–23.https://doi.org/10.1007/978‐3‐030‐01388‐2_1."
+    },
+    {
+      "key": "e_1_2_9_31_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/9780470987643.ch1"
+    },
+    {
+      "key": "e_1_2_9_32_1",
+      "unstructured": "[EBC*21] EnsB. BachB. CordeilM. EngelkeU. SerranoM. WillettW. J. ProuzeauA. AnthesC. BüschelW. DunneC. DwyerT. GrubertJ. HagaJ. H. KirshenbaumN. KobayashiD. LinT. OlaosebikanM. PointeckerF. SaffoD. NazmusS. SchmalstiegD. Albers SzafirD. WhitlockM. YangY.:Grand challenges in immersive analytics. InCHI'21: Proceedings of the CHI Conference on Human Factors in Computing Systems(2021) ACM pp.1–17."
+    },
+    {
+      "key": "e_1_2_9_33_1",
+      "unstructured": "[Eic95] EickS. G.:Engineering perceptually effective visualizations for abstract data. InIProceedings of the Scientific Visualization Overviews Methodologies and Techniques IEEE Computer Science(1995) Citeseer pp.1–30.https://doi.org/10.1143/1817."
+    },
+    {
+      "key": "e_1_2_9_34_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[EML13] EtemadpourR. MonsonE. LinsenL.:The effect of stereoscopic immersive environments on projection‐based multi‐dimensional data visualization. InProceedings of the International Conference on Information Visualisation(2013) pp.389–397.https://doi.org/10.1109/IV.2013.51.",
+      "DOI": "10.1109/IV.2013.51"
+    },
+    {
+      "key": "e_1_2_9_35_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[FGHG05] FéreyN. GrosP. E. HérissonJ. GherbiR.:Visual data mining of genomic databases by immersive graph‐based exploration. InGRAPHITE 2005: Proceedings of the 3rd International Conference on Computer Graphics and Interactive Techniques in Australasia and Southeast Asia(2005) pp.143–146.https://doi.org/10.1145/1101389.1101418.",
+      "DOI": "10.1145/1101389.1101418"
+    },
+    {
+      "key": "e_1_2_9_36_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/tvcg.2019.2929033"
+    },
+    {
+      "key": "e_1_2_9_37_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[FVP*18] FonnetA. VigierT. PrieY. CliquetG. PicarougneF.:Axes and coordinate systems representations for immersive analytics of multi‐dimensional data. InBDVA 2018: Proceedings of the International Symposium on Big Data Visual and Immersive Analytics(2018) IEEE pp.1–10.https://doi.org/10.1109/BDVA.2018.8533892.",
+      "DOI": "10.1109/BDVA.2018.8533892"
+    },
+    {
+      "key": "e_1_2_9_38_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[GB06] GrossmanT. BalakrishnanR.:An evaluation of depth perception on volumetric displays. InAVI'06: Proceedings of the Workshop on Advanced Visual Interfaces(New York NY USA 2006) vol. 2006 ACM pp.193–200.https://doi.org/10.1145/1133265.1133305.",
+      "DOI": "10.1145/1133265.1133305"
+    },
+    {
+      "key": "e_1_2_9_39_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[GHAWK16] García‐HernándezR. J. AnthesC. WiedemannM. KranzlmüllerD.:Perspectives for using virtual reality to extend visual data mining in information visualization. InProceedings of the IEEE Aerospace Conference Proceedings(2016) pp.1–11.https://doi.org/10.1109/AERO.2016.7500608.",
+      "DOI": "10.1109/AERO.2016.7500608"
+    },
+    {
+      "key": "e_1_2_9_40_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[GPG*19] GuntherU. PietzschT. GuptaA. HarringtonK. I. TomancakP. GumholdS. SbalzariniI. F.:Scenery: Flexible virtual reality visualization on the java VM. InVIS 2019: Proceedings of the IEEE Visualization Conference(2019) IEEE pp.166–170.http://arxiv.org/abs/1906.06726 https://doi.org/10.1109/VISUAL.2019.8933605.",
+      "DOI": "10.1109/VISUAL.2019.8933605"
+    },
+    {
+      "key": "e_1_2_9_41_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[GPK15] GreffardN. PicarougneF. KuntzP.:Beyond the classical monoscopic 3D in graph analytics: An experimental study of the impact of stereoscopy. In3DVis 2014: Proceedings of the IEEE VIS International Workshop on 3DVis(2015) IEEE pp.19–24.https://doi.org/10.1109/3DVis.2014.7160095.",
+      "DOI": "10.1109/3DVis.2014.7160095"
+    },
+    {
+      "key": "e_1_2_9_42_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s12665-014-3136-6"
+    },
+    {
+      "key": "e_1_2_9_43_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[HBV20] HompsF. BeuginY. VuillemotR.:ReViVD: exploration and filtering of trajectories in an immersive environment using 3d shapes. InVR 2020: Proceedings of the IEEE Conference on Virtual Reality and 3D User Interfaces(2020) IEEE pp.729–737.https://doi.org/10.1109/VR46266.2020.1581269207852.",
+      "DOI": "10.1109/VR46266.2020.00096"
+    },
+    {
+      "key": "e_1_2_9_44_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[HHC18] HydeD. A. HallT. R. CaersJ.:VRGE: An immersive visualization application for the geosciences. InSciVis 2018: Proceedings of the IEEE Scientific Visualization Conference(2018) IEEE pp.16–20.https://doi.org/10.1109/SciVis.2018.8823763.",
+      "DOI": "10.1109/SciVis.2018.8823763"
+    },
+    {
+      "key": "e_1_2_9_45_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[HOJ*07] HsiehT. J. OlsenM. J. JohnstoneE. YoungA. P. DriscollN. AshfordS. A. KuesterF.:VR‐based visual analytics of LIDAR data for cliff erosion assessment. InVRST '07: Proceedings of the ACM Symposium on Virtual Reality Software and Technology VRST(2007) ACM pp.249–250.https://doi.org/10.1145/1315184.1315244.",
+      "DOI": "10.1145/1315184.1315244"
+    },
+    {
+      "key": "e_1_2_9_46_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2018.2865191"
+    },
+    {
+      "key": "e_1_2_9_47_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[HXW20] HayatpurD. XiaH. WigdorD.:DataHop: spatial data exploration in virtual reality. InProceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology(2020) pp.818–828.https://doi.org/10.1145/3379337.3415878.",
+      "DOI": "10.1145/3379337.3415878"
+    },
+    {
+      "key": "e_1_2_9_48_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[KAB*20] KrausM. AngerbauerK. BuchmüllerJ. SchweitzerD. KeimD. A. SedlmairM. FuchsJ.:Assessing 2D and 3D heatmaps for comparative analysis: an empirical study. InProceedings of the Conference on Human Factors in Computing Systems(2020) pp.1–14.https://doi.org/10.1145/3313831.3376675.",
+      "DOI": "10.1145/3313831.3376675"
+    },
+    {
+      "key": "e_1_2_9_49_1",
+      "unstructured": "[KBS*19] KrausM. BuchmüllerJ. SchweitzerD. KeimD. A. FuchsJ.:Comparative analysis with heightmaps in virtual reality environments. InProceedings of the EUROVIS Posters 2019: 21st EG/VGTC Conference on Visualization(2019) pp.2–4.https://doi.org/10.2312/eurp.20191155."
+    },
+    {
+      "issue": "1",
+      "key": "e_1_2_9_50_1",
+      "first-page": "547",
+      "article-title": "Deadeye visualization revisited: Investigation of preattentiveness and applicability in virtual environments",
+      "volume": "26",
+      "author": "Krekhov A.",
+      "year": "2019",
+      "journal-title": "IEEE Transactions on Visualization and Computer Graphics"
+    },
+    {
+      "issue": "1",
+      "key": "e_1_2_9_51_1",
+      "first-page": "11",
+      "article-title": "Telearch—Integrated visual simulation environment for collaborative virtual archaeology",
+      "volume": "12",
+      "author": "Kurillo G.",
+      "year": "2012",
+      "journal-title": "Mediterranean Archaeology and Archaeometry"
+    },
+    {
+      "key": "e_1_2_9_52_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MCG.2021.3075258"
+    },
+    {
+      "key": "e_1_2_9_53_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2016.2520921"
+    },
+    {
+      "key": "e_1_2_9_54_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1143/PTPS.138.665"
+    },
+    {
+      "key": "e_1_2_9_55_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2019.2934395"
+    },
+    {
+      "key": "e_1_2_9_56_1",
+      "unstructured": "[LB12] LahaB. BowmanD. A.:Identifying the benefits of immersion in virtual reality for volume data visualization. InProceedings of the Immersive Visualization Revisited Workshop of the IEEE VR Conference(2012) pp.1–2."
+    },
+    {
+      "key": "e_1_2_9_57_1",
+      "volume-title": "Immersive Analytics",
+      "author": "Lee B.",
+      "year": "2019"
+    },
+    {
+      "key": "e_1_2_9_58_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[LBS16] LuboschikM. BergerP. StaadtO.:On spatial perception issues in augmented reality based immersive analytics. InISS Companion'16: Companion Proceedings of the 2016 ACM International Conference on Interactive Surfaces and Spaces: Nature Meets Interactive Surfaces ISS 2016(New York NY USA 2016) ACM pp.47–53.https://doi.org/10.1145/3009939.3009947.",
+      "DOI": "10.1145/3009939.3009947"
+    },
+    {
+      "key": "e_1_2_9_59_1",
+      "article-title": "Shared surfaces and spaces: Collaborative data visualisation in a co‐located immersive environment",
+      "author": "Lee B.",
+      "year": "2020",
+      "journal-title": "IEEE Transactions on Visualization and Computer Graphics"
+    },
+    {
+      "key": "e_1_2_9_60_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/38.250915"
+    },
+    {
+      "key": "e_1_2_9_61_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[LPED20] LiuJ. ProuzeauA. EnsB. DwyerT.:Design and evaluation of interactive small multiples data visualisation in immersive spaces. InVR 2020: Proceedings of the IEEE Conference on Virtual Reality and 3D User Interfaces(2020) IEEE pp.588–597.https://doi.org/10.1109/VR46266.2020.1581122519414.",
+      "DOI": "10.1109/VR46266.2020.1581122519414"
+    },
+    {
+      "key": "e_1_2_9_62_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[MBMW20] McGillM. BrewsterS. McGookinD. WilsonG.:Acoustic transparency and the changing soundscape of auditory mixed reality. InProceedings of the Conference on Human Factors in Computing Systems(2020) pp.1–16.https://doi.org/10.1145/3313831.3376702.",
+      "DOI": "10.1145/3313831.3376702"
+    },
+    {
+      "issue": "12",
+      "key": "e_1_2_9_63_1",
+      "first-page": "1321",
+      "article-title": "Taxonomy of mixed reality visual displays",
+      "author": "Milgram P.",
+      "year": "1994",
+      "journal-title": "IEICE Transactions on Information and Systems E77‐D"
+    },
+    {
+      "key": "e_1_2_9_64_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[ML15] McIntireJ. P. LiggettK. K.:The (possible) utility of stereoscopic 3D displays for information visualization: The good the bad and the ugly. In3DVis 2014: Proceedings of the IEEE VIS International Workshop on 3DVis (2015) pp.1–9.https://doi.org/10.1109/3DVis.2014.7160093.",
+      "DOI": "10.1109/3DVis.2014.7160093"
+    },
+    {
+      "key": "e_1_2_9_65_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1515/jib‐2018‐0006"
+    },
+    {
+      "key": "e_1_2_9_66_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[MRS*18] MotaR. C. RochaA. SilvaJ. D. AlimU. SharlinE.:3De interactive lenses for visualization in virtual environments. InSciVis 2018: Proceedings of the IEEE Scientific Visualization Conference(2018) IEEE pp.21–25.https://doi.org/10.1109/SciVis.2018.8823618.",
+      "DOI": "10.1109/SciVis.2018.8823618"
+    },
+    {
+      "key": "e_1_2_9_67_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[MTUK95] MilgramP. TakemuraH. UtsumiA. KishinoF.:Augmented reality: A class of displays on the reality‐virtuality continuum. InTelemanipulator and Telepresence Technologies vol. 2351 International Society for Optics and Photonics (1995) pp.282–292.https://doi.org/10.1117/12.197321.",
+      "DOI": "10.1117/12.197321"
+    },
+    {
+      "key": "e_1_2_9_68_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-540-70956-5_6"
+    },
+    {
+      "key": "e_1_2_9_69_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1201/b17511"
+    },
+    {
+      "key": "e_1_2_9_70_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/PL00022704"
+    },
+    {
+      "key": "e_1_2_9_71_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-540-71080-6_18"
+    },
+    {
+      "key": "e_1_2_9_72_1",
+      "unstructured": "[NGM01] NagelH. R. GranumE. MusaeusP.: Methods for visual mining of data in virtual reality. IEEE Computer Society (Washington DC United States): IEEE Proceedings of the International Workshop on Visual Data Mining (2001) pp. 13–27."
+    },
+    {
+      "key": "e_1_2_9_73_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[NSW*20] NebelingM. SpeicherM. WangX. RajaramS. HallB. D. XieZ. RaistrickA. R. AebersoldM. HappE. G. WangJ. SunY. ZhangL. RamsierL. E. KulkarniR.:MRAT: The mixed reality analytics toolkit. InProceedings of the Conference on Human Factors in Computing Systems(2020) pp.1–12.https://doi.org/10.1145/3313831.3376330.",
+      "DOI": "10.1145/3313831.3376330"
+    },
+    {
+      "key": "e_1_2_9_74_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[PAE08] PetersonS. AxholtM. EllisS. R.:Managing visual clutter: A generalized technique for label segregation using stereoscopic disparity. InProceedings of the IEEE Virtual Reality(2008) IEEE pp.169–176.https://doi.org/10.1109/VR.2008.4480769.",
+      "DOI": "10.1109/VR.2008.4480769"
+    },
+    {
+      "key": "e_1_2_9_75_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2018.2865237"
+    },
+    {
+      "key": "e_1_2_9_76_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[PBLH02] PilgrimM. BouchlaghemD. LovedayD. HolmesM.:Abstract data visualisation in the built environment. InProceedings of the IEEE Conference on Information Visualization. An International Conference on Computer Visualization and Graphics(2002) pp.126–134.https://doi.org/10.1109/iv.2000.859747.",
+      "DOI": "10.1109/IV.2000.859747"
+    },
+    {
+      "key": "e_1_2_9_77_1",
+      "volume-title": "Proceedings of the Portuguese Meeting on Computer Graphics and Interaction 2015",
+      "author": "Patrão B.",
+      "year": "2020"
+    },
+    {
+      "key": "e_1_2_9_78_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1163/9789004394377"
+    },
+    {
+      "key": "e_1_2_9_79_1",
+      "unstructured": "[RBLN04] RajaD. BowmanD. A. LucasJ. NorthC.:Exploring the benefits of immersion in abstract information visualization. InProceedings of the 8th Immersive Projection Technology Workshop(2004) pp.61–69.https://doi.org/10.11205/235."
+    },
+    {
+      "key": "e_1_2_9_80_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/tvcg.2020.3030460"
+    },
+    {
+      "key": "e_1_2_9_81_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MCG.2013.37"
+    },
+    {
+      "key": "e_1_2_9_82_1",
+      "unstructured": "[Roa21] Road to VR:Hardware review archives.https://www.roadtovr.com/category/hardware‐review/(2001). Accessed: 1st October 2021."
+    },
+    {
+      "key": "e_1_2_9_83_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[SAHC20] SchroederK. AjdadilishB. HenkelA. P. Calero ValdezA.:Evaluation of a financial portfolio visualization using computer displays and mixed reality devices with domain experts. InProceedings of the Conference on Human Factors in Computing Systems(2020) pp.1–9.https://doi.org/10.1145/3313831.3376556.",
+      "DOI": "10.1145/3313831.3376556"
+    },
+    {
+      "key": "e_1_2_9_84_1",
+      "unstructured": "[SAK*02] StolkB. AbdoelrahmanF. KoningA. WielingaP. NeefsJ. M. StubbsA. De BondtA. LeemansP. Van der SpekP.:Mining the human genome using virtual reality. InEGPGV'02: Proceedings of the Eurographics Workshop on Parallel Graphics and Visualization(Aire‐la‐Ville Switzerland Switzerland 2002) Eurographics Association pp.17–21."
+    },
+    {
+      "key": "e_1_2_9_85_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.2352/issn.2470‐1173.2017.5.sda‐109"
+    },
+    {
+      "key": "e_1_2_9_86_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1117/1.JEI.23.1.011007"
+    },
+    {
+      "key": "e_1_2_9_87_1",
+      "unstructured": "[SBHP17] SaenzM. BaigelenovA. HungY.‐H. ParsonsP.:Reexamining the cognitive utility of 3D visualizations using augmented reality holograms. InImmersive 2017: Proceedings of the Workshop on Immersive Analytics: Exploring Future Interaction and Visualization Technologies for Data Analytics(2017)."
+    },
+    {
+      "key": "e_1_2_9_88_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[SKD*13] SmithN. G. KnabbK. DefantiC. WeberP. SchulzeJ. PrudhommeA. KuesterF. LevyT. E. DefantiT. A.:ArtifactVis2: Managing real‐time archaeological data in immersive 3D environments. InProceedings of the DigitalHeritage 2013 ‐ Federating the 19th Int'l VSMM 10th Eurographics GCH and 2nd UNESCO Memory of the World Conferences Plus Special Sessions fromCAA Arqueologica 2.0 et al. (2013) vol. 1 pp.363–370.https://doi.org/10.1109/DigitalHeritage.2013.6743761.",
+      "DOI": "10.1109/DigitalHeritage.2013.6743761"
+    },
+    {
+      "key": "e_1_2_9_89_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2018.2865152"
+    },
+    {
+      "key": "e_1_2_9_90_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3389/frobt.2019.00082"
+    },
+    {
+      "key": "e_1_2_9_91_1",
+      "unstructured": "[SPVT01] SlayH. PhillipsM. VernikR. ThomasB. H.:Interaction modes for augmented reality visualization. InAPVis'01: Proceedings of the 2001 Asia‐Pacific Symposium on Information Visualisation(Darlinghurst Australia Australia 2001). vol. 9 Australian Computer Society Inc. pp.71–75."
+    },
+    {
+      "key": "e_1_2_9_92_1",
+      "first-page": "1",
+      "article-title": "Dynamic statistical graphics in the C2 virtual reality environment",
+      "volume": "29",
+      "author": "Symanzik J.",
+      "year": "1993",
+      "journal-title": "Virtual Reality"
+    },
+    {
+      "key": "e_1_2_9_93_1",
+      "unstructured": "[SSL*00] SawantN. ScharverC. LeighJ. JohnsonA. ReinhartG. CreelE. BatchuS. BaileyS. GrossmanR.:The tele‐immersive data explorer: A distributed architecture for collaborative interactive visualization of large data sets. InProceedings of the 4th International Immersive Projection Technology Workshop(2000) pp.1–16."
+    },
+    {
+      "key": "e_1_2_9_94_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1162/pres.1997.6.6.603"
+    },
+    {
+      "key": "e_1_2_9_95_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[SWX*15] SommerB. WangS. J. XuL. ChenM. SchreiberF.:Hybrid‐dimensional visualization and interaction—Integrating 2D and 3D visualization with semi‐immersive navigation techniques. InBDVA 2015: Proceedings of the Big Data Visual Analytics(2015) IEEE pp.1–8.https://doi.org/10.1109/BDVA.2015.7314295.",
+      "DOI": "10.1109/BDVA.2015.7314295"
+    },
+    {
+      "key": "e_1_2_9_96_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MCG.2006.5"
+    },
+    {
+      "key": "e_1_2_9_97_1",
+      "unstructured": "[Uni21] Unity: Unity 3D developer website.https://www.unity3d.com/(2021). Accessed: 12th January 2021."
+    },
+    {
+      "key": "e_1_2_9_98_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/38.888006"
+    },
+    {
+      "key": "e_1_2_9_99_1",
+      "unstructured": "[vir21] virtualspeech:virtualspeech blog entry.https://virtualspeech.com/blog/vr‐applications(2021). Accessed: 8th April 2021."
+    },
+    {
+      "key": "e_1_2_9_100_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/2945.582350"
+    },
+    {
+      "key": "e_1_2_9_101_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[WF94] WareC. FranckG.:Viewing a graph in a virtual reality display is three times as good as a 2D diagram. InProceedings of the IEEE Symposium on Visual Languages(1994) IEEE pp.182–183.https://doi.org/10.1109/vl.1994.363621.",
+      "DOI": "10.1109/VL.1994.363621"
+    },
+    {
+      "key": "e_1_2_9_102_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/234972.234975"
+    },
+    {
+      "key": "e_1_2_9_103_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1201/b18379"
+    },
+    {
+      "key": "e_1_2_9_104_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[WH05] WitherJ. HöllererT.:Pictorial depth cues for outdoor augmented reality. InProceedings of the International Symposium on Wearable Computers ISWC(2005). vol. 2005 pp.92–99.https://doi.org/10.1109/ISWC.2005.41.",
+      "DOI": "10.1109/ISWC.2005.41"
+    },
+    {
+      "key": "e_1_2_9_105_1",
+      "unstructured": "[Wik] Wikipedia:Comparison of virtual reality headsets.https://en.wikipedia.org/w/index.php?title=Comparison_of_virtual_reality_headsets&oldid=1047329569. Accessed: 1st October 2021."
+    },
+    {
+      "key": "e_1_2_9_106_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2016.2598608"
+    },
+    {
+      "key": "e_1_2_9_107_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[WLM11] WijayasekaraD. LindaO. ManicM.:CAVE‐SOM: Immersive visual data mining using 3D self‐organizing maps. InProceedings of the International Joint Conference on Neural Networks(2011) IEEE pp.2471–2478.https://doi.org/10.1109/IJCNN.2011.6033540.",
+      "DOI": "10.1109/IJCNN.2011.6033540"
+    },
+    {
+      "key": "e_1_2_9_108_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[Woh14] WohlinC.:Guidelines for snowballing in systematic literature studies and a replication in software engineering. InACM International Conference Proceeding Series(2014) ACM pp.1–10.https://doi.org/10.1145/2601248.2601268.",
+      "DOI": "10.1145/2601248.2601268"
+    },
+    {
+      "key": "e_1_2_9_109_1",
+      "unstructured": "[WRFN17] Wagner FilhoJ. A. ReyM. F. FreitasC. M. D. S. NedelL.:Immersive analytics of dimensionally‐reduced data scatterplots. InProceedings of the 2nd Workshop on Immersive Analytics(2017) Phoenix USA."
+    },
+    {
+      "key": "e_1_2_9_110_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2019.2934415"
+    },
+    {
+      "key": "e_1_2_9_111_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[WSS20] WhitlockM. SmartS. SzafirD. A.:Graphical perception for immersive analytics. InVR 2020: Proceedings of the IEEE Conference on Virtual Reality and 3D User Interfaces(2020) IEEE pp.616–625.https://doi.org/10.1109/VR46266.2020.1582298687237.",
+      "DOI": "10.1109/VR46266.2020.1582298687237"
+    },
+    {
+      "key": "e_1_2_9_112_1",
+      "unstructured": "[YBL04] YeoW. S. BergerJ. LeeZ.:SonART: A framework for data sonification visualization and networked multimedia applications. InProceedings of the 2004 International Computer Music Conference(2004) pp.180–184."
+    },
+    {
+      "key": "e_1_2_9_113_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/tvcg.2020.3030427"
+    },
+    {
+      "key": "e_1_2_9_114_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2018.2865192"
+    },
+    {
+      "key": "e_1_2_9_115_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.13431"
+    },
+    {
+      "key": "e_1_2_9_116_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2020.2973476"
+    }
+  ],
+  "container-title": [
+    "Computer Graphics Forum"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14430",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/cgf.14430",
+      "content-type": "application/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14430",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2023,
+        8,
+        19
+      ]
+    ],
+    "date-time": "2023-08-19T17:58:36Z",
+    "timestamp": 1692467916000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://onlinelibrary.wiley.com/doi/10.1111/cgf.14430"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        12,
+        9
+      ]
+    ]
+  },
+  "references-count": 115,
+  "journal-issue": {
+    "issue": "1",
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          2
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1111/cgf.14430"
+  ],
+  "URL": "https://doi.org/10.1111/cgf.14430",
+  "archive": [
+    "Portico"
+  ],
+  "relation": {},
+  "ISSN": [
+    "0167-7055",
+    "1467-8659"
+  ],
+  "issn-type": [
+    {
+      "value": "0167-7055",
+      "type": "print"
+    },
+    {
+      "value": "1467-8659",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2021,
+        12,
+        9
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2021-12-09",
+      "order": 2,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ]
+}

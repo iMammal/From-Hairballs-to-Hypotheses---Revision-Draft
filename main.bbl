@@ -1,0 +1,705 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{\uppercase{CRKDPA22}}
+
+\bibitem[AABH{\etalchar{*}}16]{AnchorNeuroBlocks}
+\textsc{Ai-Awami A.~K., Beyer J., Haehn D., Kasthuri N., Lichtman J.~W.,
+  Pfister H., Hadwiger M.}:
+\newblock {NeuroBlocks -- Visual Tracking of Segmentation and Proofreading for
+  Large Connectomics Projects}.
+\newblock \emph{IEEE Transactions on Visualization and Computer Graphics 22}, 1
+  (2016), 738--746.
+\newblock \href {https://doi.org/10.1109/tvcg.2015.2467441}
+  {\path{doi:10.1109/tvcg.2015.2467441}}.
+
+\bibitem[Abr20]{ExpansionX012}
+\textsc{Abriata L.~A.}:
+\newblock Building blocks for commodity augmented reality-based molecular
+  visualization and modeling in web browsers.
+\newblock \emph{PeerJ Computer Science 6} (2020), e260.
+\newblock URL: \url{https://doi.org/10.7717/peerj-cs.260}, \href
+  {https://doi.org/10.7717/peerj-cs.260} {\path{doi:10.7717/peerj-cs.260}}.
+
+\bibitem[AKO08]{ExpandedE35}
+\textsc{Abouelhoda M.~I., Kurtz S., Ohlebusch E.}:
+\newblock Coconut: an efficient system for the comparison and analysis of
+  genomes.
+\newblock \emph{BMC Bioinformatics 9} (2008), 476.
+\newblock URL:
+  \url{https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3224568/fullTextXML},
+  \href {https://doi.org/10.1186/1471-2105-9-476}
+  {\path{doi:10.1186/1471-2105-9-476}}.
+
+\bibitem[AOKA22]{ExpandedE32}
+\textsc{Aragaki H., Ogoh K., Kondo Y., Aoki K.}:
+\newblock Lim tracker: a software package for cell tracking and analysis with
+  advanced interactivity.
+\newblock \emph{Scientific Reports 12} (2022).
+\newblock URL:
+  \url{https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8854686/fullTextXML},
+  \href {https://doi.org/10.1038/s41598-022-06269-6}
+  {\path{doi:10.1038/s41598-022-06269-6}}.
+
+\bibitem[BBK{\etalchar{*}}25]{AgendaBorowski2025}
+\textsc{Borowski M., Butcher P. W.~S., Kristensen J.~B., Petersen J.~O., Ritsos
+  P.~D., Klokmose C.~N., Elmqvist N.}:
+\newblock {DashSpace: A Live Collaborative Platform for Immersive and
+  Ubiquitous Analytics}.
+\newblock \emph{IEEE Transactions on Visualization and Computer Graphics 31},
+  10 (2025), 7034--7047.
+\newblock \href {https://doi.org/10.1109/tvcg.2025.3537679}
+  {\path{doi:10.1109/tvcg.2025.3537679}}.
+
+\bibitem[BGK{\etalchar{*}}22]{AnchorFlud}
+\textsc{Bharadwaj A., Gwizdala D., Kim Y., Luther K., Murali T.~M.}:
+\newblock {Flud: A Hybrid Crowd--Algorithm Approach for Visualizing Biological
+  Networks}.
+\newblock \emph{ACM Transactions on Computer-Human Interaction 29}, 1 (2022),
+  1--53.
+\newblock \href {https://doi.org/10.1145/3479196} {\path{doi:10.1145/3479196}}.
+
+\bibitem[BM13]{Brehmer2013WhyHowWhat}
+\textsc{Brehmer M., Munzner T.}:
+\newblock {A Multi-Level Typology of Abstract Visualization Tasks}.
+\newblock \emph{IEEE Transactions on Visualization and Computer Graphics 19},
+  12 (2013), 2376--2385.
+\newblock \href {https://doi.org/10.1109/tvcg.2013.124}
+  {\path{doi:10.1109/tvcg.2013.124}}.
+
+\bibitem[CFO26]{ExpansionX018}
+\textsc{Chowdhury H. M. A.~M., Fuller M., Oluwadare O.}:
+\newblock Robin: an advanced tool for comparative loop caller result analysis
+  leveraging large language models.
+\newblock \emph{NAR Genomics and Bioinformatics 8}, 1 (2026).
+\newblock URL: \url{https://doi.org/10.1093/nargab/lqag009}, \href
+  {https://doi.org/10.1093/nargab/lqag009} {\path{doi:10.1093/nargab/lqag009}}.
+
+\bibitem[CR19]{ExpandedE38}
+\textsc{Choi K., Ratner N.}:
+\newblock igeak: an interactive gene expression analysis kit for seamless
+  workflow using the r/shiny platform.
+\newblock \emph{BMC Genomics 20} (2019).
+\newblock URL:
+  \url{https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6404331/fullTextXML},
+  \href {https://doi.org/10.1186/s12864-019-5548-x}
+  {\path{doi:10.1186/s12864-019-5548-x}}.
+
+\bibitem[CRKDPA22]{ExpansionX128}
+\textsc{Cortes~Rodriguez F., Krapp L., Dal~Peraro M., Abriata L.}:
+\newblock Visualization, interactive handling and simulation of molecules in
+  commodity augmented reality in web browsers using molecularweb’s virtual
+  modeling kits.
+\newblock \emph{CHIMIA 76}, 1-2 (2022), 145.
+\newblock URL: \url{https://doi.org/10.2533/chimia.2022.145}, \href
+  {https://doi.org/10.2533/chimia.2022.145}
+  {\path{doi:10.2533/chimia.2022.145}}.
+
+\bibitem[DMF15]{ExpandedE37}
+\textsc{Dang T.~N., Murray P., Forbes A.~G.}:
+\newblock Pathwaymatrix: visualizing binary relationships between proteins in
+  biological pathways.
+\newblock \emph{BMC Proceedings 9}, Suppl 6 (2015), S3.
+\newblock URL:
+  \url{https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4547148/fullTextXML},
+  \href {https://doi.org/10.1186/1753-6561-9-s6-s3}
+  {\path{doi:10.1186/1753-6561-9-s6-s3}}.
+
+\bibitem[DPJT{\etalchar{*}}14]{MapExaViz}
+\textsc{Dreher M., Prevoteau-Jonquet J., Trellet M., Piuzzi M., Baaden M.,
+  Raffin B., Ferey N., Robert S., Limet S.}:
+\newblock {ExaViz: a flexible framework to analyse, steer and interact with
+  molecular dynamics simulations}.
+\newblock \emph{Faraday Discuss. 169} (2014), 119--142.
+\newblock \href {https://doi.org/10.1039/c3fd00142c}
+  {\path{doi:10.1039/c3fd00142c}}.
+
+\bibitem[DV23]{DomovaVrotsou2023Automation}
+\textsc{Domova V., Vrotsou K.}:
+\newblock {A Model for Types and Levels of Automation in Visual Analytics: A
+  Survey, a Taxonomy, and Examples}.
+\newblock \emph{IEEE Transactions on Visualization and Computer Graphics 29}, 8
+  (2023), 3550--3568.
+\newblock \href {https://doi.org/10.1109/tvcg.2022.3163765}
+  {\path{doi:10.1109/tvcg.2022.3163765}}.
+
+\bibitem[DWvW12]{AnchorCompressedMatrices}
+\textsc{Dinkla K., Westenberg M.~A., van Wijk J.~J.}:
+\newblock {Compressed Adjacency Matrices: Untangling Gene Regulatory Networks}.
+\newblock \emph{IEEE Transactions on Visualization and Computer Graphics 18},
+  12 (2012), 2457--2466.
+\newblock \href {https://doi.org/10.1109/tvcg.2012.208}
+  {\path{doi:10.1109/tvcg.2012.208}}.
+
+\bibitem[EBK{\etalchar{*}}25]{Ehlers2025}
+\textsc{Ehlers H., Brich N., Krone M., N{\"o}llenburg M., Yu J., Natsukawa H.,
+  Yuan X., Wu H.-Y.}:
+\newblock {An introduction to and survey of biological network visualization}.
+\newblock \emph{Computers \& Graphics 126} (2025), 104115.
+\newblock \href {https://doi.org/10.1016/j.cag.2024.104115}
+  {\path{doi:10.1016/j.cag.2024.104115}}.
+
+\bibitem[ES23]{ExpandedE49}
+\textsc{Elfmann C., Stülke J.}:
+\newblock Pae viewer: a webserver for the interactive visualization of the
+  predicted aligned error for multimer structure predictions and crosslinks.
+\newblock \emph{Nucleic Acids Research 51}, W1 (2023), W404--W410.
+\newblock URL:
+  \url{https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10320053/fullTextXML},
+  \href {https://doi.org/10.1093/nar/gkad350} {\path{doi:10.1093/nar/gkad350}}.
+
+\bibitem[Exp]{ExpansionX015}
+Vitessce link: A mixed reality and 2d display hybrid approach for visual
+  analysis of 3d tissue maps.
+\newblock URL: \url{https://doi.org/10.48550/arxiv.2511.04262}, \href
+  {https://doi.org/10.48550/arxiv.2511.04262}
+  {\path{doi:10.48550/arxiv.2511.04262}}.
+
+\bibitem[FAFK23]{ExpandedE22}
+\textsc{Fouché G., Argelaguet F., Faure E., Kervrann C.}:
+\newblock Immersive and interactive visualization of 3d spatio-temporal data
+  using a space time hypercube: Application to cell division and morphogenesis
+  analysis.
+\newblock \emph{Frontiers in Bioinformatics 3} (2023).
+\newblock URL:
+  \url{https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10031126/fullTextXML},
+  \href {https://doi.org/10.3389/fbinf.2023.998991}
+  {\path{doi:10.3389/fbinf.2023.998991}}.
+
+\bibitem[FAM23]{Filipov2023Roadmap}
+\textsc{Filipov V., Arleo A., Miksch S.}:
+\newblock {Are We There Yet? A Roadmap of Network Visualization from Surveys to
+  Task Taxonomies}.
+\newblock \emph{Computer Graphics Forum 42}, 6 (2023).
+\newblock \href {https://doi.org/10.1111/cgf.14794}
+  {\path{doi:10.1111/cgf.14794}}.
+
+\bibitem[FFRT20]{MapSkinAR}
+\textsc{Francese R., Frasca M., Risi M., Tortora G.}:
+\newblock {An Augmented Reality Mobile Application for Skin Lesion Data
+  Visualization}.
+\newblock In \emph{2020 24th International Conference Information Visualisation
+  (IV)} (2020), pp.~51--56.
+\newblock \href {https://doi.org/10.1109/iv51561.2020.00018}
+  {\path{doi:10.1109/iv51561.2020.00018}}.
+
+\bibitem[FHP{\etalchar{*}}22]{EvalFreeman2022}
+\textsc{Freeman T.~C., Horsewell S., Patir A., Harling-Lee J., Regan T., Shih
+  B.~B., Prendergast J., Hume D.~A., Angus T.}:
+\newblock {Graphia: A platform for the graph-based visualisation and analysis
+  of high dimensional data}.
+\newblock \emph{PLOS Computational Biology 18}, 7 (2022), e1010310.
+\newblock \href {https://doi.org/10.1371/journal.pcbi.1010310}
+  {\path{doi:10.1371/journal.pcbi.1010310}}.
+
+\bibitem[FP21]{Fonnet2019ImmersiveAnalytics}
+\textsc{Fonnet A., Prie Y.}:
+\newblock {Survey of Immersive Analytics}.
+\newblock \emph{IEEE Transactions on Visualization and Computer Graphics 27}, 3
+  (2021), 2101--2122.
+\newblock \href {https://doi.org/10.1109/tvcg.2019.2929033}
+  {\path{doi:10.1109/tvcg.2019.2929033}}.
+
+\bibitem[FSC{\etalchar{*}}06]{EvalFreire2006}
+\textsc{Freire J., Silva C.~T., Callahan S.~P., Santos E., Scheidegger C.~E.,
+  Vo H.~T.}:
+\newblock {Managing Rapidly-Evolving Scientific Workflows}.
+\newblock \emph{Lecture Notes in Computer Science} (2006), 10--18.
+\newblock \href {https://doi.org/10.1007/11890850\_2}
+  {\path{doi:10.1007/11890850\_2}}.
+
+\bibitem[FSTK23]{AnchorPeCaX}
+\textsc{Figaschewski M., S{\"u}r{\"u}n B., Tiede T., Kohlbacher O.}:
+\newblock {The personalized cancer network explorer (PeCaX) as a visual
+  analytics tool to support molecular tumor boards}.
+\newblock \emph{BMC Bioinformatics 24}, 1 (2023).
+\newblock \href {https://doi.org/10.1186/s12859-023-05194-3}
+  {\path{doi:10.1186/s12859-023-05194-3}}.
+
+\bibitem[GCY{\etalchar{*}}22]{AnchorNUIVR}
+\textsc{Gao Y., Chang C., Yu X., Pang P., Xiong N., Huang C.}:
+\newblock {A VR-based volumetric medical image segmentation and visualization
+  system with natural human interaction}.
+\newblock \emph{Virtual Reality 26}, 2 (2022), 415--424.
+\newblock \href {https://doi.org/10.1007/s10055-021-00577-4}
+  {\path{doi:10.1007/s10055-021-00577-4}}.
+
+\bibitem[HDLT05]{ExpandedE06}
+\textsc{Hibbs M.~A., Dirksen N.~C., Li K., Troyanskaya O.~G.}:
+\newblock Visualization methods for statistical analysis of microarray
+  clusters.
+\newblock \emph{BMC Bioinformatics 6} (2005), 115.
+\newblock URL:
+  \url{https://www.ebi.ac.uk/europepmc/webservices/rest/PMC1156867/fullTextXML},
+  \href {https://doi.org/10.1186/1471-2105-6-115}
+  {\path{doi:10.1186/1471-2105-6-115}}.
+
+\bibitem[HE24]{HolterElAssady2024Agency}
+\textsc{Holter S., El‐Assady M.}:
+\newblock {Deconstructing Human‐AI Collaboration: Agency, Interaction, and
+  Adaptation}.
+\newblock \emph{Computer Graphics Forum 43}, 3 (2024).
+\newblock \href {https://doi.org/10.1111/cgf.15107}
+  {\path{doi:10.1111/cgf.15107}}.
+
+\bibitem[HMGO23]{EvalHa2023}
+\textsc{Ha S., Monadjemi S., Garnett R., Ottley A.}:
+\newblock {A Unified Comparison of User Modeling Techniques for Predicting Data
+  Interaction and Detecting Exploration Bias}.
+\newblock \emph{IEEE Transactions on Visualization and Computer Graphics 29}, 1
+  (2023), 483--492.
+\newblock \href {https://doi.org/10.1109/tvcg.2022.3209476}
+  {\path{doi:10.1109/tvcg.2022.3209476}}.
+
+\bibitem[HMT{\etalchar{*}}17]{AnchorMediSyn}
+\textsc{He C., Micallef L., Tanoli Z.-u.-R., Kaski S., Aittokallio T., Jacucci
+  G.}:
+\newblock {MediSyn: uncertainty-aware visualization of multiple biomedical
+  datasets to support drug treatment selection}.
+\newblock \emph{BMC Bioinformatics 18}, S10 (2017).
+\newblock \href {https://doi.org/10.1186/s12859-017-1785-7}
+  {\path{doi:10.1186/s12859-017-1785-7}}.
+
+\bibitem[Hol06]{EvalHolten2006}
+\textsc{Holten D.}:
+\newblock {Hierarchical Edge Bundles: Visualization of Adjacency Relations in
+  Hierarchical Data}.
+\newblock \emph{IEEE Transactions on Visualization and Computer Graphics 12}, 5
+  (2006), 741--748.
+\newblock \href {https://doi.org/10.1109/tvcg.2006.147}
+  {\path{doi:10.1109/tvcg.2006.147}}.
+
+\bibitem[IIC{\etalchar{*}}13]{EvalIsenberg2013}
+\textsc{Isenberg T., Isenberg P., Chen J., Sedlmair M., Moller T.}:
+\newblock {A Systematic Review on the Practice of Evaluating Visualization}.
+\newblock \emph{IEEE Transactions on Visualization and Computer Graphics 19},
+  12 (2013), 2818--2827.
+\newblock \href {https://doi.org/10.1109/tvcg.2013.126}
+  {\path{doi:10.1109/tvcg.2013.126}}.
+
+\bibitem[JEM{\etalchar{*}}19]{ExpandedE40}
+\textsc{Jing X., Emerson M., Masters D., Brooks M., Buskirk J., Abukamail N.,
+  Liu C., Cimino J.~J., Shubrook J., De~Lacalle S., Zhou Y., Patel V.~L.}:
+\newblock A visual interactive analytic tool for filtering and summarizing
+  large health data sets coded with hierarchical terminologies (viads).
+\newblock \emph{BMC Medical Informatics and Decision Making 19} (2019), 31.
+\newblock URL:
+  \url{https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6376747/fullTextXML},
+  \href {https://doi.org/10.1186/s12911-019-0750-y}
+  {\path{doi:10.1186/s12911-019-0750-y}}.
+
+\bibitem[JFR{\etalchar{*}}25]{Joos2025VisNetIA}
+\textsc{Joos L., Fischer M.~T., Rauscher J., Keim D.~A., Dwyer T., Schreiber
+  F., Klein K.}:
+\newblock Visual network analysis in immersive environments: A survey.
+\newblock \emph{arXiv preprint arXiv:2501.08500} (2025).
+
+\bibitem[JIB{\etalchar{*}}25]{VOICE}
+\textsc{Jia D., Irger A., Besan{\c c}on L., Strnad O., Luo D., Bj{\"o}rklund
+  J., Kouyoumdjian A., Ynnerman A., Viola I.}:
+\newblock {VOICE: Visual Oracle for Interaction, Conversation, and
+  Explanation}.
+\newblock \emph{IEEE Transactions on Visualization and Computer Graphics 31},
+  10 (2025), 8828--8845.
+\newblock \href {https://doi.org/10.1109/tvcg.2025.3579956}
+  {\path{doi:10.1109/tvcg.2025.3579956}}.
+
+\bibitem[JRT{\etalchar{*}}22]{ExpansionX014}
+\textsc{Jin D., Rosenthal J.~H., Thompson E.~E., Dunnmon J., Olson N.~H.}:
+\newblock Independent assessment of a deep learning system for lymph node
+  metastasis detection on the augmented reality microscope, 2022.
+\newblock URL: \url{https://doi.org/10.1101/2022.05.24.22275431}, \href
+  {https://doi.org/10.1101/2022.05.24.22275431}
+  {\path{doi:10.1101/2022.05.24.22275431}}.
+
+\bibitem[KBJ{\etalchar{*}}20]{AnchorFacetto}
+\textsc{Krueger R., Beyer J., Jang W.-D., Kim N.~W., Sokolov A., Sorger P.~K.,
+  Pfister H.}:
+\newblock {Facetto: Combining Unsupervised and Supervised Learning for
+  Hierarchical Phenotype Analysis in Multi-Channel Image Data}.
+\newblock \emph{IEEE Transactions on Visualization and Computer Graphics 26}, 1
+  (2020), 227--237.
+\newblock \href {https://doi.org/10.1109/tvcg.2019.2934547}
+  {\path{doi:10.1109/tvcg.2019.2934547}}.
+
+\bibitem[KCK{\etalchar{*}}19]{AnchorRetainVis}
+\textsc{Kwon B.~C., Choi M.-J., Kim J.~T., Choi E., Kim Y.~B., Kwon S., Sun J.,
+  Choo J.}:
+\newblock {RetainVis: Visual Analytics with Interpretable and Interactive
+  Recurrent Neural Networks on Electronic Medical Records}.
+\newblock \emph{IEEE Transactions on Visualization and Computer Graphics 25}, 1
+  (2019), 299--309.
+\newblock \href {https://doi.org/10.1109/tvcg.2018.2865027}
+  {\path{doi:10.1109/tvcg.2018.2865027}}.
+
+\bibitem[KFS{\etalchar{*}}22]{Kraus2022ImmersiveAnalyticsSurvey}
+\textsc{Kraus M., Fuchs J., Sommer B., Klein K., Engelke U., Keim D., Schreiber
+  F.}:
+\newblock {Immersive Analytics with Abstract 3D Visualizations: A Survey}.
+\newblock \emph{Computer Graphics Forum 41}, 1 (2022), 201--229.
+\newblock \href {https://doi.org/10.1111/cgf.14430}
+  {\path{doi:10.1111/cgf.14430}}.
+
+\bibitem[KLJ{\etalchar{*}}25]{EvalKim2025}
+\textsc{Kim J., Lee S., Jeon H., Lee K.-J., Bae H.-J., Kim B., Seo J.}:
+\newblock {PhenoFlow: A Human-LLM Driven Visual Analytics System for Exploring
+  Large and Complex Stroke Datasets}.
+\newblock \emph{IEEE Transactions on Visualization and Computer Graphics 31}, 1
+  (2025), 470--480.
+\newblock \href {https://doi.org/10.1109/tvcg.2024.3456215}
+  {\path{doi:10.1109/tvcg.2024.3456215}}.
+
+\bibitem[KYC{\etalchar{*}}24]{AnchorFathomGPT}
+\textsc{Khanal N., Yu C.~M., Chiu J.-C., Chaudhary A., Zhang Z., Katija K.,
+  Forbes A.~G.}:
+\newblock {FathomGPT: A natural language interface for interactively exploring
+  ocean science data}.
+\newblock In \emph{Proceedings of the 37th Annual ACM Symposium on User
+  Interface Software and Technology} (2024), pp.~1--15.
+\newblock \href {https://doi.org/10.1145/3654777.3676462}
+  {\path{doi:10.1145/3654777.3676462}}.
+
+\bibitem[LBGI25]{EvalMolinaLeon2025}
+\textsc{Le{\'o}n G.~M., Bezerianos A., Gladin O., Isenberg P.}:
+\newblock {Talk to the Wall: The Role of Speech Interaction in Collaborative
+  Visual Analytics}.
+\newblock \emph{IEEE Transactions on Visualization and Computer Graphics 31}, 1
+  (2025), 941--951.
+\newblock \href {https://doi.org/10.1109/tvcg.2024.3456335}
+  {\path{doi:10.1109/tvcg.2024.3456335}}.
+
+\bibitem[LHC{\etalchar{*}}21]{EvalLee2021}
+\textsc{Lee B., Hu X., Cordeil M., Prouzeau A., Jenny B., Dwyer T.}:
+\newblock {Shared Surfaces and Spaces: Collaborative Data Visualisation in a
+  Co-located Immersive Environment}.
+\newblock \emph{IEEE Transactions on Visualization and Computer Graphics 27}, 2
+  (2021), 1171--1181.
+\newblock \href {https://doi.org/10.1109/tvcg.2020.3030450}
+  {\path{doi:10.1109/tvcg.2020.3030450}}.
+
+\bibitem[LKF{\etalchar{*}}17]{MapICAVE}
+\textsc{Liluashvili V., Kalayci S., Fluder E., Wilson M., Gabow A.,
+  G{\"u}m{\"u}{\c s} Z.~H.}:
+\newblock {iCAVE: an open source tool for visualizing biomolecular networks in
+  3D, stereoscopic 3D and immersive 3D}.
+\newblock \emph{GigaScience 6}, 8 (2017).
+\newblock \href {https://doi.org/10.1093/gigascience/gix054}
+  {\path{doi:10.1093/gigascience/gix054}}.
+
+\bibitem[LPP{\etalchar{*}}06]{Lee2006TaskTaxonomy}
+\textsc{Lee B., Plaisant C., Parr C.~S., Fekete J.-D., Henry N.}:
+\newblock {Task taxonomy for graph visualization}.
+\newblock In \emph{Proceedings of the 2006 AVI workshop on BEyond time and
+  errors: novel evaluation methods for information visualization} (2006),
+  pp.~1--5.
+\newblock \href {https://doi.org/10.1145/1168149.1168168}
+  {\path{doi:10.1145/1168149.1168168}}.
+
+\bibitem[LQD{\etalchar{*}}22]{ExpansionX032}
+\textsc{Lau C.~W., Qu Z., Draper D., Quan R., Braytee A., Bluff A., Zhang D.,
+  Johnston A., Kennedy P.~J., Simoff S., Nguyen Q.~V., Catchpoole D.}:
+\newblock Virtual reality for the observation of oncology models (vroom):
+  immersive analytics for oncology patient cohorts.
+\newblock \emph{Scientific Reports 12}, 1 (2022).
+\newblock URL: \url{https://doi.org/10.1038/s41598-022-15548-1}, \href
+  {https://doi.org/10.1038/s41598-022-15548-1}
+  {\path{doi:10.1038/s41598-022-15548-1}}.
+
+\bibitem[MGX{\etalchar{*}}26]{Monadjemi2026MixedInitiative}
+\textsc{Monadjemi S., Guo Y., Xu K., Endert A., Crisan A.}:
+\newblock {A Scoping Review of Mixed Initiative Visual Analytics in the
+  Automation Renaissance}.
+\newblock \emph{Computer Graphics Forum} (2026).
+\newblock \href {https://doi.org/10.1111/cgf.70434}
+  {\path{doi:10.1111/cgf.70434}}.
+
+\bibitem[MLL{\etalchar{*}}26]{AnchorProteinSketch}
+\textsc{Ma D., Lee J., Lee H., Lee S.-H., Oh Y.~G., Kim Y.-E., Jin T.,
+  Sutthiwanna S., Lee S.-J., Jeon W., Lee D.~S., Ahn J., Cho R., Park H., Jeong
+  S., Park H., Bae S.-H., Kim H.~M.}:
+\newblock {ProteinSketch translates spatial intuition into protein design with
+  bimanual interaction in VR}.
+\newblock bioRxiv preprint, 2026.
+\newblock Preprint.
+\newblock \href {https://doi.org/10.64898/2026.07.19.739460}
+  {\path{doi:10.64898/2026.07.19.739460}}.
+
+\bibitem[MMD{\etalchar{*}}18]{ExpandedE07}
+\textsc{Maes A., Martinez X., Druart K., Laurent B., Guégan S., Marchand
+  C.~H., Lemaire S.~D., Baaden M.}:
+\newblock Minomics, an integrative and immersive tool for multi-omics analysis.
+\newblock \emph{Journal of Integrative Bioinformatics 15}, 2 (2018).
+\newblock URL:
+  \url{https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6167043/fullTextXML},
+  \href {https://doi.org/10.1515/jib-2018-0006}
+  {\path{doi:10.1515/jib-2018-0006}}.
+
+\bibitem[MNB{\etalchar{*}}24]{AnchorMetis}
+\textsc{Menke J., Nahal Y., Bjerrum E.~J., Kabeshov M., Kaski S., Engkvist O.}:
+\newblock {Metis: a python-based user interface to collect expert feedback for
+  generative chemistry models}.
+\newblock \emph{Journal of Cheminformatics 16}, 1 (2024).
+\newblock \href {https://doi.org/10.1186/s13321-024-00892-3}
+  {\path{doi:10.1186/s13321-024-00892-3}}.
+
+\bibitem[NPNKI{\etalchar{*}}17]{ExpandedE36}
+\textsc{Nyström-Persson J., Natsume-Kitatani Y., Igarashi Y., Satoh D.,
+  Mizuguchi K.}:
+\newblock Interactive toxicogenomics: Gene set discovery, clustering and
+  analysis in toxygates.
+\newblock \emph{Scientific Reports 7} (2017).
+\newblock URL:
+  \url{https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5431224/fullTextXML},
+  \href {https://doi.org/10.1038/s41598-017-01500-1}
+  {\path{doi:10.1038/s41598-017-01500-1}}.
+
+\bibitem[OSK{\etalchar{*}}25]{ExpandedE24}
+\textsc{Orsmaa L., Saukkoriipi M., Kangas J., Rasouli N., Järnstedt J.,
+  Mehtonen H., Sahlsten J., Jaskari J., Kaski K., Raisamo R.}:
+\newblock Interactive ai annotation of medical images in a virtual reality
+  environment.
+\newblock \emph{International Journal of Computer Assisted Radiology and
+  Surgery 21}, 1 (2025), 49.
+\newblock URL:
+  \url{https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12929304/fullTextXML},
+  \href {https://doi.org/10.1007/s11548-025-03497-9}
+  {\path{doi:10.1007/s11548-025-03497-9}}.
+
+\bibitem[PEP{\etalchar{*}}11]{EvalPoco2011}
+\textsc{Poco J., Etemadpour R., Paulovich F., Long T., Rosenthal P., Oliveira
+  M., Linsen L., Minghim R.}:
+\newblock {A Framework for Exploring Multidimensional Data with 3D
+  Projections}.
+\newblock \emph{Computer Graphics Forum 30}, 3 (2011), 1111--1120.
+\newblock \href {https://doi.org/10.1111/j.1467-8659.2011.01960.x}
+  {\path{doi:10.1111/j.1467-8659.2011.01960.x}}.
+
+\bibitem[PWS{\etalchar{*}}26]{ExpandedE28}
+\textsc{Pandolfi R., Weidner L., Sethian J., Donatelli J., Ushizima D.}:
+\newblock Turning immersive viewers into analytical workspaces: Ascribe-xr and
+  agent-driven scientific visualization.
+\newblock \emph{Journal of Imaging 12}, 8 (2026), 393.
+\newblock URL:
+  \url{https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13514590/fullTextXML},
+  \href {https://doi.org/10.3390/jimaging12080393}
+  {\path{doi:10.3390/jimaging12080393}}.
+
+\bibitem[RLK{\etalchar{*}}25]{ExpandedE47}
+\textsc{Rahmani E.~S., Lingasamy P., Khojand S., Lawarde A., Moreno S.~V.,
+  Salumets A., Modhukur V.}:
+\newblock Oncoproexp: An interactive shiny web application for comprehensive
+  cancer proteomics and phosphoproteomics analysis.
+\newblock \emph{Computational and Structural Biotechnology Journal 27} (2025),
+  3993--4006.
+\newblock URL:
+  \url{https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12465049/fullTextXML},
+  \href {https://doi.org/10.1016/j.csbj.2025.08.038}
+  {\path{doi:10.1016/j.csbj.2025.08.038}}.
+
+\bibitem[RMO{\etalchar{*}}19]{ExpandedE39}
+\textsc{Roumani A.~M., Madkour A., Ouzzani M., McGrew T., Omran E., Zhang X.}:
+\newblock Bionetapp: An interactive visual data analysis platform for molecular
+  expressions.
+\newblock \emph{PLoS ONE 14}, 2 (2019).
+\newblock URL:
+  \url{https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6386483/fullTextXML},
+  \href {https://doi.org/10.1371/journal.pone.0211277}
+  {\path{doi:10.1371/journal.pone.0211277}}.
+
+\bibitem[SA16]{ExpandedE44}
+\textsc{Stempor P., Ahringer J.}:
+\newblock Seqplots - interactive software for exploratory data analyses,
+  pattern discovery and visualization in genomics.
+\newblock \emph{Wellcome open research 1} (2016).
+\newblock URL:
+  \url{https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5133382/fullTextXML},
+  \href {https://doi.org/10.12688/wellcomeopenres.10004.1}
+  {\path{doi:10.12688/wellcomeopenres.10004.1}}.
+
+\bibitem[SGL{\etalchar{*}}24]{ExpandedE48}
+\textsc{Sandhu W., Gray I.~J., Lin S., Elias J.~E., DeFelice B.~C.}:
+\newblock Rapid qc-ms: Interactive dashboard for synchronous mass spectrometry
+  data acquisition quality control.
+\newblock \emph{Analytical Chemistry 96}, 44 (2024), 17465.
+\newblock URL:
+  \url{https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11541893/fullTextXML},
+  \href {https://doi.org/10.1021/acs.analchem.4c00786}
+  {\path{doi:10.1021/acs.analchem.4c00786}}.
+
+\bibitem[SHX25]{MapSAMIRA}
+\textsc{Spiegler P., Harirpoush A., Xiao Y.}:
+\newblock {Towards user-centered interactive medical image segmentation in VR
+  with an assistive AI agent}.
+\newblock \emph{Virtual Reality 30}, 1 (2025).
+\newblock Mechanism assessment uses related author report arXiv:2505.07214v3.
+\newblock \href {https://doi.org/10.1007/s10055-025-01284-0}
+  {\path{doi:10.1007/s10055-025-01284-0}}.
+
+\bibitem[SJW{\etalchar{*}}26]{SongEmbodiedNLI}
+\textsc{Song H., Johnson M., Whitley K., Krokos E., Varshney A.}:
+\newblock {Embodied Natural Language Interaction (NLI): Speech Input Patterns
+  in Immersive Analytics}.
+\newblock \emph{IEEE Transactions on Visualization and Computer Graphics 32}, 1
+  (2026), 1098--1108.
+\newblock \href {https://doi.org/10.1109/tvcg.2025.3634798}
+  {\path{doi:10.1109/tvcg.2025.3634798}}.
+
+\bibitem[SLY{\etalchar{*}}25]{EvalShuai2025}
+\textsc{Shuai Z., Li B., Yan S., Luo Y., Yang W.}:
+\newblock {DeepVIS}: Bridging natural language and data visualization through
+  step-wise reasoning.
+\newblock arXiv preprint arXiv:2508.01700, 2025.
+\newblock Version 2.
+\newblock URL: \url{https://arxiv.org/abs/2508.01700v2}.
+
+\bibitem[SN25]{MapDashboard}
+\textsc{Secco C.~A., Nazemi K.}:
+\newblock {A modular visual analytics dashboard for patient health data}.
+\newblock \emph{Information Visualization 24}, 4 (2025), 336--350.
+\newblock \href {https://doi.org/10.1177/14738716251360341}
+  {\path{doi:10.1177/14738716251360341}}.
+
+\bibitem[SNB{\etalchar{*}}20]{ExpandedE46}
+\textsc{Spitz L., Niemann U., Beuing O., Neyazi B., Sandalcioglu I.~E., Preim
+  B., Saalfeld S.}:
+\newblock Combining visual analytics and case-based reasoning for rupture risk
+  assessment of intracranial aneurysms.
+\newblock \emph{International Journal of Computer Assisted Radiology and
+  Surgery 15}, 9 (2020), 1525--1535.
+\newblock URL:
+  \url{https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7420879/fullTextXML},
+  \href {https://doi.org/10.1007/s11548-020-02217-9}
+  {\path{doi:10.1007/s11548-020-02217-9}}.
+
+\bibitem[SSS{\etalchar{*}}21]{ExpandedE30}
+\textsc{Sprengel U., Saalfeld P., Stahl J., Mittenentzwei S., Drittel M.,
+  Behrendt B., Kaneko N., Behme D., Berg P., Preim B., Saalfeld S.}:
+\newblock Virtual embolization for treatment support of intracranial avms using
+  an interactive desktop and vr application.
+\newblock \emph{International Journal of Computer Assisted Radiology and
+  Surgery 16}, 12 (2021), 2119.
+\newblock URL:
+  \url{https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8616893/fullTextXML},
+  \href {https://doi.org/10.1007/s11548-021-02532-9}
+  {\path{doi:10.1007/s11548-021-02532-9}}.
+
+\bibitem[STS24]{ExpandedE26}
+\textsc{Senderin B., Tuncbag N., Surer E.}:
+\newblock Bionet-xr: Biological network visualization framework for virtual
+  reality and mixed reality environments.
+\newblock \emph{arXiv preprint arXiv:2402.03946} (2024).
+\newblock URL: \url{https://arxiv.org/abs/2402.03946}, \href
+  {https://doi.org/10.48550/arXiv.2402.03946}
+  {\path{doi:10.48550/arXiv.2402.03946}}.
+
+\bibitem[TKAM17]{MapEcho}
+\textsc{Thomas M.~M., Kannampallil T., Abraham J., Marai G.~E.}:
+\newblock {Echo: A large display interactive visualization of ICU data for
+  effective care handoffs}.
+\newblock In \emph{2017 IEEE Workshop on Visual Analytics in Healthcare (VAHC)}
+  (2017), pp.~47--54.
+\newblock \href {https://doi.org/10.1109/vahc.2017.8387500}
+  {\path{doi:10.1109/vahc.2017.8387500}}.
+
+\bibitem[TZR{\etalchar{*}}26]{AnchorRNASeqEZPZ}
+\textsc{Taslim C., Zhang Y., Rask G., Kendall G.~C., Theisen E.~R.}:
+\newblock {RNA-SeqEZPZ: a point-and-click pipeline for comprehensive
+  transcriptomics analysis with interactive visualizations}.
+\newblock \emph{GigaScience 15} (2026).
+\newblock \href {https://doi.org/10.1093/gigascience/giaf133}
+  {\path{doi:10.1093/gigascience/giaf133}}.
+
+\bibitem[UA19]{ExpandedE34}
+\textsc{Urpa L.~M., Anders S.}:
+\newblock Focused multidimensional scaling: interactive visualization for
+  exploration of high-dimensional data.
+\newblock \emph{BMC Bioinformatics 20} (2019).
+\newblock URL:
+  \url{https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6498510/fullTextXML},
+  \href {https://doi.org/10.1186/s12859-019-2780-y}
+  {\path{doi:10.1186/s12859-019-2780-y}}.
+
+\bibitem[WMW{\etalchar{*}}18]{ExpandedE08}
+\textsc{Wiebrands M., Malajczuk C.~J., Woods A.~J., Rohl A.~L., Mancera R.~L.}:
+\newblock Molecular dynamics visualization (mdv): Stereoscopic 3d display of
+  biomolecular structure and interactions using the unity game engine.
+\newblock \emph{Journal of Integrative Bioinformatics 15}, 2 (2018).
+\newblock URL:
+  \url{https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6167041/fullTextXML},
+  \href {https://doi.org/10.1515/jib-2018-0010}
+  {\path{doi:10.1515/jib-2018-0010}}.
+
+\bibitem[XHM25]{ExpandedE15}
+\textsc{Xiang B., Heiselman J.~S., Miga M.~I.}:
+\newblock Comprehensive mixed reality surgical navigation system for liver
+  surgery.
+\newblock \emph{Journal of Medical Imaging 12}, 5 (2025), 055001.
+\newblock URL:
+  \url{https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12499930/fullTextXML},
+  \href {https://doi.org/10.1117/1.jmi.12.5.055001}
+  {\path{doi:10.1117/1.jmi.12.5.055001}}.
+
+\bibitem[XSMP{\etalchar{*}}10]{ExpandedE01}
+\textsc{Xiao M., Soh J., Meruvia-Pastor O., Schmidt E., Hallgrímsson B.,
+  Sensen C.~W.}:
+\newblock Building generic anatomical models using virtual model cutting and
+  iterative registration.
+\newblock \emph{BMC Medical Imaging 10} (2010), 5.
+\newblock URL:
+  \url{https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2830992/fullTextXML},
+  \href {https://doi.org/10.1186/1471-2342-10-5}
+  {\path{doi:10.1186/1471-2342-10-5}}.
+
+\bibitem[YCB{\etalchar{*}}21]{EvalYang2021}
+\textsc{Yang Y., Cordeil M., Beyer J., Dwyer T., Marriott K., Pfister H.}:
+\newblock {Embodied Navigation in Immersive Abstract Data Visualization: Is
+  Overview+Detail or Zooming Better for 3D Scatterplots?}
+\newblock \emph{IEEE Transactions on Visualization and Computer Graphics 27}, 2
+  (2021), 1214--1224.
+\newblock \href {https://doi.org/10.1109/tvcg.2020.3030427}
+  {\path{doi:10.1109/tvcg.2020.3030427}}.
+
+\bibitem[YLL{\etalchar{*}}25]{MapDTBIA}
+\textsc{Yao J.-H., Li M., Liu J., Li Y., Feng J., Han J., Zheng Q., Feng J.,
+  Chen S.}:
+\newblock {DTBIA: An Immersive Visual Analytics System for Brain-Inspired
+  Research}.
+\newblock \emph{IEEE Transactions on Visualization and Computer Graphics 31}, 6
+  (2025), 3796--3808.
+\newblock \href {https://doi.org/10.1109/tvcg.2025.3567135}
+  {\path{doi:10.1109/tvcg.2025.3567135}}.
+
+\bibitem[ZDBH26]{EvalZafar2026}
+\textsc{Zafar O., Dogrusoz U., Balci H., Halac A.~F.}:
+\newblock {CMGV: Algorithms and a unified framework for complexity management
+  in graph visualization}.
+\newblock \emph{Information Visualization 25}, 2 (2026), 192--208.
+\newblock \href {https://doi.org/10.1177/14738716251383173}
+  {\path{doi:10.1177/14738716251383173}}.
+
+\bibitem[ZKPM25]{CausalChat}
+\textsc{Zhang Y., Kota A., Papenhausen E., Mueller K.}:
+\newblock {CausalChat: Interactive Causal Model Development and Refinement
+  Using Large Language Models}.
+\newblock \emph{IEEE Transactions on Visualization and Computer Graphics 31},
+  12 (2025), 10473--10487.
+\newblock \href {https://doi.org/10.1109/tvcg.2025.3602448}
+  {\path{doi:10.1109/tvcg.2025.3602448}}.
+
+\bibitem[ZSF{\etalchar{*}}25]{EvalZhao2025}
+\textsc{Zhao Y., Shu X., Fan L., Gao L., Zhang Y., Chen S.}:
+\newblock {ProactiveVA}: Proactive visual analytics with {LLM}-based {UI}
+  agent.
+\newblock arXiv preprint arXiv:2507.18165, 2025.
+\newblock Version 1.
+\newblock URL: \url{https://arxiv.org/abs/2507.18165v1}.
+
+\bibitem[ZWX{\etalchar{*}}25]{LightVA}
+\textsc{Zhao Y., Wang J., Xiang L., Zhang X., Guo Z., Turkay C., Zhang Y., Chen
+  S.}:
+\newblock {LightVA: Lightweight Visual Analytics With LLM Agent-Based Task
+  Planning and Execution}.
+\newblock \emph{IEEE Transactions on Visualization and Computer Graphics 31}, 9
+  (2025), 6162--6177.
+\newblock \href {https://doi.org/10.1109/tvcg.2024.3496112}
+  {\path{doi:10.1109/tvcg.2024.3496112}}.
+
+\end{thebibliography}

@@ -1,0 +1,427 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        7,
+        9
+      ]
+    ],
+    "date-time": "2026-07-09T06:36:02Z",
+    "timestamp": 1783578962886,
+    "version": "3.55.0"
+  },
+  "reference-count": 27,
+  "publisher": "Wiley",
+  "issue": "3",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2011,
+            6,
+            28
+          ]
+        ],
+        "date-time": "2011-06-28T00:00:00Z",
+        "timestamp": 1309219200000
+      },
+      "content-version": "vor",
+      "delay-in-days": 27,
+      "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "onlinelibrary.wiley.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "Computer Graphics Forum"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2011,
+        6
+      ]
+    ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title><jats:p>Visualization of high‐dimensional data requires a mapping to a visual space. Whenever the goal is to preserve similarity relations a frequent strategy is to use 2D projections, which afford intuitive interactive exploration, e.g., by users locating and selecting groups and gradually drilling down to individual objects. In this paper, we propose a framework for projecting high‐dimensional data to 3D visual spaces, based on a generalization of the Least‐Square Projection (LSP). We compare projections to 2D and 3D visual spaces both quantitatively and through a user study considering certain exploration tasks. The quantitative analysis confirms that 3D projections outperform 2D projections in terms of precision. The user study indicates that certain tasks can be more reliably and confidently answered with 3D projections. Nonetheless, as 3D projections are displayed on 2D screens, interaction is more difficult. Therefore, we incorporate suitable interaction functionalities into a framework that supports 3D transformations, predefined optimal 2D views, coordinated 2D and 3D views, and hierarchical 3D cluster definition and exploration. For visually encoding data clusters in a 3D setup, we employ color coding of projected data points as well as four types of surface renderings. A second user study evaluates the suitability of these visual encodings. Several examples illustrate the framework's applicability for both visual exploration of multidimensional abstract (non‐spatial) data as well as the feature space of multi‐variate spatial data.</jats:p>",
+  "DOI": "10.1111/j.1467-8659.2011.01960.x",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2011,
+        6,
+        29
+      ]
+    ],
+    "date-time": "2011-06-29T02:42:45Z",
+    "timestamp": 1309315365000
+  },
+  "page": "1111-1120",
+  "update-policy": "https://doi.org/10.1002/crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 29,
+  "title": [
+    "A Framework for Exploring Multidimensional Data with 3D Projections"
+  ],
+  "prefix": "10.1111",
+  "volume": "30",
+  "author": [
+    {
+      "given": "J.",
+      "family": "Poco",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "R.",
+      "family": "Etemadpour",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "F.V.",
+      "family": "Paulovich",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "T.V.",
+      "family": "Long",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "P.",
+      "family": "Rosenthal",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "M.C.F.",
+      "family": "Oliveira",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "L.",
+      "family": "Linsen",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "R.",
+      "family": "Minghim",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "311",
+  "published-online": {
+    "date-parts": [
+      [
+        2011,
+        6,
+        28
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_2_10_2_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/SIBGRA.2004.1352979"
+    },
+    {
+      "key": "e_1_2_10_3_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/cpe.711"
+    },
+    {
+      "key": "e_1_2_10_4_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/357306.357310"
+    },
+    {
+      "key": "e_1_2_10_5_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2008.153"
+    },
+    {
+      "key": "e_1_2_10_6_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/174462.156635"
+    },
+    {
+      "key": "e_1_2_10_7_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s00371-009-0368-7"
+    },
+    {
+      "key": "e_1_2_10_8_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/223784.223812"
+    },
+    {
+      "key": "e_1_2_10_9_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/38.788795"
+    },
+    {
+      "key": "e_1_2_10_10_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "InselbergA. DimsdaleB.:Parallel coordinates: a tool for visualizing multi‐dimensional geometry. pp.361–378.",
+      "DOI": "10.1109/VISUAL.1990.146402"
+    },
+    {
+      "key": "e_1_2_10_11_2",
+      "unstructured": "KandoganE.:Star coordinates: A multi‐dimensional visualization technique with uniform treatment of dimensions. InIn Proceedings of the IEEE Information Visualization Symposium Late Breaking Hot Topics(2000) pp.9–12."
+    },
+    {
+      "key": "e_1_2_10_12_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/9780470316801"
+    },
+    {
+      "key": "e_1_2_10_13_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/37401.37422"
+    },
+    {
+      "key": "e_1_2_10_14_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2008.167"
+    },
+    {
+      "key": "e_1_2_10_15_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TPAMI.2003.1227984"
+    },
+    {
+      "key": "e_1_2_10_16_2",
+      "first-page": "281",
+      "volume-title": "Proc. of the fifth Berkeley Symposium on Mathematical Statistics and Probability",
+      "author": "MacQueen J. B.",
+      "year": "1967"
+    },
+    {
+      "key": "e_1_2_10_17_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.2307/2986135"
+    },
+    {
+      "key": "e_1_2_10_18_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2008.138"
+    },
+    {
+      "key": "e_1_2_10_19_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2007.70443"
+    },
+    {
+      "key": "e_1_2_10_20_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1467-8659.2009.01448.x"
+    },
+    {
+      "key": "e_1_2_10_21_2",
+      "first-page": "64",
+      "volume-title": "Winner of 2008 IEEE Visualization Design Contest, VisWeek 08 Conference Compendium",
+      "author": "Rosenthal P.",
+      "year": "2008"
+    },
+    {
+      "key": "e_1_2_10_22_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/T-C.1969.222678"
+    },
+    {
+      "key": "e_1_2_10_23_2",
+      "first-page": "61",
+      "volume-title": "Proceedings of IEEE Visualization '00",
+      "author": "Sprenger T. C.",
+      "year": "2000"
+    },
+    {
+      "key": "e_1_2_10_24_2",
+      "volume-title": "A Comparison of Document Clustering Techniques",
+      "author": "Steinbach M.",
+      "year": "2000"
+    },
+    {
+      "key": "e_1_2_10_25_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2006.17"
+    },
+    {
+      "key": "e_1_2_10_26_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1057/palgrave.ivs.9500054"
+    },
+    {
+      "key": "e_1_2_10_27_2",
+      "unstructured": "WhalenD. NormanM. L.:Competition data set and description. In2008 IEEE Visualization Design Contest(2008) http://vis.computer.org/VisWeek2008/vis/contests.html."
+    },
+    {
+      "key": "e_1_2_10_28_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/3-540-48412-4_15"
+    }
+  ],
+  "container-title": [
+    "Computer Graphics Forum"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1467-8659.2011.01960.x",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-8659.2011.01960.x",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        3,
+        6
+      ]
+    ],
+    "date-time": "2025-03-06T20:13:56Z",
+    "timestamp": 1741292036000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://onlinelibrary.wiley.com/doi/10.1111/j.1467-8659.2011.01960.x"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2011,
+        6
+      ]
+    ]
+  },
+  "references-count": 27,
+  "journal-issue": {
+    "issue": "3",
+    "published-print": {
+      "date-parts": [
+        [
+          2011,
+          6
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1111/j.1467-8659.2011.01960.x"
+  ],
+  "URL": "https://doi.org/10.1111/j.1467-8659.2011.01960.x",
+  "archive": [
+    "Portico"
+  ],
+  "relation": {},
+  "ISSN": [
+    "0167-7055",
+    "1467-8659"
+  ],
+  "issn-type": [
+    {
+      "value": "0167-7055",
+      "type": "print"
+    },
+    {
+      "value": "1467-8659",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2011,
+        6
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2011-06-28",
+      "order": 2,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ]
+}

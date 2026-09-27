@@ -1,0 +1,956 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        8,
+        11
+      ]
+    ],
+    "date-time": "2026-08-11T15:59:22Z",
+    "timestamp": 1786463962361,
+    "version": "build-2736575974"
+  },
+  "reference-count": 128,
+  "publisher": "Wiley",
+  "issue": "6",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            4
+          ]
+        ],
+        "date-time": "2023-04-04T00:00:00Z",
+        "timestamp": 1680566400000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100002428",
+      "name": "Austrian Science Fund",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "P31419‐N31"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "P31419‐N31"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100002428",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100002428",
+      "name": "Austrian Science Fund",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "P35767"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "P35767"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100002428",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "onlinelibrary.wiley.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "Computer Graphics Forum"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2023,
+        9
+      ]
+    ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title><jats:p>Networks are abstract and ubiquitous data structures, defined as a set of data points and relationships between them. Network visualization provides meaningful representations of these data, supporting researchers in understanding the connections, gathering insights, and detecting and identifying unexpected patterns. Research in this field is focusing on increasingly challenging problems, such as visualizing dynamic, complex, multivariate, and geospatial networked data. This ever‐growing, and widely varied, body of research led to several surveys being published, each covering one or more disciplines of network visualization. Despite this effort, the variety and complexity of this research represents an obstacle when surveying the domain and building a comprehensive overview of the literature. Furthermore, there exists a lack of clarification and uniformity between the terminology used in each of the surveys, which requires further effort when mapping and categorizing the plethora of different visualization techniques and approaches. In this paper, we aim at providing researchers and practitioners alike with a “roadmap” detailing the current research trends in the field of network visualization. We design our contribution as a meta‐survey where we discuss, summarize, and categorize recent surveys and task taxonomies published in the context of network visualization. We identify more and less saturated disciplines of research and consolidate the terminology used in the surveyed literature. We also survey the available task taxonomies, providing a comprehensive analysis of their varying support to each network visualization discipline and by establishing and discussing a classification for the individual tasks. With this combined analysis of surveys and task taxonomies, we provide an overarching structure of the field, from which we extrapolate the current state of research and promising directions for future work.</jats:p>",
+  "DOI": "10.1111/cgf.14794",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2023,
+        4,
+        4
+      ]
+    ],
+    "date-time": "2023-04-04T12:11:39Z",
+    "timestamp": 1680610299000
+  },
+  "update-policy": "https://doi.org/10.1002/crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 38,
+  "title": [
+    "Are We There Yet? A Roadmap of Network Visualization from Surveys to Task Taxonomies"
+  ],
+  "prefix": "10.1111",
+  "volume": "42",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0001-9592-2179",
+      "authenticated-orcid": false,
+      "given": "Velitchko",
+      "family": "Filipov",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "TU Wien, CVAST Vienna Austria"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-2008-3651",
+      "authenticated-orcid": false,
+      "given": "Alessio",
+      "family": "Arleo",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "TU Wien, CVAST Vienna Austria"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Silvia",
+      "family": "Miksch",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "TU Wien, CVAST Vienna Austria"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "311",
+  "published-online": {
+    "date-parts": [
+      [
+        2023,
+        4,
+        4
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_2_11_2_1",
+      "volume-title": "Exploratory Analysis of Spatial and Temporal Data: A Systematic Approach",
+      "author": "Andrienko N.",
+      "year": "2006"
+    },
+    {
+      "key": "e_1_2_11_3_1",
+      "first-page": "151",
+      "volume-title": "Temporal Multivariate Networks",
+      "author": "Archambault D.",
+      "year": "2014"
+    },
+    {
+      "key": "e_1_2_11_4_1",
+      "unstructured": "[ACM] ACM Digital Library.https://dl.acm.org/. Accessed: 2022‐05‐03."
+    },
+    {
+      "key": "e_1_2_11_5_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TPDS.2018.2869805"
+    },
+    {
+      "key": "e_1_2_11_6_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[ADM*19] AngoriL. DidimoW. MontecchianiF. PagliucaD. TappiniA.:ChordLink: A new hybrid visualization model. InSymposium on Graph Drawing and Network Visualization.Springer(2019) pp.276–290.https://doi.org/10.1007/978‐3‐030‐35802‐0_22.",
+      "DOI": "10.1007/978-3-030-35802-0_22"
+    },
+    {
+      "key": "e_1_2_11_7_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[AES05] AmarR. EaganJ. StaskoJ.:Low‐level components of analytic activity in information visualization. InIEEE Symposium on Information Visualization. (2005) pp.111–117.https://doi.org/10.1109/INFVIS.2005.1532136.",
+      "DOI": "10.1109/INFVIS.2005.1532136"
+    },
+    {
+      "key": "e_1_2_11_8_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[AL18] AlharbiM. LarameeR. S.:SoS TextVis: A survey of surveys on text visualization. InComputer Graphics and Visual Computing (CGVC).The Eurographics Association(2018).https://doi.org/10.2312/cgvc.20181219.",
+      "DOI": "10.3390/computers8010017"
+    },
+    {
+      "key": "e_1_2_11_9_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.14615"
+    },
+    {
+      "key": "e_1_2_11_10_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-1-4471-7527-8"
+    },
+    {
+      "key": "e_1_2_11_11_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2013.238"
+    },
+    {
+      "key": "e_1_2_11_12_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.14723"
+    },
+    {
+      "key": "e_1_2_11_13_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.12791"
+    },
+    {
+      "key": "e_1_2_11_14_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.12935"
+    },
+    {
+      "key": "e_1_2_11_15_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1467‐8659.2012.03093.x"
+    },
+    {
+      "key": "e_1_2_11_16_1",
+      "first-page": "193",
+      "volume-title": "Drawing Clusters and Hierarchies",
+      "author": "Brockenauer R.",
+      "year": "2001"
+    },
+    {
+      "key": "e_1_2_11_17_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1467‐8659.2009.01687.x"
+    },
+    {
+      "key": "e_1_2_11_18_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.12804"
+    },
+    {
+      "key": "e_1_2_11_19_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2015.2467757"
+    },
+    {
+      "key": "e_1_2_11_20_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/tvcg.2019.2934397"
+    },
+    {
+      "key": "e_1_2_11_21_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2013.124"
+    },
+    {
+      "key": "e_1_2_11_22_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[BMRW98] BiedlT. MarksJ. RyallK. WhitesidesS.:Graph multidrawing: Finding nice drawings without defining nice. InSymposium on Graph Drawing and Network Visualization.Springer(1998) pp.347–355.",
+      "DOI": "10.1007/3-540-37623-2_26"
+    },
+    {
+      "key": "e_1_2_11_23_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2013.254"
+    },
+    {
+      "key": "e_1_2_11_24_1",
+      "unstructured": "[BRSG07] BennettC. RyallJ. SpalteholzL. GoochA.:The aesthetics of graph visualization. InConference on Computational Aesthetics in Graphics Visualization and Imaging.The Eurographics Association(2007).https://doi.org/10.2312/COMPAESTH/COMPAESTH07/057‐064."
+    },
+    {
+      "key": "e_1_2_11_25_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s12650‐019‐00551‐y"
+    },
+    {
+      "key": "e_1_2_11_26_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1177/1473871620904671"
+    },
+    {
+      "key": "e_1_2_11_27_1",
+      "volume-title": "Readings in Information Visualization, Using Vision to Think",
+      "author": "Card S. T.",
+      "year": "1999"
+    },
+    {
+      "key": "e_1_2_11_28_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1177/1473871618821740"
+    },
+    {
+      "key": "e_1_2_11_29_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[DLDBI10] Da LozzoG. Di BattistaG. IngrassiaF.:Drawing graphs on a smartphone. InSymposium on Graph Drawing and Network Visualization.Springer(2010) pp.153–164.https://doi.org/10.1007/978‐3‐642‐18469‐7_14.",
+      "DOI": "10.1007/978-3-642-18469-7_14"
+    },
+    {
+      "key": "e_1_2_11_30_1",
+      "unstructured": "[DS09] DunneC. ShneidermanB.:Improving graph drawing readability by incorporating readability metrics: A software tool for network analysts.University of Maryland HCIL Tech Report HCIL‐2009‐13. (2009)."
+    },
+    {
+      "key": "e_1_2_11_31_1",
+      "first-page": "149",
+      "article-title": "A heuristic for graph drawing",
+      "volume": "42",
+      "author": "Eades P.",
+      "year": "1984",
+      "journal-title": "Congressus Numerantium"
+    },
+    {
+      "key": "e_1_2_11_32_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2007.70535"
+    },
+    {
+      "key": "e_1_2_11_33_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[EDG*08] ElmqvistN. DoT.‐N. GoodellH. HenryN. FeketeJ.‐D.:ZAME: Interactive large‐scale graph visualization. InIEEE Pacific Visualization Symposium. (2008) pp.215–222.https://doi.org/10.1109/PACIFICVIS.2008.4475479.",
+      "DOI": "10.1109/PACIFICVIS.2008.4475479"
+    },
+    {
+      "key": "e_1_2_11_34_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[FFKS21] FischerM. T. FringsA. KeimD. A. SeebacherD.:Towards a survey on static and dynamic hypergraph visualizations. InIEEE Visualization Conference. (2021) pp.81–85.https://doi.org/10.1109/VIS49827.2021.9623305.",
+      "DOI": "10.1109/VIS49827.2021.9623305"
+    },
+    {
+      "key": "e_1_2_11_35_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2019.2929033"
+    },
+    {
+      "key": "e_1_2_11_36_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[FPA*12] FedericoP. PfefferJ. AignerW. MikschS. ZenkL.:Visual analysis of dynamic networks using change centrality.ACM International Conference on Advances in Social Networks Analysis and Mining. (2012) 179–183.https://doi.org/10.1109/ASONAM.2012.39.",
+      "DOI": "10.1109/ASONAM.2012.39"
+    },
+    {
+      "key": "e_1_2_11_37_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/spe.4380211102"
+    },
+    {
+      "key": "e_1_2_11_38_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1177/1473871611416549"
+    },
+    {
+      "key": "e_1_2_11_39_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1177/1473871612455749"
+    },
+    {
+      "key": "e_1_2_11_40_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1057/ivs.2009.29"
+    },
+    {
+      "key": "e_1_2_11_41_1",
+      "unstructured": "[GS*06] GrietheH. SchumannH. et al.:The visualization of uncertain data: Methods and problems. InProceedings of SimVis. (2006) pp.143–156."
+    },
+    {
+      "key": "e_1_2_11_42_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2007.70582"
+    },
+    {
+      "key": "e_1_2_11_43_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.7155/jgaa.00150"
+    },
+    {
+      "key": "e_1_2_11_44_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[HL07] HuotS. LecolinetE.:Focus+Context visualization techniques for displaying large lists with multiple points of interest on small tactile screens. InIFIP Conference on Human‐Computer Interaction.Springer(2007) pp.219–233.https://doi.org/10.1007/978‐3‐540‐74800‐7_18.",
+      "DOI": "10.1007/978-3-540-74800-7_18"
+    },
+    {
+      "key": "e_1_2_11_45_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jvlc.2005.09.001"
+    },
+    {
+      "key": "e_1_2_11_46_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/2945.841119"
+    },
+    {
+      "key": "e_1_2_11_47_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2006.147"
+    },
+    {
+      "key": "e_1_2_11_48_1",
+      "unstructured": "[HSS15] HadlakS. SchumannH. SchulzH.‐J.:A survey of multi‐faceted graph visualization. InEurographics Conference on Visualization.The Eurographics Association(2015).https://doi.org/10.2312/eurovisstar.20151109."
+    },
+    {
+      "issue": "1",
+      "key": "e_1_2_11_49_1",
+      "first-page": "37",
+      "article-title": "Efficient, high‐quality force‐directed graph drawing",
+      "volume": "10",
+      "author": "Hu Y.",
+      "year": "2005",
+      "journal-title": "Mathematica Journal"
+    },
+    {
+      "key": "e_1_2_11_50_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1467‐8659.2009.01450.x"
+    },
+    {
+      "key": "e_1_2_11_51_1",
+      "unstructured": "[IEX] IEEE Xplore.https://ieeexplore.ieee.org/Xplore/home.jsp. Accessed: 2022‐05‐03."
+    },
+    {
+      "key": "e_1_2_11_52_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[JE12] JavedW. ElmqvistN.:Exploring the design space of composite visualization. InIEEE Pacific Visualization Symposium. (2012) pp.1–8.https://doi.org/10.1109/PacificVis.2012.6183556.",
+      "DOI": "10.1109/PacificVis.2012.6183556"
+    },
+    {
+      "key": "e_1_2_11_53_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/comnet/cnu016"
+    },
+    {
+      "key": "e_1_2_11_54_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2012.110"
+    },
+    {
+      "key": "e_1_2_11_55_1",
+      "unstructured": "[KKC14] KerracherN. KennedyJ. ChalmersK.:The design space of temporal graph visualisation. InEurographics Conference on Visualization.The Eurographics Association(2014).https://doi.org/10.2312/eurovisshort.20141149."
+    },
+    {
+      "key": "e_1_2_11_56_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2015.2424889"
+    },
+    {
+      "key": "e_1_2_11_57_1",
+      "unstructured": "[KKCG15] KerracherN. KennedyJ. ChalmersK. GrahamM.:Visual techniques to support exploratory analysis of temporal graph data. InEurographics Conference on Visualization.The Eurographics Association(2015).https://doi.org/10.2312/eurovisshort.20151133."
+    },
+    {
+      "key": "e_1_2_11_58_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1080/00031305.1983.10482733"
+    },
+    {
+      "key": "e_1_2_11_59_1",
+      "unstructured": "[Kob12] KobourovS. G.:Spring embedders and force‐directed graph drawing algorithms.arXiv preprint. (2012).https://doi.org/10.48550/arXiv.1201.3011."
+    },
+    {
+      "key": "e_1_2_11_60_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1007/978-3-319-06793-3",
+      "volume-title": "Introduction to Multivariate Network Visualization",
+      "author": "Kerren A.",
+      "year": "2014"
+    },
+    {
+      "key": "e_1_2_11_61_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2020.3030446"
+    },
+    {
+      "key": "e_1_2_11_62_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.13213"
+    },
+    {
+      "key": "e_1_2_11_63_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[LPP*06] LeeB. PlaisantC. ParrC. S. FeketeJ.‐D. HenryN.:Task taxonomy for graph visualization. InAVI Workshop on Beyond Time and Errors: Novel Evaluation Methods for Information Visualization. (2006) p.1–5.https://doi.org/10.1145/1168149.1168168.",
+      "DOI": "10.1145/1168149.1168168"
+    },
+    {
+      "key": "e_1_2_11_64_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s12650‐021‐00759‐x"
+    },
+    {
+      "key": "e_1_2_11_65_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.13610"
+    },
+    {
+      "key": "e_1_2_11_66_1",
+      "unstructured": "[MIR] Miro Board Supplemental Material.https://miro.com/app/board/o9J_ltlYE0c=/. Accessed: 2022‐07‐06."
+    },
+    {
+      "key": "e_1_2_11_67_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.13212"
+    },
+    {
+      "key": "e_1_2_11_68_1",
+      "unstructured": "[ML19] McNabbL. LarameeR. S.:How to write a visualization survey paper: A starting point. InEurographics (Education Papers). (2019) pp.29–39.https://doi.org/10.2312/eged.20191026."
+    },
+    {
+      "key": "e_1_2_11_69_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1086/421509"
+    },
+    {
+      "key": "e_1_2_11_70_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1126/science.298.5594.824"
+    },
+    {
+      "key": "e_1_2_11_71_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.13728"
+    },
+    {
+      "key": "e_1_2_11_72_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.7155/jgaa.00154"
+    },
+    {
+      "key": "e_1_2_11_73_1",
+      "unstructured": "[Nöl14] NöllenburgM.:A Survey on Automated Metro Map Layout Methods. InSchematic Mapping Workshop. (2014)."
+    },
+    {
+      "key": "e_1_2_11_74_1",
+      "volume-title": "The Psychology of Everyday Things",
+      "author": "Norman D. A.",
+      "year": "1988"
+    },
+    {
+      "key": "e_1_2_11_75_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[PAKC15] PientaR. AbelloJ. KahngM. ChauD. H.:Scalable graph exploration and visualization: Sensemaking challenges and opportunities. InInternational Conference on Big Data and Smart Computing. (2015) pp.271–278.https://doi.org/10.1109/35021BIGCOMP.2015.7072812.",
+      "DOI": "10.1109/35021BIGCOMP.2015.7072812"
+    },
+    {
+      "key": "e_1_2_11_76_1",
+      "unstructured": "[PAP] Paper SurVis.https://vfilipov.pages.cvast.tuwien.ac.at/survis/. Accessed: 2022‐08‐03."
+    },
+    {
+      "key": "e_1_2_11_77_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1467‐8306.1994.tb01869.x"
+    },
+    {
+      "key": "e_1_2_11_78_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1136/bmj.n71"
+    },
+    {
+      "key": "e_1_2_11_79_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[PNK10] PupyrevS. NachmansonL. KaufmannM.:Improving layered graph layouts with edge bundling. InSymposium on Graph Drawing and Network Visualization.Springer(2010) pp.329–340.https://doi.org/10.1007/978‐3‐642‐18469‐7_30.",
+      "DOI": "10.1007/978-3-642-18469-7_30"
+    },
+    {
+      "key": "e_1_2_11_80_1",
+      "first-page": "77",
+      "volume-title": "Tasks for Multivariate Network Analysis",
+      "author": "Pretorius J.",
+      "year": "2014"
+    },
+    {
+      "key": "e_1_2_11_81_1",
+      "unstructured": "[PSD09] PohlM. SchmittM. DiehlS.:Comparing the readability of graph layouts using eyetracking and task‐oriented analysis.Conference on Computational Aesthetics in Graphics Visualization and Imaging. (2009) 49–56.https://doi.org/10.5555/2381286.2381296."
+    },
+    {
+      "key": "e_1_2_11_82_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2021.3064037"
+    },
+    {
+      "key": "e_1_2_11_83_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0953‐5438(00)00032‐1"
+    },
+    {
+      "key": "e_1_2_11_84_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[QZW06] QuH. ZhouH. WuY.:Controllable and progressive edge clustering for large networks. InSymposium on Graph Drawing and Network Visualization.Springer(2006) p.399–404.https://doi.org/10.1007/978‐3‐540‐70904‐6_38.",
+      "DOI": "10.1007/978-3-540-70904-6_38"
+    },
+    {
+      "key": "e_1_2_11_85_1",
+      "unstructured": "[RES] ResearchGate | Find and share research.https://www.researchgate.net. Accessed: 2022‐05‐03."
+    },
+    {
+      "key": "e_1_2_11_86_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[RM14] RufiangeS. MelançonG.:AniMatrix: A matrix‐based visualization of software evolution. InIEEE Working Conference on Software Visualization. (2014) pp.137–146.https://doi.org/10.1109/VISSOFT.2014.30.",
+      "DOI": "10.1109/VISSOFT.2014.30"
+    },
+    {
+      "key": "e_1_2_11_87_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[Rob07] RobertsJ. C.:State of the art: Coordinated & multiple views in exploratory visualization. InInternational Conference on Coordinated and Multiple Views in Exploratory Visualization. (2007) pp.61–71.https://doi.org/10.1109/CMV.2007.20.",
+      "DOI": "10.1109/CMV.2007.20"
+    },
+    {
+      "key": "e_1_2_11_88_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/B978-008044531-1/50425-5"
+    },
+    {
+      "key": "e_1_2_11_89_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2013.130"
+    },
+    {
+      "key": "e_1_2_11_90_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2018.2886901"
+    },
+    {
+      "key": "e_1_2_11_91_1",
+      "unstructured": "[SBM92] SpringmeyerR. R. BlattnerM. M. MaxN. L.:A characterization of the scientific data analysis process. InIEEE Visualization Conference.IEEE(1992) pp.235–242.https://doi.org/10.5555/949685.949728."
+    },
+    {
+      "key": "e_1_2_11_92_1",
+      "unstructured": "[SCH] Google Scholar.https://scholar.google.com/. Accessed: 2022‐05‐03."
+    },
+    {
+      "key": "e_1_2_11_93_1",
+      "unstructured": "[SCO] Scopus Digital Library.https://www.scopus.com/. Accessed: 2022‐05‐03."
+    },
+    {
+      "key": "e_1_2_11_94_1",
+      "unstructured": "[SGF11] SalviniM. M. GnosA. FabrikantS. I.:Cognitively plausible visualization of network data. InInternational Cartographic Conference.University of Zurich(2011).https://doi.org/10.5167/uzh‐49097."
+    },
+    {
+      "key": "e_1_2_11_95_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/102377.115768"
+    },
+    {
+      "key": "e_1_2_11_96_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2010.79"
+    },
+    {
+      "key": "e_1_2_11_97_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[SL17] ShaoboY. LingdaW.:A key technology survey and summary of dynamic network visualization. InIEEE International Conference on Software Engineering and Service Science. (2017) pp.474–478.https://doi.org/10.1109/ICSESS.2017.8342958.",
+      "DOI": "10.1109/ICSESS.2017.8342958"
+    },
+    {
+      "key": "e_1_2_11_98_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.14445/22312803/IJCTT‐V31P105"
+    },
+    {
+      "key": "e_1_2_11_99_1",
+      "unstructured": "[SNS06] SchulzH.‐J. NockeT. SchumannH.:A framework for visual data mining of structures. InAustralasian Computer Science Conference. (2006) vol.48 pp.157–166.https://doi.org/10.1145/1151699.1151718."
+    },
+    {
+      "key": "e_1_2_11_100_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[SS06] SchulzH.‐J. SchumannH.:Visualizing graphs – A generalized view.International Conference on Information Visualization. (2006) 166–173.https://doi.org/10.1109/IV.2006.130.",
+      "DOI": "10.1109/IV.2006.130"
+    },
+    {
+      "key": "e_1_2_11_101_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[SSE16] SchöffelS. SchwankJ. EbertA.:A user study on multivariate edge visualizations for graph‐based visual analysis tasks. InInternational Conference on Information Visualization. (2016) pp.165–170.https://doi.org/10.1109/IV.2016.41.",
+      "DOI": "10.1109/IV.2016.41"
+    },
+    {
+      "key": "e_1_2_11_102_1",
+      "unstructured": "[SSK14] SaketB. SimonettoP. KobourovS.:group‐level graph visualization taxonomy. InEurographics Conference on Visualization.The Eurographics Association(2014).https://doi.org/10.2312/eurovisshort.20141162."
+    },
+    {
+      "key": "e_1_2_11_103_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2020.2970512"
+    },
+    {
+      "key": "e_1_2_11_104_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TSMC.1981.4308636"
+    },
+    {
+      "key": "e_1_2_11_105_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.14198"
+    },
+    {
+      "key": "e_1_2_11_106_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[SZEAC19] ShimabukuroM. ZipfJ. El‐AssadyM. CollinsC.:H‐Matrix: Hierarchical matrix for visual analysis of cross‐linguistic features in large learner corpora. InIEEE Visualization Conference. (2019) pp.61–65.https://doi.org/10.1109/VISUAL.2019.8933537.",
+      "DOI": "10.1109/VISUAL.2019.8933537"
+    },
+    {
+      "key": "e_1_2_11_107_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1006/ijhc.2002.1017"
+    },
+    {
+      "key": "e_1_2_11_108_1",
+      "unstructured": "[TR05] TaylorM. RodgersP.:Applying graphical design techniques to graph visualisation. InInternational Conference on Information Visualization.IEEE(2005) pp.651–656."
+    },
+    {
+      "key": "e_1_2_11_109_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[TSS18] ThompsonJ. SrinivasanA. StaskoJ.:Tangraphe: Interactive exploration of network visualizations using single hand multi‐touch gestures. InAdvanced Visual Interfaces. (2018) pp.1–5.https://doi.org/10.1145/3206505.3206519.",
+      "DOI": "10.1145/3206505.3206519"
+    },
+    {
+      "key": "e_1_2_11_110_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1112/plms/s3-13.1.743"
+    },
+    {
+      "key": "e_1_2_11_111_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[VABK20] VogogiasA. ArchambaultD. BachB. KennedyJ.:Visual encodings for networks with multiple edge types. InAdvanced Visual Interfaces. (2020) no.37.https://doi.org/10.1145/3399715.3399827.",
+      "DOI": "10.1145/3399715.3399827"
+    },
+    {
+      "key": "e_1_2_11_112_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.12512"
+    },
+    {
+      "key": "e_1_2_11_113_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.12872"
+    },
+    {
+      "key": "e_1_2_11_114_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MCG.2017.3621220"
+    },
+    {
+      "key": "e_1_2_11_115_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1467‐8659.2011.01898.x"
+    },
+    {
+      "key": "e_1_2_11_116_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[VPF06] ValiatiE. R. A. PimentaM. S. FreitasC. M. D. S.:A taxonomy of tasks for guiding the evaluation of multidimensional visualizations. InAVI Workshop on BEyond Time and Errors: Novel Evaluation Methods for Information Visualization. (2006) p.1–6.https://doi.org/10.1145/1168149.1168169.",
+      "DOI": "10.1145/1168149.1168169"
+    },
+    {
+      "key": "e_1_2_11_117_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2013.232"
+    },
+    {
+      "key": "e_1_2_11_118_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2011.205"
+    },
+    {
+      "key": "e_1_2_11_119_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "97",
+      "DOI": "10.1007/978-3-319-06793-3_6",
+      "volume-title": "Interaction in the Visualization of Multivariate Networks",
+      "author": "Wybrow M.",
+      "year": "2014"
+    },
+    {
+      "key": "e_1_2_11_120_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[WL90] WehrendS. LewisC.:A problem‐oriented classification of visualization techniques. InIEEE Visualization Conference. (1990) pp.139–143.https://doi.org/10.1109/VISUAL.1990.146375.",
+      "DOI": "10.1109/VISUAL.1990.146375"
+    },
+    {
+      "key": "e_1_2_11_121_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[WNF16] WangG. NakanishiT. FukudaA.:2‐D layout for tree visualization: A survey. InMATEC Web of Conferences. (2016) vol.56 p.01007.https://doi.org/10.1051/matecconf/20165601007.",
+      "DOI": "10.1051/matecconf/20165601007"
+    },
+    {
+      "key": "e_1_2_11_122_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s00450‐007‐0036‐y"
+    },
+    {
+      "key": "e_1_2_11_123_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.12800"
+    },
+    {
+      "key": "e_1_2_11_124_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[Wu16] WuH.‐Y.:Focus+Context metro map layout and annotation. InProceedings of the 32nd Spring Conference on Computer Graphics. (2016) pp.41–47.https://doi.org/10.1145/2948628.2948642.",
+      "DOI": "10.1145/2948628.2948642"
+    },
+    {
+      "key": "e_1_2_11_125_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2018.2864911"
+    },
+    {
+      "key": "e_1_2_11_126_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[XLSP17] XitaoZ. LingdaW. ShaoboY. PengZ.:Survey on multilayer networks visualization. InIEEE International Conference on Software Engineering and Service Science). (2017) pp.621–624.https://doi.org/10.1109/ICSESS.2017.8342992.",
+      "DOI": "10.1109/ICSESS.2017.8342992"
+    },
+    {
+      "key": "e_1_2_11_127_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.cosrev.2020.100267"
+    },
+    {
+      "key": "e_1_2_11_128_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "[ZMC05] ZhaoS. McGuffinM. ChignellM.:Elastic hierarchies: Combining treemaps and node‐link diagrams. InIEEE Symposium on Information Visualization. (2005) pp.57–64.https://doi.org/10.1109/INFVIS.2005.1532129.",
+      "DOI": "10.1109/INFVIS.2005.1532129"
+    },
+    {
+      "key": "e_1_2_11_129_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TST.2013.6509098"
+    }
+  ],
+  "container-title": [
+    "Computer Graphics Forum"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14794",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2024,
+        6,
+        16
+      ]
+    ],
+    "date-time": "2024-06-16T16:52:48Z",
+    "timestamp": 1718556768000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://onlinelibrary.wiley.com/doi/10.1111/cgf.14794"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2023,
+        4,
+        4
+      ]
+    ]
+  },
+  "references-count": 128,
+  "journal-issue": {
+    "issue": "6",
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          9
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1111/cgf.14794"
+  ],
+  "URL": "https://doi.org/10.1111/cgf.14794",
+  "archive": [
+    "Portico"
+  ],
+  "relation": {},
+  "ISSN": [
+    "0167-7055",
+    "1467-8659"
+  ],
+  "issn-type": [
+    {
+      "value": "0167-7055",
+      "type": "print"
+    },
+    {
+      "value": "1467-8659",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2023,
+        4,
+        4
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2023-04-04",
+      "order": 2,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ],
+  "article-number": "e14794"
+}

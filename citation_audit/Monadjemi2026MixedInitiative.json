@@ -1,0 +1,576 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        6,
+        11
+      ]
+    ],
+    "date-time": "2026-06-11T11:58:41Z",
+    "timestamp": 1781179121947,
+    "version": "3.54.1"
+  },
+  "reference-count": 58,
+  "publisher": "Wiley",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            11
+          ]
+        ],
+        "date-time": "2026-06-11T00:00:00Z",
+        "timestamp": 1781136000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            11
+          ]
+        ],
+        "date-time": "2026-06-11T00:00:00Z",
+        "timestamp": 1781136000000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "onlinelibrary.wiley.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "Computer Graphics Forum"
+  ],
+  "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    Artificial agents are increasingly integrated into data analysis workflows, carrying out tasks that were primarily done by humans. Our research explores how the introduction of automation recalibrates the dynamic between humans and automating technology. To explore this question, we conducted a scoping review encompassing twenty years of mixed‐initiative visual analytic systems. To describe and contrast the relationship between humans and automation, we developed an integrated taxonomy to delineate the objectives of these mixed‐initiative visual analytics tools, how much automation they support, and the assumed roles of humans. Here, we describe our qualitative approach of integrating existing theoretical frameworks with new codes we developed. Our analysis shows that the visualization research literature lacks consensus on the definition of mixed‐initiative systems and explores a limited potential of the collaborative interaction landscape between people and automation. Our research provides a scaffold to advance the discussion of human‐AI collaboration during visual data analysis. Our integrated taxonomy is available in the form of a web application on\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://smonadjemi.github.io/miva\">https://smonadjemi.github.io/miva</jats:ext-link>\n                    .\n                  </jats:p>",
+  "DOI": "10.1111/cgf.70434",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2026,
+        6,
+        11
+      ]
+    ],
+    "date-time": "2026-06-11T11:15:39Z",
+    "timestamp": 1781176539000
+  },
+  "update-policy": "https://doi.org/10.1002/crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 0,
+  "title": [
+    "A Scoping Review of Mixed Initiative Visual Analytics in the Automation Renaissance"
+  ],
+  "prefix": "10.1111",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-9385-5969",
+      "authenticated-orcid": false,
+      "given": "Shayan",
+      "family": "Monadjemi",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Oak Ridge National Laboratory  USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0004-3857-7486",
+      "authenticated-orcid": false,
+      "given": "Yuhan",
+      "family": "Guo",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Peking University  China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-2242-5440",
+      "authenticated-orcid": false,
+      "given": "Kai",
+      "family": "Xu",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "University of Nottingham  UK"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-6914-610X",
+      "authenticated-orcid": false,
+      "given": "Alex",
+      "family": "Endert",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Georgia Institute of Technology  USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-3445-3414",
+      "authenticated-orcid": false,
+      "given": "Anamaria",
+      "family": "Crisan",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "University of Waterloo  Canada"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "311",
+  "published-online": {
+    "date-parts": [
+      [
+        2026,
+        6,
+        11
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_2_10_2_2",
+      "unstructured": "Bommasani Rishi Hudson Drew A. Adeli Ehsan et al.On the Opportunities and Risks of Foundation Models. arXiv:2108.07258 [cs]. July2022. doi:10.48550/arXiv.2108.07258."
+    },
+    {
+      "key": "e_1_2_10_3_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1809400.1809404"
+    },
+    {
+      "key": "e_1_2_10_4_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VAST.2014.7042501"
+    },
+    {
+      "key": "e_1_2_10_5_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.visinf.2018.09.003"
+    },
+    {
+      "key": "e_1_2_10_6_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VAST.2015.7347625"
+    },
+    {
+      "key": "e_1_2_10_7_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VAST47406.2019.8986948"
+    },
+    {
+      "key": "e_1_2_10_8_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2016.2598468"
+    },
+    {
+      "key": "e_1_2_10_9_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1978942.1978967"
+    },
+    {
+      "key": "e_1_2_10_10_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2023.3327354"
+    },
+    {
+      "key": "e_1_2_10_11_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2021.3114856"
+    },
+    {
+      "key": "e_1_2_10_12_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2678025.2701395"
+    },
+    {
+      "key": "e_1_2_10_13_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2016.2598544"
+    },
+    {
+      "key": "e_1_2_10_14_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2022.3163765"
+    },
+    {
+      "key": "e_1_2_10_15_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2018.2864769"
+    },
+    {
+      "key": "e_1_2_10_16_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1714458.1714460"
+    },
+    {
+      "key": "e_1_2_10_17_2",
+      "volume-title": "The Discovery of Grounded Theory",
+      "author": "Glaser Barney G and Strauss",
+      "year": "1967"
+    },
+    {
+      "key": "e_1_2_10_18_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-030-52237-7_20"
+    },
+    {
+      "key": "e_1_2_10_19_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/302979.303030"
+    },
+    {
+      "key": "e_1_2_10_20_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VIS49827.2021.9623318"
+    },
+    {
+      "key": "e_1_2_10_21_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PacificVis52677.2021.00022"
+    },
+    {
+      "key": "e_1_2_10_22_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-540-70956-5_7"
+    },
+    {
+      "key": "e_1_2_10_23_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Kim Hyeok Rossi Ryan Hullman Jessica andHoffswell Jane. “Dupo: A Mixed-Initiative Authoring Tool for Responsive Visualization”.IEEE Trans. Visual. Comput. Graphics(2023) 1–10. doi:10.1109/TVCG.2023.3326583.",
+      "DOI": "10.1109/TVCG.2023.3326583"
+    },
+    {
+      "key": "e_1_2_10_24_2",
+      "unstructured": "Lin Zhiyu Ehsan Upol Agarwal Rohan et al.Beyond Prompts: Exploring the Design Space of Mixed-Initiative Co-Creativity Systems.2023. arXiv: 2305.07465 [cs.AI]. url:https://arxiv.org/abs/2305.07465."
+    },
+    {
+      "key": "e_1_2_10_25_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/B978-0-12-805390-4.00011-X"
+    },
+    {
+      "key": "e_1_2_10_26_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Lin Yanna Li Haotian Yang Leni et al. “InkSight: Leveraging Sketch Interaction for Documenting Chart Findings in Computational Notebooks”.IEEE Trans. Visual. Comput. Graphics(2023) 1–11. doi:10.1109/TVCG.2023.3327170.",
+      "DOI": "10.1109/TVCG.2023.3327170"
+    },
+    {
+      "key": "e_1_2_10_27_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2021.3114802"
+    },
+    {
+      "key": "e_1_2_10_28_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.14823"
+    },
+    {
+      "key": "e_1_2_10_29_2",
+      "unstructured": "McGee James P Parasuraman Raja Mavor Anne S andWickens Christopher D.The future of air traffic control: Human operators and automation. National Academies Press 1998."
+    },
+    {
+      "key": "e_1_2_10_30_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1186/s12874-018-0611-x"
+    },
+    {
+      "key": "e_1_2_10_31_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3170427.3188664"
+    },
+    {
+      "key": "e_1_2_10_32_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.14555"
+    },
+    {
+      "key": "e_1_2_10_33_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/502716.502736"
+    },
+    {
+      "key": "e_1_2_10_34_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2020.3030389"
+    },
+    {
+      "key": "e_1_2_10_35_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2022.3209421"
+    },
+    {
+      "key": "e_1_2_10_36_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/3468.844354"
+    },
+    {
+      "key": "e_1_2_10_37_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2015.2467551"
+    },
+    {
+      "key": "e_1_2_10_38_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1177/154193128903300227"
+    },
+    {
+      "key": "e_1_2_10_39_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Sperrle Fabian Ceneda Davide andEl-Assady Mennatallah. “Lotse: A Practical Framework for Guidance in Visual Analytics”.IEEE Trans. Visual. Comput. Graphics(2022) 1–11. doi:10.1109/TVCG.2022.3209393.",
+      "DOI": "10.1109/TVCG.2022.3209393"
+    },
+    {
+      "key": "e_1_2_10_40_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s00146-020-01004-z"
+    },
+    {
+      "key": "e_1_2_10_41_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Satyanarayan ArvindandJones Graham M.“Intelligence as Agency: Evaluating the Capacity of Generative AI to Empower or Constrain Human Action”.An MIT Exploration of Generative AI(Mar.2024).https://mit-genai.pubpub.org/pub/94y6e0f8.",
+      "DOI": "10.21428/e4baedd9.2d7598a2"
+    },
+    {
+      "key": "e_1_2_10_42_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.cag.2021.06.016"
+    },
+    {
+      "key": "e_1_2_10_43_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2016.2598839"
+    },
+    {
+      "key": "e_1_2_10_44_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/267505.267514"
+    },
+    {
+      "key": "e_1_2_10_45_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.14301"
+    },
+    {
+      "key": "e_1_2_10_46_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/979-8-8688-0447-2_2"
+    },
+    {
+      "key": "e_1_2_10_47_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Sheridan Thomas B Verplank William L andBrooks TL.“Human/computer control of undersea teleoperators”.NASA. Ames Res. Center The 14th Ann. Conf. on Manual Control.1978.",
+      "DOI": "10.21236/ADA057655"
+    },
+    {
+      "key": "e_1_2_10_48_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2020.3030467"
+    },
+    {
+      "key": "e_1_2_10_49_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.apergo.2015.09.013"
+    },
+    {
+      "key": "e_1_2_10_50_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2017.2745078"
+    },
+    {
+      "key": "e_1_2_10_51_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-642-83091-4_17"
+    },
+    {
+      "key": "e_1_2_10_52_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2015.2467191"
+    },
+    {
+      "key": "e_1_2_10_53_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3025453.3025768"
+    },
+    {
+      "key": "e_1_2_10_54_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2021.3114826"
+    },
+    {
+      "key": "e_1_2_10_55_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.14035"
+    },
+    {
+      "key": "e_1_2_10_56_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2016.2598543"
+    },
+    {
+      "key": "e_1_2_10_57_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3544548.3581260"
+    },
+    {
+      "key": "e_1_2_10_58_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2023.3324851"
+    },
+    {
+      "key": "e_1_2_10_59_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2024.3368060"
+    }
+  ],
+  "container-title": [
+    "Computer Graphics Forum"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.70434",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/cgf.70434",
+      "content-type": "application/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.70434",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        6,
+        11
+      ]
+    ],
+    "date-time": "2026-06-11T11:15:48Z",
+    "timestamp": 1781176548000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://onlinelibrary.wiley.com/doi/10.1111/cgf.70434"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        6,
+        11
+      ]
+    ]
+  },
+  "references-count": 58,
+  "alternative-id": [
+    "10.1111/cgf.70434"
+  ],
+  "URL": "https://doi.org/10.1111/cgf.70434",
+  "archive": [
+    "Portico"
+  ],
+  "relation": {},
+  "ISSN": [
+    "0167-7055",
+    "1467-8659"
+  ],
+  "issn-type": [
+    {
+      "value": "0167-7055",
+      "type": "print"
+    },
+    {
+      "value": "1467-8659",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2026,
+        6,
+        11
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2026-06-11",
+      "order": 3,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ],
+  "article-number": "e70434"
+}

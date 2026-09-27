@@ -1,0 +1,857 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        19
+      ]
+    ],
+    "date-time": "2026-09-19T14:46:21Z",
+    "timestamp": 1789829181563,
+    "version": "4.0.1"
+  },
+  "update-to": [
+    {
+      "DOI": "10.1371/journal.pcbi.1010310",
+      "type": "new_version",
+      "label": "New version",
+      "source": "publisher",
+      "updated": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            4
+          ]
+        ],
+        "date-time": "2022-08-04T00:00:00Z",
+        "timestamp": 1659571200000
+      }
+    }
+  ],
+  "reference-count": 49,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "7",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2022,
+            7,
+            25
+          ]
+        ],
+        "date-time": "2022-07-25T00:00:00Z",
+        "timestamp": 1658707200000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/100016917",
+      "name": "Scottish Enterprise",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "SMART/14/034 / 14/9168"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "SMART/14/034 / 14/9168"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/100016917",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "name": "Roslin Institute’s Strategic Grant from the UK’s Biotechnology and Biological Sciences Research Council",
+      "award": [
+        "BBS/E/D/10002071"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "BBS/E/D/10002071"
+          ]
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/100005205",
+      "name": "Janssen Research and Development",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "Core funding"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "Core funding"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/100005205",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "www.ploscompbiol.org"
+    ],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "PLoS Comput Biol"
+  ],
+  "abstract": "<jats:p>Graphia is an open-source platform created for the graph-based analysis of the huge amounts of quantitative and qualitative data currently being generated from the study of genomes, genes, proteins metabolites and cells. Core to Graphia’s functionality is support for the calculation of correlation matrices from any tabular matrix of continuous or discrete values, whereupon the software is designed to rapidly visualise the often very large graphs that result in 2D or 3D space. Following graph construction, an extensive range of measurement algorithms, routines for graph transformation, and options for the visualisation of node and edge attributes are available, for graph exploration and analysis. Combined, these provide a powerful solution for the interpretation of high-dimensional data from many sources, or data already in the form of a network or equivalent adjacency matrix. Several use cases of Graphia are described, to showcase its wide range of applications in the analysis biological data. Graphia runs on all major desktop operating systems, is extensible through the deployment of plugins and is freely available to download from <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://graphia.app/\" xlink:type=\"simple\">https://graphia.app/</jats:ext-link>.</jats:p>",
+  "DOI": "10.1371/journal.pcbi.1010310",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2022,
+        7,
+        25
+      ]
+    ],
+    "date-time": "2022-07-25T17:39:11Z",
+    "timestamp": 1658770751000
+  },
+  "page": "e1010310",
+  "update-policy": "https://doi.org/10.1371/journal.pcbi.corrections_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 84,
+  "title": [
+    "Graphia: A platform for the graph-based visualisation and analysis of high dimensional data"
+  ],
+  "prefix": "10.1371",
+  "volume": "18",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0001-5235-8483",
+      "authenticated-orcid": true,
+      "given": "Tom C.",
+      "family": "Freeman",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-8420-4067",
+      "authenticated-orcid": true,
+      "given": "Sebastian",
+      "family": "Horsewell",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-6980-0100",
+      "authenticated-orcid": true,
+      "given": "Anirudh",
+      "family": "Patir",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-1568-8250",
+      "authenticated-orcid": true,
+      "given": "Josh",
+      "family": "Harling-Lee",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-0979-7875",
+      "authenticated-orcid": true,
+      "given": "Tim",
+      "family": "Regan",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-3676-3304",
+      "authenticated-orcid": true,
+      "given": "Barbara B.",
+      "family": "Shih",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-8916-018X",
+      "authenticated-orcid": true,
+      "given": "James",
+      "family": "Prendergast",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-2615-1478",
+      "authenticated-orcid": true,
+      "given": "David A.",
+      "family": "Hume",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-1736-9456",
+      "authenticated-orcid": true,
+      "given": "Tim",
+      "family": "Angus",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "340",
+  "published-online": {
+    "date-parts": [
+      [
+        2022,
+        7,
+        25
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "pcbi.1010310.ref001",
+      "doi-asserted-by": "crossref",
+      "first-page": "342",
+      "DOI": "10.1016/j.tibs.2017.02.006",
+      "article-title": "Proteome-Scale Human Interactomics",
+      "author": "K Luck",
+      "year": "2017",
+      "journal-title": "Trends in Biochemical Sciences"
+    },
+    {
+      "key": "pcbi.1010310.ref002",
+      "doi-asserted-by": "crossref",
+      "first-page": "986",
+      "DOI": "10.1016/j.cell.2011.02.016",
+      "article-title": "Interactome networks and human disease",
+      "author": "M Vidal",
+      "year": "2011",
+      "journal-title": "Cell. Cell"
+    },
+    {
+      "key": "pcbi.1010310.ref003",
+      "doi-asserted-by": "crossref",
+      "first-page": "559",
+      "DOI": "10.1186/1471-2105-9-559",
+      "article-title": "WGCNA: An R package for weighted correlation network analysis [Internet]",
+      "volume": "9",
+      "author": "P Langfelder",
+      "year": "2008",
+      "journal-title": "BMC Bioinformatics"
+    },
+    {
+      "issue": "10",
+      "key": "pcbi.1010310.ref004",
+      "doi-asserted-by": "crossref",
+      "first-page": "2032",
+      "DOI": "10.1371/journal.pcbi.0030206",
+      "article-title": "Construction, visualisation, and clustering of transcription networks from microarray expression data",
+      "volume": "3",
+      "author": "TC Freeman",
+      "year": "2007",
+      "journal-title": "PLoS Comput Biol"
+    },
+    {
+      "issue": "11",
+      "key": "pcbi.1010310.ref005",
+      "doi-asserted-by": "crossref",
+      "first-page": "2498",
+      "DOI": "10.1101/gr.1239303",
+      "article-title": "Cytoscape: A software Environment for integrated models of biomolecular interaction networks. Genome Res",
+      "volume": "13",
+      "author": "P Shannon",
+      "year": "2003",
+      "journal-title": "Genome Res"
+    },
+    {
+      "key": "pcbi.1010310.ref006",
+      "first-page": "361",
+      "article-title": "Gephi: An Open Source Software for Exploring and Manipulating Networks",
+      "author": "M Bastian",
+      "year": "2009",
+      "journal-title": "Int AAAI Conf Weblogs Soc Media"
+    },
+    {
+      "key": "pcbi.1010310.ref007",
+      "first-page": "1",
+      "volume-title": "Encyclopedia of Social Network Analysis and Mining [Internet]",
+      "author": "D Auber",
+      "year": "2017"
+    },
+    {
+      "issue": "20",
+      "key": "pcbi.1010310.ref008",
+      "doi-asserted-by": "crossref",
+      "first-page": "3350",
+      "DOI": "10.1093/bioinformatics/btv383",
+      "article-title": "Bandage: Interactive visualization of de novo genome assemblies [Internet]",
+      "volume": "31",
+      "author": "RR Wick",
+      "year": "2015",
+      "journal-title": "Bioinformatics [Internet]"
+    },
+    {
+      "key": "pcbi.1010310.ref009",
+      "article-title": "Graphviz and dynagraph–static and dynamic graph drawing tools [Internet]",
+      "author": "J Ellson",
+      "year": "2003",
+      "journal-title": "GRAPH Draw Softw [Internet]"
+    },
+    {
+      "key": "pcbi.1010310.ref010",
+      "first-page": "477",
+      "volume-title": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics) [Internet]",
+      "author": "V Batagelj",
+      "year": "2002"
+    },
+    {
+      "issue": "10",
+      "key": "pcbi.1010310.ref011",
+      "doi-asserted-by": "crossref",
+      "first-page": "1535",
+      "DOI": "10.1038/nprot.2009.177",
+      "article-title": "Network visualization and analysis of gene expression data using BioLayout Express(3D). [Internet]",
+      "volume": "4",
+      "author": "A Theocharidis",
+      "year": "2009",
+      "journal-title": "Nat Protoc [Internet]"
+    },
+    {
+      "key": "pcbi.1010310.ref012",
+      "unstructured": "Social Network Visualiser [Internet]. Available from: https://socnetv.org/."
+    },
+    {
+      "key": "pcbi.1010310.ref013",
+      "article-title": "NodeXL: a free and open network overview, discovery and exploration add-in for Excel 2007/2010/2013/2016",
+      "author": "M Smith",
+      "year": "2010",
+      "journal-title": "Social Media Research Foundation [Internet]"
+    },
+    {
+      "issue": "DATABASE ISS",
+      "key": "pcbi.1010310.ref014",
+      "first-page": "D433",
+      "article-title": "STRING: Known and predicted protein-protein associations, integrated and transferred across organisms",
+      "volume": "33",
+      "author": "C von Mering",
+      "year": "2005",
+      "journal-title": "Nucleic Acids Res"
+    },
+    {
+      "key": "pcbi.1010310.ref015",
+      "article-title": "GeneMANIA: A real-time multiple association network integration algorithm for predicting gene function [Internet]",
+      "author": "S Mostafavi",
+      "year": "2008",
+      "journal-title": "Genome Biol [Internet]. Genome Biol"
+    },
+    {
+      "key": "pcbi.1010310.ref016",
+      "unstructured": "Neo4J Bloom [Internet]. Available from: https://neo4j.com/bloom/."
+    },
+    {
+      "key": "pcbi.1010310.ref017",
+      "volume-title": "In Handbook of Graph Drawing and Visualization",
+      "author": "M Chimani",
+      "year": "2014"
+    },
+    {
+      "issue": "4",
+      "key": "pcbi.1010310.ref018",
+      "first-page": "302",
+      "article-title": "NDEx, the Network Data Exchange [Internet]",
+      "volume": "1",
+      "author": "D Pratt",
+      "year": "2015",
+      "journal-title": "Cell Syst [Internet]. Cell Press"
+    },
+    {
+      "key": "pcbi.1010310.ref019",
+      "unstructured": "Rossi RA, Ahmed NK. The Network Data Repository with Interactive Graph Analytics and Visualization [Internet]. [cited 2020 Jul 5]. Available from: http://snap.stanford.edu/data/index.html."
+    },
+    {
+      "issue": "1",
+      "key": "pcbi.1010310.ref020",
+      "article-title": "SNAP: A general-purpose network analysis and graph-mining library. ACM Trans Intell Syst Technol",
+      "volume": "8",
+      "author": "J Leskovec",
+      "year": "2016",
+      "journal-title": "Association for Computing Machinery"
+    },
+    {
+      "key": "pcbi.1010310.ref021",
+      "first-page": "84",
+      "article-title": "Discerning molecular interactions: A comprehensive review on biomolecular interaction databases and network analysis tools",
+      "author": "SK Miryala",
+      "year": "2018",
+      "journal-title": "Gene. Elsevier B.V."
+    },
+    {
+      "key": "pcbi.1010310.ref022",
+      "article-title": "An introduction to kernel and nearest-neighbor nonparametric regression [Internet]",
+      "author": "NS Altman",
+      "year": "1992",
+      "journal-title": "Am Stat [Internet]"
+    },
+    {
+      "key": "pcbi.1010310.ref023",
+      "doi-asserted-by": "crossref",
+      "first-page": "1575",
+      "DOI": "10.1093/nar/30.7.1575",
+      "article-title": "An efficient algorithm for large-scale detection of protein families",
+      "author": "AJ Enright",
+      "year": "2002",
+      "journal-title": "Nucleic Acids Research"
+    },
+    {
+      "issue": "10",
+      "key": "pcbi.1010310.ref024",
+      "first-page": "P10008",
+      "article-title": "Fast unfolding of communities in large networks. J Stat Mech Theory Exp.",
+      "volume": "2008",
+      "author": "VD Blondel",
+      "year": "2008",
+      "journal-title": "IOP Publishing"
+    },
+    {
+      "issue": "1",
+      "key": "pcbi.1010310.ref025",
+      "doi-asserted-by": "crossref",
+      "first-page": "10",
+      "DOI": "10.1093/nar/28.1.10",
+      "article-title": "Database resources of the National Center for Biotechnology Information. [Internet]",
+      "volume": "28",
+      "author": "DL Wheeler",
+      "year": "2000",
+      "journal-title": "Nucleic Acids Res"
+    },
+    {
+      "key": "pcbi.1010310.ref026",
+      "article-title": "Visualizing Data using t-SNE",
+      "author": "L Van Der Maaten",
+      "year": "2008",
+      "journal-title": "Journal of Machine Learning Research"
+    },
+    {
+      "issue": "1",
+      "key": "pcbi.1010310.ref027",
+      "doi-asserted-by": "crossref",
+      "first-page": "38",
+      "DOI": "10.1038/nbt.4314",
+      "article-title": "Dimensionality reduction for visualizing single-cell data using UMAP",
+      "volume": "37",
+      "author": "E Becht",
+      "year": "2019",
+      "journal-title": "Nat Biotechnol. Nature Publishing Group"
+    },
+    {
+      "issue": "7727",
+      "key": "pcbi.1010310.ref028",
+      "first-page": "367",
+      "article-title": "Single-cell transcriptomics of 20 mouse organs creates a Tabula Muris",
+      "volume": "562",
+      "author": "N Schaum",
+      "year": "2018",
+      "journal-title": "Nature. Nature Publishing Group"
+    },
+    {
+      "issue": "10",
+      "key": "pcbi.1010310.ref029",
+      "doi-asserted-by": "crossref",
+      "first-page": "3107",
+      "DOI": "10.1093/bioinformatics/btaa087",
+      "article-title": "Statistical significance of cluster membership for unsupervised evaluation of cell identities",
+      "volume": "36",
+      "author": "NC Chung",
+      "year": "2020",
+      "journal-title": "Bioinformatics. NLM (Medline)"
+    },
+    {
+      "issue": "3",
+      "key": "pcbi.1010310.ref030",
+      "doi-asserted-by": "crossref",
+      "first-page": "e1007732",
+      "DOI": "10.1371/journal.pcbi.1007732",
+      "article-title": "PPanGGOLiN: Depicting microbial diversity via a partitioned pangenome graph",
+      "volume": "16",
+      "author": "G Gautreau",
+      "year": "2020",
+      "journal-title": "PLoS Comput Biol. Public Library of Science"
+    },
+    {
+      "issue": "1",
+      "key": "pcbi.1010310.ref031",
+      "doi-asserted-by": "crossref",
+      "first-page": "180",
+      "DOI": "10.1186/s13059-020-02090-4",
+      "article-title": "Producing polished prokaryotic pangenomes with the Panaroo pipeline [Internet]",
+      "volume": "21",
+      "author": "G Tonkin-Hill",
+      "year": "2020",
+      "journal-title": "Genome Biol [Internet]. BioMed Central"
+    },
+    {
+      "issue": "9",
+      "key": "pcbi.1010310.ref032",
+      "doi-asserted-by": "crossref",
+      "first-page": "1468",
+      "DOI": "10.1038/s41559-018-0617-0",
+      "article-title": "Gene exchange drives the ecological success of a multi-host bacterial pathogen [Internet]",
+      "volume": "2",
+      "author": "EJ Richardson",
+      "year": "2018",
+      "journal-title": "Nat Ecol Evol [Internet]. Nature Publishing Group"
+    },
+    {
+      "key": "pcbi.1010310.ref033",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Seemann T. Prokka: Rapid prokaryotic genome annotation. Bioinformatics. Oxford University Press; 2014 Jul 15;30(14):2068–9.",
+      "DOI": "10.1093/bioinformatics/btu153"
+    },
+    {
+      "key": "pcbi.1010310.ref034",
+      "article-title": "PIRATE: A fast and scalable pangenomics toolbox for clustering diverged orthologues in bacteria [Internet]",
+      "author": "SC Bayliss",
+      "year": "2019",
+      "journal-title": "Gigascience [Internet]"
+    },
+    {
+      "key": "pcbi.1010310.ref035",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1186/1471-2105-11-378",
+      "article-title": "Graph-based clustering and characterization of repetitive sequences in next-generation sequencing data",
+      "volume": "11",
+      "author": "P Novák",
+      "year": "2010",
+      "journal-title": "BMC Bioinformatics"
+    },
+    {
+      "issue": "14",
+      "key": "pcbi.1010310.ref036",
+      "doi-asserted-by": "crossref",
+      "first-page": "7262",
+      "DOI": "10.1093/nar/gkz599",
+      "article-title": "Visualization and analysis of RNA-Seq assembly graphs [Internet]",
+      "volume": "47",
+      "author": "FW Nazarie",
+      "year": "2019",
+      "journal-title": "Nucleic Acids Res [Internet]"
+    },
+    {
+      "key": "pcbi.1010310.ref037",
+      "first-page": "68",
+      "article-title": "A global reference for human genetic variation",
+      "author": "A Auton",
+      "year": "2015",
+      "journal-title": "Nature. Nature Publishing Group"
+    },
+    {
+      "issue": "10",
+      "key": "pcbi.1010310.ref038",
+      "doi-asserted-by": "crossref",
+      "first-page": "1535",
+      "DOI": "10.1038/nprot.2009.177",
+      "article-title": "Network visualization and analysis of gene expression data using BioLayout Express(3D)",
+      "volume": "4",
+      "author": "A Theocharidis",
+      "year": "2009",
+      "journal-title": "Nat Protoc"
+    },
+    {
+      "issue": "8",
+      "key": "pcbi.1010310.ref039",
+      "article-title": "Modelling the Structure and Dynamics of Biological Pathways",
+      "volume": "14",
+      "author": "L O’Hara",
+      "year": "2016",
+      "journal-title": "PLoS Biol. Public Library of Science"
+    },
+    {
+      "key": "pcbi.1010310.ref040",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1186/1741-7007-10-90",
+      "article-title": "A gene expression atlas of the domestic pig",
+      "volume": "10",
+      "author": "TC Freeman",
+      "year": "2012",
+      "journal-title": "BMC Biol"
+    },
+    {
+      "issue": "2",
+      "key": "pcbi.1010310.ref041",
+      "doi-asserted-by": "crossref",
+      "first-page": "274",
+      "DOI": "10.1016/j.immuni.2014.01.006",
+      "article-title": "Transcriptome-Based Network Analysis Reveals a Spectrum Model of Human Macrophage Activation",
+      "volume": "40",
+      "author": "J Xue",
+      "year": "2014",
+      "journal-title": "Immunity"
+    },
+    {
+      "issue": "1",
+      "key": "pcbi.1010310.ref042",
+      "doi-asserted-by": "crossref",
+      "first-page": "10814",
+      "DOI": "10.1038/s41598-020-66453-4",
+      "article-title": "The transcriptional signature associated with human motile cilia [Internet]",
+      "volume": "10",
+      "author": "A Patir",
+      "year": "2020",
+      "journal-title": "Sci Rep [Internet]"
+    },
+    {
+      "issue": "9",
+      "key": "pcbi.1010310.ref043",
+      "article-title": "A high resolution atlas of gene expression in the domestic sheep (Ovis aries)",
+      "volume": "13",
+      "author": "EL Clark",
+      "year": "2017",
+      "journal-title": "PLoS Genet. Public Library of Science"
+    },
+    {
+      "issue": "11",
+      "key": "pcbi.1010310.ref044",
+      "first-page": "1388",
+      "article-title": "Immune cell gene signatures for profiling the microenvironment of solid tumors",
+      "volume": "6",
+      "author": "AJ Nirmal",
+      "year": "2018",
+      "journal-title": "Cancer Immunol Res. American Association for Cancer Research Inc."
+    },
+    {
+      "key": "pcbi.1010310.ref045",
+      "article-title": "Network analysis reveals distinct clinical syndromes underlying acute mountain sickness [Internet]",
+      "author": "DP Hall",
+      "year": "2014",
+      "journal-title": "PLoS One [Internet]. Public Library of Science"
+    },
+    {
+      "issue": "1",
+      "key": "pcbi.1010310.ref046",
+      "article-title": "Characterisation of the British honey bee metagenome. Nat Commun",
+      "volume": "9",
+      "author": "T Regan",
+      "year": "2018",
+      "journal-title": "Nature Publishing Group"
+    },
+    {
+      "issue": "1",
+      "key": "pcbi.1010310.ref047",
+      "article-title": "Network analysis of canine brain morphometry links tumour risk to oestrogen deficiency and accelerated brain ageing",
+      "volume": "9",
+      "author": "NM Rzechorzek",
+      "year": "2019",
+      "journal-title": "Sci Rep. Nature Publishing Group"
+    },
+    {
+      "issue": "10",
+      "key": "pcbi.1010310.ref048",
+      "article-title": "Network analysis of the social and demographic influences on name choice within the UK (1838–2016)",
+      "volume": "13",
+      "author": "SJ Bush",
+      "year": "2018",
+      "journal-title": "PLoS One. Public Library of Science"
+    },
+    {
+      "issue": "4",
+      "key": "pcbi.1010310.ref049",
+      "doi-asserted-by": "crossref",
+      "first-page": "539",
+      "DOI": "10.1109/TVCG.2010.78",
+      "article-title": "Animation, small multiples, and the effect of mental map preservation in dynamic graphs [Internet]. IEEE Trans Vis Comput Graph [Internet]",
+      "volume": "17",
+      "author": "D Archambault",
+      "year": "2011",
+      "journal-title": "IEEE Trans Vis Comput Graph"
+    }
+  ],
+  "updated-by": [
+    {
+      "DOI": "10.1371/journal.pcbi.1010310",
+      "type": "new_version",
+      "label": "New version",
+      "source": "publisher",
+      "updated": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            4
+          ]
+        ],
+        "date-time": "2022-08-04T00:00:00Z",
+        "timestamp": 1659571200000
+      }
+    }
+  ],
+  "container-title": [
+    "PLOS Computational Biology"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://dx.plos.org/10.1371/journal.pcbi.1010310",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2022,
+        8,
+        4
+      ]
+    ],
+    "date-time": "2022-08-04T17:59:50Z",
+    "timestamp": 1659635990000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://dx.plos.org/10.1371/journal.pcbi.1010310"
+    }
+  },
+  "subtitle": [],
+  "editor": [
+    {
+      "given": "Eli",
+      "family": "Zunder",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "editor"
+        }
+      ]
+    }
+  ],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2022,
+        7,
+        25
+      ]
+    ]
+  },
+  "references-count": 49,
+  "journal-issue": {
+    "issue": "7",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          25
+        ]
+      ]
+    }
+  },
+  "URL": "https://doi.org/10.1371/journal.pcbi.1010310",
+  "relation": {
+    "new_version": [
+      {
+        "id-type": "doi",
+        "id": "10.1371/journal.pcbi.1010310",
+        "asserted-by": "object"
+      }
+    ]
+  },
+  "ISSN": [
+    "1553-7358"
+  ],
+  "issn-type": [
+    {
+      "value": "1553-7358",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2022,
+        7,
+        25
+      ]
+    ]
+  }
+}

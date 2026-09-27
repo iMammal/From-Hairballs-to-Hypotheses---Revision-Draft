@@ -1,0 +1,739 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        3
+      ]
+    ],
+    "date-time": "2026-09-03T03:43:30Z",
+    "timestamp": 1788407010467,
+    "version": "build-2803163510"
+  },
+  "reference-count": 74,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "issue": "9",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            1
+          ]
+        ],
+        "date-time": "2025-09-01T00:00:00Z",
+        "timestamp": 1756684800000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            1
+          ]
+        ],
+        "date-time": "2025-09-01T00:00:00Z",
+        "timestamp": 1756684800000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-029"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            1
+          ]
+        ],
+        "date-time": "2025-09-01T00:00:00Z",
+        "timestamp": 1756684800000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-037"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "62472099"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "62472099"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "IEEE Trans. Visual. Comput. Graphics"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2025,
+        9
+      ]
+    ]
+  },
+  "DOI": "10.1109/tvcg.2024.3496112",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2024,
+        11,
+        14
+      ]
+    ],
+    "date-time": "2024-11-14T13:37:14Z",
+    "timestamp": 1731591434000
+  },
+  "page": "6162-6177",
+  "source": "Crossref",
+  "is-referenced-by-count": 35,
+  "title": [
+    "LightVA: Lightweight Visual Analytics With LLM Agent-Based Task Planning and Execution"
+  ],
+  "prefix": "10.1109",
+  "volume": "31",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0003-1573-8772",
+      "authenticated-orcid": false,
+      "given": "Yuheng",
+      "family": "Zhao",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "School of Data Science, Fudan University, Shanghai, China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Junjie",
+      "family": "Wang",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of Data Science, Fudan University, Shanghai, China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0000-1928-8268",
+      "authenticated-orcid": false,
+      "given": "Linbing",
+      "family": "Xiang",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of Data Science, Fudan University, Shanghai, China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Xiaowen",
+      "family": "Zhang",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of Data Science, Fudan University, Shanghai, China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0004-6002-4001",
+      "authenticated-orcid": false,
+      "given": "Zifei",
+      "family": "Guo",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of Data Science, Fudan University, Shanghai, China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-6788-251X",
+      "authenticated-orcid": false,
+      "given": "Cagatay",
+      "family": "Turkay",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Centre for Interdisciplinary Methodologies, University of Warwick, Coventry, U.K."
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-9035-0463",
+      "authenticated-orcid": false,
+      "given": "Yu",
+      "family": "Zhang",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Computer Science, University of Oxford, Oxford, U.K."
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-2690-3588",
+      "authenticated-orcid": false,
+      "given": "Siming",
+      "family": "Chen",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "School of Data Science, Fudan University, Shanghai, China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "263",
+  "reference": [
+    {
+      "key": "ref1",
+      "first-page": "69",
+      "volume-title": "Illuminating the Path: An R&D Agenda for Visual Analytics",
+      "author": "Thomas",
+      "year": "2005"
+    },
+    {
+      "key": "ref2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-540-70956-5_7"
+    },
+    {
+      "key": "ref3",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2022.3209360"
+    },
+    {
+      "key": "ref4",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2016.2598468"
+    },
+    {
+      "key": "ref5",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2022.3209468"
+    },
+    {
+      "key": "ref6",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2019.2934668"
+    },
+    {
+      "key": "ref7",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2019.2934398"
+    },
+    {
+      "key": "ref8",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.14778/3137765.3137813"
+    },
+    {
+      "key": "ref9",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.18653/v1/2023.emnlp-main.507"
+    },
+    {
+      "key": "ref10",
+      "article-title": "LLM-Assist: Enhancing closed-loop planning with language-based reasoning",
+      "author": "Sharan",
+      "year": "2023"
+    },
+    {
+      "key": "ref11",
+      "first-page": "23826",
+      "article-title": "InterCode: Standardizing and benchmarking interactive coding with execution feedback",
+      "volume-title": "Proc. Adv. Neural Inf. Process. Syst.",
+      "author": "Yang"
+    },
+    {
+      "key": "ref12",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.18653/v1/2023.emnlp-industry.59"
+    },
+    {
+      "key": "ref13",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.18653/v1/2023.acl-demo.11"
+    },
+    {
+      "key": "ref14",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.18653/v1/2023.emnlp-industry.64"
+    },
+    {
+      "key": "ref15",
+      "article-title": "GPTEval: A survey on assessments of ChatGPT and GPT-4",
+      "author": "Mao",
+      "year": "2023"
+    },
+    {
+      "key": "ref16",
+      "article-title": "Data-Copilot: Bridging billions of data and humans with autonomous workflow",
+      "author": "Zhang",
+      "year": "2023"
+    },
+    {
+      "key": "ref17",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/tvcg.2024.3368060"
+    },
+    {
+      "key": "ref18",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2021.3099002"
+    },
+    {
+      "key": "ref19",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2021.3106142"
+    },
+    {
+      "key": "ref20",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s44267-023-00011-0"
+    },
+    {
+      "key": "ref21",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2015.2467191"
+    },
+    {
+      "key": "ref22",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2939502.2939506"
+    },
+    {
+      "key": "ref23",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MCG.2019.2924636"
+    },
+    {
+      "key": "ref24",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3290605.3300358"
+    },
+    {
+      "key": "ref25",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3447548.3467279"
+    },
+    {
+      "key": "ref26",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2020.3018724"
+    },
+    {
+      "key": "ref27",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2023.3316469"
+    },
+    {
+      "key": "ref28",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2021.3114863"
+    },
+    {
+      "key": "ref29",
+      "article-title": "Lodestar: Supporting independent learning and rapid experimentation through data-driven analysis recommendations",
+      "author": "Raghunandan",
+      "year": "2022"
+    },
+    {
+      "key": "ref30",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2017.2744198"
+    },
+    {
+      "key": "ref31",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2021.3102966"
+    },
+    {
+      "key": "ref32",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3313831.3376880"
+    },
+    {
+      "key": "ref33",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2018.2865240"
+    },
+    {
+      "key": "ref34",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2023.3251344"
+    },
+    {
+      "key": "ref35",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2021.3114826"
+    },
+    {
+      "key": "ref36",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s44267-023-00010-1"
+    },
+    {
+      "key": "ref37",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3545995"
+    },
+    {
+      "key": "ref38",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3318464.3389779"
+    },
+    {
+      "key": "ref39",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/108360.108361"
+    },
+    {
+      "key": "ref40",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2018.2829750"
+    },
+    {
+      "key": "ref41",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/INFVIS.2005.1532136"
+    },
+    {
+      "key": "ref42",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1502650.1502695"
+    },
+    {
+      "key": "ref43",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s00371-015-1132-9"
+    },
+    {
+      "key": "ref44",
+      "first-page": "91",
+      "article-title": "TaskVis: Task-oriented visualization recommendation",
+      "volume-title": "Proc. Eurographics Conf. Vis.",
+      "author": "Shen"
+    },
+    {
+      "key": "ref45",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2022.3209421"
+    },
+    {
+      "key": "ref46",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/tvcg.2024.3368621"
+    },
+    {
+      "key": "ref47",
+      "article-title": "Visualization generation with large language models: An evaluation",
+      "author": "Li",
+      "year": "2024"
+    },
+    {
+      "key": "ref48",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2023.3329120"
+    },
+    {
+      "key": "ref49",
+      "article-title": "ChatGPT as your personal data scientist",
+      "author": "Hassan",
+      "year": "2023"
+    },
+    {
+      "key": "ref50",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.18653/v1/2023.emnlp-demo.31"
+    },
+    {
+      "key": "ref51",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1609/aaai.v38i16.29779"
+    },
+    {
+      "key": "ref52",
+      "first-page": "24824",
+      "article-title": "Chain-of-Thought prompting elicits reasoning in large language models",
+      "volume-title": "Proc. Adv. Neural Inf. Process. Syst.",
+      "author": "Wei"
+    },
+    {
+      "key": "ref53",
+      "first-page": "11809",
+      "article-title": "Tree of Thoughts: Deliberate problem solving with large language models",
+      "volume-title": "Proc. Adv. Neural Inf. Process. Syst.",
+      "author": "Yao"
+    },
+    {
+      "key": "ref54",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1609/aaai.v38i16.29720"
+    },
+    {
+      "key": "ref55",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3491102.3517582"
+    },
+    {
+      "key": "ref56",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3643894"
+    },
+    {
+      "key": "ref57",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/345513.345271"
+    },
+    {
+      "key": "ref58",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TSC.2022.3164146"
+    },
+    {
+      "key": "ref59",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3299869.3314037"
+    },
+    {
+      "key": "ref60",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2016.2599030"
+    },
+    {
+      "key": "ref61",
+      "first-page": "1877",
+      "article-title": "Language models are few-shot learners",
+      "volume-title": "Proc. Adv. Neural Inf. Process. Syst.",
+      "author": "Brown"
+    },
+    {
+      "key": "ref62",
+      "first-page": "8634",
+      "article-title": "Reflexion: Language agents with verbal reinforcement learning",
+      "volume-title": "Proc. 37th Int. Conf. Neural Inf. Process. Syst.",
+      "author": "Shinn"
+    },
+    {
+      "key": "ref63",
+      "article-title": "Mixed-initiative visual exploration of social media text and events",
+      "volume-title": "Proc. IEEE Conf. Visual. Vis. Analytics",
+      "author": "Peng"
+    },
+    {
+      "key": "ref64",
+      "volume-title": "The Think Aloud Method: A Practical Approach to Modelling Cognitive",
+      "author": "Van Someren",
+      "year": "1994"
+    },
+    {
+      "key": "ref65",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.18653/v1/2023.findings-emnlp.123"
+    },
+    {
+      "key": "ref66",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.18653/v1/2023.nlposs-1.24"
+    },
+    {
+      "key": "ref67",
+      "article-title": "ToolLLM: Facilitating large language models to master 16000 real-world APIs",
+      "author": "Qin",
+      "year": "2023"
+    },
+    {
+      "key": "ref68",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2024.3456145"
+    },
+    {
+      "key": "ref69",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2024.3456159"
+    },
+    {
+      "key": "ref70",
+      "article-title": "MemGPT: Towards LLMs as operating systems",
+      "author": "Packer",
+      "year": "2023"
+    },
+    {
+      "key": "ref71",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3613904.3642462"
+    },
+    {
+      "key": "ref72",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3613904.3642639"
+    },
+    {
+      "key": "ref73",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.13678"
+    },
+    {
+      "key": "ref74",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3313831.3376533"
+    }
+  ],
+  "container-title": [
+    "IEEE Transactions on Visualization and Computer Graphics"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx8/2945/11105772/10753451.pdf?arnumber=10753451",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        8,
+        7
+      ]
+    ],
+    "date-time": "2025-08-07T17:44:14Z",
+    "timestamp": 1754588654000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://ieeexplore.ieee.org/document/10753451/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2025,
+        9
+      ]
+    ]
+  },
+  "references-count": 74,
+  "journal-issue": {
+    "issue": "9"
+  },
+  "URL": "https://doi.org/10.1109/tvcg.2024.3496112",
+  "relation": {},
+  "ISSN": [
+    "1077-2626",
+    "1941-0506",
+    "2160-9306"
+  ],
+  "issn-type": [
+    {
+      "value": "1077-2626",
+      "type": "print"
+    },
+    {
+      "value": "1941-0506",
+      "type": "electronic"
+    },
+    {
+      "value": "2160-9306",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2025,
+        9
+      ]
+    ]
+  }
+}

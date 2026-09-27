@@ -1,0 +1,614 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        2,
+        27
+      ]
+    ],
+    "date-time": "2026-02-27T04:10:49Z",
+    "timestamp": 1772165449435,
+    "version": "3.50.1"
+  },
+  "reference-count": 42,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "S10",
+  "content-domain": {
+    "domain": [
+      "link.springer.com"
+    ],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "BMC Bioinformatics"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2017,
+        9
+      ]
+    ]
+  },
+  "DOI": "10.1186/s12859-017-1785-7",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2017,
+        9,
+        13
+      ]
+    ],
+    "date-time": "2017-09-13T05:02:16Z",
+    "timestamp": 1505278936000
+  },
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 8,
+  "title": [
+    "MediSyn: uncertainty-aware visualization of multiple biomedical datasets to support drug treatment selection"
+  ],
+  "prefix": "10.1186",
+  "volume": "18",
+  "author": [
+    {
+      "given": "Chen",
+      "family": "He",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Luana",
+      "family": "Micallef",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Zia-ur-Rehman",
+      "family": "Tanoli",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Samuel",
+      "family": "Kaski",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Tero",
+      "family": "Aittokallio",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Giulio",
+      "family": "Jacucci",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "member": "297",
+  "published-online": {
+    "date-parts": [
+      [
+        2017,
+        9,
+        13
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "issue": "1",
+      "key": "1785_CR1",
+      "doi-asserted-by": "crossref",
+      "first-page": "19",
+      "DOI": "10.1186/1758-2946-3-19",
+      "volume": "3",
+      "author": "M Samwald",
+      "year": "2011",
+      "unstructured": "Samwald M, Jentzsch A, Bouton C, Kallesøe CS, Willighagen E, Hajagos J, Marshall MS, Prud’hommeaux E, Hassanzadeh O, Pichler E, et al. Linked open drug data for pharmaceutical research and development. J Cheminformatics. 2011; 3(1):19.",
+      "journal-title": "J Cheminformatics"
+    },
+    {
+      "issue": "4",
+      "key": "1785_CR2",
+      "doi-asserted-by": "crossref",
+      "first-page": "357",
+      "DOI": "10.1093/bib/bbr005",
+      "volume": "12",
+      "author": "C Andronis",
+      "year": "2011",
+      "unstructured": "Andronis C, Sharma A, Virvilis V, Deftereos S, Persidis A. Literature mining, ontologies and information visualization for drug repurposing. Brief Bioinform. 2011; 12(4):357–68.",
+      "journal-title": "Brief Bioinform"
+    },
+    {
+      "issue": "D1",
+      "key": "1785_CR3",
+      "doi-asserted-by": "crossref",
+      "first-page": "1091",
+      "DOI": "10.1093/nar/gkt1068",
+      "volume": "42",
+      "author": "V Law",
+      "year": "2014",
+      "unstructured": "Law V, Knox C, Djoumbou Y, Jewison T, Guo AC, Liu Y, Maciejewski A, Arndt D, Wilson M, Neveu V, et al. Drugbank 4.0: shedding new light on drug metabolism. Nucleic Acids Res. 2014; 42(D1):1091–7.",
+      "journal-title": "Nucleic Acids Res"
+    },
+    {
+      "key": "1785_CR4",
+      "unstructured": "US National Library of Medicine. clinicaltrials.gov. \n                        https://clinicaltrials.gov/\n                        \n                    . Accessed April 2017."
+    },
+    {
+      "key": "1785_CR5",
+      "volume-title": "International Semantic Web Conference",
+      "author": "A Hasnain",
+      "year": "2014",
+      "unstructured": "Hasnain A, Kamdar MR, Hasapis P, Zeginis D, Warren Jr CN, Deus HF, Ntalaperas D, Tarabanis K, Mehdi M, Decker S. Linked biomedical dataspace: lessons learned integrating data for drug discovery. In: International Semantic Web Conference. Cham: Springer International Publishing: 2014. p. 114–30."
+    },
+    {
+      "issue": "1",
+      "key": "1785_CR6",
+      "doi-asserted-by": "crossref",
+      "first-page": "2",
+      "DOI": "10.1186/1471-2105-15-S1-S2",
+      "volume": "15",
+      "author": "M Masseroli",
+      "year": "2014",
+      "unstructured": "Masseroli M, Mons B, Bongcam-Rudloff E, Ceri S, Kel A, Rechenmann F, Lisacek F, Romano P. Integrated bio-search: challenges and trends for the integration, search and comprehensive processing of biological information. BMC Bioinforma. 2014; 15(1):2.",
+      "journal-title": "BMC Bioinforma"
+    },
+    {
+      "issue": "4",
+      "key": "1785_CR7",
+      "doi-asserted-by": "crossref",
+      "first-page": "295",
+      "DOI": "10.1016/0959-4752(94)90003-5",
+      "volume": "4",
+      "author": "J Sweller",
+      "year": "1994",
+      "unstructured": "Sweller J. Cognitive load theory, learning difficulty, and instructional design. Learn Instr. 1994; 4(4):295–312.",
+      "journal-title": "Learn Instr"
+    },
+    {
+      "key": "1785_CR8",
+      "volume-title": "Linked open data: The essentials",
+      "author": "F Bauer",
+      "year": "2011",
+      "unstructured": "Bauer F, Kaltenböck M. Linked open data: The essentials. Vienna: Edition mono/monochrom; 2011."
+    },
+    {
+      "issue": "5",
+      "key": "1785_CR9",
+      "doi-asserted-by": "crossref",
+      "first-page": "706",
+      "DOI": "10.1016/j.jbi.2008.03.004",
+      "volume": "41",
+      "author": "F Belleau",
+      "year": "2008",
+      "unstructured": "Belleau F, Nolin MA, Tourigny N, Rigault P, Morissette J. Bio2rdf: towards a mashup to build bioinformatics knowledge systems. J Biomed Inform. 2008; 41(5):706–16.",
+      "journal-title": "J Biomed Inform"
+    },
+    {
+      "issue": "21",
+      "key": "1785_CR10",
+      "doi-asserted-by": "crossref",
+      "first-page": "1188",
+      "DOI": "10.1016/j.drudis.2012.05.016",
+      "volume": "17",
+      "author": "AJ Williams",
+      "year": "2012",
+      "unstructured": "Williams AJ, Harland L, Groth P, Pettifer S, Chichester C, Willighagen EL, Evelo CT, Blomberg N, Ecker G, Goble C, et al. Open phacts: semantic interoperability for drug discovery. Drug Discov Today. 2012; 17(21):1188–98.",
+      "journal-title": "Drug Discov Today"
+    },
+    {
+      "key": "1785_CR11",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Zhang L, Kuljis J, Liu X. Visualization of high throughput biological data. In: Proceedings of the ITI 2012 34th International Conference on Information Technology Interfaces. 2012. p. 163–8. doi:\n                        10.2498/iti.2012.0380\n                        \n                    .",
+      "DOI": "10.2498/iti.2012.0480"
+    },
+    {
+      "key": "1785_CR12",
+      "volume-title": "Presented at IEEE Symposium on Information Visualization",
+      "author": "BM Institute",
+      "year": "2001",
+      "unstructured": "Institute BM. Interactive visualization of multiple query results. In: Presented at IEEE Symposium on Information Visualization. Washington: IEEE Computer Society: 2001."
+    },
+    {
+      "key": "1785_CR13",
+      "volume-title": "Proc. of Joint Workshop on Interfaces and Human Decision Making for Recommender Systems at 10th ACM Conference on Recommender Systems",
+      "author": "K Verbert",
+      "year": "2016",
+      "unstructured": "Verbert K, Seipp K, He C, Parra D, Wongchokprasitti C, Brusilovsky P. Scalable exploration of relevance prospects to support decision making. In: Proc. of Joint Workshop on Interfaces and Human Decision Making for Recommender Systems at 10th ACM Conference on Recommender Systems. New York: ACM: 2016. p. 28–35. CEUR-WS."
+    },
+    {
+      "key": "1785_CR14",
+      "volume-title": "IS&T/SPIE Symposium on Electronic Imaging Conference on Visualization and Data Analysis",
+      "author": "J Thomson",
+      "year": "2005",
+      "unstructured": "Thomson J, Hetzler E, MacEachren A, Gahegan M, Pavel M. A typology for visualizing uncertainty. In: IS&T/SPIE Symposium on Electronic Imaging Conference on Visualization and Data Analysis. San Jose: Electronic Imaging Press: 2005. p. 146–57."
+    },
+    {
+      "key": "1785_CR15",
+      "unstructured": "Muhammad S, Maulik K, Aftab I, Shanmukha S, Bade I, Axel N, Jonas SA, Helena FD, Stefan D. Linked TCGA. \n                        http://tcga.deri.ie/\n                        \n                    . Accessed Apr 2017."
+    },
+    {
+      "key": "1785_CR16",
+      "unstructured": "Decker S, Deus H, Iqbal A, Kamdar M, Saleem M. Genomesnip: Fragmenting the genomic wheel to augment discovery in cancer research. In: Conference on Semantics in Healthcare and Life Sciences (CSHALS). Boston: 2014."
+    },
+    {
+      "issue": "8",
+      "key": "1785_CR17",
+      "doi-asserted-by": "crossref",
+      "first-page": "537",
+      "DOI": "10.1002/minf.201200070",
+      "volume": "31",
+      "author": "MC Carrascosa",
+      "year": "2012",
+      "unstructured": "Carrascosa MC, Massaguer OL, Mestres J. Pharmatrek: a semantic web explorer for open innovation in multitarget drug discovery. Mol Inform. 2012; 31(8):537–41.",
+      "journal-title": "Mol Inform"
+    },
+    {
+      "issue": "1",
+      "key": "1785_CR18",
+      "doi-asserted-by": "crossref",
+      "first-page": "3",
+      "DOI": "10.1016/j.drudis.2009.09.011",
+      "volume": "15",
+      "author": "SJ Campbell",
+      "year": "2010",
+      "unstructured": "Campbell SJ, Gaulton A, Marshall J, Bichko D, Martin S, Brouwer C, Harland L. Visualizing the drug target landscape. Drug Discov Today. 2010; 15(1):3–15.",
+      "journal-title": "Drug Discov Today"
+    },
+    {
+      "key": "1785_CR19",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Bildtsen O, Hugo M, Lawaetz F, Bakke E, Hardwick J, Nguyen N, Naleid T, Bouton C. 19 - TripleMap: a web-based semantic knowledge discovery and collaboration application for biomedical research In: Harland L, Forster M, editors. Open Source Software in Life Science Research. Sawston: Woodhead Publishing: 2012. p. 435–452. \n                        http://www.sciencedirect.com/science/article/pii/B9781907568978500199\n                        \n                    .",
+      "DOI": "10.1533/9781908818249.435"
+    },
+    {
+      "key": "1785_CR20",
+      "doi-asserted-by": "crossref",
+      "first-page": "112",
+      "DOI": "10.1016/j.jbi.2013.10.001",
+      "volume": "47",
+      "author": "MR Kamdar",
+      "year": "2014",
+      "unstructured": "Kamdar MR, Zeginis D, Hasnain A, Decker S, Deus HF. Reveald: A user-driven domain-specific interactive search platform for biomedical research. J Biomed Inform. 2014; 47:112–30.",
+      "journal-title": "J Biomed Inform"
+    },
+    {
+      "key": "1785_CR21",
+      "unstructured": "Berners-Lee T, Chen Y, Chilton L, Connolly D, Dhanaraj R, Hollenbach J, Lerer A, Sheets D. Tabulator: Exploring and analyzing linked data on the semantic web. In: Proceedings of The 3rd International Semantic Web User Interaction Workshop (SWUI2006) at 5th International Semantic Web Conference (ISWC2006). Athens: 2006. p. 159."
+    },
+    {
+      "issue": "12",
+      "key": "1785_CR22",
+      "doi-asserted-by": "crossref",
+      "first-page": "1883",
+      "DOI": "10.1109/TVCG.2014.2346752",
+      "volume": "20",
+      "author": "C Partl",
+      "year": "2014",
+      "unstructured": "Partl C, Lex A, Streit M, Strobelt H, Wassermann AM, Pfister H, Schmalstieg D. Contour: data-driven exploration of multi-relational datasets for drug discovery. IEEE Trans Vis Comput Graph. 2014; 20(12):1883–92.",
+      "journal-title": "IEEE Trans Vis Comput Graph"
+    },
+    {
+      "issue": "3pt3",
+      "key": "1785_CR23",
+      "doi-asserted-by": "crossref",
+      "first-page": "1175",
+      "DOI": "10.1111/j.1467-8659.2012.03110.x",
+      "volume": "31",
+      "author": "A Lex",
+      "year": "2012",
+      "unstructured": "Lex A, Streit M, Schulz HJ, Partl C, Schmalstieg D, Park PJ, Gehlenborg N. Stratomex: Visual analysis of large-scale heterogeneous genomics data for cancer subtype characterization. Computer Graphics Forum. 2012; 31(3pt3):1175–1184.",
+      "journal-title": "Computer Graphics Forum"
+    },
+    {
+      "issue": "12",
+      "key": "1785_CR24",
+      "doi-asserted-by": "crossref",
+      "first-page": "2291",
+      "DOI": "10.1109/TVCG.2011.250",
+      "volume": "17",
+      "author": "A Lex",
+      "year": "2011",
+      "unstructured": "Lex A, Schulz HJ, Streit M, Partl C, Schmalstieg D. Visbricks: Multiform visualization of large, inhomogeneous data. IEEE Trans Vis Computer Graph. 2011; 17(12):2291–300.",
+      "journal-title": "IEEE Trans Vis Computer Graph"
+    },
+    {
+      "issue": "12",
+      "key": "1785_CR25",
+      "doi-asserted-by": "crossref",
+      "first-page": "2023",
+      "DOI": "10.1109/TVCG.2014.2346260",
+      "volume": "20",
+      "author": "S Gratzl",
+      "year": "2014",
+      "unstructured": "Gratzl S, Gehlenborg N, Lex A, Pfister H, Streit M. Domino: Extracting, comparing, and manipulating subsets across multiple tabular datasets. IEEE Trans Vis Comput Graph. 2014; 20(12):2023–32.",
+      "journal-title": "IEEE Trans Vis Comput Graph"
+    },
+    {
+      "key": "1785_CR26",
+      "volume-title": "Proceedings of the Proceedings of the 2005 IEEE Symposium on Information Visualization, INFOVIS ’05",
+      "author": "P Riehmann",
+      "year": "2005",
+      "unstructured": "Riehmann P, Hanfler M, Froehlich B. Interactive sankey diagrams. In: Proceedings of the Proceedings of the 2005 IEEE Symposium on Information Visualization, INFOVIS ’05. Washington: IEEE Computer Society: 2005."
+    },
+    {
+      "issue": "12",
+      "key": "1785_CR27",
+      "doi-asserted-by": "crossref",
+      "first-page": "2082",
+      "DOI": "10.1109/TVCG.2014.2346279",
+      "volume": "20",
+      "author": "C Perin",
+      "year": "2014",
+      "unstructured": "Perin C, Dragicevic P, Fekete JD. Revisiting bertin matrices: New interactions for crafting tabular visualizations. IEEE Trans Vis Computer Graph. 2014; 20(12):2082–91.",
+      "journal-title": "IEEE Trans Vis Computer Graph"
+    },
+    {
+      "key": "1785_CR28",
+      "doi-asserted-by": "crossref",
+      "first-page": "58",
+      "DOI": "10.1016/j.jbi.2017.04.019",
+      "volume": "71",
+      "author": "JB Lamy",
+      "year": "2017",
+      "unstructured": "Lamy JB, Berthelot H, Favre M, Ugon A, Duclos C, Venot A. Using visual analytics for presenting comparative information on new drugs. J Biomed Inform. 2017; 71:58–69.",
+      "journal-title": "J Biomed Inform."
+    },
+    {
+      "key": "1785_CR29",
+      "unstructured": "Barcelona Biomedical Genomics Lab. Cancer Genome Interpreter. \n                        https://www.cancergenomeinterpreter.org/biomarkers\n                        \n                    . Accessed April 2017."
+    },
+    {
+      "key": "1785_CR30",
+      "unstructured": "Institute for Molecular Medicine Finland. Drug Target Commons. \n                        https://drugtargetcommons.fimm.fi/\n                        \n                    . Accessed April 2017."
+    },
+    {
+      "issue": "2",
+      "key": "1785_CR31",
+      "doi-asserted-by": "crossref",
+      "first-page": "110",
+      "DOI": "10.1145/22949.22950",
+      "volume": "5",
+      "author": "J Mackinlay",
+      "year": "1986",
+      "unstructured": "Mackinlay J. Automating the design of graphical presentations of relational information. ACM Trans Graph. 1986; 5(2):110–41. doi:\n                        10.1145/22949.22950\n                        \n                    .",
+      "journal-title": "ACM Trans Graph"
+    },
+    {
+      "issue": "6",
+      "key": "1785_CR32",
+      "doi-asserted-by": "crossref",
+      "first-page": "27",
+      "DOI": "10.1145/2810012",
+      "volume": "22",
+      "author": "P Rodgers",
+      "year": "2015",
+      "unstructured": "Rodgers P, Stapleton G, Chapman P. Visualizing sets with linear diagrams. ACM Trans Comput-Hum Interact. 2015; 22(6):27.",
+      "journal-title": "ACM Trans Comput-Hum Interact"
+    },
+    {
+      "key": "1785_CR33",
+      "volume-title": "Visual Languages, 1996. Proceedings, IEEE Symposium On",
+      "author": "B Shneiderman",
+      "year": "1996",
+      "unstructured": "Shneiderman B. The eyes have it: A task by data type taxonomy for information visualizations. In: Visual Languages, 1996. Proceedings, IEEE Symposium On. Washington: IEEE Computer Society: 1996. p. 336–43."
+    },
+    {
+      "key": "1785_CR34",
+      "volume-title": "Pacific Visualization Symposium (PacificVis), 2012 IEEE",
+      "author": "W Javed",
+      "year": "2012",
+      "unstructured": "Javed W, Elmqvist N. Exploring the design space of composite visualization. In: Pacific Visualization Symposium (PacificVis), 2012 IEEE. Washington: IEEE Computer Society: 2012. p. 1–8."
+    },
+    {
+      "key": "1785_CR35",
+      "first-page": "701",
+      "volume": "492",
+      "author": "M Bostock",
+      "year": "2012",
+      "unstructured": "Bostock M. D3. js. Data Driven Documents. 2012; 492:701.",
+      "journal-title": "Data Driven Documents"
+    },
+    {
+      "issue": "12",
+      "key": "1785_CR36",
+      "doi-asserted-by": "crossref",
+      "first-page": "1433",
+      "DOI": "10.1016/j.drudis.2015.05.013",
+      "volume": "20",
+      "author": "A Johnson",
+      "year": "2015",
+      "unstructured": "Johnson A, Zeng J, Bailey AM, Holla V, Litzenburger B, Lara-Guerra H, Mills GB, Mendelsohn J, Shaw KR, Meric-Bernstam F. The right drugs at the right time for the right patient: the md anderson precision oncology decision support platform. Drug Discov Today. 2015; 20(12):1433–8.",
+      "journal-title": "Drug Discov Today"
+    },
+    {
+      "issue": "7541",
+      "key": "1785_CR37",
+      "doi-asserted-by": "crossref",
+      "first-page": "102",
+      "DOI": "10.1038/nature14119",
+      "volume": "519",
+      "author": "T Pemovska",
+      "year": "2015",
+      "unstructured": "Pemovska T, Johnson E, Kontro M, Repasky GA, Chen J, Wells P, Cronin CN, McTigue M, Kallioniemi O, Porkka K, et al. Axitinib effectively inhibits bcr-abl1 (t315i) with a distinct binding conformation. Nature. 2015; 519(7541):102–5.",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "1785_CR38",
+      "volume-title": "Proceedings of the 5th ACM Conference on Recommender Systems",
+      "author": "P Pu",
+      "year": "2011",
+      "unstructured": "Pu P, Chen L, Hu R. A user-centric evaluation framework for recommender systems. In: Proceedings of the 5th ACM Conference on Recommender Systems. New York: ACM: 2011. p. 157–64."
+    },
+    {
+      "issue": "4-5",
+      "key": "1785_CR39",
+      "doi-asserted-by": "crossref",
+      "first-page": "441",
+      "DOI": "10.1007/s11257-011-9118-4",
+      "volume": "22",
+      "author": "BP Knijnenburg",
+      "year": "2012",
+      "unstructured": "Knijnenburg BP, Willemsen MC, Gantner Z, Soncu H, Newell C. Explaining the user experience of recommender systems. User Model User-Adap Inter. 2012; 22(4-5):441–504.",
+      "journal-title": "User Model User-Adap Inter"
+    },
+    {
+      "key": "1785_CR40",
+      "volume-title": "Eurographics Conference on Visualization (EuroVis)–State of The Art Reports",
+      "author": "B Alsallakh",
+      "year": "2014",
+      "unstructured": "Alsallakh B, Micallef L, Aigner W, Hauser H, Miksch S, Rodgers P. Visualizing sets and set-typed data: State-of-the-art and future challenges. In: Eurographics Conference on Visualization (EuroVis)–State of The Art Reports. Aire-la-Ville: Eurographics Association: 2014. p. 1–21."
+    },
+    {
+      "issue": "12",
+      "key": "1785_CR41",
+      "doi-asserted-by": "crossref",
+      "first-page": "1983",
+      "DOI": "10.1109/TVCG.2014.2346248",
+      "volume": "20",
+      "author": "A Lex",
+      "year": "2014",
+      "unstructured": "Lex A, Gehlenborg N, Strobelt H, Vuillemot R, Pfister H. Upset: visualization of intersecting sets. IEEE Trans Vis Comput Graph. 2014; 20(12):1983–92.",
+      "journal-title": "IEEE Trans Vis Comput Graph"
+    },
+    {
+      "issue": "3",
+      "key": "1785_CR42",
+      "doi-asserted-by": "crossref",
+      "first-page": "382",
+      "DOI": "10.1016/j.ccell.2015.02.007",
+      "volume": "27",
+      "author": "C Rubio-Perez",
+      "year": "2015",
+      "unstructured": "Rubio-Perez C, Tamborero D, Schroeder MP, Antolín AA, Deu-Pons J, Perez-Llamas C, Mestres J, Gonzalez-Perez A, Lopez-Bigas N. In silico prescription of anticancer drugs to cohorts of 28 tumor types reveals targeting opportunities. Cancer Cell. 2015; 27(3):382–96.",
+      "journal-title": "Cancer Cell"
+    }
+  ],
+  "container-title": [
+    "BMC Bioinformatics"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "http://link.springer.com/content/pdf/10.1186/s12859-017-1785-7.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2017,
+        9,
+        29
+      ]
+    ],
+    "date-time": "2017-09-29T08:49:33Z",
+    "timestamp": 1506674973000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1785-7"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2017,
+        9
+      ]
+    ]
+  },
+  "references-count": 42,
+  "journal-issue": {
+    "issue": "S10",
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          9
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "1785"
+  ],
+  "URL": "https://doi.org/10.1186/s12859-017-1785-7",
+  "relation": {
+    "has-preprint": [
+      {
+        "id-type": "doi",
+        "id": "10.1101/165878",
+        "asserted-by": "object"
+      }
+    ]
+  },
+  "ISSN": [
+    "1471-2105"
+  ],
+  "issn-type": [
+    {
+      "value": "1471-2105",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2017,
+        9
+      ]
+    ]
+  },
+  "article-number": "393"
+}

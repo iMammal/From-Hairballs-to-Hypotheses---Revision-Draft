@@ -1,0 +1,590 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        1
+      ]
+    ],
+    "date-time": "2026-09-01T23:00:03Z",
+    "timestamp": 1788303603519,
+    "version": "build-2803163510"
+  },
+  "reference-count": 26,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "1",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            14
+          ]
+        ],
+        "date-time": "2024-08-14T00:00:00Z",
+        "timestamp": 1723593600000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            14
+          ]
+        ],
+        "date-time": "2024-08-14T00:00:00Z",
+        "timestamp": 1723593600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0"
+    }
+  ],
+  "funder": [
+    {
+      "name": "Wallenberg AI, Autonomous Systems and Software Program"
+    },
+    {
+      "name": "National Academic Infrastructure for Supercomputing in Sweden",
+      "award": [
+        "2022-06725"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "2022-06725"
+          ]
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100007601",
+      "name": "Horizon 2020",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "956832"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "956832"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100007601",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100023293",
+      "name": "Finnish Center for Artificial Intelligence",
+      "doi-asserted-by": "publisher",
+      "id": [
+        {
+          "id": "10.13039/501100023293",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "name": "UKRI Turing AI World-Leading Researcher Fellowship",
+      "award": [
+        "EP/W002973/"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "EP/W002973/"
+          ]
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100002835",
+      "name": "Chalmers University of Technology",
+      "doi-asserted-by": "crossref",
+      "id": [
+        {
+          "id": "10.13039/501100002835",
+          "id-type": "DOI",
+          "asserted-by": "crossref"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "link.springer.com"
+    ],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "J Cheminform"
+  ],
+  "abstract": "<jats:title>Abstract</jats:title><jats:p>One challenge that current de novo drug design models face is a disparity between the user’s expectations and the actual output of the model in practical applications. Tailoring models to better align with chemists’ implicit knowledge, expectation and preferences is key to overcoming this obstacle effectively. While interest in preference-based and human-in-the-loop machine learning in chemistry is continuously increasing, no tool currently exists that enables the collection of standardized and chemistry-specific feedback.  is a Python-based open-source graphical user interface (GUI), designed to solve this and enable the collection of chemists’ detailed feedback on molecular structures. The GUI enables chemists to explore and evaluate molecules, offering a user-friendly interface for annotating preferences and specifying desired or undesired structural features. By providing chemists the opportunity to give detailed feedback, allows researchers to capture more efficiently the chemist’s implicit knowledge and preferences. This knowledge is crucial to align the chemist’s idea with the de novo design agents. The GUI aims to enhance this collaboration between the human and the “machine” by providing an intuitive platform where chemists can interactively provide feedback on molecular structures, aiding in preference learning and refining de novo design strategies.  integrates with the existing de novo framework REINVENT, creating a closed-loop system where human expertise can continuously inform and refine the generative models.</jats:p><jats:p><jats:bold>Scientific contribution</jats:bold></jats:p><jats:p>We introduce a novel Graphical User Interface, that allows chemists/researchers to give detailed feedback on substructures and properties of small molecules. This tool can be used to learn the preferences of chemists in order to align de novo drug design models with the chemist’s ideas. The GUI can be customized to fit different needs and projects and enables direct integration into de novo REINVENT runs. We believe that  can facilitate the discussion and development of novel ways to integrate human feedback that goes beyond binary decisions of liking or disliking a molecule.</jats:p>",
+  "DOI": "10.1186/s13321-024-00892-3",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2024,
+        8,
+        14
+      ]
+    ],
+    "date-time": "2024-08-14T09:02:18Z",
+    "timestamp": 1723626138000
+  },
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 8,
+  "title": [
+    "Metis: a python-based user interface to collect expert feedback for generative chemistry models"
+  ],
+  "prefix": "10.1186",
+  "volume": "16",
+  "author": [
+    {
+      "given": "Janosch",
+      "family": "Menke",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Yasmine",
+      "family": "Nahal",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Esben Jannik",
+      "family": "Bjerrum",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Mikhail",
+      "family": "Kabeshov",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Samuel",
+      "family": "Kaski",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Ola",
+      "family": "Engkvist",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "297",
+  "published-online": {
+    "date-parts": [
+      [
+        2024,
+        8,
+        14
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "892_CR1",
+      "doi-asserted-by": "publisher",
+      "first-page": "97",
+      "DOI": "10.1038/nrd.2017.232",
+      "volume": "17",
+      "author": "G Schneider",
+      "year": "2018",
+      "unstructured": "Schneider G (2018) Automating drug discovery. Nat Rev Drug Discov 17:97–113",
+      "journal-title": "Nat Rev Drug Discov"
+    },
+    {
+      "key": "892_CR2",
+      "doi-asserted-by": "publisher",
+      "first-page": "129",
+      "DOI": "10.1038/s42004-022-00733-0",
+      "volume": "5",
+      "author": "M Korshunova",
+      "year": "2022",
+      "unstructured": "Korshunova M, Huang N, Capuzzi S, Radchenko DS, Savych O, Moroz YS, Wells CI, Willson TM, Tropsha A, Isayev O (2022) Generative and reinforcement learning approaches for the automated de novo design of bioactive compounds. Commun Chem 5:129",
+      "journal-title": "Commun Chem"
+    },
+    {
+      "key": "892_CR3",
+      "unstructured": "Svensson HG, Tyrchan C, Engkvist O, Chehreghani MH (2023) Utilizing Reinforcement learning for de novo drug design. arXiv preprint."
+    },
+    {
+      "key": "892_CR4",
+      "unstructured": "Mnih V, Kavukcuoglu K, Silver D, Graves A, Antonoglou I, Wierstra D, Riedmiller MA (2013) Playing atari with deep reinforcement learning. arXiv preprint. arxiv:1312.5602"
+    },
+    {
+      "key": "892_CR5",
+      "doi-asserted-by": "publisher",
+      "first-page": "484",
+      "DOI": "10.1038/nature16961",
+      "volume": "529",
+      "author": "D Silver",
+      "year": "2016",
+      "unstructured": "Silver D, Huang A, Maddison CJ, Guez A, Sifre L, Van Den Driessche G, Schrittwieser J, Antonoglou I, Panneershelvam V, Lanctot M et al (2016) Mastering the game of go with deep neural networks and tree search. Nature 529:484–489",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "892_CR6",
+      "doi-asserted-by": "publisher",
+      "first-page": "350",
+      "DOI": "10.1038/s41586-019-1724-z",
+      "volume": "575",
+      "author": "O Vinyals",
+      "year": "2019",
+      "unstructured": "Vinyals O, Babuschkin I, Czarnecki WM, Mathieu M, Dudzik A, Chung J, Choi DH, Powell R, Ewalds T, Georgiev P et al (2019) Grandmaster level in starCraft II using multi-agent reinforcement learning. Nature 575:350–354",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "892_CR7",
+      "unstructured": "Amodei D, Olah C, Steinhardt J, Christiano P, Schulman J, Mané D (2016) Concrete problems in AI safety. arXiv preprint. arXiv:1606.06565"
+    },
+    {
+      "key": "892_CR8",
+      "first-page": "9460",
+      "volume": "35",
+      "author": "J Skalse",
+      "year": "2022",
+      "unstructured": "Skalse J, Howe N, Krasheninnikov D, Krueger D (2022) Defining and characterizing reward gaming. Adv Neural Info Process Syst 35:9460–9471",
+      "journal-title": "Adv Neural Info Process Syst"
+    },
+    {
+      "key": "892_CR9",
+      "unstructured": "Lee K, Smith L, Abbeel P (2021) Pebble: Feedback-efficient interactive reinforcement learning via relabeling experience and unsupervised pre-training. arXiv preprint. arXiv:2106.05091"
+    },
+    {
+      "key": "892_CR10",
+      "doi-asserted-by": "publisher",
+      "first-page": "3005",
+      "DOI": "10.1007/s10462-022-10246-w",
+      "volume": "56",
+      "author": "E Mosqueira-Rey",
+      "year": "2023",
+      "unstructured": "Mosqueira-Rey E, Hernández-Pereira E, Alonso-Ríos D, Bobes-Bascarán J, Fernández-Leal Á (2023) Human-in-the-loop machine learning: a state of the art. Artif Intell Rev 56:3005–3054",
+      "journal-title": "Artif Intell Rev"
+    },
+    {
+      "key": "892_CR11",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1145/3054912",
+      "volume": "50",
+      "author": "A Hussein",
+      "year": "2017",
+      "unstructured": "Hussein A, Gaber MM, Elyan E, Jayne C (2017) Imitation learning: a survey of learning methods. ACM Comput Surv (CSUR) 50:1–35",
+      "journal-title": "ACM Comput Surv (CSUR)"
+    },
+    {
+      "key": "892_CR12",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Torabi F, Warnell G, Stone P (2018) Behavioral cloning from observation. arXiv preprint. arXiv:1805.01954",
+      "DOI": "10.24963/ijcai.2018/687"
+    },
+    {
+      "key": "892_CR13",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Arora S, Doshi P (2021) A survey of inverse reinforcement learning: challenges methods and progress.  Artif Intell 297",
+      "DOI": "10.1016/j.artint.2021.103500"
+    },
+    {
+      "key": "892_CR14",
+      "unstructured": "Rafailov R, Sharma A, Mitchell E, Manning CD, Ermon S, Finn C (2024) Direct preference optimization: your language model is secretly a reward model. Adv Neural Info Process Syst 36"
+    },
+    {
+      "key": "892_CR15",
+      "unstructured": "Christiano PF, Leike J, Brown T, Martic M, Legg S, Amodei D (2017) Deep reinforcement learning from human preferences. Adv Neural Info Process Syst 30"
+    },
+    {
+      "key": "892_CR16",
+      "doi-asserted-by": "publisher",
+      "first-page": "2707",
+      "DOI": "10.1016/j.drudis.2021.05.019",
+      "volume": "26",
+      "author": "J Meyers",
+      "year": "2021",
+      "unstructured": "Meyers J, Fabian B, De Brown N (2021) Novo molecular design and generative models. Drug Discov Today 26:2707–2715",
+      "journal-title": "Drug Discov Today"
+    },
+    {
+      "key": "892_CR17",
+      "doi-asserted-by": "publisher",
+      "first-page": "6651",
+      "DOI": "10.1038/s41467-023-42242-1",
+      "volume": "14",
+      "author": "O-H Choung",
+      "year": "2023",
+      "unstructured": "Choung O-H, Vianello R, Segler M, Stiefl N, Jiménez-Luna J (2023) Extracting medicinal chemistry intuition via preference machine learning. Nat Commun 14:6651",
+      "journal-title": "Nat Commun"
+    },
+    {
+      "key": "892_CR18",
+      "doi-asserted-by": "publisher",
+      "first-page": "86",
+      "DOI": "10.1186/s13321-022-00667-8",
+      "volume": "14",
+      "author": "I Sundin",
+      "year": "2022",
+      "unstructured": "Sundin I, Voronov A, Xiao H, Papadopoulos K, Bjerrum EJ, Heinonen M, Patronov A, Kaski S, Engkvist O (2022) Human-in-the-loop assisted de novo molecular design. J Cheminf 14:86",
+      "journal-title": "J Cheminf"
+    },
+    {
+      "key": "892_CR19",
+      "doi-asserted-by": "publisher",
+      "first-page": "5918",
+      "DOI": "10.1021/acs.jcim.0c00915",
+      "volume": "60",
+      "author": "T Blaschke",
+      "year": "2020",
+      "unstructured": "Blaschke T, Arús-Pous J, Chen H, Margreitter C, Tyrchan C, Engkvist O, Papadopoulos K, Patronov A (2020) REINVENT 2.0: an AI tool for de novo drug design. J Chem Info Model 60:5918–5922",
+      "journal-title": "J Chem Info Model"
+    },
+    {
+      "key": "892_CR20",
+      "first-page": "2825",
+      "volume": "12",
+      "author": "F Pedregosa",
+      "year": "2011",
+      "unstructured": "Pedregosa F et al (2011) Scikit-learn: machine learning in Python. J Mach Learn Res 12:2825–2830",
+      "journal-title": "J Mach Learn Res"
+    },
+    {
+      "key": "892_CR21",
+      "unstructured": "RDKit: Open-Source Cheminformatics Software (2021) https://www.rdkit.org."
+    },
+    {
+      "key": "892_CR22",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1186/1758-2946-5-43",
+      "volume": "5",
+      "author": "S Riniker",
+      "year": "2013",
+      "unstructured": "Riniker S, Landrum GA (2013) Similarity maps -a visualization strategy for molecular fingerprints and machine-learning methods. J Cheminf 5:1–7",
+      "journal-title": "J Cheminf"
+    },
+    {
+      "key": "892_CR23",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Bjerrum EJ, Palunas K, Menke J (2024) Python-Based Interactive RDKit Molecule Editing with rdEditor. chemRxiv preprint , https://doi.org/10.26434/chemrxiv-2024-jfhmw",
+      "DOI": "10.26434/chemrxiv-2024-jfhmw"
+    },
+    {
+      "key": "892_CR24",
+      "unstructured": "Qt for Python Team. PySide2: Python bindings for the Qt cross-platform application and UI framework. https://www.pyside.org. Accessed 08 Apr 2024"
+    },
+    {
+      "key": "892_CR25",
+      "doi-asserted-by": "publisher",
+      "first-page": "20",
+      "DOI": "10.1186/s13321-024-00812-5",
+      "volume": "16",
+      "author": "HH Loeffler",
+      "year": "2024",
+      "unstructured": "Loeffler HH, He J, Tibo A, Janet JP, Voronov A, Mervin LH, Engkvist O (2024) Reinvent 4: modern AI-driven generative molecule design. J Cheminf 16:20",
+      "journal-title": "J Cheminf"
+    },
+    {
+      "key": "892_CR26",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Bjerrum EJ, Bachorz RA, Bitton A, Choung O-h, Chen Y, Esposito C, Ha SV, Poehlmann A (2023) Scikit-mol brings cheminformatics to scikit-learn. chemRxiv preprint.",
+      "DOI": "10.26434/chemrxiv-2023-fzqwd"
+    }
+  ],
+  "container-title": [
+    "Journal of Cheminformatics"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://link.springer.com/content/pdf/10.1186/s13321-024-00892-3.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://link.springer.com/article/10.1186/s13321-024-00892-3/fulltext.html",
+      "content-type": "text/html",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://link.springer.com/content/pdf/10.1186/s13321-024-00892-3.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2024,
+        8,
+        14
+      ]
+    ],
+    "date-time": "2024-08-14T09:05:23Z",
+    "timestamp": 1723626323000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://jcheminf.biomedcentral.com/articles/10.1186/s13321-024-00892-3"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2024,
+        8,
+        14
+      ]
+    ]
+  },
+  "references-count": 26,
+  "journal-issue": {
+    "issue": "1",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          12
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "892"
+  ],
+  "URL": "https://doi.org/10.1186/s13321-024-00892-3",
+  "relation": {},
+  "ISSN": [
+    "1758-2946"
+  ],
+  "issn-type": [
+    {
+      "value": "1758-2946",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2024,
+        8,
+        14
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "15 May 2024",
+      "order": 1,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "2 August 2024",
+      "order": 2,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "14 August 2024",
+      "order": 3,
+      "name": "first_online",
+      "label": "First Online",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "order": 1,
+      "name": "Ethics",
+      "group": {
+        "name": "EthicsHeading",
+        "label": "Declarations"
+      }
+    },
+    {
+      "value": "The authors declare no competing interests.",
+      "order": 2,
+      "name": "Ethics",
+      "group": {
+        "name": "EthicsHeading",
+        "label": "Competing interests"
+      }
+    }
+  ],
+  "article-number": "100"
+}

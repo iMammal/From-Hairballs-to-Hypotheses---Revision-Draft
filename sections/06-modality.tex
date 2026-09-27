@@ -1,15 +1,82 @@
 \section{Modality as a Condition on Assisted Analysis}
 \label{sec:modality}
-\draftnote{Morris; Nicole contributes Large Display and collaboration. Condense hardware exposition. Balance coverage through evidence rather than equal-length inventories.}
+
+Visualization modality conditions how assistance enters an analytical workflow. A recommended selection can appear as a highlighted subset in linked planar views, a region in an immersive volume, or a change to a shared wall. Although the computational operation may be similar, the effort needed to specify its target, inspect its consequences, and correct it can differ. Modality therefore belongs in the comparison of assisted analysis, rather than serving only as a description of hardware.
+
+The Assistance $\times$ Visualization Modality framework provides the map; analytical tasks provide the lens through which its combinations are compared. The locus of analytic agency illuminates who specifies, executes, and interprets consequential operations within those combinations. Following Section~\ref{sec:assistance}, we distinguish the signals available to assistance, the inference made from them, the resulting intervention, and the control retained by scientists. Position, gaze, speech, or interaction history becomes an adaptive mechanism only when the system uses it to change assistance. Merely capturing a signal or presenting a spatial view does not establish adaptation.
+
+Figure~\ref{fig:assistance-modality-map} provides the corresponding system-level map. The following comparisons separate implemented capabilities, reported evaluation, and design implications. Coverage is uneven because the selected evidence supports some task--modality combinations more directly than others; this is not a claim of field-wide absence.
+
+
+The targeted coverage pass also exposes a distinction between paper-level labels and mechanism-level relationships. A desktop baseline in a VR study does not establish immersive assistance on desktop; CAVE evidence belongs in its separate column. Access remains limiting: reports were unavailable for 86 of 110 Immersive--Desktop system groups, 15 of 20 Immersive--Large Display groups, and 11 of 12 Adaptive--Large Display groups. Unfilled cells therefore cannot be interpreted as combinations that uniformly failed scientific scrutiny.
+
 \subsection{Desktop/Planar Environments}
-\plan{Examine precise input, linked views, dense annotation, and notebook/script integration. Ask how recommendations and delegated operations are inspected and corrected. Establish meaningful baselines for cross-environment comparisons.}
+\label{sec:modality-desktop}
+
+Planar interfaces can place representations, parameters, and explanatory records alongside one another. Precise pointing and text entry support bounded selections and explicit specification, while linked views connect an observation to its surrounding population or evidence. For assisted analysis, these arrangements matter when scientists must inspect what a transformation or recommendation actually changed. Their value depends on the interface making the relevant state available; a desktop display does not guarantee auditability.
+
+The labeling and prediction workflows in Sections~\ref{sec:assistance-adaptive} and~\ref{sec:tasks-comparison} illustrate why co-located views matter: scientists can relate the current selection to model outputs, underlying observations, and source evidence. Their broadly planar setting supports these comparisons, but does not itself guarantee that an intervention is transparent or correct.
+
+Conversational execution adds a specification layer rather than replacing inspection. PhenoFlow's request, code, explanation, and field views (Section~\ref{sec:assistance-conversational}) illustrate the need to compare an intended cohort with its generated definition. Such inspectable workflows provide meaningful baselines when spatial interfaces change both representation and input.
+
 \subsection{Large Displays and Collaborative Walls}
-\plan{Compare shared visibility, physical navigation, individual work regions, and group control. Examine how speech and guidance affect awareness and coordination. Distinguish individual from group assistance.}
+\label{sec:modality-walls}
+
+A large display can make several work regions visible while allowing collaborators to pursue different questions. Physical proximity to a region, however, is an ambiguous signal of intent: it may indicate interest, discussion, or simply a convenient position. An adaptive assistant that interprets local activity as a group objective risks turning an individual action into an unintended shared intervention.
+
+Echo offers a life-science example of Algorithmic assistance on a large display: patient summaries and threshold-based anomaly highlighting support ICU handoff discussion.~\cite{MapEcho} Its computational contribution organizes clinical evidence for shared inspection; the display and collaboration do not themselves establish adaptation or improved clinical outcomes.
+
+\emph{Talk to the Wall} illustrates the coexistence of touch and predefined speech commands in collaborative document analysis.~\cite{EvalMolinaLeon2025} Speech makes some operations audible to collaborators and supports interaction from a distance, while recognition errors and distraction complicate coordination. Section~\ref{sec:evaluation-collaboration} examines the study's awareness evidence and its limits; it does not establish autonomous group assistance or improved biological reasoning.
+
+For Coordination and Collaborative Reasoning, the consequential distinction is the scope of a change. In a tissue-analysis scenario, a request to remove low-quality cells might alter one person's view, every linked view, or the group's shared selection. A useful design makes that scope visible before execution, identifies the requester, and permits affected collaborators to inspect or reverse the change. These are design implications, not reported results from the wall study. Shared visibility alone neither records the operation's provenance nor establishes agreement. Evaluation should examine conflicting requests, unnoticed shared changes, and recovery alongside awareness and task performance.
+
 \subsection{Virtual Reality}
-\plan{Analyze spatial exploration, selection, navigation burden, and representation inspection. Identify where assistance alleviates or adds interaction cost. Tie benefit claims to tasks and studies rather than immersion alone.}
+\label{sec:modality-vr}
+
+Virtual reality places navigation, spatial reference, and selection within an embodied interaction loop. Assistance may reduce repeated pointing or travel by suggesting a target, changing a viewpoint, or completing a selection. The same intervention can impose reorientation and verification costs. Yang et al.'s comparison of room-sized and zoomable scatterplots, with and without overviews, illustrates the task dependence of navigation costs; it does not isolate an AI-assistance benefit.~\cite{EvalYang2021}
+
+NUI-VR$^2$ and ProteinSketch connect embodied input to different computational responsibilities: specifying segmentation inputs and expressing constraints on generated structures, respectively (Section~\ref{sec:assistance-immersive}). The environmental question is how scientists inspect and correct those inputs in space. Technical segmentation or design assessments do not by themselves establish a human-performance advantage over planar alternatives.
+
+DTBIA couples multiscale brain exploration with filtering and edge bundling in VR.~\cite{MapDTBIA} Its placement connects spatial exploration to computational organization, while its expert cases should not be read as a controlled estimate of an immersive advantage.
+
+SAMIRA extends this comparison to language-mediated segmentation and patient-grounded guidance in VR.~\cite{MapSAMIRA} Its overlapping placements separate execution, context-conditioned guidance, dialogue, and spatial specification; they do not represent four independent systems or four demonstrated effectiveness gains.
+
+VROOM offers a different VR task: inspecting a patient of interest against a cohort through clinical and molecular variables, familiar charts, and similarity-based comparison.~\cite{ExpansionX032} Its value proposition concerns access to comparative evidence within an immersive workspace. That implemented workflow does not by itself establish that spatial context changes the analytical computation, or that immersion improves the resulting clinical interpretation.
+
+Spatial-language examples sharpen this distinction. Song et al.'s Wizard-of-Oz study collected spatial and deictic requests during 3D-scatterplot interaction; researcher-mediated responses reveal interaction requirements, not a validated autonomous resolver.~\cite{SongEmbodiedNLI} VOICE illustrates an implemented conversational molecular-visualization architecture that translates requests into structured operations over a scene model.~\cite{VOICE} It is a mechanism example, not evidence here of a VR-specific analytical advantage. Neither spatial language nor molecular content alone establishes scientific analysis. A request referring to ``those structures'' needs an identifiable target, and a request about interaction partners needs the underlying relationship data rather than a guess from screen-space proximity. Highlighting a proposed referent before a consequential operation can make such ambiguity contestable.
+
 \subsection{Augmented/Mixed Reality}
-\plan{Examine assistance anchored to physical context, registration, occlusion, and spatial reference. Ask how scientists detect and correct errors linking data, environment, and interpreted intent.}
+\label{sec:modality-ar}
+
+Augmented and mixed reality introduce a further relationship to inspect: the alignment between a representation and its physical context. An apparent selection error can arise from registration, occlusion, an unsuitable viewpoint, or a mistaken interpretation of the request. These causes require different remedies. A scientist cannot reliably correct the assistant's reasoning if a displaced overlay is mistaken for an incorrect data relationship.
+
+The skin-lesion AR application combines segmentation, feature extraction, and classification with spatially situated presentation.~\cite{MapSkinAR} It illustrates how computational outputs can be connected to a physical target. This mechanism-level example does not establish that AR improves diagnostic reasoning, and its preliminary assessment should not be equated with clinical effectiveness.
+
+For Selection, Filtering, and Precision Interaction, a design implication is to expose the selected data identity as well as its spatial highlight. For Comparison and Differentiation, physical placement should not silently substitute for the quantitative or relational basis of the comparison. Adaptive assistance based on position or gaze also needs to distinguish an inferred intention from a confirmed instruction: looking at a structure need not authorize a transformation.
+
+The selected studies motivate these questions but do not establish their resolution through a matched life-science AR/MR evaluation. Registration-aware confirmation, explicit frames of reference, and recovery from misplaced interventions remain requirements to investigate. Findings from planar conversation or VR interaction cannot establish equivalent outcomes in AR/MR, where the environmental conditions differ.
+
 \subsection{CAVE Environments}
-\plan{Examine shared room-scale views, tracked viewpoints, input ownership, and collaborative control. Distinguish these conditions from head-mounted VR and non-immersive large displays.}
+\label{sec:modality-cave}
+
+Room-scale projection combines shared physical occupancy with viewpoint-dependent presentation. This changes the coordination problem relative to both a planar wall and individually worn headsets. Where rendering follows one tracked viewpoint, collaborators may not have equivalent views of the same spatial reference. The person issuing a command, the person whose movement informs adaptation, and the people affected by an operation may also differ.
+
+iCAVE supplies an implemented example: network layout, clustering, and edge bundling support biomolecular-network exploration in both desktop and CAVE settings.~\cite{MapICAVE} Figure~\ref{fig:assistance-modality-map} therefore places it under Algorithmic assistance in CAVE. Projection and physical navigation alone do not establish an additional Immersive-assistance mechanism; that placement remains unresolved in the assessed evidence.
+
+ExaViz provides a contrasting CAVE example: molecular navigation and steering connect computed guidance with spatial selection and haptic intervention.~\cite{MapExaViz} Its Adaptive placement rests on target- and geometry-conditioned guidance, while its Immersive placement concerns the coupling to embodied interaction. Neither follows from the CAVE label alone.
+
+For collaborative assistance, a proposed selection or viewpoint change should therefore expose its owner, reference frame, and scope. A recommendation inferred from one participant's behavior should not be interpreted as collective intent. Likewise, a visible shared result does not establish that every participant understood the operation that produced it. These implications connect the signal--inference--intervention account with the distinction between awareness and common ground.
+
+FIESTA's observations of personal and joint work in shared VR provide useful contextual evidence about collaborative workspace organization, but are not a CAVE evaluation.~\cite{EvalLee2021} These findings do not establish improved assisted scientific reasoning in a CAVE environment. A suitable comparison would examine shared reference, competing input, and restoration of context under the actual tracking and rendering configuration, rather than treating all immersive collaboration as interchangeable.
+
+Implemented modality coverage must be checked operation by operation. MinOmics juxtaposes structures on a high-resolution wall and superposes them in a headset for redox-proteomics comparison.~\cite{ExpandedE07} GeneVAnD distributes linked cluster views across a wall, and MDV couples trajectory display with recomputed secondary structure on desktop and a large stereoscopic display.~\cite{ExpandedE06,ExpandedE08} BioNet-XR implements network algorithms on desktop and in VR, but limits its mixed-reality build to importing and navigating networks.~\cite{ExpandedE26} A generic anatomical-model builder's stated CAVE portability likewise does not demonstrate a CAVE workflow.~\cite{ExpandedE01} Platform availability is therefore not evidence that assistance transfers unchanged.
+
 \subsection{Cross-Device Continuity and Comparative Synthesis}
-\plan{Compare preservation of selection, representation, provenance, and control across devices. Treat hybrid workflows as combinations, not an unplanned sixth category. Identify matched comparisons and studies that cannot isolate modality from other system differences.}
+\label{sec:modality-continuity}
+
+Cross-device workflows expose what must persist when presentation changes. A cohort selected on a desktop may be inspected spatially and then discussed on a wall. Continuity requires more than transferring an image: stable object identities, selection criteria, transformations, uncertainty, and the scope of prior actions must remain inspectable. An adaptive system introduces an additional question about whether a preference inferred in one task or environment should influence another. Carrying that inference forward without disclosure may preserve personalization while changing the meaning of assistance.
+
+These hybrid workflows remain combinations within the modality framework, rather than a sixth modality category. Their analysis follows the task: navigation requires recovering context; selection requires maintaining the intended subset; comparison requires preserving its basis; sensemaking requires tracing supporting evidence; collaboration requires making consequential changes intelligible to others. Control may move among individual scientists, a group, and computational components during these transitions without becoming an ordinal ranking of agency.
+
+Across the examples, the central comparison is whether assistance makes an analytical operation easier to specify, assess, and revise under the conditions of a particular environment. When studies change the display, representation, interaction, and computational method together, their results describe a system-level combination; they cannot isolate a modality effect. Section~\ref{sec:evaluation} develops the corresponding evidence requirements. The map locates the combination, the task lens identifies the relevant work, and the light of analytic agency reveals which decisions remain visible and contestable as that work moves between people and systems.
+

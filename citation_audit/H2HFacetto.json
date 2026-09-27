@@ -1,0 +1,693 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        8,
+        18
+      ]
+    ],
+    "date-time": "2026-08-18T00:38:06Z",
+    "timestamp": 1787013486294,
+    "version": "build-2736575974"
+  },
+  "reference-count": 70,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "issue": "1",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2020,
+            1,
+            1
+          ]
+        ],
+        "date-time": "2020-01-01T00:00:00Z",
+        "timestamp": 1577836800000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+    }
+  ],
+  "funder": [
+    {
+      "name": "NCI",
+      "award": [
+        "U54-CA225088"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "U54-CA225088"
+          ]
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100004052",
+      "name": "King Abdullah University of Science and Technology",
+      "doi-asserted-by": "publisher",
+      "id": [
+        {
+          "id": "10.13039/501100004052",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "name": "OSR",
+      "award": [
+        "OSR-2015-CCF-2533-0"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "OSR-2015-CCF-2533-0"
+          ]
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "IEEE Trans. Visual. Comput. Graphics"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2020,
+        1
+      ]
+    ]
+  },
+  "DOI": "10.1109/tvcg.2019.2934547",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2019,
+        9,
+        11
+      ]
+    ],
+    "date-time": "2019-09-11T02:06:18Z",
+    "timestamp": 1568167578000
+  },
+  "page": "227-237",
+  "source": "Crossref",
+  "is-referenced-by-count": 53,
+  "title": [
+    "Facetto: Combining Unsupervised and Supervised Learning for Hierarchical Phenotype Analysis in Multi-Channel Image Data"
+  ],
+  "prefix": "10.1109",
+  "volume": "26",
+  "author": [
+    {
+      "given": "Robert",
+      "family": "Krueger",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Johanna",
+      "family": "Beyer",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Won-Dong",
+      "family": "Jang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Nam Wook",
+      "family": "Kim",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Artem",
+      "family": "Sokolov",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Peter K.",
+      "family": "Sorger",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Hanspeter",
+      "family": "Pfister",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "263",
+  "reference": [
+    {
+      "key": "ref70",
+      "article-title": "Abduction? Deduction? Induction?Is There a Logic of Exploratory Data Analysis?",
+      "author": "yu",
+      "year": "0",
+      "journal-title": "Annual Meeting of the American Educational Research Association"
+    },
+    {
+      "key": "ref39",
+      "doi-asserted-by": "crossref",
+      "first-page": "251",
+      "DOI": "10.1002/cpch.14",
+      "article-title": "Cyclic Immunofluorescence (CycIF), A Highly Multiplexed Method for Single-cell Imaging",
+      "volume": "8",
+      "author": "lin",
+      "year": "2016",
+      "journal-title": "Current Protocols in Chemical Biology"
+    },
+    {
+      "key": "ref38",
+      "author": "kingma",
+      "year": "2014",
+      "journal-title": "Adam A method for stochastic optimization"
+    },
+    {
+      "key": "ref33",
+      "doi-asserted-by": "crossref",
+      "first-page": "171",
+      "DOI": "10.1111/cgf.12893",
+      "article-title": "Cytosplore: Interactive Immune Cell Phenotyping for Large Single-Cell Datasets",
+      "volume": "35",
+      "author": "höllt",
+      "year": "0",
+      "journal-title": "Computer Graphics Forum"
+    },
+    {
+      "key": "ref32",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2012.277"
+    },
+    {
+      "key": "ref31",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1656274.1656278"
+    },
+    {
+      "key": "ref30",
+      "article-title": "Pyramid Methods in Image Processing",
+      "volume": "29",
+      "author": "adelson",
+      "year": "1983",
+      "journal-title": "RCA Eng"
+    },
+    {
+      "key": "ref37",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.patrec.2009.09.011"
+    },
+    {
+      "key": "ref36",
+      "doi-asserted-by": "crossref",
+      "first-page": "69",
+      "DOI": "10.1007/BF01898350",
+      "article-title": "The plane with parallel coordinates",
+      "volume": "1",
+      "author": "inselberg",
+      "year": "1985",
+      "journal-title": "The Visual Computer"
+    },
+    {
+      "key": "ref35",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0893-6080(97)00002-6"
+    },
+    {
+      "key": "ref34",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2012.258"
+    },
+    {
+      "key": "ref60",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/nmeth.4391"
+    },
+    {
+      "key": "ref62",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISBI.2011.5872394"
+    },
+    {
+      "key": "ref61",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2012.213"
+    },
+    {
+      "key": "ref63",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2017.2744158"
+    },
+    {
+      "key": "ref28",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.cag.2010.05.016"
+    },
+    {
+      "key": "ref64",
+      "author": "thom",
+      "year": "2015",
+      "journal-title": "Visual Analytics of Social Media for Situation Awareness"
+    },
+    {
+      "key": "ref27",
+      "year": "0",
+      "journal-title": "Genedata Screener"
+    },
+    {
+      "key": "ref65",
+      "author": "ware",
+      "year": "2010",
+      "journal-title": "Visual Thinking for Design"
+    },
+    {
+      "key": "ref66",
+      "year": "0",
+      "journal-title": "What-If Tool"
+    },
+    {
+      "key": "ref29",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1001/jama.2016.17216"
+    },
+    {
+      "key": "ref67",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/3-540-46080-2_11"
+    },
+    {
+      "key": "ref68",
+      "first-page": "549659",
+      "author": "wu",
+      "year": "2019",
+      "journal-title": "Comparison Between UMAP and t-SNE for Multiplex-Immunofluorescence Derived Single-Cell Data from Tissue Sections"
+    },
+    {
+      "key": "ref69",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/(SICI)1097-4571(199307)44:6<327::AID-ASI3>3.0.CO;2-J"
+    },
+    {
+      "key": "ref2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/nmeth.1896"
+    },
+    {
+      "key": "ref1",
+      "first-page": "265",
+      "article-title": "Tensorflow: A system for large-scale machine learning",
+      "author": "abadi",
+      "year": "2016",
+      "journal-title": "12th USENIX Symp Operating Systems Design and Implementation (OSDI 16)"
+    },
+    {
+      "key": "ref20",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.2517-6161.1977.tb01600.x"
+    },
+    {
+      "key": "ref22",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2016.2598587"
+    },
+    {
+      "key": "ref21",
+      "first-page": "2349",
+      "article-title": "Orange: Data Mining Toolbox in Python",
+      "volume": "14",
+      "author": "demšar",
+      "year": "2013",
+      "journal-title": "The Journal of Machine Learning Research"
+    },
+    {
+      "key": "ref24",
+      "author": "elmer",
+      "year": "0",
+      "journal-title": "High Content Profiler"
+    },
+    {
+      "key": "ref23",
+      "author": "duda",
+      "year": "2012",
+      "journal-title": "Pattern Classification"
+    },
+    {
+      "key": "ref26",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1268517.1268563"
+    },
+    {
+      "key": "ref25",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1057/palgrave.ivs.9500170"
+    },
+    {
+      "key": "ref50",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/bioinformatics/bts288"
+    },
+    {
+      "key": "ref51",
+      "year": "0",
+      "journal-title": "Openseadragon"
+    },
+    {
+      "key": "ref59",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2017.2744805"
+    },
+    {
+      "key": "ref58",
+      "first-page": "234",
+      "article-title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+      "author": "ronneberger",
+      "year": "0",
+      "journal-title": "Int Conference on Medical Image Computing and Computer-assisted Intervention"
+    },
+    {
+      "key": "ref57",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.12613"
+    },
+    {
+      "key": "ref56",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2015.2467551"
+    },
+    {
+      "key": "ref55",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/800031.808606"
+    },
+    {
+      "key": "ref54",
+      "first-page": "2",
+      "article-title": "The Sensemaking Process and Leverage Points for Analyst Technology as Identified Through Cognitive Task Analysis",
+      "volume": "5",
+      "author": "pirolli",
+      "year": "2005",
+      "journal-title": "Intelligence Analysis Conference"
+    },
+    {
+      "key": "ref53",
+      "year": "0",
+      "journal-title": "Phaedra"
+    },
+    {
+      "key": "ref52",
+      "year": "0",
+      "journal-title": "Technical Performance Assessment of Digital Pathology Whole Slide Imaging Devices"
+    },
+    {
+      "key": "ref10",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2013.186"
+    },
+    {
+      "key": "ref11",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/1467-8659.00356"
+    },
+    {
+      "key": "ref40",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.7554/eLife.31657",
+      "article-title": "Highly multiplexed immunofluorescence imaging of human tissues and tumors using t-CyCIF and conventional optical microscopes",
+      "volume": "7",
+      "author": "lin",
+      "year": "2018",
+      "journal-title": "Elife"
+    },
+    {
+      "key": "ref12",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1142473.1142574"
+    },
+    {
+      "key": "ref13",
+      "year": "0",
+      "journal-title": "Cancer digital slide archive"
+    },
+    {
+      "key": "ref14",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1186/gb-2006-7-10-r100"
+    },
+    {
+      "key": "ref15",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2016.2598468"
+    },
+    {
+      "key": "ref16",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1080/00207179208934272"
+    },
+    {
+      "key": "ref17",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VAST.2010.5652443"
+    },
+    {
+      "key": "ref18",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VAHC.2017.8387544"
+    },
+    {
+      "key": "ref19",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1390156.1390183"
+    },
+    {
+      "key": "ref4",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/HICSS.2011.339"
+    },
+    {
+      "key": "ref3",
+      "year": "0",
+      "journal-title": "Allen Cell Explorer"
+    },
+    {
+      "key": "ref6",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VAHC.2017.8387545"
+    },
+    {
+      "key": "ref5",
+      "year": "0"
+    },
+    {
+      "key": "ref8",
+      "year": "0",
+      "journal-title": "BIO FORMATS - the solution for reading proprietary microscopy image data and metadata"
+    },
+    {
+      "key": "ref7",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1656274.1656280"
+    },
+    {
+      "key": "ref49",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2007.70569"
+    },
+    {
+      "key": "ref9",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.cels.2016.03.008"
+    },
+    {
+      "key": "ref46",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2013.125"
+    },
+    {
+      "key": "ref45",
+      "author": "mcinnes",
+      "year": "2018",
+      "journal-title": "Umap Uniform manifold approximation and projection for dimension reduction"
+    },
+    {
+      "key": "ref48",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1015330.1015349"
+    },
+    {
+      "key": "ref47",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1201/b17511"
+    },
+    {
+      "key": "ref42",
+      "doi-asserted-by": "crossref",
+      "first-page": "5s",
+      "DOI": "10.1186/1471-2105-16-S11-S5",
+      "article-title": "XCluSim: A visual analytics tool for interactively comparing multiple clustering results of bioinformatics data",
+      "volume": "16",
+      "author": "l'yi",
+      "year": "2015",
+      "journal-title": "BMC Bioinformatics"
+    },
+    {
+      "key": "ref41",
+      "first-page": "193",
+      "article-title": "Integrating Predictive Analytics and Social Media",
+      "author": "lu",
+      "year": "0",
+      "journal-title": "2014 IEEE Conference on Visual Analytics Science and Technology (VAST)"
+    },
+    {
+      "key": "ref44",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/SIBGRA.2002.1167123"
+    },
+    {
+      "key": "ref43",
+      "first-page": "2579",
+      "article-title": "Visualizing Data using t-SNE",
+      "volume": "9",
+      "author": "maaten",
+      "year": "2008",
+      "journal-title": "Journal of Machine Learning Research"
+    }
+  ],
+  "container-title": [
+    "IEEE Transactions on Visualization and Computer Graphics"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx7/2945/8911289/08827951.pdf?arnumber=8827951",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2022,
+        1,
+        12
+      ]
+    ],
+    "date-time": "2022-01-12T11:23:29Z",
+    "timestamp": 1641986609000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://ieeexplore.ieee.org/document/8827951/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2020,
+        1
+      ]
+    ]
+  },
+  "references-count": 70,
+  "journal-issue": {
+    "issue": "1"
+  },
+  "URL": "https://doi.org/10.1109/tvcg.2019.2934547",
+  "relation": {
+    "has-preprint": [
+      {
+        "id-type": "doi",
+        "id": "10.1101/722918",
+        "asserted-by": "object"
+      }
+    ]
+  },
+  "ISSN": [
+    "1077-2626",
+    "1941-0506",
+    "2160-9306"
+  ],
+  "issn-type": [
+    {
+      "value": "1077-2626",
+      "type": "print"
+    },
+    {
+      "value": "1941-0506",
+      "type": "electronic"
+    },
+    {
+      "value": "2160-9306",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2020,
+        1
+      ]
+    ]
+  }
+}

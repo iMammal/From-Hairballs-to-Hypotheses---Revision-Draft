@@ -1,0 +1,488 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        23
+      ]
+    ],
+    "date-time": "2026-09-23T20:42:57Z",
+    "timestamp": 1790196177912,
+    "version": "4.1.0"
+  },
+  "reference-count": 49,
+  "publisher": "Wiley",
+  "issue": "3",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            10
+          ]
+        ],
+        "date-time": "2024-06-10T00:00:00Z",
+        "timestamp": 1717977600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 9,
+      "URL": "http://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "onlinelibrary.wiley.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "Computer Graphics Forum"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2024,
+        6
+      ]
+    ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>As full AI‐based automation remains out of reach in most real‐world applications, the focus has instead shifted to leveraging the strengths of both human and AI agents, creating effective collaborative systems. The rapid advances in this area have yielded increasingly more complex systems and frameworks, while the nuance of their characterization has gotten more vague. Similarly, the existing conceptual models no longer capture the elaborate processes of these systems nor describe the entire scope of their collaboration paradigms. In this paper, we propose a new unified set of dimensions through which to analyze and describe human‐AI systems. Our conceptual model is centered around three high‐level aspects ‐ agency, interaction, and adaptation ‐ and is developed through a multi‐step process. Firstly, an initial design space is proposed by surveying the literature and consolidating existing definitions and conceptual frameworks. Secondly, this model is iteratively refined and validated by conducting semi‐structured interviews with nine researchers in this field. Lastly, to illustrate the applicability of our design space, we utilize it to provide a structured description of selected human‐AI systems.</jats:p>",
+  "DOI": "10.1111/cgf.15107",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2024,
+        6,
+        10
+      ]
+    ],
+    "date-time": "2024-06-10T10:44:52Z",
+    "timestamp": 1718016292000
+  },
+  "update-policy": "https://doi.org/10.1002/crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 50,
+  "title": [
+    "Deconstructing Human‐AI Collaboration: Agency, Interaction, and Adaptation"
+  ],
+  "prefix": "10.1111",
+  "volume": "43",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0009-0008-2935-5549",
+      "authenticated-orcid": false,
+      "given": "Steffen",
+      "family": "Holter",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "ETH Zurich"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-8526-2613",
+      "authenticated-orcid": false,
+      "given": "Mennatallah",
+      "family": "El‐Assady",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "ETH Zurich"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "311",
+  "published-online": {
+    "date-parts": [
+      [
+        2024,
+        6,
+        10
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_2_9_2_2",
+      "first-page": "1",
+      "volume-title": "Proc. of the SIGCHI Conf. on Human Factors in Computing Systems",
+      "author": "Ashktorab Z.",
+      "year": "2021"
+    },
+    {
+      "key": "e_1_2_9_3_2",
+      "first-page": "1",
+      "volume-title": "Proc. of the SIGCHI Conf. on Human Factors in Computing Systems",
+      "author": "Amershi S.",
+      "year": "2019"
+    },
+    {
+      "key": "e_1_2_9_4_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2017.2744818"
+    },
+    {
+      "key": "e_1_2_9_5_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2013.124"
+    },
+    {
+      "key": "e_1_2_9_6_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MCG.2019.2945720"
+    },
+    {
+      "key": "e_1_2_9_7_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2016.2598468"
+    },
+    {
+      "key": "e_1_2_9_8_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.13730"
+    },
+    {
+      "key": "e_1_2_9_9_2",
+      "first-page": "1",
+      "volume-title": "Proc. of the SIGCHI Conf. on Human Factors in Computing Systems",
+      "author": "Cabrera Ã. A.",
+      "year": "2023"
+    },
+    {
+      "key": "e_1_2_9_10_2",
+      "first-page": "1",
+      "volume-title": "Proc. of the SIGCHI Conf. on Human Factors in Computing Systems",
+      "author": "Coppers S.",
+      "year": "2018"
+    },
+    {
+      "key": "e_1_2_9_11_2",
+      "first-page": "1",
+      "volume-title": "Proc. of the SIGCHI Conf. on Human Factors in Computing Systems",
+      "author": "Cai C. J.",
+      "year": "2019"
+    },
+    {
+      "key": "e_1_2_9_12_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s12599-019-00595-2"
+    },
+    {
+      "key": "e_1_2_9_13_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3185517"
+    },
+    {
+      "key": "e_1_2_9_14_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MCG.2022.3200328"
+    },
+    {
+      "key": "e_1_2_9_15_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.14557"
+    },
+    {
+      "key": "e_1_2_9_16_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "GotzD. ZhouM. X.: Characterizing usersâĂŹ visual analytic activity for insight provenance.Proc. of IEEE Conf. on Visual Analytics Science and Technology(2008) 123–130. 6",
+      "DOI": "10.1109/VAST.2008.4677365"
+    },
+    {
+      "key": "e_1_2_9_17_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2020.3030350"
+    },
+    {
+      "key": "e_1_2_9_18_2",
+      "first-page": "1",
+      "volume-title": "Proc. of the SIGCHI Conf. on Human Factors in Computing Systems",
+      "author": "Hohman F.",
+      "year": "2019"
+    },
+    {
+      "key": "e_1_2_9_19_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/302979.303030"
+    },
+    {
+      "key": "e_1_2_9_20_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s12525-022-00598-0"
+    },
+    {
+      "key": "e_1_2_9_21_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "LaiV. ChenC. Smith‐RennerA. LiaoQ. V. TanC.: Towards a science of human‐AI decision making: An overview of design space in empirical human‐subject studies.Proc. of the ACM Conf. on Fairness Accountability and Transparency(2023) 1369–1385. 2",
+      "DOI": "10.1145/3593013.3594087"
+    },
+    {
+      "key": "e_1_2_9_22_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.13210"
+    },
+    {
+      "key": "e_1_2_9_23_2",
+      "first-page": "1",
+      "volume-title": "Proc. of the SIGCHI Conf. on Human Factors in Computing Systems",
+      "author": "Lee M. H.",
+      "year": "2021"
+    },
+    {
+      "key": "e_1_2_9_24_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2017.2744319"
+    },
+    {
+      "key": "e_1_2_9_25_2",
+      "volume-title": "Proc. of the SIGCHI Conf. on Human Factors in Computing Systems",
+      "author": "Li H.",
+      "year": "2024"
+    },
+    {
+      "key": "e_1_2_9_26_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3390/ijerph18042121"
+    },
+    {
+      "key": "e_1_2_9_27_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "MonadjemiS. GuoM. GotzD. GarnettR. OttleyA.: Human‐computer collaboration for visual analytics: An agent‐based framework.Computer Graphics Forum(2023). 2",
+      "DOI": "10.1111/cgf.14823"
+    },
+    {
+      "key": "e_1_2_9_28_2",
+      "unstructured": "MetzY. LindnerD. BaurR. KeimD. El‐AssadyM.: RLHF‐blender: A configurable interactive interface for learning from diverse human feedback.Interactive Learning with Implicit Human Feedback Workshop at ICML(2023). 2 6 7"
+    },
+    {
+      "key": "e_1_2_9_29_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2018.2864812"
+    },
+    {
+      "key": "e_1_2_9_30_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.chb.2017.02.067"
+    },
+    {
+      "key": "e_1_2_9_31_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2019.2934267"
+    },
+    {
+      "key": "e_1_2_9_32_2",
+      "first-page": "189",
+      "volume-title": "Proc. of the Annual ACM Symposium on User Interface Software and Technology",
+      "author": "Nguyen A. T.",
+      "year": "2018"
+    },
+    {
+      "key": "e_1_2_9_33_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.14555"
+    },
+    {
+      "key": "e_1_2_9_34_2",
+      "unstructured": "PÃl'rez‐MessinaI. CenedaD. MikschS.: A methodology for task‐driven guidance design.EuroVis Workshop on Visual Analytics(2023) 6pages. 2"
+    },
+    {
+      "key": "e_1_2_9_35_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41598-022-18751-2"
+    },
+    {
+      "key": "e_1_2_9_36_2",
+      "unstructured": "SchemmerM. BartosA. SpitzerP. HemmerP. KÃijhlN. LiebschnerJ. SatzgerG.: Towards effective human‐AI decision‐making: The role of human learning in appropriate reliance on AI advice.Int. Conf. on Information Systems(2023). 1 7"
+    },
+    {
+      "key": "e_1_2_9_37_2",
+      "unstructured": "SperrleF. CenedaD. El‐AssadyM.: Lotse: A practical framework for guidance in visual analytics.IEEE Trans. on Visualization and Computer Graphics(2022) 1124–1134. 2 6"
+    },
+    {
+      "key": "e_1_2_9_38_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.14329"
+    },
+    {
+      "key": "e_1_2_9_39_2",
+      "first-page": "61",
+      "volume-title": "EuroVis Workshop on Visual Analytics",
+      "author": "Sperrle F.",
+      "year": "2020"
+    },
+    {
+      "key": "e_1_2_9_40_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.cag.2021.06.016"
+    },
+    {
+      "key": "e_1_2_9_41_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jbusres.2020.11.038"
+    },
+    {
+      "key": "e_1_2_9_42_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.14301"
+    },
+    {
+      "key": "e_1_2_9_43_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2014.2346481"
+    },
+    {
+      "key": "e_1_2_9_44_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/jcmc/zmz026"
+    },
+    {
+      "key": "e_1_2_9_45_2",
+      "first-page": "1",
+      "volume-title": "Extended Abstracts in the Proc. of the SIGCHI Conf. on Human Factors in Computing Systems",
+      "author": "Wang D.",
+      "year": "2020"
+    },
+    {
+      "key": "e_1_2_9_46_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2021.3106142"
+    },
+    {
+      "key": "e_1_2_9_47_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2017.2745078"
+    },
+    {
+      "key": "e_1_2_9_48_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "WexlerJ. PushkarnaM. BolukbasiT. WattenbergM. ViegasF. WilsonJ.: The What‐If tool: Interactive probing of machine learning models.IEEE Trans. on Visualization and Computer Graphics(2019) 1–1. 5",
+      "DOI": "10.1109/TVCG.2019.2934619"
+    },
+    {
+      "key": "e_1_2_9_49_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3635116"
+    },
+    {
+      "key": "e_1_2_9_50_2",
+      "first-page": "1",
+      "volume-title": "Proc. of the SIGCHI Conf. on Human Factors in Computing Systems",
+      "author": "Yang Q.",
+      "year": "2020"
+    }
+  ],
+  "container-title": [
+    "Computer Graphics Forum"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.15107",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2024,
+        6,
+        14
+      ]
+    ],
+    "date-time": "2024-06-14T08:27:39Z",
+    "timestamp": 1718353659000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://onlinelibrary.wiley.com/doi/10.1111/cgf.15107"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2024,
+        6
+      ]
+    ]
+  },
+  "references-count": 49,
+  "journal-issue": {
+    "issue": "3",
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          6
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1111/cgf.15107"
+  ],
+  "URL": "https://doi.org/10.1111/cgf.15107",
+  "archive": [
+    "Portico"
+  ],
+  "relation": {},
+  "ISSN": [
+    "0167-7055",
+    "1467-8659"
+  ],
+  "issn-type": [
+    {
+      "value": "0167-7055",
+      "type": "print"
+    },
+    {
+      "value": "1467-8659",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2024,
+        6
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2024-06-10",
+      "order": 2,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ],
+  "article-number": "e15107"
+}

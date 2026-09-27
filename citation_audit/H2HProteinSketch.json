@@ -1,0 +1,1007 @@
+{
+  "institution": [
+    {
+      "name": "bioRxiv"
+    }
+  ],
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        7,
+        30
+      ]
+    ],
+    "date-time": "2026-07-30T09:18:54Z",
+    "timestamp": 1785403134913,
+    "version": "3.56.0"
+  },
+  "posted": {
+    "date-parts": [
+      [
+        2026,
+        7,
+        20
+      ]
+    ]
+  },
+  "group-title": "Bioengineering",
+  "reference-count": 70,
+  "publisher": "openRxiv",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            20
+          ]
+        ],
+        "date-time": "2026-07-20T00:00:00Z",
+        "timestamp": 1784505600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100003725",
+      "name": "National Research Foundation of Korea",
+      "doi-asserted-by": "crossref",
+      "award": [
+        "RS-2025-00523615"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "RS-2025-00523615"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100003725",
+          "id-type": "DOI",
+          "asserted-by": "crossref"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100003725",
+      "name": "National Research Foundation of Korea",
+      "doi-asserted-by": "crossref",
+      "award": [
+        "RS-2026-25509011"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "RS-2026-25509011"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100003725",
+          "id-type": "DOI",
+          "asserted-by": "crossref"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100003725",
+      "name": "National Research Foundation of Korea",
+      "doi-asserted-by": "crossref",
+      "award": [
+        "N10260004"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "N10260004"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100003725",
+          "id-type": "DOI",
+          "asserted-by": "crossref"
+        }
+      ]
+    },
+    {
+      "name": "Ministry of Health and Welfare",
+      "award": [
+        "RS-2024-00467483"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "RS-2024-00467483"
+          ]
+        }
+      ]
+    },
+    {
+      "award": [
+        "DRB-KAIST SketchTheFuture Research Center"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "DRB-KAIST SketchTheFuture Research Center"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "https://ror.org/05apxxy63",
+          "id-type": "ROR",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "award": [
+        "Korea-US Collaborative Research Fund"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "Korea-US Collaborative Research Fund"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "https://ror.org/01wpjm123",
+          "id-type": "ROR",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100003693",
+      "name": "Korea Institute of Science and Technology",
+      "doi-asserted-by": "crossref",
+      "award": [
+        "2E33791"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "2E33791"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100003693",
+          "id-type": "DOI",
+          "asserted-by": "crossref"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "accepted": {
+    "date-parts": [
+      [
+        2026,
+        7,
+        20
+      ]
+    ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Generative AI–based protein design can create diverse structures for desired functions but offers human designers limited control over three-dimensional architectures. We developed ProteinSketch, a bimanual virtual reality platform in which immersive backbone sketches and volumetric envelopes are directly created and translated into constraints for diffusion-based protein generation. RFdiffusion-based real-time refinement enabled interactive exploration and construction of user-specified protein topologies. Volumetric conditioning of sketched envelopes enabled high-fidelity control of anisometric geometries, confirmed by cryo–electron microscopy. These user-defined volumetric constraints enabled functional-binder design and extension of pre-existing minibinders to surfaces otherwise difficult to access within complex molecular environments using conventional design approaches. This collaborative human–AI framework integrates human spatial reasoning with generative AI for spatially directed, shape-controlled design of protein structure and function.</jats:p>\n                <jats:sec>\n                  <jats:title>One-sentence summary</jats:title>\n                  <jats:p>Immersive ProteinSketch embeds human spatial reasoning in AI-guided design of protein topology, shape, and function.</jats:p>\n                </jats:sec>",
+  "DOI": "10.64898/2026.07.19.739460",
+  "type": "posted-content",
+  "created": {
+    "date-parts": [
+      [
+        2026,
+        7,
+        21
+      ]
+    ],
+    "date-time": "2026-07-21T08:05:26Z",
+    "timestamp": 1784621126000
+  },
+  "source": "Crossref",
+  "is-referenced-by-count": 1,
+  "title": [
+    "ProteinSketch translates spatial intuition into protein design with bimanual interaction in VR"
+  ],
+  "prefix": "10.64898",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0001-8839-024X",
+      "authenticated-orcid": false,
+      "given": "Donghyeok",
+      "family": "Ma",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Department of Industrial Design, Korea Advanced Institute of Science and Technology, Daejeon, 34141, Republic of Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-9951-1593",
+      "authenticated-orcid": false,
+      "given": "Junyup",
+      "family": "Lee",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Biological Sciences, Korea Advanced Institute of Science and Technology, Daejeon, 34141, Republic of Korea"
+        },
+        {
+          "name": "InnoCORE AI-CRED Institute, Korea Advanced Institute of Science and Technology, Daejeon, 34141, Republic of Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0009-9596-5916",
+      "authenticated-orcid": false,
+      "given": "Heechan",
+      "family": "Lee",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Biomedical Research Division, Korea Institute of Science and Technology, Seoul, 02792, Republic of Korea"
+        },
+        {
+          "name": "Department of Biological Sciences, Seoul National University, Seoul, 08826, Republic of Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-5460-9300",
+      "authenticated-orcid": false,
+      "given": "Sang-Hyun",
+      "family": "Lee",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Industrial Design, Korea Advanced Institute of Science and Technology, Daejeon, 34141, Republic of Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0006-2487-6172",
+      "authenticated-orcid": false,
+      "given": "Yeong Gyeong",
+      "family": "Oh",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Biological Sciences, Korea Advanced Institute of Science and Technology, Daejeon, 34141, Republic of Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-8697-011X",
+      "authenticated-orcid": false,
+      "given": "Ye-Eun",
+      "family": "Kim",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Biological Sciences, Korea Advanced Institute of Science and Technology, Daejeon, 34141, Republic of Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-8191-7619",
+      "authenticated-orcid": false,
+      "given": "Taegyu",
+      "family": "Jin",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Industrial Design, Korea Advanced Institute of Science and Technology, Daejeon, 34141, Republic of Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0001-9243-5508",
+      "authenticated-orcid": false,
+      "given": "Siripon",
+      "family": "Sutthiwanna",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Industrial Design, Korea Advanced Institute of Science and Technology, Daejeon, 34141, Republic of Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-2309-0702",
+      "authenticated-orcid": false,
+      "given": "Seung-Jun",
+      "family": "Lee",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Industrial Design, Korea Advanced Institute of Science and Technology, Daejeon, 34141, Republic of Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-5903-3304",
+      "authenticated-orcid": false,
+      "given": "Woosung",
+      "family": "Jeon",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "InnoCORE AI-CRED Institute, Korea Advanced Institute of Science and Technology, Daejeon, 34141, Republic of Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Dong Sun",
+      "family": "Lee",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Biological Sciences, Korea Advanced Institute of Science and Technology, Daejeon, 34141, Republic of Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-4175-5181",
+      "authenticated-orcid": false,
+      "given": "Jinsook",
+      "family": "Ahn",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Biological Sciences, Korea Advanced Institute of Science and Technology, Daejeon, 34141, Republic of Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-0005-4864",
+      "authenticated-orcid": false,
+      "given": "Ryeongeun",
+      "family": "Cho",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "InnoCORE AI-CRED Institute, Korea Advanced Institute of Science and Technology, Daejeon, 34141, Republic of Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0005-9137-5725",
+      "authenticated-orcid": false,
+      "given": "Hyemi",
+      "family": "Park",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Biomedical Research Division, Korea Institute of Science and Technology, Seoul, 02792, Republic of Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0006-4938-0720",
+      "authenticated-orcid": false,
+      "given": "Seongin",
+      "family": "Jeong",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Biomedical Research Division, Korea Institute of Science and Technology, Seoul, 02792, Republic of Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-7129-1912",
+      "authenticated-orcid": false,
+      "given": "Hahnbeom",
+      "family": "Park",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Biomedical Research Division, Korea Institute of Science and Technology, Seoul, 02792, Republic of Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-7922-2623",
+      "authenticated-orcid": false,
+      "given": "Seok-Hyung",
+      "family": "Bae",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Industrial Design, Korea Advanced Institute of Science and Technology, Daejeon, 34141, Republic of Korea"
+        },
+        {
+          "name": "InnoCORE AI-CRED Institute, Korea Advanced Institute of Science and Technology, Daejeon, 34141, Republic of Korea"
+        },
+        {
+          "name": "DRB-KAIST SketchTheFuture Research Center, Korea Advanced Institute of Science and Technology, Daejeon, 34141, Republic of Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-0029-3643",
+      "authenticated-orcid": false,
+      "given": "Ho Min",
+      "family": "Kim",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Biological Sciences, Korea Advanced Institute of Science and Technology, Daejeon, 34141, Republic of Korea"
+        },
+        {
+          "name": "InnoCORE AI-CRED Institute, Korea Advanced Institute of Science and Technology, Daejeon, 34141, Republic of Korea"
+        },
+        {
+          "name": "DRB-KAIST SketchTheFuture Research Center, Korea Advanced Institute of Science and Technology, Daejeon, 34141, Republic of Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "54368",
+  "reference": [
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/S41586-021-03819-2"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/S41586-024-07487-W"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.3",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1126/science.add2187"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.4",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1126/science.ade2574"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.5",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41586-023-06415-8"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.6",
+      "doi-asserted-by": "crossref",
+      "first-page": "96",
+      "DOI": "10.1038/s41592-025-02975-x",
+      "article-title": "Atom-level enzyme active site scaffolding using RFdiffusion2",
+      "volume": "23",
+      "year": "2026",
+      "journal-title": "Nat Methods"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.7",
+      "doi-asserted-by": "crossref",
+      "first-page": "483",
+      "DOI": "10.1038/s41586-025-09429-6",
+      "article-title": "One-shot design of functional protein binders with BindCraft",
+      "volume": "646",
+      "year": "2025",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.8",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41586-023-06728-8"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.9",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41586-024-08393-x"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.10",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41467-025-57192-z"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.11",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41586-024-07814-1"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.12",
+      "doi-asserted-by": "crossref",
+      "first-page": "1635",
+      "DOI": "10.1038/s41563-025-02295-7",
+      "article-title": "Computational design of bifaceted protein nanomaterials",
+      "volume": "24",
+      "year": "2025",
+      "journal-title": "Nat Mater"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.13",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.cell.2023.12.028"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.14",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1126/science.adf6591"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.15",
+      "unstructured": "Z. Lu , S. Cheng , Y. Jiang , Y. Zhang , M. Zhang , ProtPainter: draw or drag protein via topology-guided diffusion. arXiv preprint arXiv:2504.14274, (2025)."
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.16",
+      "unstructured": "H. Stark , B. Jing , T. Geffner , J. Yim , T. Jaakkola , A. Vahdat , K. Kreis , Protcomposer: Compositional protein structure generation with 3d ellipsoids. arXiv preprint arXiv:2503.05025, (2025)."
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.17",
+      "doi-asserted-by": "crossref",
+      "unstructured": "J. J. Gibson , The theory of affordances. The ecological approach to visual perception . The people, place and, space reader, 56–60 (1979).",
+      "DOI": "10.4324/9781315816852-11"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.18",
+      "doi-asserted-by": "crossref",
+      "unstructured": "K. Hinckley , R. Pausch , J. C. Goble , N. F. Kassell , “A survey of design issues in spatial input” in Proceedings of the 7th annual ACM symposium on User interface software and technology (Association for Computing Machinery, 1994), pp. 213–222.",
+      "DOI": "10.1145/192426.192501"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.19",
+      "doi-asserted-by": "crossref",
+      "unstructured": "R. J. Jacob , A. Girouard , L. M. Hirshfield , M. S. Horn , O. Shaer , E. T. Solovey , J. Zigelbaum , “Reality-based interaction: a framework for post-WIMP interfaces” in Proceedings of the SIGCHI conference on Human factors in computing systems (Association for Computing Machinery, 2008), pp. 201–210.",
+      "DOI": "10.1145/1357054.1357089"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.20",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1080/00222895.1984.10735319"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.21",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1080/00222895.1987.10735426"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.22",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41586-024-07601-y"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.23",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41467-023-38328-5"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.24",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41589-020-00699-x"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.25",
+      "doi-asserted-by": "crossref",
+      "unstructured": "F. Sesterhenn , C. Yang , J. Bonet , J. T. Cramer , X. Wen , Y. Wang , C. I. Chiang , L. A. Abriata , I. Kucharska , G. Castoro , S. S. Vollers , M. Galloux , E. Dheilly , S. Rosset , P. Corthesy , S. Georgeon , M. Villard , C. A. Richard , D. Descamps , T. Delgado , E. Oricchio , M. A. Rameix-Welti , V. Mas , S. Ervin , J. F. Eleouet , S. Riffault , J. T. Bates , J. P. Julien , Y. Li , T. Jardetzky , T. Krey , B. E. Correia , De novo protein design enables the precise induction of RSV-neutralizing antibodies. Science 368, (2020).",
+      "DOI": "10.1126/science.aay5051"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.26",
+      "doi-asserted-by": "crossref",
+      "unstructured": "B. Curless , M. Levoy , “A volumetric method for building complex models from range images” in Proceedings of the 23rd annual conference on Computer graphics and interactive techniques (Association for Computing Machinery, 1996), pp. 303–312.",
+      "DOI": "10.1145/237170.237269"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.27",
+      "doi-asserted-by": "crossref",
+      "unstructured": "C. Frank , D. Schiwietz , L. Fuß , S. Ovchinnikov , H. Dietz , Alphafold2 refinement improves designability of large de novo proteins. bioRxiv, 2024.2011.2021.624687 (2024).",
+      "DOI": "10.1101/2024.11.21.624687"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.28",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1126/science.adp1779"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.29",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.cell.2007.08.002"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.30",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/nature07830"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.31",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41467-025-59550-3"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.32",
+      "doi-asserted-by": "crossref",
+      "first-page": "1234",
+      "DOI": "10.1038/s41467-025-56369-w",
+      "article-title": "De novo design of protein minibinder agonists of TLR3",
+      "volume": "16",
+      "year": "2025",
+      "journal-title": "Nat Commun"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.33",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1126/science.1155406"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.34",
+      "doi-asserted-by": "crossref",
+      "unstructured": "K. Sakaniwa , A. Fujimura , T. Shibata , H. Shigematsu , T. Ekimoto , M. Yamamoto , M. Ikeguchi , K. Miyake , U. Ohto , T. Shimizu , TLR3 forms a laterally aligned multimeric complex along double-stranded RNA for efficient signal transduction. Nat Commun 14, 164 (2023).",
+      "DOI": "10.1038/s41467-023-35844-2"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.35",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41467-022-34602-0"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.36",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1126/science.1227268"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.37",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5281/zenodo.20805442"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.38",
+      "unstructured": "Autodesk Inc., Autodesk Alias VR, Autodesk (2024); https://www.autodesk.com/products/alias."
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.39",
+      "unstructured": "Autodesk Inc., Autodesk VRED, Autodesk (2026); https://www.autodesk.com/products/vred."
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.40",
+      "unstructured": "Gravity Sketch Ltd., Gravity Sketch, Gravity Sketch Ltd. (2026); https://www.gravitysketch.com."
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.41",
+      "doi-asserted-by": "crossref",
+      "unstructured": "S.-H. Bae , T. Kobayash , R. Kijima , W.-S. Kim , “Tangible NURBS-curve manipulation techniques using graspable handles on a large display” in Proceedings of the 17th annual ACM symposium on User interface software and technology (Association for Computing Machinery, 2004), pp. 81–90.",
+      "DOI": "10.1145/1029632.1029646"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.42",
+      "doi-asserted-by": "crossref",
+      "unstructured": "S.-H. Lee , T. Jin , J. H. Lee , S.-H. Bae , “WireSketch: bimanual interactions for 3D curve networks in VR” in Adjunct Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology (Association for Computing Machinery, 2022), pp. 1–3.",
+      "DOI": "10.1145/3526114.3558726"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.43",
+      "doi-asserted-by": "crossref",
+      "unstructured": "S.-H. Lee , J. H. Lee , S.-H. Bae , “Bimanual interactions for surfacing curve networks in VR” in Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (Association for Computing Machinery, 2024), pp. 1–7.",
+      "DOI": "10.1145/3613905.3650988"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.44",
+      "unstructured": "44. Meta Inc., Meta XR All-in-One SDK, Meta Inc . (2024); https://developers.meta.com/horizon/downloads/package/meta-xr-sdk-all-in-one-upm/."
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.45",
+      "unstructured": "L. Piegl , W. Tiller , The NURBS book. (Springer Science & Business Media, 2012)."
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.46",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.2307/2319846"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.47",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1073/pnas.37.5.235"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.48",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1073/pnas.37.4.205"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.49",
+      "doi-asserted-by": "crossref",
+      "first-page": "e18598",
+      "DOI": "10.1016/j.heliyon.2023.e18598",
+      "article-title": "Distance-based global analysis of consistent cis-bonds in protein backbones",
+      "volume": "9",
+      "year": "2023",
+      "journal-title": "Heliyon"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.50",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1073/pnas.37.5.251"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.51",
+      "unstructured": "T. Greville , Spline functions, interpolation and numerical quadrature. Mathematical method of digital computers, 156–168 (1967)."
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.52",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.jctc.6b00819"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.53",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1126/sci-ence.adl2528"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.54",
+      "doi-asserted-by": "crossref",
+      "unstructured": "J. Butcher , R. Krishna , R. Mitra , R. I. Brent , Y. Li , N. Corley , P. T. Kim , J. Funk , S. Mathis , S. Salike , A. Muraishi , H. Eisenach , T. R. Thompson , J. Chen , Y. Politanska , E. Sehgal , B. Coventry , O. Zhang , B. Qiang , K. Didi , M. Kazman , F. DiMaio , D. Baker , De novo Design of All-atom Biomolecular Interactions with RFdiffusion3. bioRxiv, (2025).",
+      "DOI": "10.1101/2025.09.18.676967"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.55",
+      "doi-asserted-by": "crossref",
+      "unstructured": "T. Lu , M. Liu , Y. Chen , J. Kim , P. S. Huang , Assessing generative model coverage of protein structures with SHAPES. Cell Syst 16, 101347 (2025).",
+      "DOI": "10.1016/j.cels.2025.101347"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.56",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41586-023-06953-1"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.57",
+      "doi-asserted-by": "crossref",
+      "unstructured": "K. Museth , VDB: High-resolution sparse volumes with dynamic topology. ACM Trans Graph 32, Article 27 (2013).",
+      "DOI": "10.1145/2487228.2487235"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.58",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/235815.235821"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.59",
+      "doi-asserted-by": "crossref",
+      "first-page": "e2206111119",
+      "DOI": "10.1073/pnas.2206111119",
+      "article-title": "A generic framework for hierarchical de novo protein design",
+      "volume": "119",
+      "year": "2022",
+      "journal-title": "Proc Natl Acad Sci U S A"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.60",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/pro.2610"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.61",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/nature12966"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.62",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/nmeth.4169"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.63",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/nmeth.4193"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.64",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41592-019-0580-y"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.65",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/nmeth.2115"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.66",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jmb.2003.07.013"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.67",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jsb.2013.08.002"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.68",
+      "doi-asserted-by": "crossref",
+      "unstructured": "R. Sanchez-Garcia , J. Gomez-Blanco , A. Cuervo , J. M. Carazo , C. O. S. Sorzano , J. Vargas , DeepEMhancer: a deep learning solution for cryo-EM volume post-processing. Commun Biol 4, 874 (2021).",
+      "DOI": "10.1038/s42003-021-02399-1"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.69",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1107/S0907444904019158"
+    },
+    {
+      "key": "2026072218301484000_2026.07.19.739460v1.70",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/PRO.3943"
+    }
+  ],
+  "container-title": [],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.07.19.739460",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        7,
+        23
+      ]
+    ],
+    "date-time": "2026-07-23T01:30:27Z",
+    "timestamp": 1784770227000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.07.19.739460"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        7,
+        20
+      ]
+    ]
+  },
+  "references-count": 70,
+  "URL": "https://doi.org/10.64898/2026.07.19.739460",
+  "relation": {},
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2026,
+        7,
+        20
+      ]
+    ]
+  },
+  "subtype": "preprint"
+}

@@ -1,0 +1,844 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2025,
+        12,
+        31
+      ]
+    ],
+    "date-time": "2025-12-31T12:18:52Z",
+    "timestamp": 1767183532361,
+    "version": "3.41.0"
+  },
+  "reference-count": 93,
+  "publisher": "Association for Computing Machinery (ACM)",
+  "issue": "1",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2022,
+            1,
+            7
+          ]
+        ],
+        "date-time": "2022-01-07T00:00:00Z",
+        "timestamp": 1641513600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+    }
+  ],
+  "funder": [
+    {
+      "name": "NIH",
+      "award": [
+        "1UH2CA203768-01"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "1UH2CA203768-01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NSF",
+      "award": [
+        "CCF-1617678"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "CCF-1617678"
+          ]
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "dl.acm.org"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "ACM Trans. Comput.-Hum. Interact."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2022,
+        2,
+        28
+      ]
+    ]
+  },
+  "abstract": "<jats:p>Modern experiments in many disciplines generate large quantities of network (graph) data. Researchers require aesthetic layouts of these networks that clearly convey the domain knowledge and meaning. However, the problem remains challenging due to multiple conflicting aesthetic criteria and complex domain-specific constraints. In this article, we present a strategy for generating visualizations that can help network biologists understand the protein interactions that underlie processes that take place in the cell. Specifically, we have developed Flud, a crowd-powered system that allows humans with no expertise to design biologically meaningful graph layouts with the help of algorithmically generated suggestions. Furthermore, we propose a novel hybrid approach for graph layout wherein crowd workers and a simulated annealing algorithm build on each other’s progress. A study of about 2,000 crowd workers on Amazon Mechanical Turk showed that the hybrid crowd–algorithm approach outperforms the crowd-only approach and state-of-the-art techniques when workers were asked to lay out complex networks that represent signaling pathways. Another study of seven participants with biological training showed that Flud layouts are more effective compared to those created by state-of-the-art techniques. We also found that the algorithmically generated suggestions guided the workers when they are stuck and helped them improve their score. Finally, we discuss broader implications for mixed-initiative interactions in layout design tasks beyond biology.</jats:p>",
+  "DOI": "10.1145/3479196",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2022,
+        1,
+        7
+      ]
+    ],
+    "date-time": "2022-01-07T14:50:16Z",
+    "timestamp": 1641567016000
+  },
+  "page": "1-53",
+  "update-policy": "https://doi.org/10.1145/crossmark-policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 4,
+  "title": [
+    "Flud: A Hybrid Crowd–Algorithm Approach for Visualizing Biological Networks"
+  ],
+  "prefix": "10.1145",
+  "volume": "29",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0001-8712-6404",
+      "authenticated-orcid": false,
+      "given": "Aditya",
+      "family": "Bharadwaj",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Virginia Tech, Blacksburg, Virginia, USA"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "David",
+      "family": "Gwizdala",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Bridgewater Associates, Stamford, Connecticut, USA"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Yoonjin",
+      "family": "Kim",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Virginia Tech, Blacksburg, Virginia, USA"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Kurt",
+      "family": "Luther",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Virginia Tech, Blacksburg, Virginia, USA"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "T. M.",
+      "family": "Murali",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Virginia Tech, Blacksburg, Virginia, USA"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "member": "320",
+  "published-online": {
+    "date-parts": [
+      [
+        2022,
+        1,
+        7
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_3_2_2_2",
+      "volume-title": "Proceedings of the Help Me Help You: Bridging the Gaps in Human-Agent Collaboration, Papers from the 2011 AAAI Spring Symposium",
+      "author": "An Bo",
+      "year": "2011",
+      "unstructured": "Bo An, Manish Jain, Milind Tambe, and Christopher Kiekintveld. 2011. Mixed-initiative optimization in security games: A preliminary report. In Proceedings of the Help Me Help You: Bridging the Gaps in Human-Agent Collaboration, Papers from the 2011 AAAI Spring Symposium. AAAI. Retrieved from http://www.aaai.org/ocs/index.php/SSS/SSS11/paper/view/2375."
+    },
+    {
+      "key": "e_1_3_2_3_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jmb.2015.11.013"
+    },
+    {
+      "key": "e_1_3_2_4_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5555/3367471.3367669"
+    },
+    {
+      "key": "e_1_3_2_5_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/nrg1272"
+    },
+    {
+      "key": "e_1_3_2_6_2",
+      "first-page": "Springer, Berli",
+      "volume-title": "Graph Drawing",
+      "author": "Batagelj Vladimir",
+      "year": "2001",
+      "unstructured": "Vladimir Batagelj and Andrej Mrvar. 2001. Pajek—analysis and visualization of large networks. Graph DrawingSoftware. Springer, Berlin. 477–478. DOI:https://doi.org/10.1007/3-540-45848-4_54"
+    },
+    {
+      "key": "e_1_3_2_7_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-540-30559-0_28"
+    },
+    {
+      "key": "e_1_3_2_8_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/bioinformatics/17.5.461"
+    },
+    {
+      "key": "e_1_3_2_9_2",
+      "first-page": "57",
+      "article-title": "The aesthetics of graph visualization.",
+      "volume": "2007",
+      "author": "Bennett Chris",
+      "year": "2007",
+      "unstructured": "Chris Bennett, Jody Ryall, Leo Spalteholz, and Amy Gooch. 2007. The aesthetics of graph visualization. Computational Aesthetics 2007 (2007), 57–64. DOI:https://doi.org/10.2312/COMPAESTH/COMPAESTH07/057-064",
+      "journal-title": "Computational Aesthetics"
+    },
+    {
+      "key": "e_1_3_2_10_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/bioinformatics/btx382"
+    },
+    {
+      "key": "e_1_3_2_11_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1186/s13673-016-0068-z"
+    },
+    {
+      "key": "e_1_3_2_12_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1978942.1978967"
+    },
+    {
+      "key": "e_1_3_2_13_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2675133.2675214"
+    },
+    {
+      "key": "e_1_3_2_14_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VAST.2017.8585484"
+    },
+    {
+      "key": "e_1_3_2_15_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2625848"
+    },
+    {
+      "key": "e_1_3_2_16_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/nature09304"
+    },
+    {
+      "key": "e_1_3_2_17_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1371216.1371223"
+    },
+    {
+      "key": "e_1_3_2_18_2",
+      "volume-title": "Flow: The Psychology of Optimal Experience.",
+      "author": "Csikszentmihalyi M.",
+      "year": "1990",
+      "unstructured": "M. Csikszentmihalyi. 1990. Flow: The Psychology of Optimal Experience.HarperCollins Publishers."
+    },
+    {
+      "key": "e_1_3_2_19_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/234535.234538"
+    },
+    {
+      "key": "e_1_3_2_20_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0925-7721(94)00014-X"
+    },
+    {
+      "key": "e_1_3_2_21_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/INFOVIS.2005.10"
+    },
+    {
+      "key": "e_1_3_2_22_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2006.156"
+    },
+    {
+      "key": "e_1_3_2_23_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2009.109"
+    },
+    {
+      "key": "e_1_3_2_24_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5555/1758612.1758617"
+    },
+    {
+      "key": "e_1_3_2_25_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5555/647548.728752"
+    },
+    {
+      "key": "e_1_3_2_26_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5555/338219.338225"
+    },
+    {
+      "key": "e_1_3_2_27_2",
+      "first-page": "483",
+      "volume-title": "Proceedings of the International Symposium on Graph Drawing",
+      "author": "Ellson John",
+      "year": "2001",
+      "unstructured": "John Ellson, Emden R. Gansner, Eleftherios Koutsofios, Stephen C. North, and Gordon Woodhull. 2001. Graphviz - open source graph drawing tools. In Proceedings of the International Symposium on Graph Drawing. Springer, 483–484. DOI:https://doi.org/10.1007/3-540-45848-4_57"
+    },
+    {
+      "key": "e_1_3_2_28_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1177/1555412013496891"
+    },
+    {
+      "issue": "2",
+      "key": "e_1_3_2_29_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "309",
+      "DOI": "10.1093/bioinformatics/btv557",
+      "article-title": "Cytoscape.js: A graph theory library for visualisation and analysis",
+      "volume": "32",
+      "author": "Franz M.",
+      "year": "2016",
+      "unstructured": "M. Franz, C. T. Lopes, G. Huck, Y. Dong, O. Sumer, and G. D. Bader. 2016. Cytoscape.js: A graph theory library for visualisation and analysis. Bioinformatics 32, 2 (Jan 2016), 309–311.",
+      "journal-title": "Bioinformatics"
+    },
+    {
+      "key": "e_1_3_2_30_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/database/bav041"
+    },
+    {
+      "key": "e_1_3_2_31_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/spe.4380211102"
+    },
+    {
+      "key": "e_1_3_2_32_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s10461-010-9797-6"
+    },
+    {
+      "key": "e_1_3_2_33_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1745-493X.2010.03209.x"
+    },
+    {
+      "key": "e_1_3_2_34_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5555/1758612.1758651"
+    },
+    {
+      "key": "e_1_3_2_35_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/32.221135"
+    },
+    {
+      "key": "e_1_3_2_36_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/980972.980992"
+    },
+    {
+      "key": "e_1_3_2_37_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1177/1473871612455749"
+    },
+    {
+      "key": "e_1_3_2_38_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2642918.2647408"
+    },
+    {
+      "key": "e_1_3_2_39_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.cels.2019.10.009"
+    },
+    {
+      "key": "e_1_3_2_40_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICACCI.2016.7732298"
+    },
+    {
+      "key": "e_1_3_2_41_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1963405.1963484"
+    },
+    {
+      "key": "e_1_3_2_42_2",
+      "volume-title": "Exploring Network Structure, Dynamics, and Function Using NetworkX",
+      "author": "Hagberg Aric",
+      "year": "2008",
+      "unstructured": "Aric Hagberg, Pieter Swart, and Daniel S. Chult. 2008. Exploring Network Structure, Dynamics, and Function Using NetworkX. Technical Report. Los Alamos National Lab.(LANL), Los Alamos, NM (United States)."
+    },
+    {
+      "key": "e_1_3_2_43_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/HICSS.2014.377"
+    },
+    {
+      "key": "e_1_3_2_44_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5555/866782"
+    },
+    {
+      "key": "e_1_3_2_45_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1073/pnas.1807184115"
+    },
+    {
+      "key": "e_1_3_2_46_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1240624.1240781"
+    },
+    {
+      "key": "e_1_3_2_47_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2736277.2741102"
+    },
+    {
+      "issue": "1",
+      "key": "e_1_3_2_48_2",
+      "first-page": "37",
+      "article-title": "Efficient, high-quality force-directed graph drawing",
+      "volume": "10",
+      "author": "Hu Yifan",
+      "year": "2005",
+      "unstructured": "Yifan Hu. 2005. Efficient, high-quality force-directed graph drawing. Mathematica Journal 10, 1 (2005), 37–71.",
+      "journal-title": "Mathematica Journal"
+    },
+    {
+      "key": "e_1_3_2_49_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3173574.3173869"
+    },
+    {
+      "key": "e_1_3_2_50_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/345910.345920"
+    },
+    {
+      "key": "e_1_3_2_51_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1371/journal.pone.0098679"
+    },
+    {
+      "key": "e_1_3_2_52_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0020-0190(89)90102-6"
+    },
+    {
+      "key": "e_1_3_2_53_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1978942.1979444"
+    },
+    {
+      "key": "e_1_3_2_54_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3290605.3300541"
+    },
+    {
+      "key": "e_1_3_2_55_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1371/journal.pone.0031362"
+    },
+    {
+      "key": "e_1_3_2_56_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2501988.2502034"
+    },
+    {
+      "key": "e_1_3_2_57_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/nature13240"
+    },
+    {
+      "key": "e_1_3_2_58_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/nature13240"
+    },
+    {
+      "key": "e_1_3_2_59_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5555/1756869.1756936"
+    },
+    {
+      "key": "e_1_3_2_60_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.camwa.2004.08.015"
+    },
+    {
+      "key": "e_1_3_2_61_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2017.2743858"
+    },
+    {
+      "key": "e_1_3_2_62_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2501988.2502057"
+    },
+    {
+      "key": "e_1_3_2_63_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1073/pnas.1313039111"
+    },
+    {
+      "key": "e_1_3_2_64_2",
+      "article-title": "Crowdsourcing intelligence analysis with context slices",
+      "author": "Li Tianyi",
+      "year": "2018",
+      "unstructured": "Tianyi Li, Asmita Shah, Kurt Luther, and Chris North. 2018. Crowdsourcing intelligence analysis with context slices. In Proceedings of the CHI 2018 Workshop on Sensemaking in a Senseless World .",
+      "journal-title": "Proceedings of the CHI 2018 Workshop on Sensemaking in a Senseless World"
+    },
+    {
+      "key": "e_1_3_2_65_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TEVC.2007.895272"
+    },
+    {
+      "key": "e_1_3_2_66_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1186/1756-0381-1-12"
+    },
+    {
+      "key": "e_1_3_2_67_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1006/jvlc.2002.0232"
+    },
+    {
+      "key": "e_1_3_2_68_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5555/564040.564056"
+    },
+    {
+      "key": "e_1_3_2_69_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "159",
+      "DOI": "10.1007/978-3-319-50901-3_13",
+      "volume-title": "Proceedings of the 5th International Workshop on Complex Networks and their Applications",
+      "volume": "693",
+      "author": "Renoust Benjamin",
+      "year": "2016",
+      "unstructured": "Benjamin Renoust, Vivek Claver, and Jean-François Baffier. 2016. Flows of knowledge in citation networks. In Proceedings of the 5th International Workshop on Complex Networks and their Applications. Hocine Cherifi, Sabrina Gaito, Walter Quattrociocchi, and Alessandra Sala (Eds.), Vol. 693, Springer, 159–170. DOI:https://doi.org/10.1007/978-3-319-50901-3_13"
+    },
+    {
+      "key": "e_1_3_2_70_2",
+      "first-page": "17",
+      "volume-title": "Proceedings of the 5th International Conference on Weblogs and Social Media",
+      "author": "Rogstadius Jakob",
+      "year": "2011",
+      "unstructured": "Jakob Rogstadius, Vassilis Kostakos, Aniket Kittur, Boris Smus, Jim Laredo, and Maja Vukovic. 2011. An assessment of intrinsic and extrinsic motivation on task performance in crowdsourcing markets. In Proceedings of the 5th International Conference on Weblogs and Social Media. Lada A. Adamic, Ricardo A. Baeza-Yates, and Scott Counts (Eds.). The AAAI Press, 17–21. Retrieved from http://www.aaai.org/ocs/index.php/ICWSM/ICWSM11/paper/view/2778."
+    },
+    {
+      "key": "e_1_3_2_71_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2018.2829750"
+    },
+    {
+      "key": "e_1_3_2_72_2",
+      "first-page": "178",
+      "volume-title": "Proceedings of the 3rd AAAI Conference on Human Computation and Crowdsourcing",
+      "author": "Sarma Akash Das",
+      "year": "2015",
+      "unstructured": "Akash Das Sarma, Ayush Jain, Arnab Nandi, Aditya G. Parameswaran, and Jennifer Widom. 2015. Surpassing humans and computers with JELLYBEAN: Crowd-vision-hybrid counting algorithms. In Proceedings of the 3rd AAAI Conference on Human Computation and Crowdsourcing. Elizabeth Gerber and Panos Ipeirotis (Eds.). AAAI Press, 178–187. Retrieved from http://www.aaai.org/ocs/index.php/HCOMP/HCOMP15/paper/view/11593."
+    },
+    {
+      "key": "e_1_3_2_73_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1186/1471-2105-10-375"
+    },
+    {
+      "issue": "1",
+      "key": "e_1_3_2_74_2",
+      "first-page": "3",
+      "article-title": "Designing learning with citizen science and games",
+      "volume": "4",
+      "author": "Schrier Karen",
+      "year": "2018",
+      "unstructured": "Karen Schrier. 2018. Designing learning with citizen science and games. The Emerging Learning Design Journal 4, 1 (2018), 3.",
+      "journal-title": "The Emerging Learning Design Journal"
+    },
+    {
+      "key": "e_1_3_2_75_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1101/gr.1239303"
+    },
+    {
+      "key": "e_1_3_2_76_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2984511.2984578"
+    },
+    {
+      "key": "e_1_3_2_77_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3173574.3173806"
+    },
+    {
+      "key": "e_1_3_2_78_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/bioinformatics/btq675"
+    },
+    {
+      "key": "e_1_3_2_79_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/npjsba.2015.14"
+    },
+    {
+      "key": "e_1_3_2_80_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TSMC.1981.4308636"
+    },
+    {
+      "key": "e_1_3_2_81_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5555/3122413"
+    },
+    {
+      "key": "e_1_3_2_82_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/21.87055"
+    },
+    {
+      "key": "e_1_3_2_83_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IV.2005.19"
+    },
+    {
+      "key": "e_1_3_2_84_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/bioinformatics/btu384"
+    },
+    {
+      "key": "e_1_3_2_85_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2009.108"
+    },
+    {
+      "key": "e_1_3_2_86_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2008.155"
+    },
+    {
+      "key": "e_1_3_2_87_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3354/meps336001"
+    },
+    {
+      "key": "e_1_3_2_88_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2007.70577"
+    },
+    {
+      "key": "e_1_3_2_89_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1378704.1378719"
+    },
+    {
+      "key": "e_1_3_2_90_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1124772.1124782"
+    },
+    {
+      "key": "e_1_3_2_91_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2968120.2987733"
+    },
+    {
+      "key": "e_1_3_2_92_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2015.2467191"
+    },
+    {
+      "key": "e_1_3_2_93_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2012.236"
+    },
+    {
+      "key": "e_1_3_2_94_2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2207676.2207708"
+    }
+  ],
+  "container-title": [
+    "ACM Transactions on Computer-Human Interaction"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://dl.acm.org/doi/10.1145/3479196",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://dl.acm.org/doi/pdf/10.1145/3479196",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "syndication"
+    },
+    {
+      "URL": "https://dl.acm.org/doi/pdf/10.1145/3479196",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        6,
+        17
+      ]
+    ],
+    "date-time": "2025-06-17T20:18:38Z",
+    "timestamp": 1750191518000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://dl.acm.org/doi/10.1145/3479196"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2022,
+        1,
+        7
+      ]
+    ]
+  },
+  "references-count": 93,
+  "journal-issue": {
+    "issue": "1",
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          28
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1145/3479196"
+  ],
+  "URL": "https://doi.org/10.1145/3479196",
+  "relation": {},
+  "ISSN": [
+    "1073-0516",
+    "1557-7325"
+  ],
+  "issn-type": [
+    {
+      "type": "print",
+      "value": "1073-0516"
+    },
+    {
+      "type": "electronic",
+      "value": "1557-7325"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2022,
+        1,
+        7
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2019-07-01",
+      "order": 0,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2021-08-01",
+      "order": 1,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2022-01-07",
+      "order": 2,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ]
+}

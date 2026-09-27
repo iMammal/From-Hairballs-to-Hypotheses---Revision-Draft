@@ -1,0 +1,15 @@
+assistance,modality,supported_system_count
+Adaptive,AR/MR,1
+Adaptive,CAVE,1
+Adaptive,Desktop/Planar,4
+Adaptive,VR,3
+Algorithmic,AR/MR,2
+Algorithmic,CAVE,3
+Algorithmic,Desktop/Planar,38
+Algorithmic,Large Display,4
+Algorithmic,VR,10
+Conversational,Desktop/Planar,2
+Conversational,VR,2
+Immersive,AR/MR,2
+Immersive,CAVE,1
+Immersive,VR,6

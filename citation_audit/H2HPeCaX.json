@@ -1,0 +1,540 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        7,
+        16
+      ]
+    ],
+    "date-time": "2026-07-16T22:22:23Z",
+    "timestamp": 1784240543686,
+    "version": "3.55.0"
+  },
+  "reference-count": 19,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "1",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            8
+          ]
+        ],
+        "date-time": "2023-03-08T00:00:00Z",
+        "timestamp": 1678233600000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            8
+          ]
+        ],
+        "date-time": "2023-03-08T00:00:00Z",
+        "timestamp": 1678233600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100002347",
+      "name": "Bundesministerium für Bildung und Forschung",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "031L0030A"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "031L0030A"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100002347",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100002345",
+      "name": "Eberhard Karls Universität Tübingen",
+      "doi-asserted-by": "crossref",
+      "id": [
+        {
+          "id": "10.13039/501100002345",
+          "id-type": "DOI",
+          "asserted-by": "crossref"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "link.springer.com"
+    ],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "BMC Bioinformatics"
+  ],
+  "abstract": "<jats:title>Abstract</jats:title><jats:sec>\n                <jats:title>Background</jats:title>\n                <jats:p>Personalized oncology represents a shift in cancer treatment from conventional methods to target specific therapies where the decisions are made based on the patient specific tumor profile. Selection of the optimal therapy relies on a complex interdisciplinary analysis and interpretation of these variants by experts in molecular tumor boards. With up to hundreds of somatic variants identified in a tumor, this process requires visual analytics tools to guide and accelerate the annotation process.</jats:p>\n              </jats:sec><jats:sec>\n                <jats:title>Results</jats:title>\n                <jats:p>The Personal Cancer Network Explorer (PeCaX) is a visual analytics tool supporting the efficient annotation, navigation, and interpretation of somatic genomic variants through functional annotation, drug target annotation, and visual interpretation within the context of biological networks. Starting with somatic variants in a VCF file, PeCaX enables users to explore these variants through a web-based graphical user interface. The most protruding feature of PeCaX is the combination of clinical variant annotation and gene-drug networks with an interactive visualization. This reduces the time and effort the user needs to invest to get to a treatment suggestion and helps to generate new hypotheses. PeCaX is being provided as a platform-independent containerized software package for local or institution-wide deployment. PeCaX is available for download at <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/KohlbacherLab/PeCaX-docker\">https://github.com/KohlbacherLab/PeCaX-docker</jats:ext-link>.</jats:p>\n              </jats:sec>",
+  "DOI": "10.1186/s12859-023-05194-3",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2023,
+        3,
+        26
+      ]
+    ],
+    "date-time": "2023-03-26T20:11:05Z",
+    "timestamp": 1679861465000
+  },
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 2,
+  "title": [
+    "The personalized cancer network explorer (PeCaX) as a visual analytics tool to support molecular tumor boards"
+  ],
+  "prefix": "10.1186",
+  "volume": "24",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0001-5735-5388",
+      "authenticated-orcid": false,
+      "given": "Mirjam",
+      "family": "Figaschewski",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Bilge",
+      "family": "Sürün",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Thorsten",
+      "family": "Tiede",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Oliver",
+      "family": "Kohlbacher",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "297",
+  "published-online": {
+    "date-parts": [
+      [
+        2023,
+        3,
+        8
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "5194_CR1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Jain KK, Principles of personalized oncology. In: Textbook of personalized medicine. Cham: Springer; 2021. pp. 403–478.",
+      "DOI": "10.1007/978-3-030-62080-6_19"
+    },
+    {
+      "issue": "2",
+      "key": "5194_CR2",
+      "doi-asserted-by": "publisher",
+      "first-page": "346",
+      "DOI": "10.1093/bib/bbv051",
+      "volume": "17",
+      "author": "SN Hart",
+      "year": "2016",
+      "unstructured": "Hart SN, Duffy P, Quest DJ, Hossain A, Meiners MA, Kocher J. Vcf-miner: Gui-based application for mining variants and annotations stored in vcf files. Brief Bioinf. 2016;17(2):346–51.",
+      "journal-title": "Brief Bioinf"
+    },
+    {
+      "issue": "5",
+      "key": "5194_CR3",
+      "first-page": "774",
+      "volume": "18",
+      "author": "S Salatino",
+      "year": "2017",
+      "unstructured": "Salatino S, Ramraj V. Browsevcf: a web-based application and workflow to quickly prioritize disease-causative variants in vcf files. Brief Bioinf. 2017;18(5):774–9.",
+      "journal-title": "Brief Bioinf"
+    },
+    {
+      "issue": "21",
+      "key": "5194_CR4",
+      "doi-asserted-by": "publisher",
+      "first-page": "3468",
+      "DOI": "10.1093/bioinformatics/btx422",
+      "volume": "33",
+      "author": "M Akgün",
+      "year": "2017",
+      "unstructured": "Akgün M, Demirci H. Vcf-explorer: filtering and analysing whole genome vcf files. Bioinformatics. 2017;33(21):3468–70.",
+      "journal-title": "Bioinformatics"
+    },
+    {
+      "issue": "7",
+      "key": "5194_CR5",
+      "first-page": "00641",
+      "volume": "7",
+      "author": "J Jiang",
+      "year": "2019",
+      "unstructured": "Jiang J, Gu J, Zhao T, Lu H. Vcf-server: a web-based visualization tool for high-throughput variant data mining and management. Mol Genet Genome Med. 2019;7(7):00641.",
+      "journal-title": "Mol Genet Genome Med"
+    },
+    {
+      "issue": "1",
+      "key": "5194_CR6",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1186/s13073-018-0529-2",
+      "volume": "10",
+      "author": "J Perera-Bel",
+      "year": "2018",
+      "unstructured": "Perera-Bel J, Hutter B, Heining C, Bleckmann A, Fröhlich M, Fröhling S, Glimm H, Brors B, Beißbarth T. From somatic variants towards precision oncology: evidence-driven reporting of treatment options in molecular tumor boards. Genome Med. 2018;10(1):1–15.",
+      "journal-title": "Genome Med"
+    },
+    {
+      "issue": "1",
+      "key": "5194_CR7",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1186/s12885-020-07221-5",
+      "volume": "20",
+      "author": "Q Xu",
+      "year": "2020",
+      "unstructured": "Xu Q, Zhai J-C, Huo C-Q, Li Y, Dong X-J, Li D-F, Huang R-D, Shen C, Chang Y-J, Zeng X-L, et al. Oncopdss: an evidence-based clinical decision support system for oncology pharmacotherapy at the individual level. BMC Cancer. 2020;20(1):1–10.",
+      "journal-title": "BMC Cancer"
+    },
+    {
+      "issue": "7",
+      "key": "5194_CR8",
+      "doi-asserted-by": "publisher",
+      "first-page": "2316",
+      "DOI": "10.1093/bioinformatics/btz924",
+      "volume": "36",
+      "author": "B Sürün",
+      "year": "2020",
+      "unstructured": "Sürün B, Schärfe C, Divine MR, Heinrich J, Toussaint NC, Zimmermann L, Beha J, Kohlbacher O. Clinvap: a reporting strategy from variants to therapeutic options. Bioinformatics. 2020;36(7):2316–7.",
+      "journal-title": "Bioinformatics"
+    },
+    {
+      "key": "5194_CR9",
+      "unstructured": "Tiede T: SBML4j 2019. https://github.com/KohlbacherLab/sbml4j Accessed 22 Jun 2021."
+    },
+    {
+      "key": "5194_CR10",
+      "unstructured": "Figaschewski M: BioGraohVisart 2019. https://github.com/KohlbacherLab/BioGraphVisart Accessed 22 Jun 2021."
+    },
+    {
+      "issue": "1",
+      "key": "5194_CR11",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1186/s13059-016-0974-4",
+      "volume": "17",
+      "author": "W McLaren",
+      "year": "2016",
+      "unstructured": "McLaren W, Gil L, Hunt SE, Riat HS, Ritchie GR, Thormann A, Flicek P, Cunningham F. The ensembl variant effect predictor. Genome Biol. 2016;17(1):1–14.",
+      "journal-title": "Genome Biol"
+    },
+    {
+      "issue": "2",
+      "key": "5194_CR12",
+      "doi-asserted-by": "publisher",
+      "first-page": "318",
+      "DOI": "10.1038/sj.bjc.6602928",
+      "volume": "94",
+      "author": "S Forbes",
+      "year": "2006",
+      "unstructured": "Forbes S, Clements J, Dawson E, Bamford S, Webb T, Dogan A, Flanagan A, Teague J, Wooster R, Futreal P, et al. Cosmic 2005. Br J Cancer. 2006;94(2):318–22.",
+      "journal-title": "Br J Cancer"
+    },
+    {
+      "issue": "1",
+      "key": "5194_CR13",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1186/s13073-018-0531-8",
+      "volume": "10",
+      "author": "D Tamborero",
+      "year": "2018",
+      "unstructured": "Tamborero D, Rubio-Perez C, Deu-Pons J, Schroeder MP, Vivancos A, Rovira A, Tusquets I, Albanell J, Rodon J, Tabernero J, et al. Cancer genome interpreter annotates the biological and clinical relevance of tumor alterations. Genome Med. 2018;10(1):1–8.",
+      "journal-title": "Genome Med"
+    },
+    {
+      "issue": "1",
+      "key": "5194_CR14",
+      "doi-asserted-by": "publisher",
+      "first-page": "27",
+      "DOI": "10.1093/nar/28.1.27",
+      "volume": "28",
+      "author": "M Kanehisa",
+      "year": "2000",
+      "unstructured": "Kanehisa M, Goto S. Kegg: kyoto encyclopedia of genes and genomes. Nucl Acids Res. 2000;28(1):27–30.",
+      "journal-title": "Nucl Acids Res"
+    },
+    {
+      "key": "5194_CR15",
+      "doi-asserted-by": "publisher",
+      "first-page": "204",
+      "DOI": "10.1093/nar/gku989",
+      "volume": "43",
+      "author": "Consortium U",
+      "year": "2015",
+      "unstructured": "Consortium U. Uniprot: a hub for protein information. Nucl Acids Res. 2015;43:204–12.",
+      "journal-title": "Nucl Acids Res"
+    },
+    {
+      "issue": "1",
+      "key": "5194_CR16",
+      "doi-asserted-by": "publisher",
+      "first-page": "38",
+      "DOI": "10.1093/nar/30.1.38",
+      "volume": "30",
+      "author": "T Hubbard",
+      "year": "2002",
+      "unstructured": "Hubbard T, Barker D, Birney E, Cameron G, Chen Y, Clark L, Cox T, Cuff J, Curwen V, Down T, et al. The ensembl genome database project. Nucl Acids Res. 2002;30(1):38–41.",
+      "journal-title": "Nucl Acids Res"
+    },
+    {
+      "issue": "suppl–1",
+      "key": "5194_CR17",
+      "doi-asserted-by": "publisher",
+      "first-page": "901",
+      "DOI": "10.1093/nar/gkm958",
+      "volume": "36",
+      "author": "D.S Wishart",
+      "year": "2008",
+      "unstructured": "Wishart D.S, Knox C, Guo A.C, Cheng D, Shrivastava S, Tzur D, Gautam B, Hassanali M. Drugbank: a knowledgebase for drugs, drug actions and drug targets. Nucl Acids Res. 2008;36(suppl–1):901–6.",
+      "journal-title": "Nucl Acids Res"
+    },
+    {
+      "issue": "6",
+      "key": "5194_CR18",
+      "doi-asserted-by": "publisher",
+      "first-page": "678",
+      "DOI": "10.1007/s00439-001-0615-0",
+      "volume": "109",
+      "author": "S Povey",
+      "year": "2001",
+      "unstructured": "Povey S, Lovering R, Bruford E, Wright M, Lush M, Wain H. The hugo gene nomenclature committee (hgnc). Human Genet. 2001;109(6):678–80.",
+      "journal-title": "Human Genet"
+    },
+    {
+      "issue": "suppl–1",
+      "key": "5194_CR19",
+      "doi-asserted-by": "publisher",
+      "first-page": "302",
+      "DOI": "10.1093/nar/gkj120",
+      "volume": "34",
+      "author": "A Kouranov",
+      "year": "2006",
+      "unstructured": "Kouranov A, Xie L, de la Cruz J, Chen L, Westbrook J, Bourne P.E, Berman H.M. The rcsb pdb information portal for structural genomics. Nucl Acids Res. 2006;34(suppl–1):302–5.",
+      "journal-title": "Nucl Acids Res"
+    }
+  ],
+  "container-title": [
+    "BMC Bioinformatics"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://link.springer.com/content/pdf/10.1186/s12859-023-05194-3.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://link.springer.com/article/10.1186/s12859-023-05194-3/fulltext.html",
+      "content-type": "text/html",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://link.springer.com/content/pdf/10.1186/s12859-023-05194-3.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2023,
+        3,
+        26
+      ]
+    ],
+    "date-time": "2023-03-26T20:11:10Z",
+    "timestamp": 1679861470000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05194-3"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2023,
+        3,
+        8
+      ]
+    ]
+  },
+  "references-count": 19,
+  "journal-issue": {
+    "issue": "1",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          12
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "5194"
+  ],
+  "URL": "https://doi.org/10.1186/s12859-023-05194-3",
+  "relation": {},
+  "ISSN": [
+    "1471-2105"
+  ],
+  "issn-type": [
+    {
+      "value": "1471-2105",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2023,
+        3,
+        8
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "25 June 2021",
+      "order": 1,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "17 February 2023",
+      "order": 2,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "8 March 2023",
+      "order": 3,
+      "name": "first_online",
+      "label": "First Online",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "order": 1,
+      "name": "Ethics",
+      "group": {
+        "name": "EthicsHeading",
+        "label": "Declarations"
+      }
+    },
+    {
+      "value": "Not applicable.",
+      "order": 2,
+      "name": "Ethics",
+      "group": {
+        "name": "EthicsHeading",
+        "label": "Ethics approval and consent to participate"
+      }
+    },
+    {
+      "value": "Not applicable.",
+      "order": 3,
+      "name": "Ethics",
+      "group": {
+        "name": "EthicsHeading",
+        "label": "Consent for publication"
+      }
+    },
+    {
+      "value": "The authors declare that they have no competing interests.",
+      "order": 4,
+      "name": "Ethics",
+      "group": {
+        "name": "EthicsHeading",
+        "label": "Competing interests"
+      }
+    }
+  ],
+  "article-number": "88"
+}

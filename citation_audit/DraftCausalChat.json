@@ -1,0 +1,581 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        2,
+        11
+      ]
+    ],
+    "date-time": "2026-02-11T13:23:51Z",
+    "timestamp": 1770816231981,
+    "version": "3.50.1"
+  },
+  "reference-count": 46,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "issue": "12",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            1
+          ]
+        ],
+        "date-time": "2025-12-01T00:00:00Z",
+        "timestamp": 1764547200000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            1
+          ]
+        ],
+        "date-time": "2025-12-01T00:00:00Z",
+        "timestamp": 1764547200000
+      },
+      "content-version": "am",
+      "delay-in-days": 0,
+      "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            1
+          ]
+        ],
+        "date-time": "2025-12-01T00:00:00Z",
+        "timestamp": 1764547200000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-029"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            1
+          ]
+        ],
+        "date-time": "2025-12-01T00:00:00Z",
+        "timestamp": 1764547200000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-037"
+    }
+  ],
+  "funder": [
+    {
+      "name": "CDC Cooperative",
+      "award": [
+        "NH25PS005202-01-00"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "NH25PS005202-01-00"
+          ]
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/100022652",
+      "name": "American Public Health Association",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "2023-0004"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "2023-0004"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/100022652",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "name": "NSF",
+      "award": [
+        "CNS 1900706"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "CNS 1900706"
+          ]
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "IEEE Trans. Visual. Comput. Graphics"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2025,
+        12
+      ]
+    ]
+  },
+  "DOI": "10.1109/tvcg.2025.3602448",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2025,
+        8,
+        25
+      ]
+    ],
+    "date-time": "2025-08-25T20:44:59Z",
+    "timestamp": 1756154699000
+  },
+  "page": "10473-10487",
+  "source": "Crossref",
+  "is-referenced-by-count": 2,
+  "title": [
+    "CausalChat: Interactive Causal Model Development and Refinement Using Large Language Models"
+  ],
+  "prefix": "10.1109",
+  "volume": "31",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-1675-5139",
+      "authenticated-orcid": false,
+      "given": "Yanming",
+      "family": "Zhang",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Computer Science Department, Stony Brook University, Stony Brook, NY, USA"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Akshith",
+      "family": "Kota",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Computer Science Department, Stony Brook University, Stony Brook, NY, USA"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Eric",
+      "family": "Papenhausen",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Computer Science Department, Stony Brook University, Stony Brook, NY, USA"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-0996-8590",
+      "authenticated-orcid": false,
+      "given": "Klaus",
+      "family": "Mueller",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Computer Science Department, Stony Brook University, Stony Brook, NY, USA"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "member": "263",
+  "reference": [
+    {
+      "key": "ref1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1017/cbo9780511808432"
+    },
+    {
+      "key": "ref2",
+      "first-page": "370",
+      "article-title": "Critique of pure reason. 1781",
+      "volume-title": "Modern Classical Philosophers",
+      "author": "Kant",
+      "year": "1908"
+    },
+    {
+      "key": "ref3",
+      "volume-title": "Causal Inference in Statistics: A Primer",
+      "author": "Pearl",
+      "year": "2016"
+    },
+    {
+      "key": "ref4",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3241036"
+    },
+    {
+      "key": "ref5",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3544548.3581021"
+    },
+    {
+      "key": "ref6",
+      "article-title": "Causal reasoning and large language models: Opening a new frontier for causality",
+      "author": "Kıcıman",
+      "year": "2023"
+    },
+    {
+      "key": "ref7",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/ije/dyv341"
+    },
+    {
+      "key": "ref8",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1146/annurev-publhealth-031811-124606"
+    },
+    {
+      "key": "ref9",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1186/1753-6561-9-S6-S6"
+    },
+    {
+      "key": "ref10",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1177/0951629805050859"
+    },
+    {
+      "key": "ref11",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2015.2467931"
+    },
+    {
+      "key": "ref12",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VAST.2017.8585647"
+    },
+    {
+      "key": "ref13",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2020.3028957"
+    },
+    {
+      "key": "ref14",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.7551/mitpress/1754.001.0001"
+    },
+    {
+      "key": "ref15",
+      "first-page": "278",
+      "article-title": "An anytime algorithm for causal inference",
+      "volume-title": "Proc. Int. Workshop Artif. Intell. Statist.",
+      "author": "Spirtes"
+    },
+    {
+      "key": "ref16",
+      "first-page": "507",
+      "article-title": "Optimal structure identification with greedy search",
+      "volume": "3",
+      "author": "Chickering",
+      "year": "2002",
+      "journal-title": "J. Mach. Learn. Res."
+    },
+    {
+      "key": "ref17",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1177/0049124104268644"
+    },
+    {
+      "key": "ref18",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1214/aos/1176344136"
+    },
+    {
+      "key": "ref19",
+      "volume-title": "Principles and Practice of Structural Equation Modeling",
+      "author": "Kline",
+      "year": "2023"
+    },
+    {
+      "key": "ref20",
+      "volume-title": "Limitations on Consistency of Causal Discovery",
+      "author": "Shalizi",
+      "year": "2013"
+    },
+    {
+      "key": "ref21",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/biomet/90.3.491"
+    },
+    {
+      "key": "ref22",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s10115-022-01665-w"
+    },
+    {
+      "key": "ref23",
+      "article-title": "Can large language models build causal graphs?",
+      "author": "Long",
+      "year": "2023"
+    },
+    {
+      "key": "ref24",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.31234/osf.io/wjs9q",
+      "article-title": "Show and tell: Learning causal structures from observations and explanations",
+      "volume-title": "Proc. Annu. Conf. Cogn. Sci. Soc.",
+      "author": "Nam"
+    },
+    {
+      "key": "ref25",
+      "article-title": "Causal discovery with language models as imperfect experts",
+      "author": "Long",
+      "year": "2023"
+    },
+    {
+      "key": "ref26",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.18653/v1/2023.findings-emnlp.743"
+    },
+    {
+      "key": "ref27",
+      "article-title": "Can large language models infer causation from correlation?",
+      "author": "Jin",
+      "year": "2023"
+    },
+    {
+      "key": "ref28",
+      "article-title": "Causal parrots: Large language models may talk causality but are not causal",
+      "author": "Zečević",
+      "year": "2023"
+    },
+    {
+      "key": "ref29",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3274293"
+    },
+    {
+      "key": "ref30",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3637298"
+    },
+    {
+      "key": "ref31",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3411763.3451760"
+    },
+    {
+      "key": "ref32",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3479588"
+    },
+    {
+      "key": "ref33",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1097/EDE.0b013e318225c2be"
+    },
+    {
+      "key": "ref34",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2022.3207929"
+    },
+    {
+      "key": "ref35",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3544548.3581236"
+    },
+    {
+      "key": "ref36",
+      "article-title": "An explainable AI approach to large language model assisted causal model auditing and development",
+      "volume-title": "Proc. Natural Lang., Text, Data Visual. Workshop IEEE Visual.",
+      "author": "Zhang"
+    },
+    {
+      "key": "ref37",
+      "article-title": "Self-consistency improves chain of thought reasoning in language models",
+      "author": "Wang",
+      "year": "2022"
+    },
+    {
+      "key": "ref38",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.18653/v1/2022.findings-acl.50"
+    },
+    {
+      "key": "ref39",
+      "article-title": "Why would you suggest that? Human trust in language model responses",
+      "author": "Sharma",
+      "year": "2024"
+    },
+    {
+      "key": "ref40",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/ije/dyaa213"
+    },
+    {
+      "key": "ref41",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.31219/osf.io/9em5q",
+      "article-title": "As the wheel turns: Causal inference for feedback loops and bidirectional effects",
+      "author": "Murray",
+      "year": "2022"
+    },
+    {
+      "key": "ref42",
+      "first-page": "24824",
+      "article-title": "Chain-of-thought prompting elicits reasoning in large language models",
+      "volume-title": "Proc. Adv. Neural Inf. Process. Syst.",
+      "author": "Wei"
+    },
+    {
+      "key": "ref43",
+      "article-title": "Auto MPG",
+      "author": "Quinlan",
+      "year": "1993",
+      "journal-title": "UCI Mach. Learn. Repository"
+    },
+    {
+      "key": "ref44",
+      "article-title": "County health rankings & roadmaps",
+      "year": "2023"
+    },
+    {
+      "key": "ref45",
+      "article-title": "CDC wonder online database",
+      "year": "2021"
+    },
+    {
+      "key": "ref46",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1198/jcgs.2010.08162"
+    }
+  ],
+  "container-title": [
+    "IEEE Transactions on Visualization and Computer Graphics"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "https://ieeexplore.ieee.org/ielam/2945/11231102/11141551-aam.pdf",
+      "content-type": "application/pdf",
+      "content-version": "am",
+      "intended-application": "syndication"
+    },
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx8/2945/11231102/11141551.pdf?arnumber=11141551",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        11,
+        7
+      ]
+    ],
+    "date-time": "2025-11-07T18:10:12Z",
+    "timestamp": 1762539012000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://ieeexplore.ieee.org/document/11141551/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2025,
+        12
+      ]
+    ]
+  },
+  "references-count": 46,
+  "journal-issue": {
+    "issue": "12"
+  },
+  "URL": "https://doi.org/10.1109/tvcg.2025.3602448",
+  "relation": {},
+  "ISSN": [
+    "1077-2626",
+    "1941-0506",
+    "2160-9306"
+  ],
+  "issn-type": [
+    {
+      "value": "1077-2626",
+      "type": "print"
+    },
+    {
+      "value": "1941-0506",
+      "type": "electronic"
+    },
+    {
+      "value": "2160-9306",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2025,
+        12
+      ]
+    ]
+  }
+}

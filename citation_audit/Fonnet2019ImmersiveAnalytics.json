@@ -1,0 +1,1396 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        18
+      ]
+    ],
+    "date-time": "2026-09-18T22:20:53Z",
+    "timestamp": 1789770053817,
+    "version": "4.0.1"
+  },
+  "reference-count": 207,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "issue": "3",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2021-03-01T00:00:00Z",
+        "timestamp": 1614556800000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2021-03-01T00:00:00Z",
+        "timestamp": 1614556800000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-029"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2021-03-01T00:00:00Z",
+        "timestamp": 1614556800000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-037"
+    }
+  ],
+  "funder": [
+    {
+      "name": "Pays de la Loire"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "IEEE Trans. Visual. Comput. Graphics"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2021,
+        3,
+        1
+      ]
+    ]
+  },
+  "DOI": "10.1109/tvcg.2019.2929033",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2019,
+        7,
+        23
+      ]
+    ],
+    "date-time": "2019-07-23T20:29:52Z",
+    "timestamp": 1563913792000
+  },
+  "page": "2101-2122",
+  "source": "Crossref",
+  "is-referenced-by-count": 138,
+  "title": [
+    "Survey of Immersive Analytics"
+  ],
+  "prefix": "10.1109",
+  "volume": "27",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0003-1393-6708",
+      "authenticated-orcid": false,
+      "given": "Adrien",
+      "family": "Fonnet",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-7068-0836",
+      "authenticated-orcid": false,
+      "given": "Yannick",
+      "family": "Prie",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "263",
+  "reference": [
+    {
+      "key": "ref170",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1177/001872089403600103"
+    },
+    {
+      "key": "ref172",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/PL00022704"
+    },
+    {
+      "key": "ref171",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1137/0906011"
+    },
+    {
+      "key": "ref174",
+      "first-page": "1",
+      "article-title": "Immersive analytics of dimensionally-reduced data scatterplots",
+      "author": "filho",
+      "year": "2017",
+      "journal-title": "Proc Workshop Immersive Analytics"
+    },
+    {
+      "key": "ref173",
+      "first-page": "61",
+      "article-title": "Exploring the benefits of immersion in abstract information visualization",
+      "author": "raja",
+      "year": "2004",
+      "journal-title": "Proc 8th Immersive Projection Technol Workshop"
+    },
+    {
+      "key": "ref176",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VR.2004.1310069"
+    },
+    {
+      "key": "ref175",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2017.2745941"
+    },
+    {
+      "key": "ref178",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2012.163"
+    },
+    {
+      "key": "ref177",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1315184.1315205"
+    },
+    {
+      "key": "ref168",
+      "first-page": "25",
+      "article-title": "The effects of display fidelity, visual complexity, and task scope on spatial understanding of 3D graphs",
+      "author": "samavati",
+      "year": "2013",
+      "journal-title": "Proc Graph Interface"
+    },
+    {
+      "key": "ref169",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MCG.2003.1242376"
+    },
+    {
+      "key": "ref39",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/2945.582350"
+    },
+    {
+      "key": "ref38",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1476589.1476686"
+    },
+    {
+      "key": "ref33",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/2.391040"
+    },
+    {
+      "key": "ref32",
+      "first-page": "612",
+      "article-title": "Visualizing object oriented software in three dimensions",
+      "author": "ware",
+      "year": "1993",
+      "journal-title": "Proc Conf Centre Adv Stud Collaborative Res Softw Eng"
+    },
+    {
+      "key": "ref31",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/169059.169066"
+    },
+    {
+      "key": "ref30",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/502390.502418"
+    },
+    {
+      "key": "ref37",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/258734.258875"
+    },
+    {
+      "key": "ref36",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/585740.585758"
+    },
+    {
+      "key": "ref35",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VISUAL.1998.745344"
+    },
+    {
+      "key": "ref34",
+      "first-page": "1",
+      "article-title": "MSVT: A virtual reality-based multimodal scientific visualization tool",
+      "author": "laviola jr",
+      "year": "2000",
+      "journal-title": "Proc IASTED Int Conf Comput Graph Imag"
+    },
+    {
+      "key": "ref181",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2012.42"
+    },
+    {
+      "key": "ref180",
+      "first-page": "1",
+      "article-title": "Trade-offs related to travel techniques and level of display fidelity in virtual data-analysis environments",
+      "author": "ragan",
+      "year": "2012",
+      "journal-title": "Proc Joint Virtual Reality Conf ICAT-EGVE"
+    },
+    {
+      "key": "ref185",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2006.42"
+    },
+    {
+      "key": "ref184",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2012.216"
+    },
+    {
+      "key": "ref183",
+      "doi-asserted-by": "crossref",
+      "first-page": "551",
+      "DOI": "10.1109/TVCG.2007.70433",
+      "article-title": "A comparative study of desktop, fishtank, and cave systems for the exploration of volume rendered confocal data sets",
+      "volume": "14",
+      "author": "forsberg",
+      "year": "2008",
+      "journal-title": "IEEE Trans Vis Comput Graph"
+    },
+    {
+      "key": "ref182",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2014.20"
+    },
+    {
+      "key": "ref189",
+      "first-page": "1",
+      "article-title": "Take a walk: Evaluating movement types for data visualization in immersive VR",
+      "author": "simpson",
+      "year": "2017",
+      "journal-title": "Proc Workshop Immersive Analytics"
+    },
+    {
+      "key": "ref188",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VISSOFT.2017.17"
+    },
+    {
+      "key": "ref187",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2016.2599107"
+    },
+    {
+      "key": "ref186",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2013.43"
+    },
+    {
+      "key": "ref28",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MCG.2014.80"
+    },
+    {
+      "key": "ref27",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1117/12.2005484"
+    },
+    {
+      "key": "ref179",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1842993.1843023"
+    },
+    {
+      "key": "ref29",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VR.1999.756938"
+    },
+    {
+      "key": "ref20",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1117/12.19898"
+    },
+    {
+      "key": "ref22",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/166117.166134"
+    },
+    {
+      "key": "ref21",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/SUPERC.1992.236675"
+    },
+    {
+      "key": "ref24",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1162/pres.1995.4.2.121"
+    },
+    {
+      "key": "ref23",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VRAIS.1993.378262"
+    },
+    {
+      "key": "ref26",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ijhcs.2009.05.005"
+    },
+    {
+      "key": "ref25",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1278240.1278243"
+    },
+    {
+      "key": "ref50",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/HPEC.2015.7322473"
+    },
+    {
+      "key": "ref51",
+      "first-page": "1",
+      "article-title": "Immersive visual analytics for modular factory layout planning",
+      "author": "herr",
+      "year": "2017",
+      "journal-title": "Proc Workshop Immersive Analytics"
+    },
+    {
+      "key": "ref154",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MC.2013.178"
+    },
+    {
+      "key": "ref153",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/SciVis.2015.7429485"
+    },
+    {
+      "key": "ref156",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-030-01388-2_4"
+    },
+    {
+      "key": "ref155",
+      "first-page": "1",
+      "article-title": "Affordances of input modalities for visual data exploration in immersive environments",
+      "author": "badam",
+      "year": "2017",
+      "journal-title": "Proc Workshop Immersive Analytics"
+    },
+    {
+      "key": "ref150",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/BDVA.2015.7314303"
+    },
+    {
+      "key": "ref152",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IMMERSIVE.2016.7932381"
+    },
+    {
+      "key": "ref151",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/BigData.2015.7364040"
+    },
+    {
+      "key": "ref146",
+      "first-page": "1",
+      "article-title": "RSVP: Remote sensing visualization platform for data fusion",
+      "author": "gertman",
+      "year": "2012",
+      "journal-title": "Proc Workshop Immersive Vis Revisited Challenges Opportunities IEEE VR"
+    },
+    {
+      "key": "ref147",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3009939.3009955"
+    },
+    {
+      "key": "ref148",
+      "first-page": "1",
+      "article-title": "Into the mixed reality data sphere: Mapping user's movements to data exploration tools",
+      "author": "hurter",
+      "year": "2017",
+      "journal-title": "Proc Workshop Immersive Analytics"
+    },
+    {
+      "key": "ref149",
+      "first-page": "1",
+      "article-title": "buenoSDIAs : Supporting desktop immersive analytics while actively preventing cybersickness",
+      "author": "zielasko",
+      "year": "2017",
+      "journal-title": "Proc Mmersive Analytics Workshop"
+    },
+    {
+      "key": "ref59",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/SciVis.2018.8823763"
+    },
+    {
+      "key": "ref58",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/BDVA.2018.8533893"
+    },
+    {
+      "key": "ref57",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MCG.2013.37"
+    },
+    {
+      "key": "ref56",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IV.2000.859802"
+    },
+    {
+      "key": "ref55",
+      "first-page": "1",
+      "article-title": "More than blips on the radar : Exploring immersive visualization for maritime decision making",
+      "author": "franz",
+      "year": "2017",
+      "journal-title": "Proc Workshop Immersive Analytics"
+    },
+    {
+      "key": "ref54",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/BDVA.2016.7787046"
+    },
+    {
+      "key": "ref53",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IMMERSIVE.2016.7932374"
+    },
+    {
+      "key": "ref52",
+      "first-page": "1",
+      "article-title": "Exploring the use of heuristics for evaluation of an immersive analytic system",
+      "author": "billow",
+      "year": "2017",
+      "journal-title": "Proc Workshop Immersive Analytics"
+    },
+    {
+      "key": "ref40",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VISUAL.1997.663921"
+    },
+    {
+      "key": "ref167",
+      "first-page": "215",
+      "article-title": "Visual community detection: An evaluation of 2D, 3D perspective and 3D stereoscopic displays",
+      "author": "greffard",
+      "year": "2011",
+      "journal-title": "Proceedings of the 4th Intl Symp On Graph Drawing"
+    },
+    {
+      "key": "ref166",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1279640.1279642"
+    },
+    {
+      "key": "ref165",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/234972.234975"
+    },
+    {
+      "key": "ref164",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VL.1994.363621"
+    },
+    {
+      "key": "ref163",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/2945.841119"
+    },
+    {
+      "key": "ref162",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/BDVA.2016.7787044"
+    },
+    {
+      "key": "ref161",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3009939.3009953"
+    },
+    {
+      "key": "ref160",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IMMERSIVE.2016.7932384"
+    },
+    {
+      "key": "ref4",
+      "first-page": "1",
+      "article-title": "Immersive analytics (dagstuhl seminar 16231)",
+      "volume": "6",
+      "author": "dwyer",
+      "year": "2016"
+    },
+    {
+      "key": "ref3",
+      "article-title": "PRIM-9: An interactive multidimensional data display and analysis system",
+      "author": "fisherkeller",
+      "year": "1974",
+      "journal-title": "Proc A E C Sci Comput Inf Exchange Meeting"
+    },
+    {
+      "key": "ref6",
+      "article-title": "Immersive visualization revisited: Challenges and opportunities",
+      "author": "de haan",
+      "year": "2012",
+      "journal-title": "Proc Workshop IEEE VR"
+    },
+    {
+      "key": "ref5",
+      "article-title": "Immersive analytics: A new multidisciplinary initiative to explore future interaction technologies for data analytics",
+      "author": "marriott",
+      "year": "2016"
+    },
+    {
+      "key": "ref8",
+      "article-title": "Immersive analytics: Exploring future visualization and interaction technologies for data analytics",
+      "author": "bach",
+      "year": "2017"
+    },
+    {
+      "key": "ref159",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-030-01388-2_8"
+    },
+    {
+      "key": "ref7",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2992154.2996365"
+    },
+    {
+      "key": "ref49",
+      "year": "2018"
+    },
+    {
+      "key": "ref157",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1007/978-3-030-01388-2",
+      "volume": "11190",
+      "author": "marriott",
+      "year": "2018",
+      "journal-title": "Immersive analytics"
+    },
+    {
+      "key": "ref9",
+      "article-title": "Immersive Analytics (IA 2016)",
+      "author": "chen",
+      "year": "2016"
+    },
+    {
+      "key": "ref158",
+      "first-page": "1",
+      "article-title": "Towards HMD-based immersive analytics",
+      "author": "cliquet",
+      "year": "2017",
+      "journal-title": "Proc Workshop Immersive Analytics"
+    },
+    {
+      "key": "ref46",
+      "year": "2018"
+    },
+    {
+      "key": "ref45",
+      "year": "2018"
+    },
+    {
+      "key": "ref48",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IMMERSIVE.2016.7932378"
+    },
+    {
+      "key": "ref47",
+      "year": "2018"
+    },
+    {
+      "key": "ref42",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISMAR.2004.23"
+    },
+    {
+      "key": "ref41",
+      "article-title": "Experiments in the use of immersion for information visualization",
+      "author": "datey",
+      "year": "2002"
+    },
+    {
+      "key": "ref44",
+      "year": "2018"
+    },
+    {
+      "key": "ref43",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2683405.2683424"
+    },
+    {
+      "key": "ref73",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1140491.1140502"
+    },
+    {
+      "key": "ref72",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/3516.847092"
+    },
+    {
+      "key": "ref71",
+      "first-page": "1",
+      "article-title": "A virtual reality environment for macromolecules exploration",
+      "author": "lombardo",
+      "year": "1999",
+      "journal-title": "Proc Laval virtual First International Virtual Reality meeting"
+    },
+    {
+      "key": "ref70",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VISUAL.1999.809884"
+    },
+    {
+      "key": "ref76",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3170427.3188679"
+    },
+    {
+      "key": "ref77",
+      "first-page": "1",
+      "article-title": "HeloVis: A helical visualization for SIGINT analysis",
+      "author": "cantu",
+      "year": "2018",
+      "journal-title": "Proc IEEE Pacific Vis Symp"
+    },
+    {
+      "key": "ref74",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-7091-6215-6_29"
+    },
+    {
+      "key": "ref75",
+      "first-page": "1",
+      "article-title": "Immersive data exploration and analysis",
+      "author": "fonnet",
+      "year": "2018",
+      "journal-title": "Proc Student Interaction Des Res Conf"
+    },
+    {
+      "key": "ref78",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IV.2002.1028813"
+    },
+    {
+      "key": "ref79",
+      "first-page": "1",
+      "article-title": "Virtual reality visualization of parallel molecular dynamics simulation",
+      "author": "disz",
+      "year": "1995",
+      "journal-title": "Proc Int Conf High Perform Comput Netw Storage Anal"
+    },
+    {
+      "key": "ref60",
+      "first-page": "249",
+      "article-title": "Medical applications of multi-field volume rendering and VR techniques",
+      "author": "kniss",
+      "year": "2004",
+      "journal-title": "Proc 6th Joint Eurograph -IEEE TCVG Conf Vis"
+    },
+    {
+      "key": "ref62",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MediVis.2008.10"
+    },
+    {
+      "key": "ref61",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.str.2005.01.009"
+    },
+    {
+      "key": "ref63",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1115/WINVR2011-5565"
+    },
+    {
+      "key": "ref64",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2011.283"
+    },
+    {
+      "key": "ref65",
+      "first-page": "1",
+      "article-title": "Immersive analytics for clinical neuroscience",
+      "author": "keiriz",
+      "year": "2017",
+      "journal-title": "Proc Workshop Immersive Analytics"
+    },
+    {
+      "key": "ref66",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VISUAL.2001.964560"
+    },
+    {
+      "key": "ref67",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MCG.2002.1028725"
+    },
+    {
+      "key": "ref68",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/DigitalHeritage.2013.6743761"
+    },
+    {
+      "key": "ref69",
+      "first-page": "73",
+      "article-title": "An immersive system for exploring and measuring medical image data",
+      "author": "saalfeld",
+      "year": "2017",
+      "journal-title": "Proc Mensch Comput -Tagungsband"
+    },
+    {
+      "key": "ref197",
+      "author": "laviola",
+      "year": "2017",
+      "journal-title": "3D User Interfaces Theory and Practice"
+    },
+    {
+      "key": "ref198",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3009939.3009946"
+    },
+    {
+      "key": "ref199",
+      "year": "2018"
+    },
+    {
+      "key": "ref193",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VRAIS.1997.583051"
+    },
+    {
+      "key": "ref194",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/11618058_42"
+    },
+    {
+      "key": "ref195",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-1-4614-0064-6_18"
+    },
+    {
+      "key": "ref196",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.cag.2012.12.003"
+    },
+    {
+      "key": "ref95",
+      "first-page": "1",
+      "article-title": "Immersive visualisation of big data for river disaster management",
+      "author": "ready",
+      "year": "2017",
+      "journal-title": "Proc Workshop Immersive Analytics"
+    },
+    {
+      "key": "ref94",
+      "first-page": "1",
+      "article-title": "Immersive visual analysis of insect flight behaviour",
+      "author": "nguyen",
+      "year": "2017",
+      "journal-title": "Proc Workshop Immersive Analytics"
+    },
+    {
+      "key": "ref190",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3132272.3134125"
+    },
+    {
+      "key": "ref93",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3009939.3009944"
+    },
+    {
+      "key": "ref191",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/BDVA.2018.8533895"
+    },
+    {
+      "key": "ref92",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1057/ivs.2009.8"
+    },
+    {
+      "key": "ref192",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/BDVA.2018.8533892"
+    },
+    {
+      "key": "ref91",
+      "first-page": "414",
+      "article-title": "Super high definition three-dimensional display environment applied to visual data mining",
+      "author": "sato",
+      "year": "2010",
+      "journal-title": "Proc 13th Int Conf Netw -Based Inf Syst"
+    },
+    {
+      "key": "ref90",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-642-02771-0_53"
+    },
+    {
+      "key": "ref98",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2018.2865191"
+    },
+    {
+      "key": "ref99",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VISUAL.1992.235196"
+    },
+    {
+      "key": "ref96",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/BDVA.2018.8533896"
+    },
+    {
+      "key": "ref97",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2018.2865192"
+    },
+    {
+      "key": "ref82",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1143/PTPS.138.665"
+    },
+    {
+      "key": "ref81",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0167-739X(99)00003-5"
+    },
+    {
+      "key": "ref84",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MCG.2004.1274065"
+    },
+    {
+      "key": "ref83",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/769953.769963"
+    },
+    {
+      "key": "ref80",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/1467-8659.00273"
+    },
+    {
+      "key": "ref89",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/351006.351015"
+    },
+    {
+      "key": "ref85",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2008.142"
+    },
+    {
+      "key": "ref86",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1177/109434209601000208"
+    },
+    {
+      "key": "ref87",
+      "first-page": "301",
+      "article-title": "CAVEvis: Distributed real-time visualization of time-varying scalar and vector fields using the CAVE virtual reality theater",
+      "author": "jaswal",
+      "year": "1997",
+      "journal-title": "Proc IEEE 8th Conf Vis"
+    },
+    {
+      "key": "ref88",
+      "first-page": "1",
+      "article-title": "CAVE6D: A tool for collaborative immersive visualization of environmental data",
+      "author": "wheless",
+      "year": "1998",
+      "journal-title": "Proc IEEE Vis"
+    },
+    {
+      "key": "ref200",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2018.2865152"
+    },
+    {
+      "key": "ref101",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s12665-014-3136-6"
+    },
+    {
+      "key": "ref100",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/BDVA.2018.8534024"
+    },
+    {
+      "key": "ref203",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISMAR.2013.6671840"
+    },
+    {
+      "key": "ref204",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2818427.2818438"
+    },
+    {
+      "key": "ref201",
+      "year": "2018"
+    },
+    {
+      "key": "ref202",
+      "year": "2018"
+    },
+    {
+      "key": "ref207",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IMMERSIVE.2016.7932382"
+    },
+    {
+      "key": "ref205",
+      "first-page": "1",
+      "article-title": "A common path forward for the immersive visualization community",
+      "author": "wernert",
+      "year": "2012",
+      "journal-title": "Proc Workshop Immersive Vis Revisited Challenges Opportunities IEEE VR"
+    },
+    {
+      "key": "ref206",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2008.31"
+    },
+    {
+      "key": "ref127",
+      "first-page": "31",
+      "article-title": "Using dynamic statistical graphics in a highly immersive virtual reality environment to understand multivariate (spatial) data",
+      "volume": "2",
+      "author": "lechner",
+      "year": "1997",
+      "journal-title": "Bull Int l Statistical Institute"
+    },
+    {
+      "key": "ref126",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.infsof.2016.07.004"
+    },
+    {
+      "key": "ref125",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VISSOFT.2015.7332423"
+    },
+    {
+      "key": "ref124",
+      "first-page": "1",
+      "article-title": "SkyscrapAR: An augmented reality visualization for software evolution",
+      "author": "souza",
+      "year": "2012",
+      "journal-title": "Proc 2nd Brazilian Workshop Softw Vis"
+    },
+    {
+      "key": "ref129",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3126594.3126613"
+    },
+    {
+      "key": "ref128",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VISUAL.2001.964545"
+    },
+    {
+      "key": "ref130",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/AERO.2016.7500608"
+    },
+    {
+      "key": "ref133",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2006.184"
+    },
+    {
+      "key": "ref134",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2013.121"
+    },
+    {
+      "key": "ref131",
+      "first-page": "1",
+      "article-title": "The tele-immersive data explorer: A distributed architecture for collaborative interactive visualization of large data sets",
+      "author": "sawant",
+      "year": "2000",
+      "journal-title": "Proc 4th Int Immersive Projection Technol Workshop"
+    },
+    {
+      "key": "ref132",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2018.2865237"
+    },
+    {
+      "key": "ref136",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IMMERSIVE.2016.7932377"
+    },
+    {
+      "key": "ref135",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/3DUI.2015.7131720"
+    },
+    {
+      "key": "ref138",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ijhcs.2012.05.004"
+    },
+    {
+      "key": "ref137",
+      "first-page": "1",
+      "article-title": "Immersive applications for informal and interactive learning for earth sciences",
+      "author": "masrur",
+      "year": "2017",
+      "journal-title": "Proc Workshop Immersive Analytics"
+    },
+    {
+      "key": "ref139",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VRAIS.1993.378260"
+    },
+    {
+      "key": "ref140",
+      "article-title": "Scientific visualization in virtual reality: Interaction techniques and application development",
+      "author": "koutek",
+      "year": "2003"
+    },
+    {
+      "key": "ref141",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VR.2009.4811041"
+    },
+    {
+      "key": "ref142",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/SciVis.2018.8823618"
+    },
+    {
+      "key": "ref143",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3009939.3009952"
+    },
+    {
+      "key": "ref2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-030-01388-2_1"
+    },
+    {
+      "key": "ref144",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1240866.1240993"
+    },
+    {
+      "key": "ref1",
+      "first-page": "1",
+      "article-title": "Immersive analytics",
+      "author": "chandler",
+      "year": "2015",
+      "journal-title": "Proceedings of IEEE Big Data Visual Analytics"
+    },
+    {
+      "key": "ref145",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PACIFICVIS.2017.8031577"
+    },
+    {
+      "key": "ref109",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/BigData.2014.7004282"
+    },
+    {
+      "key": "ref108",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-540-71080-6_18"
+    },
+    {
+      "key": "ref107",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1128923.1128996"
+    },
+    {
+      "key": "ref106",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.4018/978-1-59140-655-6.ch011"
+    },
+    {
+      "key": "ref105",
+      "first-page": "133",
+      "article-title": "Exploring non-linear data relationships in VR using the 3D visual data mining system",
+      "author": "nagel",
+      "year": "2003",
+      "journal-title": "Proceedings International Workshop on Visual Data Mining"
+    },
+    {
+      "key": "ref104",
+      "first-page": "13",
+      "article-title": "Methods for visual mining of data in virtual reality",
+      "author": "nagel",
+      "year": "2001",
+      "journal-title": "Proc Workshop Visual Data Mining"
+    },
+    {
+      "key": "ref103",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/3-540-45754-2_13"
+    },
+    {
+      "key": "ref102",
+      "first-page": "41",
+      "article-title": "Dynamic statistical graphics in the CAVE virtual reality environment",
+      "volume": "29",
+      "author": "symanzik",
+      "year": "1996",
+      "journal-title": "Proc Dynamic Statistical Graphics Workshop"
+    },
+    {
+      "key": "ref111",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IV.2000.859805"
+    },
+    {
+      "key": "ref112",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IJCNN.2011.6033540"
+    },
+    {
+      "key": "ref110",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3173574.3173664"
+    },
+    {
+      "key": "ref10",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/229459.229467"
+    },
+    {
+      "key": "ref11",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/38.888006"
+    },
+    {
+      "key": "ref12",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0097-8493(02)00113-9"
+    },
+    {
+      "key": "ref13",
+      "first-page": "185",
+      "article-title": "An overview of interaction techniques and 3D representations for data mining",
+      "author": "bensaïd",
+      "year": "0",
+      "journal-title": "Proc Appl Virtual Reality"
+    },
+    {
+      "key": "ref14",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VISUAL.1991.175771"
+    },
+    {
+      "key": "ref15",
+      "first-page": "49",
+      "article-title": "The MICA experiment: Astrophysics in virtual worlds",
+      "author": "djorgovski",
+      "year": "2013",
+      "journal-title": "Proc SLACTIONS Int Res Conf Virtual Worlds"
+    },
+    {
+      "key": "ref16",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IMMERSIVE.2016.7932380"
+    },
+    {
+      "key": "ref118",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/WPC.1998.693276"
+    },
+    {
+      "key": "ref17",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VL.1996.545307"
+    },
+    {
+      "key": "ref117",
+      "first-page": "317",
+      "article-title": "Evaluation of hands-free HMD-based navigation techniques for immersive data analysis",
+      "author": "zielasko",
+      "year": "2016",
+      "journal-title": "Proc Virtual Reality"
+    },
+    {
+      "key": "ref18",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2013.124"
+    },
+    {
+      "key": "ref19",
+      "first-page": "1",
+      "article-title": "A note on presence terminology",
+      "volume": "3",
+      "author": "slater",
+      "year": "2003",
+      "journal-title": "Presence connect"
+    },
+    {
+      "key": "ref119",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/WPC.1999.777733"
+    },
+    {
+      "key": "ref114",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISMAR.2003.1240691"
+    },
+    {
+      "key": "ref113",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IV.2006.46"
+    },
+    {
+      "key": "ref116",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.procs.2010.04.195"
+    },
+    {
+      "key": "ref115",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1101389.1101418"
+    },
+    {
+      "key": "ref120",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IV.2000.859756"
+    },
+    {
+      "key": "ref121",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/IV.2000.859785"
+    },
+    {
+      "key": "ref122",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/WPC.2001.921711"
+    },
+    {
+      "key": "ref123",
+      "first-page": "12",
+      "article-title": "Visualizing Software in an Immersive Virtual Reality Environment",
+      "author": "maletic",
+      "year": "2001",
+      "journal-title": "Proc Int Conf Softw Eng"
+    }
+  ],
+  "container-title": [
+    "IEEE Transactions on Visualization and Computer Graphics"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx7/2945/9340102/08770302.pdf?arnumber=8770302",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2022,
+        5,
+        10
+      ]
+    ],
+    "date-time": "2022-05-10T14:51:27Z",
+    "timestamp": 1652194287000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://ieeexplore.ieee.org/document/8770302/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        3,
+        1
+      ]
+    ]
+  },
+  "references-count": 207,
+  "journal-issue": {
+    "issue": "3"
+  },
+  "URL": "https://doi.org/10.1109/tvcg.2019.2929033",
+  "relation": {},
+  "ISSN": [
+    "1077-2626",
+    "1941-0506",
+    "2160-9306"
+  ],
+  "issn-type": [
+    {
+      "value": "1077-2626",
+      "type": "print"
+    },
+    {
+      "value": "1941-0506",
+      "type": "electronic"
+    },
+    {
+      "value": "2160-9306",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2021,
+        3,
+        1
+      ]
+    ]
+  }
+}

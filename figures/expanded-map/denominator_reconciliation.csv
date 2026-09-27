@@ -1,0 +1,9 @@
+denominator,count,definition
+systems considered,38,20 systems from the audited v1 map plus 18 systems in the frozen v2 queue.
+accessible full reports,35,"A complete primary or explicitly linked system report was locally available for assessment. Excludes VR BioTalk, Radiology dialogue, and ARAS."
+completed eligibility assessments,35,"E1–E7 assessed from an accessible complete report. Includes eligible, excluded/contextual, and evidence-based unresolved outcomes; excludes three inaccessible reports."
+eligible systems,28,All eligibility criteria resolved YES after this boundary correction.
+unresolved systems,5,"CPW and ImmerVol after accessible-report review, plus three inaccessible systems whose eligibility assessment is incomplete."
+excluded or contextual systems,5,"Touch Talk and Exocentric/Egocentric remain contextual; BioWheel, FathomNet, and the LLM literature workflow remain excluded."
+systems with supported placements,27,Eligible systems with at least one report-supported Assistance × Modality placement after correction.
+counted placement rows,44,Unique eligible system-cell relationships. Cell totals are not additive across systems.

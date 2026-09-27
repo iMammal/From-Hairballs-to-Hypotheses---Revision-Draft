@@ -1,0 +1,287 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        21
+      ]
+    ],
+    "date-time": "2026-09-21T04:17:04Z",
+    "timestamp": 1789964224474,
+    "version": "4.0.1"
+  },
+  "publisher-location": "New York, NY, USA",
+  "reference-count": 8,
+  "publisher": "ACM",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2006,
+            5,
+            23
+          ]
+        ],
+        "date-time": "2006-05-23T00:00:00Z",
+        "timestamp": 1148342400000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "dl.acm.org"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [],
+  "published-print": {
+    "date-parts": [
+      [
+        2006,
+        5,
+        23
+      ]
+    ]
+  },
+  "DOI": "10.1145/1168149.1168168",
+  "type": "proceedings-article",
+  "created": {
+    "date-parts": [
+      [
+        2007,
+        1,
+        16
+      ]
+    ],
+    "date-time": "2007-01-16T20:15:56Z",
+    "timestamp": 1168978556000
+  },
+  "page": "1-5",
+  "update-policy": "https://doi.org/10.1145/crossmark-policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 298,
+  "title": [
+    "Task taxonomy for graph visualization"
+  ],
+  "prefix": "10.1145",
+  "author": [
+    {
+      "given": "Bongshin",
+      "family": "Lee",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "University of Maryland, College Park, MD"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Catherine",
+      "family": "Plaisant",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "University of Maryland, College Park, MD"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Cynthia Sims",
+      "family": "Parr",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "University of Maryland, College Park, MD"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jean-Daniel",
+      "family": "Fekete",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "INRIA Futurs/LRI, Universit\u00e9 Paris-Sud, Orsay, France"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Nathalie",
+      "family": "Henry",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "INRIA Futurs/LRI, Universit\u00e9 Paris-Sud, Orsay, France"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "320",
+  "published-online": {
+    "date-parts": [
+      [
+        2006,
+        5,
+        23
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_3_2_1_1_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/2945.981849"
+    },
+    {
+      "key": "e_1_3_2_1_2_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/INFOVIS.2005.24"
+    },
+    {
+      "key": "e_1_3_2_1_3_1",
+      "unstructured": "InfoVis 2003 Contest: Visualization and Pair Wise Comparison of Trees http://www.cs.umd.edu./hcil/iv03contest.  InfoVis 2003 Contest: Visualization and Pair Wise Comparison of Trees http://www.cs.umd.edu./hcil/iv03contest."
+    },
+    {
+      "key": "e_1_3_2_1_4_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Kang H. Plaisant C. Lee B. Bederson B. NetLens: Iterative Exploration of Content-Actor Network Data to appear in Proceedings of IEEE Symposium on Visual Analytics Science and Technologies (VAST2006)  Kang H. Plaisant C. Lee B. Bederson B. NetLens: Iterative Exploration of Content-Actor Network Data to appear in Proceedings of IEEE Symposium on Visual Analytics Science and Technologies (VAST2006)",
+      "DOI": "10.1109/VAST.2006.261426"
+    },
+    {
+      "key": "e_1_3_2_1_5_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2006.106"
+    },
+    {
+      "key": "e_1_3_2_1_6_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/989863.989880"
+    },
+    {
+      "key": "e_1_3_2_1_7_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5555/832277.834354"
+    },
+    {
+      "key": "e_1_3_2_1_8_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Shneiderman B. and Aris A. Network Visualization by Semantic Substrates to appear in Proceedings of IEEE Symposium on Information Visualization (Infovis2006)  Shneiderman B. and Aris A. Network Visualization by Semantic Substrates to appear in Proceedings of IEEE Symposium on Information Visualization (Infovis2006)",
+      "DOI": "10.1109/TVCG.2006.166"
+    }
+  ],
+  "event": {
+    "name": "AVI06: The International Conference on Advanced Visual Interfaces",
+    "location": "Venice Italy",
+    "acronym": "AVI06"
+  },
+  "container-title": [
+    "Proceedings of the 2006 AVI workshop on BEyond time and errors: novel evaluation methods for information visualization"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "https://dl.acm.org/doi/10.1145/1168149.1168168",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://dl.acm.org/doi/pdf/10.1145/1168149.1168168",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        6,
+        18
+      ]
+    ],
+    "date-time": "2025-06-18T11:14:08Z",
+    "timestamp": 1750245248000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://dl.acm.org/doi/10.1145/1168149.1168168"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2006,
+        5,
+        23
+      ]
+    ]
+  },
+  "references-count": 8,
+  "alternative-id": [
+    "10.1145/1168149.1168168",
+    "10.1145/1168149"
+  ],
+  "URL": "https://doi.org/10.1145/1168149.1168168",
+  "relation": {},
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2006,
+        5,
+        23
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2006-05-23",
+      "order": 2,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ]
+}

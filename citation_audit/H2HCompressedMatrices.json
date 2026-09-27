@@ -1,0 +1,409 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        4,
+        19
+      ]
+    ],
+    "date-time": "2026-04-19T16:53:44Z",
+    "timestamp": 1776617624008,
+    "version": "3.51.2"
+  },
+  "reference-count": 43,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "issue": "12",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2012,
+            12,
+            1
+          ]
+        ],
+        "date-time": "2012-12-01T00:00:00Z",
+        "timestamp": 1354320000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "IEEE Trans. Visual. Comput. Graphics"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2012,
+        12
+      ]
+    ]
+  },
+  "DOI": "10.1109/tvcg.2012.208",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2012,
+        10,
+        16
+      ]
+    ],
+    "date-time": "2012-10-16T19:07:50Z",
+    "timestamp": 1350414470000
+  },
+  "page": "2457-2466",
+  "source": "Crossref",
+  "is-referenced-by-count": 46,
+  "title": [
+    "Compressed Adjacency Matrices: Untangling Gene Regulatory Networks"
+  ],
+  "prefix": "10.1109",
+  "volume": "18",
+  "author": [
+    {
+      "given": "K.",
+      "family": "Dinkla",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "M. A.",
+      "family": "Westenberg",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "J. J.",
+      "family": "van Wijk",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "member": "263",
+  "reference": [
+    {
+      "key": "bibttg201212245721",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2007.70582"
+    },
+    {
+      "key": "bibttg201212245739",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1467-8659.2011.01956.x"
+    },
+    {
+      "key": "bibttg201212245720",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2006.160"
+    },
+    {
+      "key": "bibttg201212245738",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1101/gr.1239303"
+    },
+    {
+      "key": "bibttg201212245737",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/INFVIS.2004.5"
+    },
+    {
+      "key": "bibttg201212245736",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/nar/gkj156"
+    },
+    {
+      "key": "bibttg201212245735",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1371/journal.pcbi.1000108"
+    },
+    {
+      "key": "bibttg201212245734",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TSE.1981.234519"
+    },
+    {
+      "key": "bibttg201212245733",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1467-8659.2009.01710.x"
+    },
+    {
+      "key": "bibttg201212245731",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/nar/gkn863"
+    },
+    {
+      "key": "bibttg201212245728",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1186/1471-2105-11-610"
+    },
+    {
+      "key": "bibttg201212245732",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1287/opre.20.5.993"
+    },
+    {
+      "key": "bibttg201212245729",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1168149.1168168"
+    },
+    {
+      "key": "bibttg201212245726",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.compbiomed.2007.11.001"
+    },
+    {
+      "key": "bibttg201212245730",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/nar/gkh074"
+    },
+    {
+      "key": "bibttg201212245727",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/3-540-48777-8_23"
+    },
+    {
+      "key": "bibttg201212245724",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/nar/gkm295"
+    },
+    {
+      "key": "bibttg201212245725",
+      "first-page": "2268",
+      "article-title": "Developing and evaluating quilts for the depiction of large layered graphs.",
+      "author": "watson",
+      "year": "2011",
+      "journal-title": "IEEE Trans Visualization and Computer Graphics"
+    },
+    {
+      "key": "bibttg201212245722",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/2945.841119"
+    },
+    {
+      "key": "bibttg201212245723",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2006.147"
+    },
+    {
+      "key": "bibttg20121224574",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2008.34"
+    },
+    {
+      "key": "bibttg20121224575",
+      "author": "battista",
+      "year": "1998",
+      "journal-title": "Graph Drawing Algorithms for the Visualization of Graphs"
+    },
+    {
+      "key": "bibttg20121224576",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2010.159"
+    },
+    {
+      "key": "bibttg20121224577",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-540-77537-9_36"
+    },
+    {
+      "key": "bibttg20121224571",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/INFVIS.2004.46"
+    },
+    {
+      "key": "bibttg20121224572",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1201/9781420011432",
+      "author": "alon",
+      "year": "2006",
+      "journal-title": "An Introduction to Systems Biology Design Principles of Biological"
+    },
+    {
+      "key": "bibttg20121224573",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s00453-006-0160-2"
+    },
+    {
+      "key": "bibttg201212245710",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2006.156"
+    },
+    {
+      "key": "bibttg20121224578",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/nar/gkq1018"
+    },
+    {
+      "key": "bibttg20121224579",
+      "first-page": "165",
+      "article-title": "Topology-driven force-directed al-gorithms",
+      "author": "didimo",
+      "year": "2011",
+      "journal-title": "Graph Drawing 6502 of Lecture Notes in Computer Science"
+    },
+    {
+      "key": "bibttg201212245740",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TSMC.1981.4308636"
+    },
+    {
+      "key": "bibttg201212245715",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2007.70556"
+    },
+    {
+      "key": "bibttg201212245741",
+      "first-page": "227",
+      "article-title": "Using multilevel call matrices in large software projects.",
+      "author": "van ham",
+      "year": "2003",
+      "journal-title": "IEEE Proc Symposium on Information Visualization"
+    },
+    {
+      "key": "bibttg201212245716",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1467-8659.2011.01950.x"
+    },
+    {
+      "key": "bibttg201212245742",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1467-8659.2011.01898.x"
+    },
+    {
+      "key": "bibttg201212245717",
+      "first-page": "235",
+      "article-title": "A fast multi-scale method for drawing large graphs.",
+      "author": "harel",
+      "year": "2001",
+      "journal-title": "Graph Drawing 1984 of Lecture Notes in Computer Science"
+    },
+    {
+      "key": "bibttg201212245743",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1467-8659.2008.01221.x"
+    },
+    {
+      "key": "bibttg201212245718",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/INFVIS.2005.1532126"
+    },
+    {
+      "key": "bibttg201212245711",
+      "first-page": "149",
+      "article-title": "A heuristic for graph drawing",
+      "author": "eades",
+      "year": "1984",
+      "journal-title": "Congressus Numerantium"
+    },
+    {
+      "key": "bibttg201212245712",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PACIFICVIS.2008.4475479"
+    },
+    {
+      "key": "bibttg201212245713",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/spe.4380211102"
+    },
+    {
+      "key": "bibttg201212245714",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/INFVIS.2004.1"
+    },
+    {
+      "key": "bibttg201212245719",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2008.141"
+    }
+  ],
+  "container-title": [
+    "IEEE Transactions on Visualization and Computer Graphics"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx5/2945/6327196/06327251.pdf?arnumber=6327251",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2022,
+        1,
+        30
+      ]
+    ],
+    "date-time": "2022-01-30T08:48:54Z",
+    "timestamp": 1643532534000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "http://ieeexplore.ieee.org/document/6327251/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2012,
+        12
+      ]
+    ]
+  },
+  "references-count": 43,
+  "journal-issue": {
+    "issue": "12"
+  },
+  "URL": "https://doi.org/10.1109/tvcg.2012.208",
+  "relation": {},
+  "ISSN": [
+    "1077-2626"
+  ],
+  "issn-type": [
+    {
+      "value": "1077-2626",
+      "type": "print"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2012,
+        12
+      ]
+    ]
+  }
+}

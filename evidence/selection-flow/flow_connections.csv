@@ -1,0 +1,49 @@
+parent_box_id,child_box_id,relationship,overlap_or_subset_information,additive_partition,qualifications
+A01,A01.1,source-route partition,Each occurrence has one registered route in this ledger.,YES_WITH_SIBLINGS,"Source-route children sum to 187,446."
+A01,A01.2,source-route partition,Each occurrence has one registered route in this ledger.,YES_WITH_SIBLINGS,"Source-route children sum to 187,446."
+A01,A01.3,source-route partition,Each occurrence has one registered route in this ledger.,YES_WITH_SIBLINGS,"Source-route children sum to 187,446."
+A01,A01.4,source-route partition,Each occurrence has one registered route in this ledger.,YES_WITH_SIBLINGS,"Source-route children sum to 187,446."
+A01,A01.5,source-route partition,Each occurrence has one registered route in this ledger.,YES_WITH_SIBLINGS,"Source-route children sum to 187,446."
+A01,A01.6,source-route partition,Each occurrence has one registered route in this ledger.,YES_WITH_SIBLINGS,"Source-route children sum to 187,446."
+A01,A01.7,source-route partition,Each occurrence has one registered route in this ledger.,YES_WITH_SIBLINGS,"Source-route children sum to 187,446."
+A01,A01.8,source-route partition,Each occurrence has one registered route in this ledger.,YES_WITH_SIBLINGS,"Source-route children sum to 187,446."
+A01,A01.9,source-route partition,Each occurrence has one registered route in this ledger.,YES_WITH_SIBLINGS,"Source-route children sum to 187,446."
+A01,A04,identity consolidation,Many source occurrences can map to one canonical record.,NO,"A05 records the occurrence surplus; related-version links were preserved, not collapsed."
+A04,A06,effective screening-state partition,Disjoint canonical-record states at terminal reconciliation.,YES_WITH_SIBLINGS,"Children sum to 140,959."
+A04,A07,effective screening-state partition,Disjoint canonical-record states at terminal reconciliation.,YES_WITH_SIBLINGS,"Children sum to 140,959."
+A04,A08,effective screening-state partition,Disjoint canonical-record states at terminal reconciliation.,YES_WITH_SIBLINGS,"Children sum to 140,959."
+A04,A09,effective screening-state partition,Disjoint canonical-record states at terminal reconciliation.,YES_WITH_SIBLINGS,"Children sum to 140,959."
+A04,A10,effective screening-state partition,Disjoint canonical-record states at terminal reconciliation.,YES_WITH_SIBLINGS,"Children sum to 140,959."
+A06,A06.1,protected-sample partition,Evaluation pilot subset.,YES_WITH_SIBLINGS,"Together with calibration, sums to 110."
+A06,A06.2,protected-sample partition,Calibration subset.,YES_WITH_SIBLINGS,"Together with evaluation pilot, sums to 110."
+A07,A11,effective scientific-disposition partition,Latest valid outcome after supersession.,YES_WITH_SIBLINGS,"Children sum to 140,810."
+A07,A12,effective scientific-disposition partition,Latest valid outcome after supersession.,YES_WITH_SIBLINGS,"Children sum to 140,810."
+A07,A13,effective scientific-disposition partition,Latest valid outcome after supersession.,YES_WITH_SIBLINGS,"Children sum to 140,810."
+A13,A14,subset designation,Background is a subset of excluded records.,NO,Do not add A14 to A13.
+A11,A15,coding handoff,"The 9,505 ADVANCE records are the 9,505 uniquely categorized candidate records.",IDENTITY,Coding is not another eligibility decision.
+A15,B01,purposeful full-report selection,376/384 selected report rows have an exact canonical-ID link; eight entered through additional routes.,NO,Purposeful selection is not exhaustive and report rows are not candidate-record counts.
+A15,B02,purposeful system selection,373/381 systems have at least one exact canonical-ID link; eight entered through additional routes.,NO,No direct subset claim for unmatched coauthor or bounded map-expansion routes.
+B01,B03,report-access partition,Disjoint report-row states.,YES_WITH_SIBLINGS,Children sum to 384.
+B01,B04,report-access partition,Disjoint report-row states.,YES_WITH_SIBLINGS,Children sum to 384.
+B01,B05,report-access partition,Disjoint report-row states.,YES_WITH_SIBLINGS,Children sum to 384.
+B01,B02,report-to-system grouping,384 report rows represent 381 system groups.,NO,Two linked report pairs and one report of a pre-existing system account for the difference.
+B02,B06,system assessment partition,Completed full-report system assessments.,YES_WITH_B07,132 + 249 = 381.
+B02,B07,system assessment partition,Systems without completed full-report assessment.,YES_WITH_B06,Includes one abstract-only system; not scientific rejection.
+B06,B08,completed-assessment outcome partition,Disjoint effective system outcomes.,YES_WITH_SIBLINGS,80 + 19 + 33 = 132.
+B06,B09,completed-assessment outcome partition,Disjoint effective system outcomes.,YES_WITH_SIBLINGS,80 + 19 + 33 = 132.
+B06,B10,completed-assessment outcome partition,Disjoint effective system outcomes.,YES_WITH_SIBLINGS,80 + 19 + 33 = 132.
+B08,B11,eligible-system map coverage partition,Eligible systems with at least one supported placement.,YES_WITH_B12,76 + 4 = 80.
+B08,B12,eligible-system map coverage partition,Eligible systems without a supported placement.,YES_WITH_B11,"CAVEman, LiverPlan, YASARA Model VR, Semantic molecular-analysis pipeline."
+B11,B13,multilabel system-to-cell expansion,One system can occupy several cells.,NO,118 placements across 76 systems; cell totals are non-additive.
+W1.R,B01,wave contribution,Report rows from this wave.,YES_WITH_OTHER_WAVES,Wave report rows sum to 384.
+W1.S,B02,wave contribution,New system groups first represented in this wave.,YES_WITH_OTHER_WAVES,Wave system groups sum to 381 after related-report reconciliation.
+W2.R,B01,wave contribution,Report rows from this wave.,YES_WITH_OTHER_WAVES,Wave report rows sum to 384.
+W2.S,B02,wave contribution,New system groups first represented in this wave.,YES_WITH_OTHER_WAVES,Wave system groups sum to 381 after related-report reconciliation.
+W3.R,B01,wave contribution,Report rows from this wave.,YES_WITH_OTHER_WAVES,Wave report rows sum to 384.
+W3.S,B02,wave contribution,New system groups first represented in this wave.,YES_WITH_OTHER_WAVES,Wave system groups sum to 381 after related-report reconciliation.
+W4.R,B01,wave contribution,Report rows from this wave.,YES_WITH_OTHER_WAVES,Wave report rows sum to 384.
+W4.S,B02,wave contribution,New system groups first represented in this wave.,YES_WITH_OTHER_WAVES,Wave system groups sum to 381 after related-report reconciliation.
+W5.R,B01,wave contribution,Report rows from this wave.,YES_WITH_OTHER_WAVES,Wave report rows sum to 384.
+W5.S,B02,wave contribution,New system groups first represented in this wave.,YES_WITH_OTHER_WAVES,Wave system groups sum to 381 after related-report reconciliation.
+W6.R,B01,wave contribution,Report rows from this wave.,YES_WITH_OTHER_WAVES,Wave report rows sum to 384.
+W6.S,B02,wave contribution,New system groups first represented in this wave.,YES_WITH_OTHER_WAVES,Wave system groups sum to 381 after related-report reconciliation.

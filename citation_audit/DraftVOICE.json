@@ -1,0 +1,663 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        7,
+        3
+      ]
+    ],
+    "date-time": "2026-07-03T16:22:16Z",
+    "timestamp": 1783095736029,
+    "version": "3.54.6"
+  },
+  "reference-count": 58,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "issue": "10",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            1
+          ]
+        ],
+        "date-time": "2025-10-01T00:00:00Z",
+        "timestamp": 1759276800000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100004063",
+      "name": "Knut och Alice Wallenbergs Stiftelse",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "KAW 2019.0024"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "KAW 2019.0024"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100004063",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100004052",
+      "name": "King Abdullah University of Science and Technology",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "BAS/1/1680-01-01"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "BAS/1/1680-01-01"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100004052",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "IEEE Trans. Visual. Comput. Graphics"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2025,
+        10
+      ]
+    ]
+  },
+  "DOI": "10.1109/tvcg.2025.3579956",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2025,
+        6,
+        16
+      ]
+    ],
+    "date-time": "2025-06-16T14:58:14Z",
+    "timestamp": 1750085894000
+  },
+  "page": "8828-8845",
+  "source": "Crossref",
+  "is-referenced-by-count": 3,
+  "title": [
+    "VOICE: Visual Oracle for Interaction, Conversation, and Explanation"
+  ],
+  "prefix": "10.1109",
+  "volume": "31",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-1358-8718",
+      "authenticated-orcid": false,
+      "given": "Donggang",
+      "family": "Jia",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Computer, Electrical and Mathematical Science and Engineering (CEMSE) Division, King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0004-1021-8887",
+      "authenticated-orcid": false,
+      "given": "Alexandra",
+      "family": "Irger",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Computer, Electrical and Mathematical Science and Engineering (CEMSE) Division, King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-7207-1276",
+      "authenticated-orcid": false,
+      "given": "Lonni",
+      "family": "Besançon",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Science and Technology, Link&#x00F6;ping University, Link&#x00F6;ping, Sweden"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-8077-4692",
+      "authenticated-orcid": false,
+      "given": "Ondřej",
+      "family": "Strnad",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Computer, Electrical and Mathematical Science and Engineering (CEMSE) Division, King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-4610-8730",
+      "authenticated-orcid": false,
+      "given": "Deng",
+      "family": "Luo",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Computer, Electrical and Mathematical Science and Engineering (CEMSE) Division, King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-8503-0118",
+      "authenticated-orcid": false,
+      "given": "Johanna",
+      "family": "Björklund",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Computing Science, Ume&#x00E5; University, Ume&#x00E5;, Sweden"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0005-0915-369X",
+      "authenticated-orcid": false,
+      "given": "Alexandre",
+      "family": "Kouyoumdjian",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Computer, Electrical and Mathematical Science and Engineering (CEMSE) Division, King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-9466-9826",
+      "authenticated-orcid": false,
+      "given": "Anders",
+      "family": "Ynnerman",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Science and Technology, Link&#x00F6;ping University, Link&#x00F6;ping, Sweden"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-4248-6574",
+      "authenticated-orcid": false,
+      "given": "Ivan",
+      "family": "Viola",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Computer, Electrical and Mathematical Science and Engineering (CEMSE) Division, King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "263",
+  "reference": [
+    {
+      "key": "ref1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MCG.2018.032421649"
+    },
+    {
+      "key": "ref2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2950040"
+    },
+    {
+      "key": "ref3",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1365-2729.2011.00414.x"
+    },
+    {
+      "key": "ref4",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-030-34444-3_19"
+    },
+    {
+      "key": "ref5",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s11422-018-9905-x"
+    },
+    {
+      "key": "ref6",
+      "article-title": "OpenAI: Introducing ChatGPT",
+      "year": "2022"
+    },
+    {
+      "key": "ref7",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2021.3130670"
+    },
+    {
+      "key": "ref8",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VIS54862.2022.00010"
+    },
+    {
+      "key": "ref9",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2020.3030378"
+    },
+    {
+      "key": "ref10",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PacificVis52677.2021.00010"
+    },
+    {
+      "key": "ref11",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2021.3114848"
+    },
+    {
+      "key": "ref12",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2022.3209357"
+    },
+    {
+      "key": "ref13",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ACCESS.2023.3274199"
+    },
+    {
+      "key": "ref14",
+      "article-title": "GPT-4 technical report",
+      "year": "2023"
+    },
+    {
+      "key": "ref15",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-030-34444-3_16"
+    },
+    {
+      "key": "ref16",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-030-34444-3_20"
+    },
+    {
+      "key": "ref17",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2012.244"
+    },
+    {
+      "key": "ref18",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2019.2934401"
+    },
+    {
+      "key": "ref19",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MCG.2018.032421653"
+    },
+    {
+      "key": "ref20",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2019.2934259"
+    },
+    {
+      "key": "ref21",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MCG.2020.2973120"
+    },
+    {
+      "key": "ref22",
+      "first-page": "21",
+      "article-title": "Exploring and explaining climate change: Exploranation as a visualization pedagogy for societal action",
+      "volume-title": "Proc. Workshop Vis.",
+      "author": "Besançon"
+    },
+    {
+      "key": "ref23",
+      "first-page": "22",
+      "article-title": "Moliverse: Contextually embedding the microcosm into the universe",
+      "volume-title": "Comput. Graph.",
+      "volume": "112",
+      "author": "Brossier",
+      "year": "2023"
+    },
+    {
+      "issue": "1",
+      "key": "ref24",
+      "first-page": "293",
+      "article-title": "The state of the art of spatial interfaces for 3D visualization",
+      "volume-title": "Comput. Graph. Forum",
+      "volume": "40",
+      "author": "Besançon",
+      "year": "2021"
+    },
+    {
+      "key": "ref25",
+      "article-title": "Outrageously large neural networks: The sparsely-gated mixture-of-experts layer",
+      "author": "Shazeer",
+      "year": "2017"
+    },
+    {
+      "key": "ref26",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.2217/fmb.14.91"
+    },
+    {
+      "key": "ref27",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.cell.2020.09.018"
+    },
+    {
+      "key": "ref28",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2020.2975583"
+    },
+    {
+      "key": "ref29",
+      "article-title": "cellVIEW: A tool for illustrative and multi-scale rendering of large biomolecular datasets",
+      "volume-title": "Proc. Eurographics Workshop Vis. Comput. Biomed.",
+      "author": "Le Muzic"
+    },
+    {
+      "key": "ref30",
+      "article-title": "Llama-30b-instruct",
+      "year": "2023"
+    },
+    {
+      "key": "ref31",
+      "article-title": "Llama-2–70b-instruct-v2",
+      "year": "2023"
+    },
+    {
+      "key": "ref32",
+      "article-title": "Alpaca lora library",
+      "year": "2023"
+    },
+    {
+      "key": "ref33",
+      "article-title": "Stanford alpaca: An instruction-following llama model",
+      "author": "Taori",
+      "year": "2023"
+    },
+    {
+      "key": "ref35",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2020.3030415"
+    },
+    {
+      "key": "ref36",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1080/10447310802205776"
+    },
+    {
+      "key": "ref37",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0166-4115(08)62386-9"
+    },
+    {
+      "key": "ref38",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3389/fsurg.2022.821060"
+    },
+    {
+      "key": "ref39",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1115/DMD2020-9020"
+    },
+    {
+      "key": "ref40",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ipm.2022.102940"
+    },
+    {
+      "key": "ref41",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.concog.2024.103733"
+    },
+    {
+      "key": "ref42",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.techsoc.2023.102362"
+    },
+    {
+      "key": "ref43",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.4324/9781003039242-4-4"
+    },
+    {
+      "key": "ref44",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/tea.21476"
+    },
+    {
+      "key": "ref45",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1080/10645578.2019.1591855"
+    },
+    {
+      "key": "ref46",
+      "first-page": "4727",
+      "article-title": "Mouse, tactile, and tangible input for 3D manipulation",
+      "volume-title": "Proc. Annu. ACM Conf. Hum. Factors Comput. Syst.",
+      "author": "Besançon"
+    },
+    {
+      "key": "ref47",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3573382.3616034"
+    },
+    {
+      "key": "ref48",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISMAR-Adjunct57072.2022.00095"
+    },
+    {
+      "key": "ref49",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1080/10447318.2022.2099399"
+    },
+    {
+      "key": "ref50",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MC.2013.178"
+    },
+    {
+      "key": "ref51",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/3DUI.2014.6798885"
+    },
+    {
+      "key": "ref52",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/571985.572001"
+    },
+    {
+      "key": "ref53",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.22329/jtl.v14i1.6234"
+    },
+    {
+      "key": "ref54",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/bk-2019-1318.ch003"
+    },
+    {
+      "key": "ref55",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/bmb.20436"
+    },
+    {
+      "key": "ref56",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/desc.13057"
+    },
+    {
+      "key": "ref57",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.46328/ijres.2636"
+    },
+    {
+      "key": "ref58",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1080/09647779009515193"
+    },
+    {
+      "key": "ref59",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3389/fpsyg.2021.635839"
+    }
+  ],
+  "container-title": [
+    "IEEE Transactions on Visualization and Computer Graphics"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx8/2945/11151252/11037292.pdf?arnumber=11037292",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        9,
+        8
+      ]
+    ],
+    "date-time": "2025-09-08T22:52:21Z",
+    "timestamp": 1757371941000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://ieeexplore.ieee.org/document/11037292/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2025,
+        10
+      ]
+    ]
+  },
+  "references-count": 58,
+  "journal-issue": {
+    "issue": "10"
+  },
+  "URL": "https://doi.org/10.1109/tvcg.2025.3579956",
+  "relation": {},
+  "ISSN": [
+    "1077-2626",
+    "1941-0506",
+    "2160-9306"
+  ],
+  "issn-type": [
+    {
+      "value": "1077-2626",
+      "type": "print"
+    },
+    {
+      "value": "1941-0506",
+      "type": "electronic"
+    },
+    {
+      "value": "2160-9306",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2025,
+        10
+      ]
+    ]
+  }
+}

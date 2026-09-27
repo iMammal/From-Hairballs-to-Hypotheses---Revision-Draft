@@ -1,0 +1,855 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        16
+      ]
+    ],
+    "date-time": "2026-09-16T14:22:32Z",
+    "timestamp": 1789568552181,
+    "version": "build-2803163510"
+  },
+  "reference-count": 40,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "2",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            9,
+            14
+          ]
+        ],
+        "date-time": "2021-09-14T00:00:00Z",
+        "timestamp": 1631577600000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            9,
+            14
+          ]
+        ],
+        "date-time": "2021-09-14T00:00:00Z",
+        "timestamp": 1631577600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "61601302"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "61601302"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100012234",
+      "name": "Shenzhen Peacock Plan",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "KQTD2016053112051497"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "KQTD2016053112051497"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100012234",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100010226",
+      "name": "Department of Education of Guangdong Province",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "2017KZDXM072"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "2017KZDXM072"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100010226",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100017621",
+      "name": "Shenzhen Key Laboratory Foundation",
+      "doi-asserted-by": "crossref",
+      "award": [
+        "ZDSYS20200811143757022"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "ZDSYS20200811143757022"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100017621",
+          "id-type": "DOI",
+          "asserted-by": "crossref"
+        }
+      ]
+    },
+    {
+      "name": "Faculty Development Grant of Shenzhen University",
+      "award": [
+        "2018009"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "2018009"
+          ]
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100012166",
+      "name": "National Key R&D Program of China",
+      "doi-asserted-by": "crossref",
+      "award": [
+        "2016YFC1306600"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "2016YFC1306600"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100012166",
+          "id-type": "DOI",
+          "asserted-by": "crossref"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100012166",
+      "name": "National Key R&D Program of China",
+      "doi-asserted-by": "crossref",
+      "award": [
+        "2018YFC1314700"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "2018YFC1314700"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100012166",
+          "id-type": "DOI",
+          "asserted-by": "crossref"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100003819",
+      "name": "Natural Science Foundation of Hubei Province",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "2016CFB624"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "2016CFB624"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100003819",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "name": "The Youth Science and Technology Morning Light Program of Wuhan City",
+      "award": [
+        "2017050304010278"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "2017050304010278"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2018 Hubei Medical Research Project",
+      "award": [
+        "WJ2019F030"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "WJ2019F030"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2018 Wuhan Medical Research Project",
+      "award": [
+        "WX18A10"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "WX18A10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Startup Funding for Youth Faculty of Shenzhen University",
+      "award": [
+        "2018009"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "2018009"
+          ]
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "link.springer.com"
+    ],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Virtual Reality"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2022,
+        6
+      ]
+    ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title><jats:p>Volume rendering produces informative two-dimensional (2D) images from a 3-dimensional (3D) volume. It highlights the region of interest and facilitates a good comprehension of the entire data set. However, volume rendering faces a few challenges. First, a high-dimensional transfer function is usually required to differentiate the target from its neighboring objects with subtle variance. Unfortunately, designing such a transfer function is a strenuously trial-and-error process. Second, manipulating/visualizing a 3D volume with a traditional 2D input/output device suffers dimensional limitations. To address all the challenges, we design NUI-VR<jats:inline-formula><jats:alternatives><jats:tex-math>$$^2$$</jats:tex-math><mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n                  <mml:msup>\n                    <mml:mrow/>\n                    <mml:mn>2</mml:mn>\n                  </mml:msup>\n                </mml:math></jats:alternatives></jats:inline-formula>, a natural user interface-enabled volume rendering system in the virtual reality space. NUI-VR<jats:inline-formula><jats:alternatives><jats:tex-math>$$^2$$</jats:tex-math><mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n                  <mml:msup>\n                    <mml:mrow/>\n                    <mml:mn>2</mml:mn>\n                  </mml:msup>\n                </mml:math></jats:alternatives></jats:inline-formula> marries volume rendering and interactive image segmentation. It transforms the original volume into a probability map with image segmentation. A simple linear transfer function will highlight the target well in the probability map. More importantly, we set the entire image segmentation and volume rendering pipeline in an immersive virtual reality environment with a natural user interface. NUI-VR<jats:inline-formula><jats:alternatives><jats:tex-math>$$^2$$</jats:tex-math><mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n                  <mml:msup>\n                    <mml:mrow/>\n                    <mml:mn>2</mml:mn>\n                  </mml:msup>\n                </mml:math></jats:alternatives></jats:inline-formula> eliminates the dimensional limitations in manipulating and perceiving 3D volumes and dramatically improves the user experience.</jats:p>",
+  "DOI": "10.1007/s10055-021-00577-4",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2021,
+        9,
+        14
+      ]
+    ],
+    "date-time": "2021-09-14T04:02:26Z",
+    "timestamp": 1631592146000
+  },
+  "page": "415-424",
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 23,
+  "title": [
+    "A VR-based volumetric medical image segmentation and visualization system with natural human interaction"
+  ],
+  "prefix": "10.1007",
+  "volume": "26",
+  "author": [
+    {
+      "given": "Yi",
+      "family": "Gao",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-6589-4437",
+      "authenticated-orcid": false,
+      "given": "Cheng",
+      "family": "Chang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Xiaxia",
+      "family": "Yu",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Pengjin",
+      "family": "Pang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Nian",
+      "family": "Xiong",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Chuan",
+      "family": "Huang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "297",
+  "published-online": {
+    "date-parts": [
+      [
+        2021,
+        9,
+        14
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "577_CR3",
+      "unstructured": "Arens S, Domik G (2010) A survey of transfer functions suitable for volume rendering. In: Proceedings of the 8th IEEE/EG international conference on Volume Graphics. Eurographics Association, pp 77–83"
+    },
+    {
+      "key": "577_CR4",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Bajaj CL, Pascucci V, Schikore DR (1997) The contour spectrum. In: Proceedings of the 8th conference on Visualization’97. IEEE Computer Society Press, pp 167–ff",
+      "DOI": "10.1145/259081.259279"
+    },
+    {
+      "key": "577_CR5",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Bali A, Singh SN (2015) A review on the strategies and techniques of image segmentation. In: 2015 fifth international conference on advanced computing & communication technologies. IEEE, pp 113–120",
+      "DOI": "10.1109/ACCT.2015.63"
+    },
+    {
+      "key": "577_CR7",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Boykov YY, Jolly M-P (2001) Interactive graph cuts for optimal boundary & region segmentation of objects in nd images. In: Computer Vision, 2001. ICCV 2001. Proceedings. Eighth IEEE international conference on, vol 1. IEEE, pp 105–112",
+      "DOI": "10.1109/ICCV.2001.937505"
+    },
+    {
+      "issue": "6",
+      "key": "577_CR8",
+      "doi-asserted-by": "publisher",
+      "first-page": "1364",
+      "DOI": "10.1109/TVCG.2008.169",
+      "volume": "14",
+      "author": "JJ Caban",
+      "year": "2008",
+      "unstructured": "Caban JJ, Rheingans P (2008) Texture-based transfer functions for direct volume rendering. IEEE Trans Visual Comput Graphics 14(6):1364–1371",
+      "journal-title": "IEEE Trans Visual Comput Graphics"
+    },
+    {
+      "key": "577_CR9",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Chan S, Conti F, Salisbury K, Blevins NH (2013) Virtual reality simulation in neurosurgery: technologies and evolution, Neurosurgery 72 (suppl\\_1) A154–A164",
+      "DOI": "10.1227/NEU.0b013e3182750d26"
+    },
+    {
+      "issue": "1",
+      "key": "577_CR10",
+      "doi-asserted-by": "publisher",
+      "first-page": "472",
+      "DOI": "10.1002/hbm.23856",
+      "volume": "39",
+      "author": "C Chang",
+      "year": "2018",
+      "unstructured": "Chang C, Huang C, Zhou N, Li SX, Ver Hoef L, Gao Y (2018) The bumps under the hippocampus. Hum Brain Map 39(1):472–490",
+      "journal-title": "Hum Brain Map"
+    },
+    {
+      "issue": "8",
+      "key": "577_CR11",
+      "doi-asserted-by": "publisher",
+      "first-page": "1235",
+      "DOI": "10.1007/s00381-013-2139-z",
+      "volume": "29",
+      "author": "AR Cohen",
+      "year": "2013",
+      "unstructured": "Cohen AR, Lohani S, Manjila S, Natsupakpong S, Brown N, Cavusoglu MC (2013) Virtual reality simulation: basic concepts and use in endoscopic neurosurgery training. Childs Nerv Syst 29(8):1235–1244",
+      "journal-title": "Childs Nerv Syst"
+    },
+    {
+      "issue": "7",
+      "key": "577_CR6",
+      "doi-asserted-by": "publisher",
+      "first-page": "1315",
+      "DOI": "10.1016/j.jmb.2019.01.033",
+      "volume": "431",
+      "author": "M El Beheiry",
+      "year": "2019",
+      "unstructured": "El Beheiry M, Doutreligne S, Caporal C, Ostertag C, Dahan M, Masson J-B (2019) Virtual reality: beyond visualization. J Mol Biol 431(7):1315–1321",
+      "journal-title": "J Mol Biol"
+    },
+    {
+      "key": "577_CR12",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Faludi B, Zoller EI, Gerig N, Zam A, Rauter G, Cattin PC (2019) Direct visual and haptic volume rendering of medical data sets for an immersive exploration in virtual reality. In: International conference on medical image computing and computer-assisted intervention. Springer, pp 29–37",
+      "DOI": "10.1007/978-3-030-32254-0_4"
+    },
+    {
+      "key": "577_CR13",
+      "unstructured": "Fogal T, Krüger JH (2010) Tuvok, an architecture for large scale volume rendering. In: Proceedings of the 15th international workshop on vision, modeling, and visualization, pp 139–146. http://www.sci.utah.edu/~tfogal/academic/tuvok/Fogal-Tuvok.pdf"
+    },
+    {
+      "issue": "6",
+      "key": "577_CR14",
+      "doi-asserted-by": "publisher",
+      "first-page": "1216",
+      "DOI": "10.1016/j.media.2012.06.002",
+      "volume": "16",
+      "author": "Y Gao",
+      "year": "2012",
+      "unstructured": "Gao Y, Kikinis R, Bouix S, Shenton M, Tannenbaum A (2012) A 3d interactive multi-object segmentation tool using local robust statistics driven active contours. Med Image Anal 16(6):1216–1227",
+      "journal-title": "Med Image Anal"
+    },
+    {
+      "key": "577_CR15",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Gao Y, Tannenbaum A, Kikinis R (2010) Simultaneous multi-object segmentation using local robust statistics and contour interaction. In: International MICCAI workshop on medical computer vision. Springer, pp 195–203",
+      "DOI": "10.1007/978-3-642-18421-5_19"
+    },
+    {
+      "key": "577_CR16",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Gao Y, Gholami B, MacLeod RS, Blauer J, Haddad WM, Tannenbaum AR (2010) Segmentation of the endocardial wall of the left atrium using local region-based active contours and statistical shape learning. Georgia Institute of Technology",
+      "DOI": "10.1117/12.844321"
+    },
+    {
+      "key": "577_CR17",
+      "unstructured": "He T, Hong L, Kaufman A, Pfister H (1996) Generation of transfer functions with stochastic search techniques. In: Visualization’96. Proceedings. IEEE, pp 227–234"
+    },
+    {
+      "issue": "4",
+      "key": "577_CR18",
+      "doi-asserted-by": "publisher",
+      "first-page": "1472",
+      "DOI": "10.1109/TVCG.2016.2518338",
+      "volume": "22",
+      "author": "C Hänel",
+      "year": "2016",
+      "unstructured": "Hänel C, Weyers B, Hentschel B, Kuhlen TW (2016) Visual quality adjustment for volume rendering in a head-tracked virtual environment. IEEE Trans Visual Comput Graphics 22(4):1472–1481",
+      "journal-title": "IEEE Trans Visual Comput Graphics"
+    },
+    {
+      "issue": "6",
+      "key": "577_CR19",
+      "doi-asserted-by": "publisher",
+      "first-page": "1746",
+      "DOI": "10.3390/s18061746",
+      "volume": "18",
+      "author": "M Ju",
+      "year": "2018",
+      "unstructured": "Ju M, Choi Y, Seo J, Sa J, Lee S, Chung Y, Park D (2018) A Kinect-based segmentation of touching-pigs for real-time monitoring. Sensors 18(6):1746",
+      "journal-title": "Sensors"
+    },
+    {
+      "issue": "11",
+      "key": "577_CR20",
+      "doi-asserted-by": "publisher",
+      "first-page": "2127",
+      "DOI": "10.1109/TMI.2013.2274734",
+      "volume": "32",
+      "author": "P Karasev",
+      "year": "2013",
+      "unstructured": "Karasev P, Kolesov I, Fritscher K, Vela P, Mitchell P, Tannenbaum A (2013) Interactive medical image segmentation using PDE control of active contours. IEEE Trans Med Imaging 32(11):2127–2139",
+      "journal-title": "IEEE Trans Med Imaging"
+    },
+    {
+      "key": "577_CR21",
+      "unstructured": "Kindlmann G, Whitaker R, Tasdizen T, Moller T (2003) Curvature-based transfer functions for direct volume rendering: methods and applications. In: Visualization. VIS 2003. IEEE. IEEE, 2003, pp 513–520"
+    },
+    {
+      "key": "577_CR22",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Kuruvilla J, Sukumaran D, Sankar A, Joy SP (2016) A review on image processing and image segmentation. In: International conference on data mining and advanced computing (SAPIENCE). IEEE, pp 198–203",
+      "DOI": "10.1109/SAPIENCE.2016.7684170"
+    },
+    {
+      "key": "577_CR23",
+      "first-page": "279",
+      "volume": "17",
+      "author": "A König",
+      "year": "2001",
+      "unstructured": "König A, Gröller E (2001) Mastering transfer function specification by using VolumePro technology. Spring Conf Comput Graphics 17:279–286",
+      "journal-title": "Spring Conf Comput Graphics"
+    },
+    {
+      "issue": "3",
+      "key": "577_CR24",
+      "doi-asserted-by": "publisher",
+      "first-page": "29",
+      "DOI": "10.1109/38.511",
+      "volume": "8",
+      "author": "M Levoy",
+      "year": "1988",
+      "unstructured": "Levoy M (1988) Display of surfaces from volume data. IEEE Comput Graphics Appl 8(3):29–37",
+      "journal-title": "IEEE Comput Graphics Appl"
+    },
+    {
+      "key": "577_CR25",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Ljung P, Krüger J, Groller E, Hadwiger M, Hansen CD, Ynnerman A (2016) State of the art in transfer functions for direct volume rendering. In: Computer graphics forum, vol. 35. Wiley Online Library, pp 669–691",
+      "DOI": "10.1111/cgf.12934"
+    },
+    {
+      "issue": "6",
+      "key": "577_CR2",
+      "doi-asserted-by": "publisher",
+      "first-page": "95",
+      "DOI": "10.3991/ijoe.v16i06.13627",
+      "volume": "16",
+      "author": "AS Mady",
+      "year": "2020",
+      "unstructured": "Mady AS, Abou El-Seoud S (2020) An overview of volume rendering techniques for medical imaging. Int J Online Biomed Eng 16(6):95–106",
+      "journal-title": "Int J Online Biomed Eng"
+    },
+    {
+      "issue": "5",
+      "key": "577_CR26",
+      "doi-asserted-by": "publisher",
+      "first-page": "349",
+      "DOI": "10.1006/gmip.1998.0480",
+      "volume": "60",
+      "author": "EN Mortensen",
+      "year": "1998",
+      "unstructured": "Mortensen EN, Barrett WA (1998) Interactive segmentation with intelligent scissors. Graphical Models Image Process 60(5):349–384",
+      "journal-title": "Graphical Models Image Process"
+    },
+    {
+      "issue": "3",
+      "key": "577_CR27",
+      "doi-asserted-by": "publisher",
+      "first-page": "16",
+      "DOI": "10.1109/38.920623",
+      "volume": "21",
+      "author": "H Pfister",
+      "year": "2001",
+      "unstructured": "Pfister H, Lorensen B, Bajaj C, Kindlmann G, Schroeder W, Avila LS, Raghu K, Machiraju R, Lee J (2001) The transfer function bake-off. IEEE Comput Graphics Appl 21(3):16–22",
+      "journal-title": "IEEE Comput Graphics Appl"
+    },
+    {
+      "issue": "4",
+      "key": "577_CR28",
+      "doi-asserted-by": "publisher",
+      "first-page": "51",
+      "DOI": "10.1145/378456.378476",
+      "volume": "22",
+      "author": "P Sabella",
+      "year": "1988",
+      "unstructured": "Sabella P (1988) A rendering algorithm for visualizing 3d scalar fields. ACM SIGGRAPH Comput Graphics 22(4):51–58",
+      "journal-title": "ACM SIGGRAPH Comput Graphics"
+    },
+    {
+      "key": "577_CR29",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Schroeder WJ, Lorensen B, Martin K (2004) The visualization toolkit: an object-oriented approach to 3D graphics, Kitware",
+      "DOI": "10.1016/B978-012387582-2/50003-4"
+    },
+    {
+      "key": "577_CR30",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Takeshima Y, Takahashi S, Fujishiro I, Nielson GM (2005) Introducing topological attributes for objective-based visualization of simulated datasets. In: Fourth international workshop on volume graphics, 2005. IEEE, pp 137–236",
+      "DOI": "10.1109/VG.2005.194108"
+    },
+    {
+      "key": "577_CR31",
+      "unstructured": "Tappenbeck A, Preim B, Dicken V (2006) Distance-based transfer function design: Specification methods and applications. In: SimVis, pp 259–274"
+    },
+    {
+      "key": "577_CR32",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Tiede U, Schiemann T, Hohne KH (1998) High quality rendering of attributed volume data. In: Visualization’98. Proceedings. IEEE, pp 255–262",
+      "DOI": "10.1109/VISUAL.1998.745311"
+    },
+    {
+      "issue": "3",
+      "key": "577_CR1",
+      "doi-asserted-by": "publisher",
+      "first-page": "1236",
+      "DOI": "10.1214/aos/1176348768",
+      "volume": "20",
+      "author": "GR Terrell",
+      "year": "1992",
+      "unstructured": "Terrell GR, Scott DW (1992) Variable kernel density estimation. Ann Stat 20(3):1236–1265",
+      "journal-title": "Ann Stat"
+    },
+    {
+      "issue": "3",
+      "key": "577_CR33",
+      "doi-asserted-by": "publisher",
+      "first-page": "273",
+      "DOI": "10.1109/TVCG.2005.38",
+      "volume": "11",
+      "author": "F-Y Tzeng",
+      "year": "2005",
+      "unstructured": "Tzeng F-Y, Lum EB, Ma K-L (2005) An intelligent system approach to higher-dimensional classification of volume data. IEEE Trans Visual Comput Graphics 11(3):273–284",
+      "journal-title": "IEEE Trans Visual Comput Graphics"
+    },
+    {
+      "key": "577_CR34",
+      "unstructured": "Vezhnevets V, Konouchine V (2005) Growcut: interactive multi-label nd image segmentation by cellular automata. In: Proceedings of Graphicon, vol 1, pp 150–156"
+    },
+    {
+      "key": "577_CR35",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Vimort J, McCormick M, Budin F, Paniagua B (2017) Computing textural feature maps for n-dimensional images. Insight J 80014-2",
+      "DOI": "10.54294/qy48ty"
+    },
+    {
+      "key": "577_CR36",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Wang Y, Jung C (2017) Interaction-free hand segmentation using Kinect camera. In: 2017 IEEE international conference on image processing (ICIP). IEEE, pp 4593–4593",
+      "DOI": "10.1109/ICIP.2017.8297156"
+    },
+    {
+      "issue": "2",
+      "key": "577_CR37",
+      "doi-asserted-by": "publisher",
+      "first-page": "330",
+      "DOI": "10.1109/TVCG.2007.47",
+      "volume": "13",
+      "author": "GH Weber",
+      "year": "2007",
+      "unstructured": "Weber GH, Dillard SE, Carr H, Pascucci V, Hamann B (2007) Topology-controlled volume rendering. IEEE Trans Visual Comput Graphics 13(2):330–341",
+      "journal-title": "IEEE Trans Visual Comput Graphics"
+    },
+    {
+      "issue": "9",
+      "key": "577_CR38",
+      "doi-asserted-by": "publisher",
+      "first-page": "884",
+      "DOI": "10.1109/34.537343",
+      "volume": "18",
+      "author": "SC Zhu",
+      "year": "1996",
+      "unstructured": "Zhu SC, Yuille A (1996) Region competition: unifying snakes, region growing, and Bayes/MDL for multiband image segmentation. IEEE Trans Pattern Anal Mach Intell 18(9):884–900",
+      "journal-title": "IEEE Trans Pattern Anal Mach Intell"
+    },
+    {
+      "key": "577_CR39",
+      "unstructured": "Zhu L, Kolesov I, Gao Y, Kikinis R, Tannenbaum A (2014) An effective interactive medical image segmentation method using fast growcut. MICCAI Workshop on Interactive Medical Image Computing"
+    },
+    {
+      "key": "577_CR40",
+      "unstructured": "Zhu J, Rosset S, Tibshirani R, Hastie TJ (2004) 1-norm support vector machines. Advances in Neural Information Processing Systems, pp 49–56"
+    }
+  ],
+  "container-title": [
+    "Virtual Reality"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://link.springer.com/content/pdf/10.1007/s10055-021-00577-4.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://link.springer.com/article/10.1007/s10055-021-00577-4/fulltext.html",
+      "content-type": "text/html",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://link.springer.com/content/pdf/10.1007/s10055-021-00577-4.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2022,
+        5,
+        18
+      ]
+    ],
+    "date-time": "2022-05-18T15:16:24Z",
+    "timestamp": 1652886984000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://link.springer.com/10.1007/s10055-021-00577-4"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        9,
+        14
+      ]
+    ]
+  },
+  "references-count": 40,
+  "journal-issue": {
+    "issue": "2",
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          6
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "577"
+  ],
+  "URL": "https://doi.org/10.1007/s10055-021-00577-4",
+  "relation": {},
+  "ISSN": [
+    "1359-4338",
+    "1434-9957"
+  ],
+  "issn-type": [
+    {
+      "value": "1359-4338",
+      "type": "print"
+    },
+    {
+      "value": "1434-9957",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2021,
+        9,
+        14
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "8 September 2020",
+      "order": 1,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "31 August 2021",
+      "order": 2,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "14 September 2021",
+      "order": 3,
+      "name": "first_online",
+      "label": "First Online",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    }
+  ]
+}

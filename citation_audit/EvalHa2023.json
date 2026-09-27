@@ -1,0 +1,582 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        1,
+        13
+      ]
+    ],
+    "date-time": "2026-01-13T06:12:49Z",
+    "timestamp": 1768284769403,
+    "version": "3.49.0"
+  },
+  "reference-count": 49,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "issue": "1",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            1,
+            1
+          ]
+        ],
+        "date-time": "2023-01-01T00:00:00Z",
+        "timestamp": 1672531200000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            1,
+            1
+          ]
+        ],
+        "date-time": "2023-01-01T00:00:00Z",
+        "timestamp": 1672531200000
+      },
+      "content-version": "am",
+      "delay-in-days": 0,
+      "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            1,
+            1
+          ]
+        ],
+        "date-time": "2023-01-01T00:00:00Z",
+        "timestamp": 1672531200000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-029"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            1,
+            1
+          ]
+        ],
+        "date-time": "2023-01-01T00:00:00Z",
+        "timestamp": 1672531200000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-037"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/100000001",
+      "name": "National Science Foundation",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "OAC-2118201"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "OAC-2118201"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/100000001",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/100000001",
+      "name": "National Science Foundation",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "IIS-2142977"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "IIS-2142977"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/100000001",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "IEEE Trans. Visual. Comput. Graphics"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2023,
+        1
+      ]
+    ]
+  },
+  "DOI": "10.1109/tvcg.2022.3209476",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2022,
+        9,
+        26
+      ]
+    ],
+    "date-time": "2022-09-26T20:38:56Z",
+    "timestamp": 1664224736000
+  },
+  "page": "483-492",
+  "source": "Crossref",
+  "is-referenced-by-count": 7,
+  "title": [
+    "A Unified Comparison of User Modeling Techniques for Predicting Data Interaction and Detecting Exploration Bias"
+  ],
+  "prefix": "10.1109",
+  "volume": "29",
+  "author": [
+    {
+      "given": "Sunwoo",
+      "family": "Ha",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Washington University, USA"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-9385-5969",
+      "authenticated-orcid": false,
+      "given": "Shayan",
+      "family": "Monadjemi",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Washington University, USA"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-0152-5453",
+      "authenticated-orcid": false,
+      "given": "Roman",
+      "family": "Garnett",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Washington University, USA"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-9485-276X",
+      "authenticated-orcid": false,
+      "given": "Alvitta",
+      "family": "Ottley",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Washington University, USA"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "member": "263",
+  "reference": [
+    {
+      "key": "ref39",
+      "volume": "12",
+      "author": "perry",
+      "year": "2009",
+      "journal-title": "Supporting cognitive models of sensemaking in analytics systems"
+    },
+    {
+      "key": "ref38",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.13670"
+    },
+    {
+      "key": "ref33",
+      "article-title": "Active visual analytics: Assisted data discovery in interactive visualizations via active search",
+      "author": "monadjemi",
+      "year": "2020",
+      "journal-title": "ArXiv Preprint"
+    },
+    {
+      "key": "ref32",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2020.3030430"
+    },
+    {
+      "key": "ref31",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.11613/BM.2013.018"
+    },
+    {
+      "key": "ref30",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1080/01621459.1951.10500769"
+    },
+    {
+      "key": "ref37",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1037/1089-2680.2.2.175"
+    },
+    {
+      "key": "ref36",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2021.3114827"
+    },
+    {
+      "key": "ref35",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1371/journal.pone.0120644"
+    },
+    {
+      "key": "ref34",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2009.111"
+    },
+    {
+      "key": "ref28",
+      "author": "lightner",
+      "year": "2016",
+      "journal-title": "Inside america's boardrooms"
+    },
+    {
+      "key": "ref27",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3301275.3302307"
+    },
+    {
+      "key": "ref29",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.14033"
+    },
+    {
+      "key": "ref2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s11136-009-9540-9"
+    },
+    {
+      "key": "ref1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2882903.2882919"
+    },
+    {
+      "key": "ref20",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1049/ip-f-2.1993.0015"
+    },
+    {
+      "key": "ref22",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1502650.1502695"
+    },
+    {
+      "key": "ref21",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2856767.2856779"
+    },
+    {
+      "key": "ref24",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3301275.3302291"
+    },
+    {
+      "key": "ref23",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2012.23"
+    },
+    {
+      "key": "ref26",
+      "first-page": "223",
+      "article-title": "An analysis of bayesian classifiers",
+      "volume": "90",
+      "author": "langley",
+      "year": "1992",
+      "journal-title": "AAAI"
+    },
+    {
+      "key": "ref25",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5395/rde.2017.42.2.152"
+    },
+    {
+      "key": "ref10",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2018.2872577"
+    },
+    {
+      "key": "ref11",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1023/A:1008935410038"
+    },
+    {
+      "key": "ref40",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1057/ivs.2009.22"
+    },
+    {
+      "key": "ref12",
+      "first-page": "1880",
+      "article-title": "Urmanuskript&#x201D; ueber das ged&#x00E4;chtni&#x00DF;",
+      "author": "ebbinghaus",
+      "year": "0",
+      "journal-title": "Passau Passavia Universit&#x00E4;tsverlag"
+    },
+    {
+      "key": "ref13",
+      "author": "ebbinghaus",
+      "year": "1885",
+      "journal-title": "Uber das ged&#x00E4;chtnis untersuchungen zur experimentellen psychologie"
+    },
+    {
+      "key": "ref14",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-319-95831-6"
+    },
+    {
+      "key": "ref15",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.13405"
+    },
+    {
+      "key": "ref16",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3173574.3173711"
+    },
+    {
+      "key": "ref17",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2018.2865117"
+    },
+    {
+      "key": "ref18",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1177/14738716211038604"
+    },
+    {
+      "key": "ref19",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1756-8765.2008.01006.x"
+    },
+    {
+      "key": "ref4",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2016.2598468"
+    },
+    {
+      "key": "ref3",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2014.2346575"
+    },
+    {
+      "key": "ref6",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VAST.2017.8585665"
+    },
+    {
+      "key": "ref5",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.13730"
+    },
+    {
+      "key": "ref8",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-1-4614-8806-4_48"
+    },
+    {
+      "key": "ref7",
+      "author": "cook",
+      "year": "2005",
+      "journal-title": "Illuminating the Path The Research and Development Agenda for Visual Analytics"
+    },
+    {
+      "key": "ref49",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3411764.3445674"
+    },
+    {
+      "key": "ref9",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/3-540-45014-9_1"
+    },
+    {
+      "key": "ref46",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2021.3114862"
+    },
+    {
+      "key": "ref45",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VAST.2017.8585669"
+    },
+    {
+      "key": "ref48",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.14035"
+    },
+    {
+      "key": "ref47",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1146/annurev.so.18.080192.001551"
+    },
+    {
+      "key": "ref42",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2015.2467551"
+    },
+    {
+      "key": "ref41",
+      "first-page": "2",
+      "article-title": "The sensemaking process and leverage points for analyst technology as identified through cognitive task analysis",
+      "volume": "5",
+      "author": "pirolli",
+      "year": "2005",
+      "journal-title": "Proceedings of International Conference on Intelligence Analysis"
+    },
+    {
+      "key": "ref44",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s10462-009-9124-7"
+    },
+    {
+      "key": "ref43",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1057/ivs.2009.28"
+    }
+  ],
+  "container-title": [
+    "IEEE Transactions on Visualization and Computer Graphics"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "https://ieeexplore.ieee.org/ielam/2945/9991003/9903515-aam.pdf",
+      "content-type": "application/pdf",
+      "content-version": "am",
+      "intended-application": "syndication"
+    },
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx7/2945/9991003/09903515.pdf?arnumber=9903515",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2022,
+        12,
+        21
+      ]
+    ],
+    "date-time": "2022-12-21T15:45:09Z",
+    "timestamp": 1671637509000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://ieeexplore.ieee.org/document/9903515/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2023,
+        1
+      ]
+    ]
+  },
+  "references-count": 49,
+  "journal-issue": {
+    "issue": "1"
+  },
+  "URL": "https://doi.org/10.1109/tvcg.2022.3209476",
+  "relation": {},
+  "ISSN": [
+    "1077-2626",
+    "1941-0506",
+    "2160-9306"
+  ],
+  "issn-type": [
+    {
+      "value": "1077-2626",
+      "type": "print"
+    },
+    {
+      "value": "1941-0506",
+      "type": "electronic"
+    },
+    {
+      "value": "2160-9306",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2023,
+        1
+      ]
+    ]
+  }
+}

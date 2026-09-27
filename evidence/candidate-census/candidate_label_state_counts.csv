@@ -1,0 +1,15 @@
+dimension,label,PRESENT,ABSENT,UNCERTAIN,denominator,counting_rule
+assistance,Algorithmic,8872,349,284,9505,one state per canonical candidate record; omitted CSV label = ABSENT because prompt requires every frozen label exactly once
+assistance,Adaptive,2593,5120,1792,9505,one state per canonical candidate record; omitted CSV label = ABSENT because prompt requires every frozen label exactly once
+assistance,Conversational,311,8551,643,9505,one state per canonical candidate record; omitted CSV label = ABSENT because prompt requires every frozen label exactly once
+assistance,Immersive,972,7742,791,9505,one state per canonical candidate record; omitted CSV label = ABSENT because prompt requires every frozen label exactly once
+modality,Desktop/Planar,2912,2521,4072,9505,one state per canonical candidate record; omitted CSV label = ABSENT because prompt requires every frozen label exactly once
+modality,Large Display,41,8601,863,9505,one state per canonical candidate record; omitted CSV label = ABSENT because prompt requires every frozen label exactly once
+modality,VR,579,7952,974,9505,one state per canonical candidate record; omitted CSV label = ABSENT because prompt requires every frozen label exactly once
+modality,AR/MR,431,8223,851,9505,one state per canonical candidate record; omitted CSV label = ABSENT because prompt requires every frozen label exactly once
+modality,CAVE,11,8687,807,9505,one state per canonical candidate record; omitted CSV label = ABSENT because prompt requires every frozen label exactly once
+task,Navigation and Multiscale Orientation,3108,4542,1855,9505,one state per canonical candidate record; omitted CSV label = ABSENT because prompt requires every frozen label exactly once
+task,Comparison and Differentiation,5866,2559,1080,9505,one state per canonical candidate record; omitted CSV label = ABSENT because prompt requires every frozen label exactly once
+task,"Selection, Filtering, and Precision Interaction",3689,4095,1721,9505,one state per canonical candidate record; omitted CSV label = ABSENT because prompt requires every frozen label exactly once
+task,Sensemaking and Hypothesis Development,7238,1422,845,9505,one state per canonical candidate record; omitted CSV label = ABSENT because prompt requires every frozen label exactly once
+task,Coordination and Collaborative Reasoning,619,7982,904,9505,one state per canonical candidate record; omitted CSV label = ABSENT because prompt requires every frozen label exactly once

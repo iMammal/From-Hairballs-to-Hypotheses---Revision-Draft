@@ -1,0 +1,700 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        6,
+        24
+      ]
+    ],
+    "date-time": "2026-06-24T16:23:18Z",
+    "timestamp": 1782318198339,
+    "version": "3.54.5"
+  },
+  "reference-count": 57,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "issue": "1",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            1
+          ]
+        ],
+        "date-time": "2025-01-01T00:00:00Z",
+        "timestamp": 1735689600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            1
+          ]
+        ],
+        "date-time": "2025-01-01T00:00:00Z",
+        "timestamp": 1735689600000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-029"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            1
+          ]
+        ],
+        "date-time": "2025-01-01T00:00:00Z",
+        "timestamp": 1735689600000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-037"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100003725",
+      "name": "National Research Foundation of Korea",
+      "doi-asserted-by": "crossref",
+      "award": [
+        "RS-2023-00251406"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "RS-2023-00251406"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100003725",
+          "id-type": "DOI",
+          "asserted-by": "crossref"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100002486",
+      "name": "Hankuk University of Foreign Studies",
+      "doi-asserted-by": "publisher",
+      "id": [
+        {
+          "id": "10.13039/501100002486",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "name": "Institute of Information & communications Technology Planning & Evaluation",
+      "award": [
+        "RS-2021-II211343"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "RS-2021-II211343"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Artificial Intelligence Graduate School Program"
+    },
+    {
+      "name": "Clinical Research Collaboration for Stroke in Korea"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "IEEE Trans. Visual. Comput. Graphics"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2025,
+        1
+      ]
+    ]
+  },
+  "DOI": "10.1109/tvcg.2024.3456215",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2024,
+        9,
+        24
+      ]
+    ],
+    "date-time": "2024-09-24T17:24:53Z",
+    "timestamp": 1727198693000
+  },
+  "page": "470-480",
+  "source": "Crossref",
+  "is-referenced-by-count": 23,
+  "title": [
+    "PhenoFlow: A Human-LLM Driven Visual Analytics System for Exploring Large and Complex Stroke Datasets"
+  ],
+  "prefix": "10.1109",
+  "volume": "31",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0009-0006-1868-7148",
+      "authenticated-orcid": false,
+      "given": "Jaeyoung",
+      "family": "Kim",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Seoul National University, South Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0006-7202-234X",
+      "authenticated-orcid": false,
+      "given": "Sihyeon",
+      "family": "Lee",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Seoul National University, South Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-9659-2922",
+      "authenticated-orcid": false,
+      "given": "Hyeon",
+      "family": "Jeon",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Seoul National University, South Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Keon-Joo",
+      "family": "Lee",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Neurology, Korea University Guro Hospital, South Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Hee-Joon",
+      "family": "Bae",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Seoul National University College of Medicine and Seoul National University Bundang Hospital, South Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-2183-5651",
+      "authenticated-orcid": false,
+      "given": "Bohyoung",
+      "family": "Kim",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Hankuk University of Foreign Studies, South Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-7734-822X",
+      "authenticated-orcid": false,
+      "given": "Jinwook",
+      "family": "Seo",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Seoul National University, South Korea"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "263",
+  "reference": [
+    {
+      "key": "ref1",
+      "article-title": "Gpt-4 technical report",
+      "author": "Achiam",
+      "year": "2023",
+      "journal-title": "arXiv preprint"
+    },
+    {
+      "key": "ref2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1161/01.STR.24.1.35"
+    },
+    {
+      "key": "ref3",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.cag.2007.01.030"
+    },
+    {
+      "key": "ref4",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1056/NEJMsb020987"
+    },
+    {
+      "issue": "9",
+      "key": "ref5",
+      "doi-asserted-by": "crossref",
+      "first-page": "2976",
+      "DOI": "10.1161/STROKEAHA.122.039212",
+      "article-title": "g. sherman lecture award: 15-year experience of the nationwide multicenter stroke registry in korea",
+      "volume": "53",
+      "author": "David",
+      "year": "2022",
+      "journal-title": "Stroke"
+    },
+    {
+      "key": "ref6",
+      "first-page": "29",
+      "article-title": "A temporal abstraction framework for classifying clinical temporal data",
+      "volume-title": "AMIA Annual Symposium Proceedings",
+      "volume": "2009",
+      "author": "Batal",
+      "year": "2009"
+    },
+    {
+      "key": "ref7",
+      "first-page": "1877",
+      "article-title": "Language models are few-shot learners",
+      "volume": "33",
+      "author": "Brown",
+      "year": "2020",
+      "journal-title": "Advances in neural information processing systems"
+    },
+    {
+      "key": "ref8",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/jamia/ocv006"
+    },
+    {
+      "key": "ref9",
+      "article-title": "Quantifying memorization across neural language models",
+      "author": "Carlini",
+      "year": "2022",
+      "journal-title": "arXiv preprint"
+    },
+    {
+      "key": "ref10",
+      "first-page": "2633",
+      "article-title": "Extracting training data from large language models",
+      "volume-title": "30th USENIX Security Symposium (USENIX Security 21)",
+      "author": "Carlini"
+    },
+    {
+      "issue": "1",
+      "key": "ref11",
+      "first-page": "4",
+      "article-title": "Creating technology-enhanced scenarios to promote observation skills of fashion-design students",
+      "volume": "17",
+      "author": "Caruso",
+      "year": "2017",
+      "journal-title": "Form@ re-Open Journal per la formazione in rete"
+    },
+    {
+      "key": "ref12",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2021.3114693"
+    },
+    {
+      "key": "ref13",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2013.2297933"
+    },
+    {
+      "key": "ref14",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/jamia/ocad149"
+    },
+    {
+      "key": "ref15",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2016.2539960"
+    },
+    {
+      "key": "ref16",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41431-023-01396-8"
+    },
+    {
+      "key": "ref17",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.4159/harvard.9780674189089"
+    },
+    {
+      "key": "ref18",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2598153.2598172"
+    },
+    {
+      "key": "ref19",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/int.22955"
+    },
+    {
+      "key": "ref20",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2021.3100413"
+    },
+    {
+      "key": "ref21",
+      "article-title": "Evaluation of ai chatbots for patient-specific ehr questions",
+      "author": "Hamidi",
+      "year": "2023",
+      "journal-title": "arXiv preprint"
+    },
+    {
+      "key": "ref22",
+      "article-title": "A survey of large language models for healthcare: from data, technology, and applications to accountability and ethics",
+      "author": "He",
+      "year": "2023",
+      "journal-title": "arXiv preprint"
+    },
+    {
+      "key": "ref23",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3389/fonc.2023.1219326"
+    },
+    {
+      "key": "ref24",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1161/STR.0b013e318284056a"
+    },
+    {
+      "key": "ref25",
+      "first-page": "49",
+      "article-title": "Mimic-iv",
+      "volume-title": "PhysioNet",
+      "author": "Johnson",
+      "year": "2021"
+    },
+    {
+      "issue": "1",
+      "key": "ref26",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1038/sdata.2016.35",
+      "article-title": "Mimic-iii, a freely accessible critical care database",
+      "volume": "3",
+      "author": "Johnson",
+      "year": "2016",
+      "journal-title": "Scientific data"
+    },
+    {
+      "key": "ref27",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-642-39146-0_37"
+    },
+    {
+      "key": "ref28",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1161/01.STR.0000116869.64771.5A"
+    },
+    {
+      "key": "ref29",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/oxfordjournals.aje.a117595"
+    },
+    {
+      "key": "ref30",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2015.2467325"
+    },
+    {
+      "key": "ref31",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2020.3030419"
+    },
+    {
+      "key": "ref32",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1161/STROKEAHA.119.026889"
+    },
+    {
+      "key": "ref33",
+      "first-page": "452",
+      "article-title": "Medical temporal-knowledge discovery via temporal abstraction",
+      "volume-title": "AMIA annual symposium proceedings",
+      "volume": "2009",
+      "author": "Moskovitch",
+      "year": "2009"
+    },
+    {
+      "key": "ref34",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.10011/jama.2013.393"
+    },
+    {
+      "key": "ref35",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.14778/3574245.3574258"
+    },
+    {
+      "key": "ref36",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.13727"
+    },
+    {
+      "key": "ref37",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.4174/astr.2023.104.5.269"
+    },
+    {
+      "key": "ref38",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/B978-155860915-0/50038-X"
+    },
+    {
+      "key": "ref39",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/JBHI.2023.3316750"
+    },
+    {
+      "key": "ref40",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3233547.3233672"
+    },
+    {
+      "key": "ref41",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-642-21716-6_15"
+    },
+    {
+      "key": "ref42",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s11695-023-06603-5"
+    },
+    {
+      "key": "ref43",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.2196/38041"
+    },
+    {
+      "key": "ref44",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2012.213"
+    },
+    {
+      "key": "ref45",
+      "article-title": "Ehragent: Code empowers large language models for complex tabular reasoning on electronic health records",
+      "author": "Shi",
+      "year": "2024",
+      "journal-title": "arXiv preprint"
+    },
+    {
+      "key": "ref46",
+      "article-title": "Reflexion: Language agents with verbal reinforcement learning",
+      "volume": "36",
+      "author": "Shinn",
+      "year": "2024",
+      "journal-title": "Advances in Neural Information Processing Systems"
+    },
+    {
+      "key": "ref47",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/s41586-023-06291-2"
+    },
+    {
+      "key": "ref48",
+      "article-title": "Towards expert-level med-ical question answering with large language models",
+      "author": "Singhal",
+      "year": "2023",
+      "journal-title": "arXiv preprint"
+    },
+    {
+      "key": "ref49",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/jamia/ocad050"
+    },
+    {
+      "key": "ref50",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s10439-023-03284-0"
+    },
+    {
+      "key": "ref51",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.14778/3551793.3551841"
+    },
+    {
+      "issue": "6",
+      "key": "ref52",
+      "article-title": "The think aloud method: a practical approach to modelling cognitive",
+      "volume": "11",
+      "author": "Van Someren",
+      "year": "1994",
+      "journal-title": "London: AcademicPress"
+    },
+    {
+      "key": "ref53",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2017.2747545"
+    },
+    {
+      "key": "ref54",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2009.187"
+    },
+    {
+      "key": "ref55",
+      "article-title": "Can llms like gpt-4 outperform traditional ai tools in dementia diagnosis? maybe, but not today",
+      "author": "Wang",
+      "year": "2023",
+      "journal-title": "arXiv preprint"
+    },
+    {
+      "key": "ref56",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1037/0278-7393.19.5.1151"
+    },
+    {
+      "key": "ref57",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2018.2865076"
+    }
+  ],
+  "container-title": [
+    "IEEE Transactions on Visualization and Computer Graphics"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx8/2945/10766346/10689638.pdf?arnumber=10689638",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2024,
+        11,
+        27
+      ]
+    ],
+    "date-time": "2024-11-27T19:12:02Z",
+    "timestamp": 1732734722000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://ieeexplore.ieee.org/document/10689638/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2025,
+        1
+      ]
+    ]
+  },
+  "references-count": 57,
+  "journal-issue": {
+    "issue": "1"
+  },
+  "URL": "https://doi.org/10.1109/tvcg.2024.3456215",
+  "relation": {},
+  "ISSN": [
+    "1077-2626",
+    "1941-0506",
+    "2160-9306"
+  ],
+  "issn-type": [
+    {
+      "value": "1077-2626",
+      "type": "print"
+    },
+    {
+      "value": "1941-0506",
+      "type": "electronic"
+    },
+    {
+      "value": "2160-9306",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2025,
+        1
+      ]
+    ]
+  }
+}

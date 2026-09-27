@@ -1,0 +1,673 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        8,
+        27
+      ]
+    ],
+    "date-time": "2026-08-27T06:03:59Z",
+    "timestamp": 1787810639456,
+    "version": "build-2784847793"
+  },
+  "reference-count": 73,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "issue": "2",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2021-02-01T00:00:00Z",
+        "timestamp": 1612137600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2021-02-01T00:00:00Z",
+        "timestamp": 1612137600000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-029"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2021-02-01T00:00:00Z",
+        "timestamp": 1612137600000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-037"
+    }
+  ],
+  "funder": [
+    {
+      "name": "KAUST Office of Sponsored Research",
+      "award": [
+        "OSR-2015-CCF-2533-01"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "OSR-2015-CCF-2533-01"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Australian Research Council's Discovery Projects",
+      "award": [
+        "DP180100755"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "DP180100755"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Harvard Physical Sciences and Engineering Accelerator Award"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "IEEE Trans. Visual. Comput. Graphics"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2021,
+        2
+      ]
+    ]
+  },
+  "DOI": "10.1109/tvcg.2020.3030427",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2020,
+        10,
+        13
+      ]
+    ],
+    "date-time": "2020-10-13T19:37:00Z",
+    "timestamp": 1602617820000
+  },
+  "page": "1214-1224",
+  "source": "Crossref",
+  "is-referenced-by-count": 62,
+  "title": [
+    "Embodied Navigation in Immersive Abstract Data Visualization: Is Overview+Detail or Zooming Better for 3D Scatterplots?"
+  ],
+  "prefix": "10.1109",
+  "volume": "27",
+  "author": [
+    {
+      "given": "Yalong",
+      "family": "Yang",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Maxime",
+      "family": "Cordeil",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Johanna",
+      "family": "Beyer",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Tim",
+      "family": "Dwyer",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Kim",
+      "family": "Marriott",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Hanspeter",
+      "family": "Pfister",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "263",
+  "reference": [
+    {
+      "key": "ref73",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.13431"
+    },
+    {
+      "key": "ref72",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VISUAL.2019.8933545"
+    },
+    {
+      "key": "ref71",
+      "first-page": "11",
+      "article-title": "Overcoming world in miniature limitations by a scaled and scrolling wim",
+      "author": "wingrave",
+      "year": "2006",
+      "journal-title": "3D User Interfaces (3DUI&#x2018;06)"
+    },
+    {
+      "key": "ref70",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2019.2934208"
+    },
+    {
+      "key": "ref39",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.18637/jss.v069.i01"
+    },
+    {
+      "key": "ref38",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/5.726791"
+    },
+    {
+      "key": "ref33",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1006/ijhc.1996.0085"
+    },
+    {
+      "key": "ref32",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2019.2934395"
+    },
+    {
+      "key": "ref31",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VR.2001.913779"
+    },
+    {
+      "key": "ref30",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2018.2865191"
+    },
+    {
+      "key": "ref37",
+      "author": "laviola jr",
+      "year": "2017",
+      "journal-title": "3D User Interfaces Theory and Practice"
+    },
+    {
+      "key": "ref36",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2008.109"
+    },
+    {
+      "key": "ref35",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3389/fict.2018.00015"
+    },
+    {
+      "key": "ref34",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2016.2520921"
+    },
+    {
+      "key": "ref60",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VL.1996.545307"
+    },
+    {
+      "key": "ref62",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/AIVR46125.2019.00030"
+    },
+    {
+      "key": "ref61",
+      "article-title": "Take a walk: Evaluating movement types for data visualization in immersive virtual reality",
+      "author": "simpson",
+      "year": "2017",
+      "journal-title": "Workshop on Immersive Analytics IEEE Vis"
+    },
+    {
+      "key": "ref63",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/223904.223938"
+    },
+    {
+      "key": "ref28",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/288392.288572"
+    },
+    {
+      "key": "ref64",
+      "year": "2020",
+      "journal-title": "Embedding projector"
+    },
+    {
+      "key": "ref27",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3290605.3300377"
+    },
+    {
+      "key": "ref65",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-642-02115-2_13"
+    },
+    {
+      "key": "ref66",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/cgf.13430"
+    },
+    {
+      "key": "ref29",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/586081.586086"
+    },
+    {
+      "key": "ref67",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VR.2018.8447558"
+    },
+    {
+      "key": "ref68",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2019.2934415"
+    },
+    {
+      "key": "ref69",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/345513.345271"
+    },
+    {
+      "key": "ref2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2017.2745941"
+    },
+    {
+      "key": "ref1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3290605.3300752"
+    },
+    {
+      "key": "ref20",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-1-4471-3754-2_6"
+    },
+    {
+      "key": "ref22",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.7551/mitpress/7221.001.0001"
+    },
+    {
+      "key": "ref21",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3126594.3126613"
+    },
+    {
+      "key": "ref24",
+      "author": "field",
+      "year": "2012",
+      "journal-title": "Discovering Statistics Using R"
+    },
+    {
+      "key": "ref23",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.cola.2019.100937"
+    },
+    {
+      "key": "ref26",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1089/cpb.2006.9.157"
+    },
+    {
+      "key": "ref25",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/BDVA.2018.8533892"
+    },
+    {
+      "key": "ref50",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1556262.1556270"
+    },
+    {
+      "key": "ref51",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1165734.1165736"
+    },
+    {
+      "key": "ref59",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VR.2019.8798340"
+    },
+    {
+      "key": "ref58",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2017.2744184"
+    },
+    {
+      "key": "ref57",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1970378.1970384"
+    },
+    {
+      "key": "ref56",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1502800.1502805"
+    },
+    {
+      "key": "ref55",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1978942.1979156"
+    },
+    {
+      "key": "ref54",
+      "first-page": "61",
+      "article-title": "Exploring the benefits of immersion in abstract information visualization",
+      "author": "raja",
+      "year": "2004",
+      "journal-title": "Proc Immersive Projection Technology Workshop"
+    },
+    {
+      "key": "ref53",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2512349.2512811"
+    },
+    {
+      "key": "ref52",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3290605.3300555"
+    },
+    {
+      "key": "ref10",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.20380/GI2018.22"
+    },
+    {
+      "key": "ref11",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VRAIS.1997.583043"
+    },
+    {
+      "key": "ref40",
+      "first-page": "2579",
+      "article-title": "Visualizing Data using t-SNE",
+      "author": "maaten",
+      "year": "2008",
+      "journal-title": "Journal of Machine Learning Research"
+    },
+    {
+      "key": "ref12",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VRAIS.1997.583043"
+    },
+    {
+      "key": "ref13",
+      "author": "bowman",
+      "year": "2004",
+      "journal-title": "3D User Interfaces Theory and Practice"
+    },
+    {
+      "key": "ref14",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s00779-011-0500-3"
+    },
+    {
+      "key": "ref15",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1409240.1409257"
+    },
+    {
+      "key": "ref16",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1133265.1133310"
+    },
+    {
+      "key": "ref17",
+      "author": "card",
+      "year": "1999",
+      "journal-title": "Readings in Information Visualization Using Vision To Think"
+    },
+    {
+      "key": "ref18",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1162/105474698565659"
+    },
+    {
+      "key": "ref19",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1456650.1456652"
+    },
+    {
+      "key": "ref4",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1056808.1056875"
+    },
+    {
+      "key": "ref3",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1518/hfes.45.1.160.27234"
+    },
+    {
+      "key": "ref6",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1240624.1240656"
+    },
+    {
+      "key": "ref5",
+      "first-page": "9",
+      "article-title": "The effects of peripheral vision and physical navigation on large scale visualization",
+      "author": "ball",
+      "year": "0",
+      "journal-title": "Proceedings of Graphics Interface"
+    },
+    {
+      "key": "ref8",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.18637/jss.v067.i01"
+    },
+    {
+      "key": "ref7",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TVCG.2019.2934803"
+    },
+    {
+      "key": "ref49",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3290605.3300288"
+    },
+    {
+      "key": "ref9",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/503376.503423"
+    },
+    {
+      "key": "ref46",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/VR.2019.8797871"
+    },
+    {
+      "key": "ref45",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/258734.258747"
+    },
+    {
+      "key": "ref48",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3180658"
+    },
+    {
+      "key": "ref47",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1124772.1124775"
+    },
+    {
+      "key": "ref42",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3025453.3026046"
+    },
+    {
+      "key": "ref41",
+      "first-page": "173",
+      "article-title": "The perspective wall: Detail and context smoothly integrated",
+      "author": "mackinlay",
+      "year": "0",
+      "journal-title": "Proceedings of the SIGCHI conference on Human factors in computing systems"
+    },
+    {
+      "key": "ref44",
+      "article-title": "Virtual environment interaction techniques",
+      "author": "mine",
+      "year": "1995",
+      "journal-title": "Dept of CS at the UNC Chapel Hill"
+    },
+    {
+      "key": "ref43",
+      "author": "mine",
+      "year": "1995",
+      "journal-title": "Isaac A virtual environment tool for the interactive construction of virtual worlds Technical report USA"
+    }
+  ],
+  "container-title": [
+    "IEEE Transactions on Visualization and Computer Graphics"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx7/2945/9340023/09222098.pdf?arnumber=9222098",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2022,
+        5,
+        10
+      ]
+    ],
+    "date-time": "2022-05-10T14:51:42Z",
+    "timestamp": 1652194302000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://ieeexplore.ieee.org/document/9222098/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        2
+      ]
+    ]
+  },
+  "references-count": 73,
+  "journal-issue": {
+    "issue": "2"
+  },
+  "URL": "https://doi.org/10.1109/tvcg.2020.3030427",
+  "relation": {},
+  "ISSN": [
+    "1077-2626",
+    "1941-0506",
+    "2160-9306"
+  ],
+  "issn-type": [
+    {
+      "value": "1077-2626",
+      "type": "print"
+    },
+    {
+      "value": "1941-0506",
+      "type": "electronic"
+    },
+    {
+      "value": "2160-9306",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2021,
+        2
+      ]
+    ]
+  }
+}

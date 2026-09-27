@@ -1,0 +1,11 @@
+{
+  "equations_passed": 20,
+  "ledger_rows": 113,
+  "source_hashes": {
+    "unit_crosswalk.csv": "e6c110b6bc29447847d165e6a5d22d16b1fe826e8e4efb55eb3f5aa03e2f336d",
+    "reconciliation_report.md": "ad4a607b07e3c6a6f9772a269d1cc22f93204d2ad8d19729a651a9a605d930c1",
+    "flow_count_ledger.csv": "294ea3dfbaac9b47f7f1f663a8f498ed028bf42594ebab0fd3e95e3a1dc96393",
+    "flow_connections.csv": "ee1cb850671121a13d0e72cc69c1f56a2e79f1c360f7a0192e9650e3f2c70805",
+    "proposed_diagram_structure.md": "1f86977cf0cf7de09e0c36595abec0d483be048a051466a665384157819e349a"
+  }
+}
