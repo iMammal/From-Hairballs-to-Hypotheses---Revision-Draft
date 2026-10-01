@@ -31,7 +31,17 @@ and evidence-management workflows is available at
 The versioned reproducibility supplement, containing research
 data, evidence tables, and scripts for regenerating the reported
 tables and figures, is archived on Zenodo at
-\url{https://doi.org/10.5281/zenodo.23071717}.
+\url{https://doi.org/10.5281/zenodo.23084434}.
+
+The archived supplement includes provider-specific query
+specifications in \texttt{queries/}, retrieval and prior-survey
+import provenance in \texttt{identification/}, and screening
+and coding prompts, protocols, and execution settings in
+\texttt{prompts/}, \texttt{protocols/}, and \texttt{screening/}.
+The artifact inventory documents included files and inputs
+retained outside the public supplement. Raw provider responses,
+the complete registered corpus, and copyrighted full reports
+are not redistributed.
 
 \subsection{Occurrence Preservation and Deduplication}
 \label{sec:methodology-deduplication}
@@ -47,7 +57,7 @@ The primary pilot was followed by bounded evidence recovery: 18 abstracts were r
 
 The screening campaigns used the OpenAI Responses API with the recorded model identifier \texttt{gpt-5.6-luna}, medium reasoning, default service tier, and no inference-time browsing or tools. Structured responses were checked against supplied evidence identifiers, and outcomes/routes were recomputed locally. Original responses, retries, failures, and prompt/protocol versions were retained. Evidence-format and queue-handoff repairs changed validation or execution mechanics without converting failed requests into judgments. Technical validity does not establish screening accuracy.
 
-Figure~\ref{fig:study-selection-flow} reconciles the effective, supersession-aware screening states. Of 140,959 deduplicated bibliographic records, 140,810 have valid machine-assisted outcomes: 9,505 Advance, 83,258 Defer, and 48,047 Excluded. The remainder comprises 110 protected pilot/calibration records, 35 technical failures, and four ambiguous requests that were not resubmitted; no other records remain unprocessed. Background designations (10,460) are a subset of exclusions. All 9,505 advanced records received descriptive coding. These are versioned model-assisted dispositions, not independently adjudicated final inclusions.
+Figure~\ref{fig:study-selection-flow} reconciles the effective, supersession-aware screening states. Of 140,959 deduplicated bibliographic records, 140,810 have valid machine-assisted outcomes: 9,505 Advance, 83,258 Defer, and 48,047 Excluded. The remainder comprises 110 protected pilot/calibration records, 35 technical failures, and four ambiguous requests that were not resubmitted; no other records remain unprocessed. Of the 48,047 excluded records, 10,460 were also flagged as background literature: potentially useful for context or discovery, but not advanced as primary system reports. All 9,505 advanced records received descriptive coding. These are versioned model-assisted dispositions, not independently adjudicated final inclusions.
 
 \begin{figure*}[t]
 \centering
@@ -56,11 +66,11 @@ Figure~\ref{fig:study-selection-flow} reconciles the effective, supersession-awa
 \label{fig:study-selection-flow}
 \end{figure*}
 
-Twelve anchor systems were selected for six comparisons based on contrasting assistance mechanisms and the availability of supporting evidence. Examination of the papers in full informed these comparisons, while broader category assignments remained provisional. The anchors were purposefully selected to support comparative synthesis rather than to estimate prevalence.
+Twelve anchor systems were selected for six comparisons based on contrasting assistance mechanisms and the availability of supporting evidence. Examination of the papers in full informed these comparisons, while broader category assignments remained provisional. Anchors were purposefully selected to support comparative synthesis rather than to estimate prevalence.
 
 \subsection{Multilabel Coding and Synthesis}
 \label{sec:methodology-synthesis}
-The tasks, assistance modes, and modalities are defined once in Section~\ref{sec:foundations}. Labels are independently Present, Absent, or Uncertain and may co-occur. Broad claims of intelligence or exploration do not establish every label; missing modality information does not imply a desktop environment. Locus of analytic agency is interpretive, not an additional eligibility score or category axis.
+The tasks, assistance modes, and modalities are defined in Section~\ref{sec:foundations}. Labels are independently Present, Absent, or Uncertain and may co-occur. Broad claims of intelligence or exploration do not establish every label; missing modality information does not imply a desktop environment. Locus of analytic agency is interpretive, not an additional eligibility score or category axis.
 
 The machine-coding campaign assigned the frozen categories to all 9,505 candidate records using their supplied title/abstract evidence. Those assignments organize discovery and synthesis; they are not population estimates or category frequencies verified by examining the papers in full. Detailed comparisons use passages from the selected papers about inputs, mechanisms, actions, human intervention, and evaluation. Paper-level label combinations do not imply that every mechanism supports every task or modality. Related versions are linked, and implemented capabilities, measured outcomes, and proposed extensions are distinguished.
 
