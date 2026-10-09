@@ -1,0 +1,79 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=25mm]{geometry}
+\usepackage{booktabs,hyperref}
+\title{Methods Supplement: Identity, Classification, and Selection Provenance}
+\author{From Hairballs to Hypotheses}
+\date{Working supplement, 9 October 2026}
+\begin{document}
+\maketitle
+\noindent This note accompanies the shortened manuscript. It preserves classification and identity detail and incorporates the repository selection audit supplied on 9 October 2026. It has not yet been incorporated into a new Zenodo deposit.
+
+\section{Deduplication and Related Reports}
+Deduplication consolidated 187,446 source occurrences into 140,959 bibliographic records. A \emph{source occurrence} is an entry returned by a provider or imported from another source; several occurrences may refer to the same publication. A \emph{canonical record} is the representative bibliographic entry retained after applying the identity rules.
+
+Matching used normalized DOI keys where available and exact normalized-title keys otherwise. Records with and without DOIs were kept separate when title agreement alone did not establish their identity. arXiv identity adjudications were incorporated into the final total. Source occurrences and identity decisions were retained so that canonical records could be traced to their acquisition routes.
+
+Fifty related-version links connect publications such as preprints and published articles. These links preserve relationships between reports that remain separate bibliographic records. Grouping reports about the same software system occurs during full-text assessment, as described in the main paper.
+
+
+\section{Provisional Candidate Classification}
+The task groups, assistance modes, and visualization modalities are defined in Section 3 of the main paper. Each label was assigned a Present, Absent, or Uncertain state, and multiple labels could coexist. Classification used evidence for the specific category: for example, unspecified display information yielded uncertainty about modality. The same category definitions were applied to all 9,505 advanced records using their supplied titles and abstracts.
+
+These provisional classifications organized the candidate pool and guided selection for full-text assessment. Table~\ref{tab:candidate-census} summarizes assistance--modality co-occurrences among candidate records. A record contributes to a cell when both labels are Present; cells overlap. In the export, Present and Uncertain labels are listed explicitly, with omission denoting Absent under the classification contract. Desktop/Planar, for example, was Present in 2,912 records and Uncertain in 4,072.
+
+The table describes labels supported by bibliographic metadata. Establishing that a particular assistance mechanism operates within a particular display environment requires assessment of the system description, which underlies Figure 3 of the main paper.
+
+\begin{table}[t]
+\centering\small
+\caption{Machine-coded candidate co-occurrences among 9,505 records. Both labels must be PRESENT; cells overlap and are not additive. These are discovery counts, not verified mechanism placements. D: Desktop/Planar; L: Large Display; A: AR/MR.}
+\label{tab:candidate-census}
+\begin{tabular}{lrrrrr}\toprule
+Assistance & D & L & VR & A & CAVE\\\midrule
+Algorithmic & 2,837 & 37 & 511 & 399 & 11\\
+Adaptive & 806 & 12 & 185 & 190 & 2\\
+Conversational & 86 & 1 & 15 & 22 & 0\\
+Immersive & 112 & 20 & 428 & 346 & 8\\\bottomrule
+\end{tabular}
+\end{table}
+
+
+\section{Purpose-Specific Selection Rules}
+The 384 selected report identities represent six sets and 381 systems, not 384 completed assessments or one uniform sample. Of the report identities, 376 link exactly to the terminal 9,505-record pool. Three additional systems entered through coauthor-supplied reports and five through bounded early map expansion. A distinct prior-survey-only full-report selection route is not established by the cumulative crosswalk.
+
+\subsection{Initial 20 entries}
+Purposive anchors informed by earlier model outputs and discussion were combined with assessed coauthor reports to establish the mechanism map. The candidate export resolved identities of already chosen examples, rather than ranking them. No named selector, formal ordering, numerical cutoff rationale, or tie-breaking rule is recorded.
+
+\subsection{Bounded 18 entries}
+A frozen queue excluded previously represented systems and prioritized reusable lawful local reports, machine-coded candidates for empty cells, sparse Large Display/AR/MR/CAVE cases with explicit mechanism leads, and bounded contrast cases. Per-entry rationales and queue order are retained. The selector identity, within-priority tie rules, and reason for stopping at 18 are unknown.
+
+\subsection{Expanded 50 entries}
+Software ranked candidates after excluding prior identities. Scores reflected rare modalities, non-desktop Adaptive/Conversational labels, mechanism/evaluation terms, contrast terms, and access indicators; ordering used descending score then lowercase title. The final 50 were a separately specified list with per-entry rationales, not the ranked top 50. Software validated and materialized that list within a maximum of 60. Its curator identity and rules for choosing among similarly suitable records are not recorded.
+
+\subsection{Deterministic 200 entries}
+Software validated the 9,505-record input and excluded previously considered canonical IDs, exact titles and DOIs, and subsequent exact DOI/title duplicates. Scores combined sparse-cell coverage, workflow, life-science, interaction, computation, evaluation/mechanism terms, abstracts, likely open access, assistance/modality bonuses, and contrast indicators. The implemented ordering was high-precision signal, rationale class, likely-open-access status, descending score, then canonical identifier. The first 200 were frozen: 1--140 were primary and 141--200 ordered reserves. Retrieval continued through queue exhaustion; the maximum of 140 concerned completed new assessments rather than selected report identities. The audit JSON's textual sort description omits the high-precision and open-access strata; executable code is authoritative for the implemented order.
+
+\subsection{Sparse-cell 24 entries}
+An upstream 25-entry shortlist from an 8,832-record partial export allowed up to three candidates per sparse cell, favored abstracts and DOIs, and excluded prior exact IDs/titles. Software rebound the entries to the terminal 9,505 export and checked canonical IDs, DOI, normalized title, and related versions. Removing AREA 2013 as a related report of previously considered AREA 2012 yielded 24 entries in preserved priority order, within a maximum of 30. Software performed reconciliation; the original selector and within-cell tie rules remain unknown. An instruction to a repository Codex task does not establish authorship of the upstream nominations.
+
+\subsection{Complete target-cell pass: 72 new entries}
+Software enumerated every exact Present-labelled record in Immersive $\times$ Desktop/Planar (112 memberships), Immersive $\times$ Large Display (20), and Adaptive $\times$ Large Display (12). The 144 memberships represented 131 records, including 58 prior exact identities. All entered processing; priority band, descending metadata score, and canonical identifier determined access order only. Identity reconciliation reduced them to 129 groups. Excluding already represented systems and related reports yielded 72 new systems in the cumulative selected set. Who authorized the three cells is not recorded.
+
+\section{Access and System-Level Reconciliation}
+\begin{center}\small
+\begin{tabular}{rrrrrrr}\toprule
+Set & Reports & Systems & Full text & Abstract & Unavailable & Assessed\\\midrule
+20&20&20&20&0&0&20\\
+18&18&18&15&0&3&15\\
+50&50&50&25&0&25&25\\
+200&200&197&60&1&139&57\\
+24&24&24&1&0&23&1\\
+72&72&72&14&0&58&14\\\midrule
+Total&384&381&135&1&248&132\\\bottomrule
+\end{tabular}\end{center}
+Two related-report pairs and an iCAVE preprint linked to an already represented system account for the report--system difference. The 132 completed assessments comprise 80 eligible, 19 unresolved, and 33 excluded/contextual systems. Unavailable reports remain access outcomes rather than scientific exclusions.
+
+\section{Trace and Authority Limits}
+The report--system crosswalk at \path{evidence/selection-flow/unit_crosswalk.csv} records assessment set, queue identifier, route, canonical linkage, report identity and version, access, system outcome, and placement qualifications. Wave-specific scripts, frozen queues, source bindings, retrieval manifests, and assessment ledgers provide supporting trace; dedicated execution logs were not found for the static queues.
+
+Automated assessment provenance, nomination authority, author confirmation, and independent validation are distinct. The lead author has reported reviewing and confirming the Figure 3 placements in the current manuscript. That confirmation is retained; it does not supply missing selector identities, dated row-level approval records, independent double coding, or pool-wide screening validation. Who approved the static nominations and numerical limits, and the abbreviated 200-entry audit description, still requires confirmation. The crosswalk does not provide a reason for every other candidate's non-selection.
+\end{document}

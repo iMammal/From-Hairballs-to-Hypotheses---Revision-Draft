@@ -1,24 +1,25 @@
 \section{Review Methodology}
 \label{sec:methodology}
-The review proceeded from broad bibliographic searches to title-and-abstract screening, provisional classification of candidate records, and full-text assessment of selected systems. The candidate classifications guided discovery and selection; assessment of research reports established the basis for system-level framework placements and detailed comparisons. We distinguish three outputs: candidate bibliographic records, assessed software systems, and twelve systems selected for six detailed comparisons. Figure~\ref{fig:study-selection-flow} summarizes the workflow and its counts.
+The review combined broad bibliographic search, automated title-and-abstract screening and provisional classification, and full-text assessment of selected systems. Candidate labels guided discovery; report evidence supported system placements and six detailed comparisons involving twelve systems. Figure~\ref{fig:study-selection-flow} distinguishes records, reports, systems, and placements.
 
 \subsection{Review Scope and Eligibility}
 \label{sec:methodology-scope}
-The review concerns computationally assisted visual analysis of relational and multiscale data in the life sciences. The screening unit is a \emph{bibliographic record}: a publication entry containing a title, an available abstract, identifiers, and other metadata. A \emph{research report} is the publication examined during full-text assessment; a \emph{system} is the software approach described in that report. Several reports may describe the same system. For eligibility, at least one identified system within a report must satisfy all five scientific criteria:
+The scope is computationally assisted visual analysis of relational and multiscale life-science data. Screening used \emph{bibliographic records} containing titles, available abstracts, and metadata. Full-text assessment used \emph{research reports} to assess the \emph{systems} they describe; several reports can concern one system. At least one system in a report must satisfy all five criteria:
 
 \begin{description}
-\item[E1: Life-science application.] The system supports analysis, understanding, monitoring, decision-making, discovery, or scientific practice in a life-science or closely related domain. Training, teleoperation, or presentation alone does not establish analytical use.
-\item[E2: Relational or multiscale relevance.] Analysis concerns explicit networks or relationships derived from spatial, temporal, multivariate, image, lineage, similarity, or other multiscale data. A node--link diagram is not required; a network term or image alone is insufficient.
-\item[E3: Visual-analytics component.] A human uses an interactive or analytically meaningful visual representation to inspect, validate, steer, compare, or interpret data or computational results. Illustration or communication alone is insufficient.
-\item[E4: Substantive computational assistance.] A mechanism contributes nontrivially within that analytical workflow, for example through clustering, layout, aggregation, annotation, ranking, prediction, or interpreted analytic operations. Ordinary rendering, pan/zoom, direct parameter entry, or database lookup alone does not qualify.
-\item[E5: Human analytic relationship.] People meaningfully inspect, direct, validate, interpret, supervise, correct, or make decisions from the assisted process. Manual control of every operation is not required.
+\item[E1: Life-science application.] Supports analysis, understanding, monitoring, decisions, discovery, or scientific practice in a life-science or closely related domain; training, teleoperation, or presentation alone is insufficient.
+\item[E2: Relational or multiscale relevance.] Concerns explicit networks or relationships derived from spatial, temporal, multivariate, image, lineage, similarity, or multiscale data; a network diagram is not required.
+\item[E3: Visual-analytics component.] A human uses an interactive or analytically meaningful visual representation to inspect, validate, steer, compare, or interpret data or results; illustration alone is insufficient.
+\item[E4: Substantive computational assistance.] A mechanism contributes nontrivially to that workflow, such as clustering, layout, aggregation, annotation, ranking, prediction, or interpreted operations; rendering, pan/zoom, direct parameter entry, or lookup alone does not qualify.
+\item[E5: Human analytic relationship.] People inspect, direct, validate, interpret, supervise, correct, or decide from the assisted process; manual control of every operation is not required.
+
 \end{description}
 
 Surveys and general interaction studies provide background and additional discovery routes. Eligibility assessment focuses on reports describing systems and their analytical workflows. Each criterion is assessed using evidence about the same system.
 
 \subsection{Sources and Search Strategy}
 \label{sec:methodology-search}
-Searches combined PubMed, Europe PMC, Semantic Scholar, IEEE Xplore, ACM Digital Library, a local arXiv snapshot, and prior-survey materials. Five overlapping query families addressed relational visualization, assisted visual analysis, interactive systems, nondesktop environments, and conversational analysis. Each combined life-science expressions with relevant system, relationship, assistance, or environment terminology. Queries included assistance-neutral terms to identify computational contributions described without an AI label. Provider-specific syntax and searched fields are documented in the supplementary query specifications.
+Sources were PubMed, Europe PMC, Semantic Scholar, IEEE Xplore, ACM Digital Library, a local arXiv snapshot, and prior-survey materials. Five overlapping query families covered relational visualization, assisted analysis, interactive systems, nondesktop environments, and conversational analysis. Each combined life-science terms with system, relationship, assistance, or environment terms, including assistance-neutral expressions to retrieve methods without an AI label. Provider syntax and searched fields are documented in the query specifications.
 
 The documented retrieval cutoff was 20 September 2026, with no restriction on the earliest publication date. arXiv identification used a local snapshot containing 3,164,528 records and yielded 958 distinct matches across the query families. Observed snapshot metadata updates extended through 11 September 2026. The snapshot's coverage is considered separately from the cutoff used for the other retrieval routes.
 
@@ -26,17 +27,11 @@ Additional records came from Ehlers-associated working materials, Joos-associate
 
 \subsection{Deduplication and Source Provenance}
 \label{sec:methodology-deduplication}
-Deduplication consolidated 187,446 source occurrences into 140,959 bibliographic records. A \emph{source occurrence} is an entry returned by a provider or imported from another source; several occurrences may refer to the same publication. A \emph{canonical record} is the representative bibliographic entry retained after applying the identity rules.
-
-Matching used normalized DOI keys where available and exact normalized-title keys otherwise. Records with and without DOIs were kept separate when title agreement alone did not establish their identity. arXiv identity adjudications were incorporated into the final total. Source occurrences and identity decisions were retained so that canonical records could be traced to their acquisition routes.
-
-Fifty related-version links connect publications such as preprints and published articles. These links preserve relationships between reports that remain separate bibliographic records. Grouping reports about the same software system occurs during full-text assessment, as described in Section~\ref{sec:methodology-assessment}.
+Deduplication consolidated 187,446 source occurrences into 140,959 bibliographic records using normalized DOI keys, or exact normalized titles when DOIs were absent. Records with and without DOIs remained separate when title agreement was insufficient. Source occurrences and identity decisions were retained, including 50 links between related publication versions. Reports describing the same system were grouped during full-text assessment. The accompanying methods supplement details the identity rules.
 
 \subsection{Title-and-Abstract Screening}
 \label{sec:methodology-screening}
-Automated screening assessed E1--E5 using the supplied title, available abstract, and evidence identifiers. The screening campaigns used the OpenAI Responses API with the recorded model identifier \texttt{gpt-5.6-luna}, medium reasoning, default service tier, and no inference-time browsing or tools. Structured responses were checked against the supplied evidence identifiers, and screening outcomes were recomputed locally from the criterion judgments.
-
-Records received one of three outcomes. \emph{Advance} required explicit evidence supporting all five scientific criteria. \emph{Excluded} required evidence that at least one criterion was not satisfied. \emph{Defer} identified records whose descriptions were insufficient to establish either advancement or exclusion. Deferral therefore identifies an evidence gap for follow-up. Surveys were retained as background or discovery material; infrastructure reports were assessed according to the analytical workflow described.
+Automated screening assessed E1--E5 from titles, available abstracts, and evidence identifiers using the OpenAI Responses API (\texttt{gpt-5.6-luna}, medium reasoning, default service tier, no inference-time browsing or tools). Responses were checked against supplied identifiers and outcomes recomputed locally. \emph{Advance} required support for all five criteria; \emph{Excluded} required evidence against at least one; \emph{Defer} marked insufficient evidence for either decision. Surveys remained background/discovery material, and infrastructure reports were assessed by their described analytical workflow.
 
 Of the 140,959 deduplicated records, 140,810 received valid machine-assisted screening outcomes: 9,505 Advance, 83,258 Defer, and 48,047 Excluded. The remaining 149 records comprise 110 reserved pilot/calibration records, 35 technical failures, and four ambiguous requests that were not resubmitted. Among the excluded records, 10,460 also carried a background-literature flag indicating potential value for context or discovery. This flag is a designation within the excluded set. All 9,505 advanced records proceeded to candidate classification.
 
@@ -49,30 +44,13 @@ Of the 140,959 deduplicated records, 140,810 received valid machine-assisted scr
 
 \subsection{Candidate Classification}
 \label{sec:methodology-synthesis}
-The task groups, assistance modes, and visualization modalities are defined in Section~\ref{sec:foundations}. Each label was assigned a Present, Absent, or Uncertain state, and multiple labels could coexist. Classification used evidence for the specific category: for example, unspecified display information yielded uncertainty about modality. The same category definitions were applied to all 9,505 advanced records using their supplied titles and abstracts.
-
-These provisional classifications organized the candidate pool and guided selection for full-text assessment. Table~\ref{tab:candidate-census} summarizes assistance--modality co-occurrences among candidate records. A record contributes to a cell when both labels are Present; cells overlap. In the export, Present and Uncertain labels are listed explicitly, with omission denoting Absent under the classification contract. Desktop/Planar, for example, was Present in 2,912 records and Uncertain in 4,072.
-
-The table describes labels supported by bibliographic metadata. Establishing that a particular assistance mechanism operates within a particular display environment requires assessment of the system description, which underlies Figure~\ref{fig:assistance-modality-map}.
-
-\begin{table}[t]
-\centering\small
-\caption{Machine-coded candidate co-occurrences among 9,505 records. Both labels must be PRESENT; cells overlap and are not additive. These are discovery counts, not verified mechanism placements. D: Desktop/Planar; L: Large Display; A: AR/MR.}
-\label{tab:candidate-census}
-\begin{tabular}{lrrrrr}\toprule
-Assistance & D & L & VR & A & CAVE\\\midrule
-Algorithmic & 2,837 & 37 & 511 & 399 & 11\\
-Adaptive & 806 & 12 & 185 & 190 & 2\\
-Conversational & 86 & 1 & 15 & 22 & 0\\
-Immersive & 112 & 20 & 428 & 346 & 8\\\bottomrule
-\end{tabular}
-\end{table}
+All 9,505 advanced records were provisionally classified from titles and available abstracts using the task, assistance, and modality definitions in Section~\ref{sec:foundations}. Labels could coexist and were recorded as Present, Absent, or Uncertain. These labels guided discovery and selection; supported system-level placements required report evidence for the actual mechanism--environment relationship. The accompanying methods supplement provides the classification contract and candidate co-occurrence table.
 
 \subsection{Full-Text Assessment and Detailed Comparisons}
 \label{sec:methodology-assessment}
-Systems were selected to examine different computational assistance mechanisms and improve coverage of sparsely represented framework combinations. Assessment used accessible English-language research reports to check eligibility, identify implemented mechanisms, establish supported task and modality labels, and examine evaluation methods and findings. Source passages documented inputs, computational operations, interaction, human intervention, and evaluation. Implemented capabilities, measured outcomes, and proposed extensions were recorded separately. Analysis of the locus of analytic agency examined how scientists and computation initiate, direct, interpret, and correct analytical actions.
+Systems were selected to compare assistance mechanisms and improve coverage of sparse framework combinations. Six purpose-specific sets contained 20, 18, 50, 200, 24, and 72 report identities. Initial anchors and coauthor reports established comparison cases; bounded queues then prioritized coverage, mechanism and evaluation evidence, and contrasting cases. Software ranked the preliminary shortlist for the 50-entry set, but its final nominations were a separately specified list. The 200-entry queue was selected deterministically by high-precision workflow signal, coverage-rationale class, likely open access, metadata score, and canonical identifier. Software reconciled 25 provisional sparse-cell nominations to 24 entries. The final pass enumerated every exact Present-labelled candidate in three specified cells; scores determined access order, not inclusion. Selector identities and some within-priority rules for the static shortlists are not recorded. The accompanying methods supplement gives the rules, limits, and provenance distinctions for each set.
 
-Selection combined nominated comparison systems with bounded queues directed at assistance--modality coverage, additional comparison and evaluation evidence, and negative or contrasting cases. The retained selection ledger records six assessment sets containing 20, 18, 50, 200, 24, and 72 publication entries. Only the final targeted pass covered every exact Present-labelled candidate in the three specified combinations discussed below; the wider candidate pool was not subjected to an exhaustive full-text selection rule. The report--system crosswalk in \texttt{evidence/selection-flow/unit\_crosswalk.csv} records each selected entry's assessment set, queue identifier, selection route, canonical-record linkage, report version and access status, system identity, outcome, and placement qualifications. Coauthor nominations and AI-assisted evidence organization are distinguished from the lead author's confirmation of the final reported placements.
+Assessment used accessible English-language reports to check eligibility, implemented mechanisms, task and modality labels, and evaluation methods and findings. Source passages documented inputs, operations, human intervention, and opportunities to inspect or revise results. Implemented capabilities, measured outcomes, and proposed extensions were recorded separately. The report--system crosswalk traces selection routes, identities, report versions, access, and outcomes.
 
 The selected set comprised 384 publication entries representing 381 systems. Of these, 376 publication entries and 373 systems have exact links to the candidate pool; eight systems were identified through coauthor suggestions or additional searches for framework coverage. Full text was accessible for 135 publication entries, one entry supplied only an abstract, and 248 entries lacked accessible full text. Three accessible entries described related publications about systems already represented, yielding 132 completed system assessments and 249 systems without completed assessments.
 
