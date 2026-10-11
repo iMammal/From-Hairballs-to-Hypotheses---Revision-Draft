@@ -1,9 +1,10 @@
 \documentclass[11pt]{article}
 \usepackage[a4paper,margin=25mm]{geometry}
 \usepackage{booktabs,hyperref}
+\emergencystretch=2em
 \title{Methods Supplement: Identity, Classification, and Selection Provenance}
 \author{From Hairballs to Hypotheses}
-\date{Working supplement, 9 October 2026}
+\date{Working supplement, 11 October 2026}
 \begin{document}
 \maketitle
 \noindent This note accompanies the shortened manuscript. It preserves classification and identity detail and incorporates the repository selection audit supplied on 9 October 2026. It has not yet been incorporated into a new Zenodo deposit.
@@ -70,7 +71,9 @@ Set & Reports & Systems & Full text & Abstract & Unavailable & Assessed\\\midrul
 72&72&72&14&0&58&14\\\midrule
 Total&384&381&135&1&248&132\\\bottomrule
 \end{tabular}\end{center}
-Two related-report pairs and an iCAVE preprint linked to an already represented system account for the report--system difference. The 132 completed assessments comprise 80 eligible, 19 unresolved, and 33 excluded/contextual systems. Unavailable reports remain access outcomes rather than scientific exclusions.
+Two related-report pairs and an iCAVE preprint linked to an already represented system account for the report--system difference. At the September cutoff, the 132 completed assessments comprise 80 eligible, 19 unresolved, and 33 excluded/contextual systems. Unavailable reports remain access outcomes rather than scientific exclusions.
+
+An October access follow-up supplied three previously unavailable reports within the same selected set: VIPER (Algorithmic $\times$ Desktop/Planar), NAVRNA (Immersive $\times$ Large Display, supported by tangible constrained deformation), and Cosmic View (Algorithmic $\times$ Large Display, using a planetarium dome).~\cite{NewVIPER1998,NewNAVRNA2006,NewCosmic2025} These author-confirmed assessments bring the totals to 138 accessible report entries, 245 unavailable entries, one abstract-only entry, and 135 completed system assessments (83 eligible, 19 unresolved, and 33 excluded/contextual). Three additional placements bring Figure 3 to 79 represented systems and 122 placements. The six original selection sets and their membership were not rerun or expanded. The September table above remains the original dated reconciliation.
 
 \section{Trace and Authority Limits}
 The report--system crosswalk at \path{evidence/selection-flow/unit_crosswalk.csv} records assessment set, queue identifier, route, canonical linkage, report identity and version, access, system outcome, and placement qualifications. Wave-specific scripts, frozen queues, source bindings, retrieval manifests, and assessment ledgers provide supporting trace; dedicated execution logs were not found for the static queues.
@@ -78,4 +81,15 @@ The report--system crosswalk at \path{evidence/selection-flow/unit_crosswalk.csv
 Contemporaneous session evidence identifies the requesting user's direction of priorities, bounds, and target cells and distinguishes Codex nominations from deterministic software operations. Morris Chukhman retrospectively confirmed these roles on 9 October 2026. The repository record at \path{docs/full_report_selection_authority.md}, linked from \path{docs/reproducibility.md}, separates this retrospective confirmation from contemporaneous evidence and preserves unresolved shortlist origins.
 
 Nomination authority, automated assessment, later author review, and independent validation are distinct. No separate author approval of the exact constructed queues before assessment is documented. The lead author has reported reviewing and confirming the Figure 3 placements; this later review supplies neither dated row-level approval records nor independent double coding or pool-wide screening validation. The crosswalk does not provide a reason for every other candidate's non-selection.
+
+\section{Bounded Language-Evidence Follow-up}
+The initial system assessment used accessible English-language reports. Language was not a provider-query or title-and-abstract screening gate. A subsequent audit distinguished provider-reported language, title/abstract language signals, and full-report language; an English abstract was not treated as proof of an English report. The 9,505-record candidate export contains no language column.
+
+A 147-report lead set was ranked for bounded author review. Seven active Tier A reports were assessed; Trellet's French thesis remains separately pending passage verification by Amira Kefi. Marchian\`o's thesis, Chemoface, and Campoalegre's thesis have English bodies despite their bibliographic language signals; Le Baher's thesis, REDPath, AIMA, and Wang's VisConnectome report have French, German, Spanish, and Chinese bodies, respectively. Six reports received provisional eligibility recommendations, including a qualified infrastructure-boundary case; VisConnectome's substantive computational-assistance criterion remains unresolved. These are assistant recommendations pending author adjudication, not seven approved systems or additions to the manuscript's counts. Companion/version relationships and consequential translated passages require verification. This purposive follow-up does not estimate screening reliability or establish exhaustive non-English coverage.
+
+\section{Task-Symbol Interpretation}
+Task letters identify navigation (N), selection/filtering (F), comparison (C), sensemaking (S), and coordination/collaborative reasoning (R). Coding follows descriptions of the implemented analytical workflow, not a demonstrated benefit or an interface affordance alone. Coordination can involve task assignment, handoff, or collective interpretation; it need not imply synchronous multiuser operation. Mechanism--environment placement evidence and task support are distinct. Retained placement rows include analytical-task descriptions, source locators, and qualifications. Repeated task letters do not establish equivalent support, performance, or evaluation across systems.
+
+\bibliographystyle{plain}
+\bibliography{../references}
 \end{document}
