@@ -1,10 +1,10 @@
 \documentclass[11pt]{article}
 \usepackage[a4paper,margin=25mm]{geometry}
-\usepackage{booktabs,hyperref}
+\usepackage{booktabs,hyperref,longtable,pdflscape,array}
 \emergencystretch=2em
 \title{Methods Supplement: Identity, Classification, and Selection Provenance}
 \author{From Hairballs to Hypotheses}
-\date{Working supplement, 11 October 2026}
+\date{13 October 2026}
 \begin{document}
 \maketitle
 \noindent This note accompanies the shortened manuscript. It preserves classification and identity detail and incorporates the repository selection audit supplied on 9 October 2026. It has not yet been incorporated into a new Zenodo deposit.
@@ -90,6 +90,14 @@ A 147-report lead set was ranked for bounded author review. Seven active Tier A 
 \section{Task-Symbol Interpretation}
 Task letters identify navigation (N), selection/filtering (F), comparison (C), sensemaking (S), and coordination/collaborative reasoning (R). Coding follows descriptions of the implemented analytical workflow, not a demonstrated benefit or an interface affordance alone. Coordination can involve task assignment, handoff, or collective interpretation; it need not imply synchronous multiuser operation. Mechanism--environment placement evidence and task support are distinct. Retained placement rows include analytical-task descriptions, source locators, and qualifications. Repeated task letters do not establish equivalent support, performance, or evaluation across systems.
 
+\clearpage
+\section{Per-System Evidence for the Supported Map}
+Table~\ref{tab:supp-system-evidence} consolidates the 79 mapped systems and 122 supported assistance--modality pairings in Figure 3. It includes the October access follow-up and Vitessce Link's measurement-based Immersive $\times$ AR/MR amendment. Pairings and their task letters remain separate within each system; they do not imply support for other combinations. The four eligible systems without supported placements are outside this mapped-system table.
+
+Entries summarize retained report evidence and assessment notes, not new independent validation. Generic scientist-role descriptions do not establish specific inspect/change/undo controls. Unless stated, report limitations have not been separately extracted; placement qualifications are assessment boundaries rather than necessarily author-reported limitations. Missing or ambiguous evaluation information is distinguished from an explicitly unreported evaluation. Seven reports use retained titles or identifiers because their bibliography keys remain unresolved. Row identifiers refer to the companion per-system CSV's evidence locators.
+
+\input{../PER_SYSTEM_TABLE}
+
 \bibliographystyle{plain}
-\bibliography{../references}
+\bibliography{references,PER_SYSTEM_CITATIONS}
 \end{document}

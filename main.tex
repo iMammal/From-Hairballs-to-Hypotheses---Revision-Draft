@@ -1,6 +1,14 @@
 \documentclass{egpubl}
 \usepackage{eurovis2026}
 \STAREurovis
+% Submission header: journal identifier only; no assigned publication details.
+\makeatletter
+\g@addto@macro\ps@titlepage{%
+  \def\@oddhead{\small\hfill\@journal}%
+  \let\@evenhead\@oddhead
+}
+\makeatother
+\pdfSubject{Computer Graphics Forum}
 \CGFccbyncnd
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}

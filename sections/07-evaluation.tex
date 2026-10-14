@@ -24,7 +24,7 @@ Assessment of metastasis detection for the Augmented Reality Microscope exposes 
 \label{sec:evaluation-fidelity}
 Filtering, aggregation, layout, and embedding change which relationships are available for inspection. Fidelity concerns preservation of the properties needed for the task, rather than a universal preference for maximum detail. Holten's edge bundling reduces clutter while creating ambiguity in following individual edges.~\cite{EvalHolten2006} CMGV's distinction between underlying and visible graphs supports complexity-management operations; integrity and performance tests assess those operations rather than scientists' understanding.~\cite{EvalZafar2026}
 
-Computational and interpretive fidelity require separate evidence. An aggregate may correctly represent a population mean while concealing a small subgroup important to the question. Evaluation can test preservation of relevant structure and whether analysts recognize when omitted detail matters. Biological uncertainty, representational distortion, and uncertainty about intent also need separation. A well-registered spatial highlight may still identify the wrong object; a correct selection may still feed an inappropriate transformation. Combining all three errors into one accuracy measure obscures the correction required.
+Computational and interpretive fidelity require separate evidence. An aggregate may correctly represent a population mean while concealing a small subgroup important to the question. Evaluation can test preservation of relevant structure and whether analysts recognize when omitted detail matters. Uncertainty in the data, distortion introduced by a representation, and errors in interpreting intent require different checks. An aggregate can conceal biological variation; a spatial highlight can identify an unintended object. Evaluation should distinguish these causes so that the appropriate correction is apparent.
 
 Useful assessments therefore connect the displayed result to its source observations and active transformations, testing whether scientists can detect a consequential omission, inspect alternatives, and revise an interpretation. The relevant properties depend on the task: orientation requires stable correspondence across scales, while comparison requires a defensible basis for the contrast.
 
@@ -48,13 +48,13 @@ Ha et al. compare user models for interaction prediction and exploration-bias de
 \label{sec:evaluation-workload}
 Assistance can transfer work from execution to specification, inspection, and repair. Timing only query generation or counting clicks misses the effort required to reach a trustworthy result. Adaptive timing also matters: a correct suggestion may interrupt a demanding comparison. Reorientation, rejected prompts, and explaining changed goals can offset the saved interaction.
 
-Computational delays should be separated by operation. Graphia compares loading, layout, and rendering but notes different layout stopping conditions, limiting direct runtime comparison.~\cite{EvalFreeman2022} Likewise, Yang et al.'s room-sized and zoomable scatterplot conditions reveal task-dependent navigation costs, without isolating an AI contribution.~\cite{EvalYang2021} Assisted viewpoint changes might reduce travel yet increase the effort to recover context.
+Computational runtime and human interaction effort require separate measurement. Graphia compares loading, layout, and rendering, although different layout stopping conditions limit runtime comparisons.~\cite{EvalFreeman2022} Yang et al.'s scatterplot study examines task-dependent navigation costs.~\cite{EvalYang2021} Assisted viewpoint changes might reduce travel while increasing the effort needed to recover context.
 
 Selection accuracy, correction actions, task time, and reported effort should therefore be assessed together. Spatial workflows additionally require reporting input devices, seated or standing use, session duration, discomfort, breaks, and withdrawals. Fewer movements may reflect useful computation or inadequate inspection; shorter completion time may coexist with greater mental effort. A practical evaluation follows the entire analytical episode, including waiting, supervision, and recovery.
 
 \subsection{Collaboration and Common Ground}
 \label{sec:evaluation-collaboration}
-Collaborators need to understand the purpose, state, and evidential basis of shared work. Visibility is only one component. FIESTA's exploratory study of ten groups of three identified movement between personal and joint work and perceived awareness benefits in shared VR.~\cite{EvalLee2021} It did not test autonomous group oversight. In \emph{Talk to the Wall}, ten pairs used speech and touch in document analysis; fourteen participants reported awareness benefits from hearing a partner's commands, while distraction was also a concern.~\cite{EvalMolinaLeon2025} A causal improvement in task speed or accuracy was not demonstrated in that study.
+Collaborators need to understand the purpose, state, and evidential basis of shared work. Visibility is only one component. FIESTA's exploratory study of ten groups of three identified movement between personal and joint work and perceived awareness benefits in shared VR.~\cite{EvalLee2021} In \emph{Talk to the Wall}, ten pairs used speech and touch in document analysis; fourteen participants reported awareness benefits from hearing a partner's commands, while distraction was also a concern.~\cite{EvalMolinaLeon2025} A causal improvement in task speed or accuracy was not demonstrated in that study.
 
 The consequential question is whose intention governs a shared intervention. Following the shared-selection example in Section~\ref{sec:modality-walls}, evaluation should distinguish a private preview from an authorized group change, test whether affected participants notice its scope, and assess whether they can challenge or reverse it. A request from the most active speaker is not evidence of collective agreement.
 
@@ -113,11 +113,11 @@ ProactiveVA~\cite{EvalZhao2025}: proactive assistance during event analysis & As
 
 \addlinespace[3pt]
 
-FIESTA~\cite{EvalLee2021}: collaborative analysis in a shared VR workspace & Configurations supporting individual and joint work & Exploratory study with ten groups of three using housing data; behavior observations and participant feedback & Identifies coordination practices and perceived awareness benefits. Timing differences were not strictly controlled; autonomous group oversight was not tested. \\
+FIESTA~\cite{EvalLee2021}: collaborative analysis in a shared VR workspace & Configurations supporting individual and joint work & Exploratory study with ten groups of three using housing data; behavior observations and participant feedback & Identifies coordination practices and perceived awareness benefits. Timing differences were not strictly controlled. \\
 
 \addlinespace[3pt]
 
-Talk to the Wall~\cite{EvalMolinaLeon2025}: collaborative analysis on a large display & Speech and touch used within a shared workspace & Ten-pair study; interaction records and participant reports & Shows how speech can make actions available to collaborators while raising distraction concerns. Positive reports do not establish a causal gain in team accuracy or autonomous oversight. \\
+Talk to the Wall~\cite{EvalMolinaLeon2025}: collaborative analysis on a large display & Speech and touch used within a shared workspace & Ten-pair study; interaction records and participant reports & Shows how speech can make actions available to collaborators while raising distraction concerns. Positive reports do not establish a causal gain in team accuracy. \\
 
 \bottomrule
 

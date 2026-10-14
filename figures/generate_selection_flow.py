@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
 P = Path(__file__).resolve().parent
 plt.rcParams.update({'font.family':'DejaVu Sans','svg.fonttype':'none','pdf.fonttype':42})
-fig=plt.figure(figsize=(7.2,4.45)); ax=fig.add_axes([0,0,1,1]); ax.set_xlim(0,720);ax.set_ylim(445,0);ax.axis('off')
+fig=plt.figure(figsize=(501/72,308/72)); ax=fig.add_axes([0,0,1,1]); ax.set_xlim(0,720);ax.set_ylim(445,0);ax.axis('off')
 ink='#233444'; blue='#eaf1f6'; gray='#f3f3f3'
 def text(x,y,t,size=8,bold=False,ha='center'):
  ax.text(x,y,t,fontsize=size,ha=ha,va='center',color=ink,fontweight='bold' if bold else 'normal',linespacing=1.3,bbox=dict(facecolor='white',edgecolor='none',pad=.1) if t.startswith(('46,487','Three related')) else None)
@@ -54,6 +54,6 @@ box(612,248,96,43,'33 Excluded /\ncontextual',gray,7.6)
 arrow([(422,291),(422,312)])
 box(374,312,334,47,'Map coverage within the 80 eligible systems\n76 with supported placements; 4 without',size=7.8)
 arrow([(541,359),(541,382)],True)
-box(374,382,334,31,'118 system–cell placements (multilabel)',size=8)
-text(541,432,'System judgments remain subject to author adjudication.',7.2)
-for ext in ['pdf','svg','png']:fig.savefig(P/f'study-selection-flow.{ext}',dpi=200,facecolor='white')
+box(374,382,334,31,'119 system–cell placements (multilabel)',size=8)
+text(541,432,'Map placements confirmed; unresolved judgments retained separately.',6.1)
+for ext in ['pdf','svg','png']:fig.savefig(P/f'figure1_selection_flow_119.{ext}',dpi=200,facecolor='white')
