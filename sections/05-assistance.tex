@@ -1,9 +1,7 @@
 \section{Computational Assistance Across Analytic Workflows}
 \label{sec:assistance}
 
-Computational assistance changes both the objects available for analysis and the actions through which scientists investigate them. A computed layout makes relationships inspectable; a classifier propagates labels beyond the examples an expert has examined; a language interface translates a question into operations. The four assistance modes introduced in Section~\ref{sec:foundations} distinguish these contributions without assigning each system to a single category. We compare mechanisms by their inputs, computational behavior, outputs, and opportunities for human intervention. Tasks provide the purpose of that intervention, while the locus of analytic agency explains which decisions the scientist retains, supplies indirectly, or delegates.
-
-Figure~\ref{fig:assistance-modality-map} maps representative systems across assistance modes and visualization environments. A system may occupy several cells when it combines multiple forms of assistance or supports multiple environments.
+We compare the four assistance modes defined in Section~\ref{sec:foundations} by their inputs, computational behavior, outputs, and opportunities for human intervention. Tasks identify the analytical purpose; agency identifies decisions retained or delegated. Figure~\ref{fig:assistance-modality-map} maps supported mechanism--environment combinations.
 
 \subsection{Algorithmic Assistance: Transforming the Analytic Substrate}
 \label{sec:assistance-algorithmic}
@@ -17,7 +15,6 @@ RNA-SeqEZPZ integrates quality control, alignment, counting, differential-expres
 Representation-oriented systems expose a different point of intervention. Compressed Adjacency Matrices combine computational organization of gene regulatory networks with analyst-controlled rearrangement, highlighting, and filtering.~\cite{AnchorCompressedMatrices} Flud combines crowd-worker node placement with computational scores, clues, and simulated annealing.~\cite{bharadwaj2022flud} The comparison concerns how representational changes are distributed among analyst interaction, crowd work, and automated search. Flud’s layout and task results support its optimization strategy; an effect on biological discovery remains to be evaluated. Across these systems, the relevant question is what the transformation enables scientists to examine and how its assumptions remain available for scrutiny.
 
 The same execution pattern appears in iGEAK, BioNetApp, OncoProExp, and SeqPlots: normalization, statistical comparison, clustering, aggregation, or pathway analysis remains connected to interactive inspection.~\cite{ExpandedE38,ExpandedE39,ExpandedE47,ExpandedE44} VIADS adds hierarchical aggregation and threshold-revisable summaries, while LIM Tracker couples automated tracking to manual correction and rerunning.~\cite{ExpandedE40,ExpandedE32} Virtual embolization instead lets analysts compare simulated occlusion alternatives on desktop and in VR.~\cite{ExpandedE30} These mechanisms produce different analytical outputs and require different forms of inspection.
-
 
 \subsection{Adaptive Assistance: Responding to Analysis State}
 \label{sec:assistance-adaptive}
@@ -43,8 +40,6 @@ Other implementations respond to corrections, newly acquired measurements, or un
 Facetto and Metis connect algorithmic processing with adaptation through analyst feedback. Facetto illustrates expert-directed analysis through guided cases, while Metis implements a feedback mechanism without reporting a participant outcome study. Their benefits therefore warrant evaluation at the task level: do revised outputs better serve the analyst’s goals, and can the analyst correct an inappropriate adjustment? Such evaluation should distinguish temporary concerns from lasting preferences and examine whether repeated prioritization limits exploration.
 
 The feedback loop also changes the meaning of later signals. A recommendation can influence the next selection, which may then be treated as evidence of an enduring preference. Evaluating the inferred state independently of that influence is therefore important. The task determines what is at stake: a suggested region affects navigation, a propagated label changes a selection, and prioritized comparisons influence which explanations receive attention. Errors cannot be ranked by task name alone; a seemingly local selection error can propagate into subsequent comparisons and conclusions. Section~\ref{sec:evaluation} examines these consequences through intent accuracy, exploration breadth, appropriate reliance, and recovery rather than treating adaptation as a single performance score.
-
-
 
 \subsection{Conversational Assistance and Agentic Orchestration}
 \label{sec:assistance-conversational}
@@ -80,17 +75,13 @@ ProteinSketch uses spatial specification to constrain molecular generation. User
 
 Spatial language creates a related requirement: a reference must resolve to identifiable data and an inspectable operation. Section~\ref{sec:modality-vr} contrasts elicited spatial-language requirements with implemented scene operations, keeping both distinct from demonstrated scientific reasoning.
 
-
 Vitessce Link illustrates why synchronized interaction and computational use of spatial input must be distinguished. Vitessce Link synchronizes selection and other interaction state between mixed-reality and planar clients. Synchronization alone does not establish Immersive assistance, but its hand-controlled measurement tool provides a more specific mechanism: tracked finger positions define endpoints for measuring distances within a tissue map, with applications described for kidney and melanoma structures.~\cite{ExpansionX015} This supports Algorithmic assistance through geometric measurement and a narrowly scoped Immersive placement through embodied specification of that
 computation; it does not establish Adaptive assistance or independently validated improvements in analytical performance. For moleculARweb, the cited evidence supports specific Algorithmic functions: SAXS-profile comparison, contact/linker analysis, and constrained molecular mechanics. ~\cite{ExpansionX012,ExpansionX128}
-
 
 \subsection{Combined Assistance and Consequences Across Tasks}
 \label{sec:assistance-overlap}
 \label{sec:tasks-synthesis}
 
-Assistance modes combine as work moves between tasks. Facetto's computed organization supports inspection before expert labels guide classification; FathomGPT translates requests into operations whose results inform a subsequent question; ProteinSketch turns spatial constraints into generated candidates. A change to a selection can consequently alter a later comparison and the evidence supporting an interpretation. Table~\ref{tab:task-agency-synthesis} identifies the task-specific decisions affected by such propagation.
-
-Agentic orchestration adds choices about operation order and dependencies. Using the questions in Section~\ref{subsection:locusofagency}, we examine who proposes and scopes each operation, who performs and assesses it, and whether scientists can inspect, change, or undo its consequences. Revising an initial request and correcting a downstream result can involve different participants and computational components.
+Assistance modes combine across tasks: a revised selection can change a later comparison and the evidence supporting an interpretation. Agentic orchestration adds dependencies and ordering choices. Section~\ref{subsection:locusofagency}'s agency questions apply to these linked operations; revising an initial request and correcting a downstream result may involve different participants. Table~\ref{tab:task-agency-synthesis} identifies the affected task-specific decisions.
 
 Clinical registry tools illustrate another difference in delegated work: StoryboardR organizes events for visual interpretation, whereas REDCap's generative features can produce textual summaries that researchers must check.~\cite{MillerShalhout2023StoryboardR,Shyr2026REDCapAI} The comparison concerns organizing records versus generating an account of them. These combinations call for evaluation of the specific transformation, decision, and recovery path rather than a single automation score. Section~\ref{sec:modality} considers their environmental conditions and Section~\ref{sec:evaluation} the corresponding evidence.

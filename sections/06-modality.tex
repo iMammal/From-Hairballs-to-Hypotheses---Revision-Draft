@@ -1,12 +1,9 @@
 \section{How Visualization Modality Shapes Assistance}
 \label{sec:modality}
 
-Visualization modality conditions how assistance enters an analytical workflow. A recommended selection can appear as a highlighted subset in linked planar views, a region in an immersive volume, or a highlighted area on a shared wall display. Although the computational operation may be similar, the effort needed to specify its target, inspect its consequences, and correct it can differ. Comparing modalities therefore helps explain how an assistance mechanism fits the analyst’s task and working environment.
-
-Building on Section~\ref{sec:assistance}, we examine how each environment shapes the signals available to computational assistance and the ways scientists specify, inspect, and correct analytical operations. The comparison asks which decisions an environment makes accessible, what effort their inspection requires, and how scientists recover when an intervention is inappropriate. This connects the interaction possibilities of each modality to the analytical work they support and to the evaluation conditions needed to assess that support.
+Visualization modality changes the effort of specifying, inspecting, and correcting an analytical operation. A recommended subset can appear in linked planar views, an immersive volume, or a shared wall display; similar computation can entail different inspection and recovery costs. Building on Section~\ref{sec:assistance}, we compare how each environment supports these actions and which evaluation conditions can establish their benefit.
 
 Figure~\ref{fig:assistance-modality-map} provides the corresponding system-level map. The following comparisons separate implemented capabilities, reported evaluation, and design implications. Coverage is uneven because the selected evidence supports some task--modality combinations more directly than others; this is not a claim of field-wide absence.
-
 
 The targeted coverage pass also exposes a distinction between paper-level labels and mechanism-level relationships. A desktop baseline in a VR study does not establish immersive assistance on desktop; CAVE evidence belongs in its separate column. At the September access cutoff, reports were unavailable for 86 of 110 Immersive--Desktop system groups, 15 of 20 Immersive--Large Display groups, and 11 of 12 Adaptive--Large Display groups. Unfilled cells therefore cannot be interpreted as combinations that uniformly failed scientific scrutiny.
 
@@ -17,11 +14,11 @@ Planar interfaces can place representations, parameters, and explanatory records
 
 VIPER supplies an earlier Algorithmic example: automated atlas registration aligns anatomical structures with a patient's MRI, while linked planar and three-dimensional views support inspection of proposed lesions and surrounding anatomy.~\cite{NewVIPER1998} Its stereoscopic monitor viewing is classified as Desktop/Planar; the assistance comes from registration and anatomical integration.
 
-The labeling and prediction workflows in Sections~\ref{sec:assistance-adaptive} and~\ref{sec:tasks-comparison} illustrate why co-located views matter: scientists can relate the current selection to model outputs, underlying observations, and source evidence. Their broadly planar setting supports these comparisons, but does not itself guarantee that an intervention is transparent or correct.
+Co-located views connect selections with model outputs and source evidence in the labeling and prediction workflows of Sections~\ref{sec:assistance-adaptive} and~\ref{sec:tasks-comparison}; their planar setting alone guarantees neither transparency nor correctness.
 
 StoryboardR provides a clinical-registry example of this arrangement. It transforms REDCap records into patient timelines combining treatment, disease progression, and other clinical events, with hover details available for inspection.~\cite{MillerShalhout2023StoryboardR} The timeline brings temporal relationships into view while clinicians interpret their significance. This example locates computational organization at the presentation stage: assessing additional analytical assistance requires identifying what the system computes beyond preparing and displaying those records.
 
-Conversational execution adds a specification layer rather than replacing inspection. PhenoFlow's request, code, explanation, and field views (Section~\ref{sec:assistance-conversational}) illustrate the need to compare an intended cohort with its generated definition. Such inspectable workflows provide meaningful baselines when spatial interfaces change both representation and input.
+PhenoFlow's inspectable request, code, and data views (Section~\ref{sec:assistance-conversational}) provide a baseline for comparing intended and generated cohort definitions when spatial interfaces change representation and input.
 
 \subsection{Large Displays and Collaborative Walls}
 \label{sec:modality-walls}
