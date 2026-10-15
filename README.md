@@ -1,15 +1,24 @@
-# Revised Hairballs STAR
+# From Hairballs to Hypotheses — CGF revision source
 
-Upload this ZIP as a new Overleaf project. Set main.tex as the main document; use pdfLaTeX and BibTeX (Overleaf handles compilation passes).
+This source package contains the main manuscript and the accompanying methods supplement, finalized for the 14 October 2026 revision work. It is a submission package, not evidence of publication or a new Zenodo version.
 
-Sections 1 and 3 contain the Introduction and Conceptual Foundations drafts. Sections 2 and 4–9 contain an annotated outline; Section 9 also includes provisional closing prose. Separate files in sections/ follow the requested nine-section structure.
+## Compile
 
-The EuroVis style, title, author order, affiliations, and bibliography come from the supplied export. Confirm submission metadata and license settings before reuse. The original bibliography is retained, including unused entries. Existing citations need source/metadata checking; agency and automation foundations are cited in Sections 3.5–3.6. The duplicate Ehlers2025 record has been removed.
+Use pdfLaTeX and BibTeX. Select `main.tex` for the manuscript, or `sections/methods-supplement.tex` for the standalone supplement. Bibliography and figure sources are included. Overleaf handles the required passes.
 
-Blue revision notes are editorial instructions. Change \draftnotestrue to \draftnotesfalse to hide them. Outline paragraphs and the working abstract remain visible; hiding notes does not make this a finished manuscript.
+## Contents and authority
 
-Counts, retrieval cutoff, PRISMA, validation design/results, and prevalence await executed review evidence. Contributions describe intended deliverables. The frozen protocol must supply exact eligibility and processing rules.
+- `sections/01-introduction.tex` through `sections/09-conclusion.tex`: manuscript sections.
+- `sections/methods-supplement.tex`: supplementary methods, dated accounting, selection authority, bounded language follow-up, task-symbol interpretation, and eligible-system evidence.
+- `PER_SYSTEM_TABLE.tex` and `PER_SYSTEM_CITATIONS.bib`: 79 mapped systems and their 122 supported pairings.
+- Supplement Table 3: four additional eligible systems without recorded supported pairings. Their inclusion changes no classification or count.
+- `figures/figure3_access_followup_map.svg` and its PDF: current Figure 3; Figure 1 retains the dated September reconciliation.
+- `evidence/`: retained historical selection and assessment snapshots. These remain historical evidence, not silently updated current ledgers.
+- `source_manifest.json`: original imported-source hash record, retained unchanged.
+- `SUBMISSION_ARCHIVE_MANIFEST.json` and `SUBMISSION_SHA256SUMS`: current package inventory and checksums.
 
-The old charts and matrix are not carried into this new scaffold. Original prose remains in the supplied source ZIP. This is a new revision project, not a wholesale migration of the old manuscript.
+The existing reproducibility deposit is https://doi.org/10.5281/zenodo.23084434. October clarifications and consolidated submission tables are supplied here; this package does not claim they have been deposited under that DOI. `overleaf-paper-integration.zip` is refreshed from the current source and compiled PDFs, excludes itself, and is not a replacement for the published Zenodo package.
 
-Figure 1 is referenced in Section 3.4. Its editable layout is in `figures/01-modality-environments.tex`; original source photos and complete license/source credits are in `figures/`. The figure illustrates environments, not reviewed assistance mechanisms. `review/CGF_Reviewer_Response_Matrix_Annotated.md` records item-level evidence and outstanding work.
+## Scientific state
+
+The manuscript reports 135 completed system assessments: 83 eligible, 19 unresolved, and 33 excluded/contextual; 79 eligible systems support 122 system–cell placements. The seven language-follow-up reports and Trellet's thesis remain outside approved additions. Later author confirmation of placements is distinct from row-level dated approval, independent double coding, and pool-wide validation. Original evidence files are preserved.

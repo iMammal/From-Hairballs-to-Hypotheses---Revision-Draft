@@ -2,12 +2,12 @@
 \usepackage[a4paper,margin=25mm]{geometry}
 \usepackage{booktabs,hyperref,longtable,pdflscape,array}
 \emergencystretch=2em
-\title{Methods Supplement: Identity, Classification, and Selection Provenance}
-\author{From Hairballs to Hypotheses}
-\date{13 October 2026}
+\title{Methods Supplement\\\large From Hairballs to Hypotheses: A Survey of AI-Assisted Visual Analytics in the Life Sciences}
+\author{Morris Chukhman, Amira Kefi, Nicole M. Chukhman,\\Silvio Rizzi, Vinayakumar Chalil Karintha, and Angus Forbes}
+\date{14 October 2026}
 \begin{document}
 \maketitle
-\noindent This note accompanies the shortened manuscript. It preserves classification and identity detail and incorporates the repository selection audit supplied on 9 October 2026. It has not yet been incorporated into a new Zenodo deposit.
+\noindent This supplement accompanies the CGF revision of the manuscript named above. It documents record identity, provisional classification, selection and access, assessment authority, and the per-system evidence underlying Figure 3. The reproducibility package is archived at \url{https://doi.org/10.5281/zenodo.23084434}. The October clarifications and consolidated tables presented here are supplied separately with this revision.
 
 \section{Deduplication and Related Reports}
 Deduplication consolidated 187,446 source occurrences into 140,959 bibliographic records. A \emph{source occurrence} is an entry returned by a provider or imported from another source; several occurrences may refer to the same publication. A \emph{canonical record} is the representative bibliographic entry retained after applying the identity rules.
@@ -29,6 +29,11 @@ The task groups, assistance modes, and visualization modalities are defined in S
 These provisional classifications organized the candidate pool and guided selection for full-text assessment. Table~\ref{tab:candidate-census} summarizes assistance--modality co-occurrences among candidate records. A record contributes to a cell when both labels are Present; cells overlap. In the export, Present and Uncertain labels are listed explicitly, with omission denoting Absent under the classification contract. Desktop/Planar, for example, was Present in 2,912 records and Uncertain in 4,072.
 
 The table describes labels supported by bibliographic metadata. Establishing that a particular assistance mechanism operates within a particular display environment requires assessment of the system description, which underlies Figure 3 of the main paper.
+
+\subsection{Classification Contract and Interpretation}
+Present denotes positive title/abstract evidence for a label; Absent denotes a negative category assignment under the coding contract; Uncertain records insufficient or ambiguous evidence. Absent is therefore not a full-report finding that a capability is missing. Assistance, modality, and task labels may coexist. Their definitions are those in Section 3 of the main paper, including substantive computation for Algorithmic assistance, a signal-linked computational intervention for Adaptive assistance, interpreted language for Conversational assistance, and computational use of spatial or embodied context for Immersive assistance. Display size or a headset alone does not supply the latter evidence.
+
+The candidate table counts records with both assistance and modality marked Present, without asserting that the mechanism operates in that environment. Framework placements instead require report-level evidence for that relationship. Historical export fields and labels remain unchanged; the manuscript's eligibility criteria are E1--E5. The archived prompts, protocols, and screening settings preserve the execution specifications rather than a retrospective reconstruction of them.
 
 \begin{table}[t]
 \centering\small
@@ -66,6 +71,7 @@ An upstream 25-entry shortlist from an 8,832-record partial export allowed up to
 Software enumerated every exact Present-labelled record in Immersive $\times$ Desktop/Planar (112 memberships), Immersive $\times$ Large Display (20), and Adaptive $\times$ Large Display (12). The 144 memberships represented 131 records, including 58 prior exact identities. All entered processing; priority band, descending metadata score, and canonical identifier determined access order only. Identity reconciliation reduced them to 129 groups. Excluding already represented systems and related reports yielded 72 new systems in the cumulative selected set. The lead author specified and authorized the three target cells. The 72 new entries were the reconciliation outcome, not an inclusion quota.
 
 \section{Access and System-Level Reconciliation}
+\noindent\textbf{September reconciliation (26 September 2026).} Counts below precede the October access follow-up.
 \begin{center}\small
 \begin{tabular}{rrrrrrr}\toprule
 Set & Reports & Systems & Full text & Abstract & Unavailable & Assessed\\\midrule
@@ -92,25 +98,44 @@ The September targeted assessment examined candidate combinations in Immersive $
 \section{Trace and Authority Limits}
 The report--system crosswalk at \path{evidence/selection-flow/unit_crosswalk.csv} records assessment set, queue identifier, route, canonical linkage, report identity and version, access, system outcome, and placement qualifications. Wave-specific scripts, frozen queues, source bindings, retrieval manifests, and assessment ledgers provide supporting trace; dedicated execution logs were not found for the static queues.
 
-Contemporaneous session evidence identifies the requesting user's direction of priorities, bounds, and target cells and distinguishes Codex nominations from deterministic software operations. Morris Chukhman retrospectively confirmed these roles on 9 October 2026. The repository record at \path{docs/full_report_selection_authority.md}, linked from \path{docs/reproducibility.md}, separates this retrospective confirmation from contemporaneous evidence and preserves unresolved shortlist origins.
+Contemporaneous task records identify the lead author's direction of priorities, bounds, and target cells and distinguish Codex nominations from deterministic software operations. Morris Chukhman retrospectively confirmed these roles on 9 October 2026. The repository record at \path{docs/full_report_selection_authority.md}, linked from \path{docs/reproducibility.md}, separates this retrospective confirmation from contemporaneous evidence and preserves unresolved shortlist origins.
 
 Nomination authority, automated assessment, later author review, and independent validation are distinct. No separate author approval of the exact constructed queues before assessment is documented. The lead author has reported reviewing and confirming the Figure 3 placements; this later review supplies neither dated row-level approval records nor independent double coding or pool-wide screening validation. The crosswalk does not provide a reason for every other candidate's non-selection.
 
 \section{Bounded Language-Evidence Follow-up}
 The initial system assessment used accessible English-language reports. Language was not a provider-query or title-and-abstract screening gate. A subsequent audit distinguished provider-reported language, title/abstract language signals, and full-report language; an English abstract was not treated as proof of an English report. The 9,505-record candidate export contains no language column.
 
-A 147-report lead set was ranked for bounded author review. Seven active Tier A reports were assessed; Trellet's French thesis remains separately pending passage verification by Amira Kefi. Marchian\`o's thesis, Chemoface, and Campoalegre's thesis have English bodies despite their bibliographic language signals; Le Baher's thesis, REDPath, AIMA, and Wang's VisConnectome report have French, German, Spanish, and Chinese bodies, respectively. Six reports received provisional eligibility recommendations, including a qualified infrastructure-boundary case; VisConnectome's substantive computational-assistance criterion remains unresolved. These are assistant recommendations pending author adjudication, not seven approved systems or additions to the manuscript's counts. Companion/version relationships and consequential translated passages require verification. This purposive follow-up does not estimate screening reliability or establish exhaustive non-English coverage.
+A 147-report lead set supported a bounded follow-up of seven reports; Trellet's French thesis remains separately pending passage verification by Amira Kefi. Six reports received provisional eligibility recommendations, including one qualified by the assistance--infrastructure boundary; substantive computational assistance remained unresolved for the seventh. These assistant assessments await author adjudication, verification of consequential translated passages, and report--system reconciliation. None contributes to the manuscript's approved system or placement counts. The follow-up does not estimate screening reliability or establish exhaustive non-English coverage.
 
 \section{Task-Symbol Interpretation}
 Task letters identify navigation (N), selection/filtering (F), comparison (C), sensemaking (S), and coordination/collaborative reasoning (R). Coding follows descriptions of the implemented analytical workflow, not a demonstrated benefit or an interface affordance alone. Coordination can involve task assignment, handoff, or collective interpretation; it need not imply synchronous multiuser operation. Mechanism--environment placement evidence and task support are distinct. Retained placement rows include analytical-task descriptions, source locators, and qualifications. Repeated task letters do not establish equivalent support, performance, or evaluation across systems.
 
 \clearpage
 \section{Per-System Evidence for the Supported Map}
-Table~\ref{tab:supp-system-evidence} consolidates the 79 mapped systems and 122 supported assistance--modality pairings in Figure 3. It includes the October access follow-up and Vitessce Link's measurement-based Immersive $\times$ AR/MR amendment. Pairings and their task letters remain separate within each system; they do not imply support for other combinations. The four eligible systems without supported placements are outside this mapped-system table.
+Table~\ref{tab:supp-system-evidence} consolidates the 79 mapped systems and 122 supported assistance--modality pairings in Figure 3. It includes the October access follow-up and Vitessce Link's measurement-based Immersive $\times$ AR/MR amendment. Pairings and their task letters remain separate within each system; they do not imply support for other combinations. The four eligible systems without recorded supported placements are listed separately in Table~\ref{tab:eligible-unmapped}; they contribute to the 83 eligible systems but not the 79 mapped systems or 122 placements.
 
-Entries summarize retained report evidence and assessment notes, not new independent validation. Generic scientist-role descriptions do not establish specific inspect/change/undo controls. Unless stated, report limitations have not been separately extracted; placement qualifications are assessment boundaries rather than necessarily author-reported limitations. Missing or ambiguous evaluation information is distinguished from an explicitly unreported evaluation. Seven reports use retained titles or identifiers because their bibliography keys remain unresolved. Row identifiers refer to the companion per-system CSV's evidence locators.
+Entries summarize retained report evidence and assessment notes, not new independent validation. Generic scientist-role descriptions do not establish specific inspect/change/undo controls. Unless stated, report limitations have not been separately extracted; placement qualifications are assessment boundaries rather than necessarily author-reported limitations. Missing or ambiguous evaluation information is distinguished from an explicitly unreported evaluation. Seven reports use retained titles or identifiers because their bibliography keys remain unresolved. S identifiers match the companion per-system CSV in the repository review package; R and TSC identifiers below refer to retained ledgers included with this source. Bibliography entries lacking author metadata use title-derived sorting keys; no authorship is inferred.
 
 \input{../PER_SYSTEM_TABLE}
+
+
+\subsection{Eligible Systems Without Recorded Supported Placements}
+\label{sec:eligible-unmapped}
+Table~\ref{tab:eligible-unmapped} completes the eligible-system inventory using the retained report--system crosswalk. It reports existing assessment states, not new exclusions or placements. Failure to support a targeted combination does not resolve other assistance--modality combinations; none is added retrospectively here.
+
+\begin{longtable}{p{0.17\textwidth}p{0.32\textwidth}p{0.40\textwidth}}
+\caption{Four eligible systems without a recorded supported pairing. R identifiers refer to the selection-flow crosswalk; TSC identifiers refer to the targeted-coverage matrix.}\label{tab:eligible-unmapped}\\
+\toprule System and trace & Report identity & Retained placement boundary \\\midrule
+\endfirsthead
+\toprule System and trace & Report identity & Retained placement boundary \\\midrule
+\endhead
+CAVEman (R038; Q18) & \emph{CAVEman: Standardized anatomical context for biomedical data mapping}; \url{https://doi.org/10.1002/ASE.3} & A related report supports semantic and visual mapping, but describes only a virtual-reality environment; the queued primary report and CAVE hardware were unverified. No pairing was recorded. \\
+LiverPlan (R319; T049; TSC-055) & \emph{LiverPlan: A Stage-Adaptive Immersive Visual Analytics Framework for Anatomical Liver Surgical Planning}; canonical record \texttt{0be187f0ef0f3a0fb8c87105} & The report's implemented mechanisms operate in a headset-based XR prototype. Desktop was an evaluation baseline, so the targeted Immersive--Desktop/Planar pairing was unsupported. Other placements were not established by this targeted assessment. \\
+YASARA Model VR (R321; T054; TSC-061) & \emph{YASARA Model---Interactive Molecular Modeling from Two Dimensions to Virtual Realities}; \url{https://doi.org/10.1021/acs.jcim.3c01136} & Desk apparatus is represented inside VR; this did not support the targeted Immersive--Desktop/Planar pairing. Other pairings are not inferred from the rejected target. \\
+Semantic molecular-analysis pipeline (R338; T077; TSC-087) & \emph{Semantics for an Integrative and Immersive Pipeline Combining Visualization and Analysis of Molecular Data}; \url{https://doi.org/10.1515/jib-2018-0004} & The proof of concept concerns immersive/CAVE, AR, and screen-wall contexts. The targeted Immersive--Desktop/Planar mechanism was not demonstrated; other pairings were not established in this assessment. \\
+\bottomrule
+\end{longtable}
+The crosswalk retains automated assessment authority for these records; this inventory supplies no new author approval or independent validation. CAVEman's qualification is also recorded in \path{evidence/candidate-census/cumulative_eligibility_assessments.csv}; the other three target decisions are retained in \path{evidence/targeted-coverage/deduplicated_target_system_cell_matrix.csv}.
 
 \bibliographystyle{plain}
 \bibliography{references,PER_SYSTEM_CITATIONS}
