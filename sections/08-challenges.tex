@@ -6,7 +6,7 @@ The expanded cases make transformation risks concrete. Space-Time Hypercube proj
 
 \subsection{Delegation and Analyst Control}
 \label{sec:challenges-delegation}
-Delegated work must remain revisable after initial approval. ProactiveVA's execution-control limitation (Section~\ref{sec:evaluation-control}) motivates explicit intervention points.~\cite{EvalZhao2025}
+Delegated work must remain revisable after initial approval. ProactiveVA's execution-control limitation~\cite{EvalZhao2025} (Section~\ref{sec:evaluation-control}) motivates explicit intervention points.
 
 A useful direction is to represent delegated work through explicit inputs, constraints, dependencies, and intervention points. If a scientist changes a cohort after inspecting a heatmap, the system should identify affected comparisons while preserving valid intermediate results. Routine recomputation under established parameters need not require the same supervision as changing the population or ranking criterion. Adaptive systems must additionally distinguish an inferred preference from permission to act; uncertainty and reversibility should influence whether to execute, clarify, or refrain.
 
@@ -32,7 +32,7 @@ Systems could record whether feedback was volunteered or elicited by a suggestio
 
 \subsection{Generative Capability and Scientific Provenance}
 \label{sec:challenges-generative}
-Sections~\ref{sec:evaluation-provenance} and~\ref{sec:evaluation-control} distinguish execution records from explanations and available evidence; PhenoFlow makes these limits concrete.~\cite{EvalKim2025} Provenance should also explain why a question was revised.
+Sections~\ref{sec:evaluation-provenance} and~\ref{sec:evaluation-control} distinguish execution records from explanations and available evidence; PhenoFlow~\cite{EvalKim2025} makes these limits concrete. Provenance should also explain why a question was revised.
 
 The research opportunity is to connect requests, plans, executed operations, results, and interpretations while recording their evidential status. CausalChat distinguishes suggested links from data-confirmed relationships; planning systems such as LightVA introduce dependencies through which an upstream revision can undermine later reasoning even if code still executes.~\cite{CausalChat,LightVA} These contextual examples motivate requirements rather than establish solutions for life-science practice.
 
@@ -49,7 +49,7 @@ A useful direction supports transitions from private previews to attributed prop
 \subsection{Modality Specialization and Workflow Continuity}
 \label{sec:challenges-continuity}
 \label{sec:modality-continuity}
-Transitions between desktop, immersive, and shared-display environments should preserve data identities, selection criteria, transformations, uncertainty, and decision history while adapting controls. Scientists must be able to recover analytical context and trace consequential changes across tasks and collaborators.
+Ens et al.'s immersive-analytics challenges motivate attention to transitions between environments~\cite{Ens2021GrandChallenges}. For life-science workflows, preserve data identity, selection criteria, transformations, uncertainty, and decision history while adapting controls, so scientists can recover context across tasks and collaborators.
 
 DashSpace provides an architectural example of cross-device synchronization while leaving semantic conflicts open.~\cite{AgendaBorowski2025} A tissue region selected in VR must refer to the same observations in a desktop matrix; a request about ``these cells'' needs a recorded referent. Spatial-language requirements and implemented scene operations provide complementary starting points.~\cite{SongEmbodiedNLI,VOICE} Research should expose ambiguity, invalidate stale references, and make changes to shared analysis attributable and reversible.
 
