@@ -2,7 +2,7 @@
 \label{sec:challenges}
 The comparisons in Sections~\ref{sec:tasks}--\ref{sec:evaluation} identify recurring questions about the decisions scientists retain, the transformations they must inspect, and the evidence supporting an interpretation. Feedback-driven classification raises questions about correction and propagated changes; generated operations raise questions about intent and execution provenance; shared and spatial workflows raise questions about authority, reference, and continuity. The following agenda develops these differences into design opportunities and testable questions concerning revisable delegation, inspectable transformations, traceable evidence, collaborative common ground, and continuity across environments.
 
-The expanded cases make transformation risks concrete. Space-Time Hypercube projection can obscure spatial information and create apparent shrinkage as objects move away from a cutting plane; source-geometry views provide a partial safeguard.~\cite{ExpandedE22} PathwayMatrix's binary decomposition supports overview while limiting temporal and causal tracing.~\cite{ExpandedE37} Such trade-offs motivate preservation of source links and transformation assumptions, not rejection of computational abstraction.
+These cases make transformation risks concrete. Space-Time Hypercube projection can obscure spatial information and create apparent shrinkage as objects move away from a cutting plane; source-geometry views provide a partial safeguard.~\cite{ExpandedE22} PathwayMatrix's binary decomposition supports overview while limiting temporal and causal tracing.~\cite{ExpandedE37} Such trade-offs motivate preservation of source links and transformation assumptions, not rejection of computational abstraction.
 
 \subsection{Delegation and Analyst Control}
 \label{sec:challenges-delegation}
@@ -12,7 +12,7 @@ A useful direction is to represent delegated work through explicit inputs, const
 
 Institutional deployment adds another level of control. REDCap's generative features are enabled by administrators through an institution-managed AI connection, with user permissions and researcher review of outputs; the underlying research data remain unchanged.~\cite{Shyr2026REDCapAI} This separates authority to enable a capability from responsibility for accepting its result. An analytical workflow should make both decisions visible and preserve links from an accepted summary to the records and request supporting it. The uptake evidence is discussed in Section~\ref{sec:evaluation-effectiveness}.
 
-Studies should introduce changing goals during Selection, Filtering, and Precision Interaction and Comparison and Differentiation. Comparing whole-plan approval, operation-level approval, and consequential checkpoints would reveal whether analysts detect mismatches, redirect work, and preserve valid results. Total specification, supervision, and recovery effort matters more than the number of automated steps.
+Studies should introduce changing goals during Selection, Filtering, and Precision Interaction and Comparison and Differentiation. Comparing whole-plan approval, operation-level approval, and consequential checkpoints would reveal whether analysts detect mismatches, redirect work, and preserve valid results. The total effort of specification, supervision, and recovery matters more than the number of automated steps.
 
 \subsection{Compression and Representational Fidelity}
 \label{sec:challenges-compression}
@@ -20,7 +20,7 @@ The bundling ambiguity in Section~\ref{sec:evaluation-fidelity} illustrates how 
 
 A promising design direction connects summaries to their contributing observations and transformation choices, while indicating where reduction may matter. A heatmap of cell-group averages could expose group size and within-group variation so that a similar average does not silently conceal divergent responses. Access to detail is necessary but may be insufficient if the scientist has no reason to inspect the affected group. Adaptive aggregation also needs visible scope: a display change can reflect a changed representation rather than changed biology.
 
-For Navigation and Multiscale Orientation and Comparison and Differentiation, evaluations should combine broad patterns with localized exceptions. Compare fixed summaries, expandable summaries, and summaries that indicate potentially obscured variation. Measure detection of exceptions, attribution of representational effects, and revision of conclusions when detail contradicts the overview. Compression succeeds scientifically when analysts can discover when omitted detail matters.
+For Navigation and Multiscale Orientation and Comparison and Differentiation, evaluations should combine broad patterns with localized exceptions. Compare fixed and expandable summaries against summaries that indicate potentially obscured variation. Measure detection of exceptions, attribution of representational effects, and revision of conclusions when detail contradicts the overview. Compression succeeds scientifically when analysts can discover whether omitted detail matters.
 
 \subsection{Guidance and Diversity of Exploration}
 \label{sec:challenges-guidance}
@@ -34,13 +34,13 @@ Systems could record whether feedback was volunteered or elicited by a suggestio
 \label{sec:challenges-generative}
 Sections~\ref{sec:evaluation-provenance} and~\ref{sec:evaluation-control} distinguish execution records from explanations and available evidence; PhenoFlow~\cite{EvalKim2025} makes these limits concrete. Provenance should also explain why a question was revised.
 
-The research opportunity is to connect requests, plans, executed operations, results, and interpretations while recording their evidential status. CausalChat distinguishes suggested links from data-confirmed relationships; planning systems such as LightVA introduce dependencies through which an upstream revision can undermine later reasoning even if code still executes.~\cite{CausalChat,LightVA} These contextual examples motivate requirements rather than establish solutions for life-science practice.
+The research opportunity is to connect requests, plans, executed operations, results, and interpretations while recording their evidential status. CausalChat distinguishes suggested links from data-confirmed relationships; planning systems such as LightVA introduce dependencies through which an upstream revision can undermine later reasoning even if code still executes.~\cite{CausalChat,LightVA} These contextual examples suggest requirements rather than established solutions for life-science practice.
 
 A generated biological explanation should distinguish an observed difference, the comparison producing it, supporting literature, and the proposed mechanism. Changes to the comparison should identify dependent statements requiring reassessment. Studies can introduce unavailable variables, misleading explanations, execution discrepancies, and stale claims to test whether scientists locate the problem and correct it. Spoken or spatially presented assistance needs the same persistent route to evidence as a desktop explanation.
 
 \subsection{Personalization and Collaborative Common Ground}
 \label{sec:challenges-personalization}
-Personalization can conceal differing assumptions. The awareness--distraction tension in \emph{Talk to the Wall} (Section~\ref{sec:evaluation-collaboration}) motivates investigating which consequential changes collaborators should see, without validating personalized assistance ~\cite{EvalMolinaLeon2025}.
+Personalization can conceal differing assumptions. The awareness--distraction tension in \emph{Talk to the Wall} (Section~\ref{sec:evaluation-collaboration}) motivates investigating which consequential changes collaborators should see~\cite{EvalMolinaLeon2025}. That study does not validate personalized assistance.
 
 Consider a biologist receiving population suggestions while a computational analyst receives normalization guidance. Private exploration may be useful, but changing a shared heatmap's underlying observations requires common awareness of the filter, its consequences, and whether the change has been adopted. Broadcasting every suggestion is unnecessary; silently changing shared evidence is unsafe for interpretation.
 
