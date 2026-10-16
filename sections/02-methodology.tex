@@ -29,11 +29,11 @@ Prior-survey records from Ehlers-associated working materials, Joos-associated c
 \label{sec:methodology-deduplication}
 Deduplication consolidated 187,446 source occurrences into 140,959 bibliographic records using normalized DOI keys, or exact normalized titles when DOIs were absent. Records with and without DOIs remained separate when title agreement was insufficient. Source occurrences and identity decisions were retained, including 50 links between related publication versions. Reports describing the same system were grouped during full-text assessment. The accompanying methods supplement details the identity rules.
 
-\subsection{Title-and-Abstract Screening}
-\label{sec:methodology-screening}
-Automated screening assessed E1--E5 from titles, available abstracts, and evidence identifiers using the OpenAI Responses API (\texttt{gpt-5.6-luna}, medium reasoning, default service tier, no inference-time browsing or tools). Responses were checked against supplied identifiers and outcomes recomputed locally. \emph{Advance} required support for all five criteria; \emph{Excluded} required evidence against at least one; \emph{Defer} marked insufficient evidence for either decision. Surveys remained background/discovery material, and infrastructure reports were assessed by their described analytical workflow.
+\subsection{Title-and-Abstract Screening and Candidate Classification}
+Automated screening assessed E1--E5 from titles, available abstracts, and evidence identifiers using the OpenAI Responses API (gpt5.6-luna, medium reasoning, default service tier, no inference-time browsing or tools). Responses were checked against supplied identifiers and outcomes recomputed locally. \emph{Advance} required support for all five criteria; \emph{Exclude} required evidence against at least one; \emph{Defer} marked insufficient evidence for either decision. Surveys and reviews remained background/discovery material, and infrastructure reports were assessed by their described analytical workflow. Of the 140,959 deduplicated records, 140,810 received valid machine-assisted screening results (9,505 Advance, 83,258 Defer and 48,047 Exclude) while the other 149 records were reserved for calibration or lacked valid outcomes. Background-literature flags identified excluded records that could be useful for context or discovery. All 9,505 advanced records were then provisionally classified from titles and available abstracts using the task, assistance, and modality definitions in Section \ref{sec:foundations}. Labels could coexist and were recorded as Present, Absent, or Uncertain. These provisional labels guided discovery and selection; supported system-level placements required report evidence for the actual mechanism--environment relationship. The methods supplement gives the outcome breakdown, the classification contract, and the candidate co-occurrence table. Generative AI tools (OpenAI ChatGPT and Codex, Google Gemini) assisted with literature-processing software, evidence extraction and organization, manuscript drafting and revision, and LaTeX preparation; automated screening used the Responses API as described above, and the lead author reviewed all AI-generated content incorporated into the manuscript.
 
-Of the 140,959 deduplicated records, 140,810 received valid machine-assisted screening outcomes: 9,505 Advance, 83,258 Defer, and 48,047 Excluded. The other 149 records were reserved for calibration or lacked valid outcomes; the methods supplement gives the breakdown. Background-literature flags identified excluded records potentially useful for context or discovery. All advanced records proceeded to candidate classification.
+
+
 
 \begin{figure*}[t]
 \centering
@@ -41,10 +41,6 @@ Of the 140,959 deduplicated records, 140,810 received valid machine-assisted scr
 \caption{Identification, screening, and selected-system assessment, reconciled through 26 September 2026. Panel A counts source entries and deduplicated bibliographic records; Panel B distinguishes selected publication entries from the software systems they describe. The dashed handoff denotes selection of systems for detailed assessment. Eight systems entered through coauthor or bounded map-expansion routes without an exact link to the candidate pool. Related reports explain the difference between 135 accessible publication entries and 132 completed system assessments. Multilabel placements are not additional systems. Counts distinguish retrieved records, selected reports, assessed systems, and supported framework placements.}
 \label{fig:study-selection-flow}
 \end{figure*}
-
-\subsection{Candidate Classification}
-\label{sec:methodology-synthesis}
-All 9,505 advanced records were provisionally classified from titles and available abstracts using the task, assistance, and modality definitions in Section~\ref{sec:foundations}. Labels could coexist and were recorded as Present, Absent, or Uncertain. These labels guided discovery and selection; supported system-level placements required report evidence for the actual mechanism--environment relationship. The accompanying methods supplement provides the classification contract and candidate co-occurrence table.
 
 \subsection{Full-Text Assessment and Detailed Comparisons}
 \label{sec:methodology-assessment}
@@ -74,6 +70,4 @@ Software is available at \url{https://github.com/iMammal/h2h-lit-pipeline}; the 
 
 The package includes query specifications (\texttt{queries/}), retrieval/import provenance (\texttt{identification/}), and prompts, protocols, and execution settings (\texttt{prompts/}, \texttt{protocols/}, \texttt{screening/}). Its inventory identifies included files and restricted inputs. Raw provider responses, the complete registered corpus, and copyrighted reports are not redistributed.
 
-\paragraph*{Use of generative AI.}
-\label{sec:ai-disclosure}
-OpenAI ChatGPT and Codex assisted with literature-processing software, evidence extraction and organization, system comparisons, manuscript drafting and revision, and preparation of LaTeX, tables, and figures. Automated screening and provisional classification used the Responses API as described in Section~\ref{sec:methodology-screening}. Google Gemini contributed preliminary calibration judgments. Checks included software tests, verification of record identities and source passages, deterministic recomputation of screening outcomes, citation checks, and inspection of rendered figures and documents. Reproduced interface images were extracted or cropped from their cited sources. The lead author reviewed all AI-generated content incorporated into the manuscript. The authors retain responsibility for its interpretation, accuracy, attribution, and final content.
+
