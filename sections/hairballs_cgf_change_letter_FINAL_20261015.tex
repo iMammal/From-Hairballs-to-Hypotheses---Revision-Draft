@@ -1,0 +1,125 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=25mm]{geometry}
+\usepackage[T1]{fontenc}\usepackage[utf8]{inputenc}
+\usepackage{hyperref}\usepackage{enumitem}
+\setlength{\parskip}{0.6em}\setlength{\parindent}{0em}
+\begin{document}
+\section*{Change letter — CGF fast-track resubmission}
+\subsection*{``From Hairballs to Hypotheses: A Survey of AI-Assisted Visual Analytics in the Life Sciences''}
+\subsubsection*{EuroVis 2026 STAR submission 1058 $\rightarrow$ Computer Graphics Forum (major revision)}
+
+Authors: Morris Chukhman, Amira Kefi, Nicole M. Chukhman, Silvio Rizzi, Vinayakumar Chalil Karinthayil, Angus Forbes
+
+\bigskip\hrule\bigskip
+
+Dear Editors and Reviewers,
+
+We thank the four reviewers and the EuroVis 2026 STAR committee for the detailed and constructive first-round reviews, and for the fast-track invitation to Computer Graphics Forum. The revision strategy was organized around the Primary Summary's required themes: we rebuilt Section 2 as a fully documented methods section (with a methods supplement now archived as Zenodo v3.1.0), rewrote Sections 3--8 against the fragmentation and balance concerns, added the explicit contribution-positioning section the reviewers asked for (\S3.6), and built the figure program the submission lacked (Figures 2--9; Table 2). Below we address each reviewer concern point by point; where two reviewers raised the same underlying issue, we answer it once and attribute all voices.
+
+\bigskip\hrule\bigskip
+
+\subsection*{1. Motivation and scope: why a new taxonomy? (R1, R3, Primary Summary)}
+
+R1 asked why a new taxonomy is necessary rather than an extension of existing visualization/VA taxonomies; R3 found the necessity of the proposed framework under-justified; the Primary Summary asked for a more precise problem formulation and stronger positioning relative to prior surveys.
+
+\textbf{Response.} The introduction now frames the gap precisely: existing reviews cover representations, tasks, and environments, but ``comparing assistance requires connecting mechanisms and environments to analytic actions'' (\S1). The thesis paragraph states the framework together with the through-line lens — the *locus of analytic agency* — that organizes the entire paper. A new Section 3.6 (``Positioning Against Existing Reviews and Frameworks'') places the work against established agency/automation literature: we cite Endert et al. 2017, Horvitz 1999 as an early mixed-initiative foundation, Brossier et al. 2026 (EuroVis STAR, CGF 45(3)), Ehlers et al., Domova \& Vrotsou, Holter \& El-Assady, Furmanová et al., and Monadjemi et al. The contribution is framed honestly as *applying* established agency and automation concepts to life-science relational analysis — a defensible positioning that R1's and R3's questions, in their different words, were asking for.
+
+\subsection*{2. What counts as ``AI'' in this review (R1, Primary Summary)}
+
+R1 found the boundary of ``AI methods'' unclear — dimensionality reduction has been used for decades; many data-processing methods ``can be interpreted as AI.''
+
+\textbf{Response.} The scope is now stated explicitly and is functional, not chronological: \S1 describes the review as covering ``different modes of computational assistance, rather than successive stages in which newer techniques necessarily provide better assistance''; the \S3 introduction states that ``established clustering, dimensionality reduction, and layout methods qualify by their substantive analytical role, including implementations that do not require learning-based AI.'' The assistance modes are defined by the *role* of computation within interactive analysis, not by technique novelty (\S3.3). Technique-age is deliberately not the inclusion boundary.
+
+\subsection*{3. Methodological transparency (R2, R3, Primary Summary) — the most transformed part of the paper}
+
+R2 asked for a PRISMA-style flowchart with sources and numbers at each stage, a justification of database selection (``surprised that none of the usual databases was used''), and a clearer account of the classification and AI-assisted screening procedures; R3 and the Primary Summary asked for clearer inclusion/exclusion and classification steps.
+
+\textbf{Response.} Section 2 was rebuilt as a full methods section (\S\S2.1--2.7), replacing the submission's \S1.2 and appendix:
+\begin{itemize}[leftmargin=*]
+\item \textbf{Eligibility} (\S2.1): criteria E1--E5 with stated exclusion boundaries.
+\item \textbf{Retrieval} (\S2.2): seven routes — PubMed, Europe PMC, Semantic Scholar, IEEE Xplore, ACM DL, an arXiv snapshot, and prior-survey imports — with the database-coverage question answered in text.
+\item \textbf{Deduplication} (\S2.3): 187,446 source occurrences consolidated to 140,959 bibliographic records.
+\item \textbf{Screening and candidate classification} (\S2.4, merged for clarity in the final proofing pass): machine-assisted screening outcomes over 140,810 valid records (9,505 Advance / 83,258 Defer / 48,047 Excluded), followed by provisional classification of all 9,505 advanced records; the screening automation is described as provisional coding and its calibration documented.
+\item \textbf{Selection and assessment} (\S2.5): six purpose-specific selection sets (20/18/50/200/24/72 = 384) with per-set construction rules; completed full-text assessments now total \textbf{135 systems — 83 eligible, 19 scientifically unresolved, 33 excluded or contextual — with 122 system--cell placements supported across 79 eligible systems} (Figure 3).
+\item \textbf{Limitations} (\S2.6): the false-exclusion rate is named as unknown; an independent, stratified human review of the Advance, Defer, and Excluded records is prescribed as the next step; the absence of separate author approval of queue membership before assessment is stated outright.
+\item \textbf{Supplementary materials} (\S2.7): the reproducibility package and methods supplement are archived on Zenodo as v3.1.0 (DOI 10.5281/zenodo.23406799); the GenAI-use disclosure appears as a single sentence in \S2.4 (the CGF article class permits no footnotes).
+\item \textbf{Figure 1} is the PRISMA-style flow R2 asked for; the methods supplement carries the classification contract, the per-set construction rules, and the new per-system evidence table (\S8 of the supplement: 79 systems, 122 placements, per-row evidence locators).
+\end{itemize}
+
+\subsection*{4. Evaluation: paradigms, synthesis, and structured comparison (R1, R2, R3, Primary Summary)}
+
+R1 asked for generalizable evaluation paradigms extracted from the literature; R2 asked for cross-cutting evaluation dimensions across modalities and assistance types; R3 asked for a ``clearer structured comparison of approaches — even if qualitative — to outline strengths and limitations under varying conditions.''
+
+\textbf{Response.} Section 7 was rewritten as evaluation *requirements derived from delegated decisions*: the \S7 introduction's anchor-to-evaluation mapping paragraph derives what each locus of agency must be evaluated on. \textbf{Table 2} is the qualitative structured comparison R3 asked for — nine evaluation examples compared by intervention, study context, evidence, and the limits of the supported claim. Section 7.7 addresses cross-study comparability explicitly, taking the position that heterogeneous studies cannot be pooled but can be compared on what was tested and where the evidence stops (``an unevaluated capability is not evidence of failure'').
+
+\subsection*{5. Visual illustration and the framework overview map (R1, R3, R4, Primary Summary)}
+
+R1 and R3 asked for system images; R4 asked for a comprehensive visual overview mapping surveyed papers onto the framework (``Table 1 only presents a summary of how many papers were found''); the Primary Summary flagged the figure program.
+
+\textbf{Response.} The submission had no system images; the revision has a full figure program:
+\begin{itemize}[leftmargin=*]
+\item \textbf{Figure 2} — the five interaction environments (with photo credits and an explicit disclaimer that they illustrate interaction environments, not assistance mechanisms).
+\item \textbf{Figure 3} — the Assistance $\times$ Visualization Modality map R4 asked for: \textbf{79 systems, 122 supported placements}, with the October access follow-up documented in the caption.
+\item \textbf{Figures 4--9} — PeCaX, Facetto ($\times$2), FathomGPT, ProteinSketch, moleculARweb: worked-example images tied directly to the comparisons in \S\S5--6, all reproduced figures carrying CC BY licence statements.
+\item The methods supplement's new \textbf{\S8 per-system evidence table} is the tabular companion to Figure 3 (79 systems / 122 placements, per-row evidence locators).
+\end{itemize}
+
+\subsection*{6. Structural balance: immersive overemphasis (R2, Primary Summary)}
+
+R2 and the Primary Summary found the immersive environments overemphasized (\S4.3 far more developed than \S\S4.1--4.2; \S5.4 as a special case of adaptive).
+
+\textbf{Response.} The structural fix is the \textbf{limiting rule} (\S3.3): displaying data in VR does not count as immersive assistance; it requires computational use of spatial context. Section 5.4 was rewritten around this rule — placements are now mechanism-level (NAVRNA, ProteinSketch, Vitessce Link's finger-tracking measurement tool) with explicit denials (NUI-VR2, Cosmic View's dome, moleculARweb's display) — making \S5.4 the shortest and most disciplined assistance section. Section 6 was rebalanced across all five environments, and the misplaced \S5.5 (data physicalization/haptics) was removed.
+
+\subsection*{7. Fragmentation and redundancy (R2, Primary Summary)}
+
+R2 flagged ``section fragmentation and redundancies, especially in Sections 5, 6, and 7''; the Primary Summary noted overlap between assistance categories and research challenges.
+
+\textbf{Response.} Sections 4--8 were restructured so each section does one analytic job: tasks (\S4) $\rightarrow$ assistance mechanisms (\S5) $\rightarrow$ modality environments (\S6) $\rightarrow$ evaluation (\S7) $\rightarrow$ challenges (\S8). Section 5.5 was removed; \S8.7 was trimmed to the shared-scenarios infrastructure proposal; the \S2 screening and classification subsections were merged into one.
+
+\subsection*{8. Positioning against prior surveys; missing references (R2-sketch, R4, Primary Summary)}
+
+\textbf{Response — now cited and where:} the immersive-network-analysis distinction is handled in \S3.6; Ceneda et al. 2017 is cited in \S5.2 (definition) and \S8.3, with Ceneda et al. 2019 alongside; Belkacem et al. is cited in \S6.2 per R2's large-display suggestion; Kuťák et al. is cited in \S6.3; VisTrails in \S7.3; Cordeil et al. 2017 (CAVE vs. HMD) in \S6.5, which answers R4 directly; Ens et al.'s immersive-analytics challenges in \S8.6; Shen et al. in \S5.3; Ragan et al. in \S7.3; Preim \& Lawonn in \S\S6.1/7.1; Marriott et al. (eds.) 2018 in \S3.4; Furmanová et al. in \S3.6; Kerren et al. 2017 and O'Donoghue et al. 2018 in \S1; Sperrle et al. and Lam et al. where suggested. Every reference suggested across the reviews is now cited, each placed where suggested. R2's gray-literature sketch items (LLM-networking roadmaps and similar) fall outside the revised framing and were not taken up.
+
+\subsection*{9. Standard terminology: visual analytics vs. visualization (R2, Primary Summary)}
+
+R2 asked that the text use the standard distinction (visual analytics integrates automatic data analysis; otherwise it is visualization). \textbf{Response:} the E3 eligibility criterion and the \S1/\S3 scope language now use the standard distinction throughout.
+
+\subsection*{10. Task-taxonomy references (R2)}
+
+R2 asked that the five task groups be grounded in established task taxonomies. \textbf{Response:} \S3.2 now cites Lee et al. and Brehmer \& Munzner and states explicitly that the five groups are ``developed for this review, not taken directly from either framework.''
+
+\subsection*{11. Internal references; wall-sized displays; adaptive assistance; \S7.5 structure (R2)}
+
+\begin{itemize}[leftmargin=*]
+\item \textbf{Internal references} (R2: citation-style [4.1]; R4: use ``see Section 4''; missing whitespace): the draft now uses ``Section X'' prose references throughout, implemented as LaTeX cross-references.
+\item \textbf{Wall-sized displays} (R2: \S4.2 shallow on task links; cite Belkacem): \S6.2 was rewritten with task links and coordination design implications; Belkacem et al. is cited.
+\item \textbf{Adaptive assistance} (R2: \S5.2 too short, no evaluation considerations, \S5.2/\S5.4 relation): \S5.2 is expanded (Facetto, Metis, SAMIRA; four explicit questions; feedback-loop consequences) and differentiated from \S5.4 by the limiting rule.
+\item \textbf{\S7.5 redundancies} (R2: artificial 7.5.1/7.5.2 split): moot — \S\S7--8 were restructured and the old numbering no longer exists.
+\end{itemize}
+
+\subsection*{12. Two micro-additions made for this resubmission (R2)}
+
+Two small reviewer-requested references were missing from the revision draft and have been added:
+\begin{itemize}[leftmargin=*]
+\item \textbf{Semantic-zoom history (R2):} a one-sentence note in the \S4.1 navigation discussion acknowledging the technique's 1990s origins, with R2's two references (10.1145/1456650.1456652; Pook, Lecolinet, Vaysseix \& Barillot, ``Context and interaction in zoomable user interfaces,'' AVI 2000, pp. 227--231, 10.1145/345513.345323).
+\item \textbf{Graph backbone extraction (R2):} a general backbone-extraction methods reference (Serrano, Boguñá \& Vespignani, ``Extracting the multiscale backbone of complex weighted networks,'' PNAS 2009) added in \S5.1 alongside the Espadoto et al. dimensionality-reduction survey. The suggested \S5.1.3/\S5.1.1 merge is moot under the restructure.
+\end{itemize}
+
+\subsection*{13. Minor corrections (R4 list, R1 minor)}
+
+All verified fixed in the revision: the \S1 comma-before-``that,'' the \S1 double period, Table captions above, and the missing ``??'' reference (the compiled revision contains zero unresolved cross-references).
+
+\bigskip\hrule\bigskip
+
+\subsection*{Closing}
+
+A final proofing pass tightened the front and back of the paper:  the conclusion answers the four research questions explicitly and states how the eligibility criteria bound the claims; \S8's agenda is tied back to RQ2--RQ4.
+
+The core contribution is unchanged from the submission — a survey of AI-assisted visual analytics systems for life-science relational data, organized by an Assistance $\times$ Visualization Modality framework with the locus of analytic agency as its through-line — but the paper that carries it is substantially rebuilt: a documented methods section, an explicit contribution-positioning section, a full figure program, and an evaluation chapter with structured comparisons. We thank the reviewers again for the reviews that made this the paper it is.
+
+On behalf of the authors,
+
+Morris Chukhman, Amira Kefi, Nicole M. Chukhman, Silvio Rizzi, Vinayakumar Chalil Karinthayil, Angus Forbes
+15 October 2026
+
+\end{document}
